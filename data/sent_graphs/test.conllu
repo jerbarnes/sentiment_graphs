@@ -12608,44 +12608,6 @@
 20	virker	virke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No	_
 21	.	$.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n\n	_
 
-# sent_id = 600639-04-01
-# text = Roger Michell , mannen bak " Notting Hill " ( 1999 ) , har – akkurat som Alfred Hitchcock gjorde da han laget klassikerne " Rebecca " ( 1940 ) og " Fuglene " ( 1963 ) – tatt for seg en av fortellingene til den britiske forfatteren Daphne Du Maurier .
-1	Når	når	SCONJ	_	_	9	mark	_	_	_
-2	"	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No	_
-3	My	My	PROPN	_	_	9	nsubj:pass	_	_	_
-4	Cousin	Cousin	PROPN	_	_	3	flat:name	_	_	_
-5	Rachel	Rachel	PROPN	_	_	3	flat:name	_	SpaceAfter=No	_
-6	"	$"	PUNCT	_	_	3	punct	_	_	_
-7	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	_	_
-8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
-9	sies	si	VERB	_	VerbForm=Inf|Voice=Pass	24	advcl	_	_	_
-10	å	å	PART	_	_	14	mark	_	_	_
-11	være	være	AUX	_	VerbForm=Inf	14	cop	_	_	_
-12	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	_	_
-13	på	på	ADP	_	_	14	case	_	_	_
-14	høyde	høyde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	xcomp	_	_	_
-15	med	med	ADP	_	_	19	case	_	_	_
-16	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_	_
-17	gamle	gammel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	_	_
-18	mesterens	mester	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	_	_
-19	adapsjoner	adapsjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No	_
-20	,	$,	PUNCT	_	_	9	punct	_	_	_
-21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	_	_
-22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_	_
-23	ganske	ganske	ADV	_	_	24	advmod	_	_	_
-24	enkelt	enkel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_	0:exp-Positive|0:exp-Positive
-25	fordi	fordi	SCONJ	_	_	32	mark	_	_	24:targ
-26	de	de	DET	_	Number=Plur|PronType=Dem	28	det	_	_	24:targ
-27	avgjørende	avgjørende	ADJ	_	Degree=Pos|Number=Plur	28	amod	_	_	24:targ
-28	vendingene	vending	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	32	nsubj	_	_	_
-29	i	i	ADP	_	_	30	case	_	_	_
-30	plottet	plott	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	32	obl	_	_	_
-31	ikke	ikke	PART	_	Polarity=Neg	32	advmod	_	_	_
-32	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	advcl	_	_	24:targ
-33	overraskende	overraske	ADJ	_	VerbForm=Part	32	advmod	_	_	24:targ
-34	nok	nok	ADV	_	_	33	advmod	_	SpaceAfter=No	24:targ
-35	.	$.	PUNCT	_	_	24	punct	_	_	_
-
 # sent_id = 202868-01-01
 # text = Philips AE5252
 1	Philips	Philips	PROPN	_	_	0	root	_	_	_
