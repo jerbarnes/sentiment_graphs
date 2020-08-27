@@ -253,7 +253,7 @@ if __name__ == "__main__":
     train_anns = []
     for s in norec_fine_train:
         try:
-            train_anns.append(create_sentiment_conll(s, train_sents))
+            train_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, train_sents)))
         except KeyError:
             pass
         except UnboundLocalError:
@@ -263,7 +263,7 @@ if __name__ == "__main__":
     dev_anns = []
     for s in norec_fine_dev:
         try:
-            dev_anns.append(create_sentiment_conll(s, dev_sents))
+            dev_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, dev_sents)))
         except KeyError:
             pass
         except UnboundLocalError:
@@ -273,7 +273,7 @@ if __name__ == "__main__":
     test_anns = []
     for s in norec_fine_test:
         try:
-            test_anns.append(create_sentiment_conll(s, test_sents))
+            test_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, test_sents)))
         except KeyError:
             pass
         except UnboundLocalError:
@@ -282,13 +282,19 @@ if __name__ == "__main__":
 
     # print the datasets to file
     with open("data/sent_graphs/train.conllu", "w") as outfile:
-        for sent in train_anns:
+        for sent_id, text, sent in train_anns:
+            outfile.write("# sent_id = {0}\n".format(sent_id))
+            outfile.write("# text = {0}\n".format(text))
             outfile.write(sent + "\n")
 
     with open("data/sent_graphs/dev.conllu", "w") as outfile:
-        for sent in dev_anns:
+        for sent_id, text, sent in dev_anns:
+            outfile.write("# sent_id = {0}\n".format(sent_id))
+            outfile.write("# text = {0}\n".format(text))
             outfile.write(sent + "\n")
 
     with open("data/sent_graphs/test.conllu", "w") as outfile:
-        for sent in test_anns:
+        for sent_id, text, sent in test_anns:
+            outfile.write("# sent_id = {0}\n".format(sent_id))
+            outfile.write("# text = {0}\n".format(text))
             outfile.write(sent + "\n")
