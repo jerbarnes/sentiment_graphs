@@ -141,7 +141,13 @@ def create_labels(text, opinion):
     anns = []
     try:
         anns.extend(get_bio_holder(opinion))
+    except:
+        pass
+    try:
         anns.extend(get_bio_target(opinion))
+    except:
+        pass
+    try:
         anns.extend(get_bio_expression(opinion))
     except:
         pass
@@ -150,26 +156,63 @@ def create_labels(text, opinion):
         labels = replace_with_labels(labels, offsets, bidx, tags)
     return labels
 
-def create_sentiment_dict(labels):
+def create_sentiment_dict(labels, setup="point_to_root"):
+    """
+    point_to_root: the final token of the sentiment expression is set as the root and all other labels point to this
+
+    head_first: the first token in the sentiment expression is the root, and the for the holder and target expressions, the first token connects to the root, while the other tokens connect to the first
+
+    head final: the final token in the sentiment expression is the root, and the for the holder and target expressions, the final token connects to the root, while the other tokens connect to the final
+    """
     sent_dict = {}
     #
     # associate each label with its token_id
     enum_labels = [(i + 1, l) for i, l in enumerate(labels)]
     #
-    # set final exp as root (0:exp)
-    for token_id, label in reversed(enum_labels):
+    if setup in ["point_to_root", "head_final"]:
+        enum_labels = list(reversed(enum_labels))
+    #
+    #for token_id, label in reversed(enum_labels):
+    for token_id, label in enum_labels:
         if "exp" in label:
             sent_dict[token_id] = "0:{0}".format(label)
-            root_id = token_id
+            exp_root_id = token_id
             break
     #
-    # set other leafs to point to root
-    for token_id, label in enum_labels:
-        if label == "O":
-            sent_dict[token_id] = "_"
-        else:
-            if token_id not in sent_dict.keys():
-                sent_dict[token_id] = "{0}:{1}".format(root_id, label)
+    # point_to_root: point to exp_root_id, regardless of expression type
+    if setup == "point_to_root":
+        for token_id, label in enum_labels:
+            if label == "O":
+                sent_dict[token_id] = "_"
+            else:
+                if token_id not in sent_dict.keys():
+                    sent_dict[token_id] = "{0}:{1}".format(exp_root_id, label)
+    # head_first or head_final: first/final point to exp_root, others point inside expression
+    else:
+        for token_id, label in enum_labels:
+            if "targ" in label:
+                sent_dict[token_id] = "{0}:{1}".format(exp_root_id, label)
+                targ_root_id = token_id
+                break
+        #
+        for token_id, label in enum_labels:
+            if "holder" in label:
+                sent_dict[token_id] = "{0}:{1}".format(exp_root_id, label)
+                holder_root_id = token_id
+                break
+        #
+        # set other leafs to point to root
+        for token_id, label in enum_labels:
+            if label == "O":
+                sent_dict[token_id] = "_"
+            else:
+                if token_id not in sent_dict.keys():
+                    if "exp" in label:
+                        sent_dict[token_id] = "{0}:{1}".format(exp_root_id, label)
+                    elif "targ" in label:
+                        sent_dict[token_id] = "{0}:{1}".format(targ_root_id, label)
+                    elif "holder" in label:
+                        sent_dict[token_id] = "{0}:{1}".format(holder_root_id, label)
     return sent_dict
 
 def create_conll_sent_dict(conllu_sent):
@@ -204,7 +247,7 @@ def combine_sentiment_dicts(sentiment_dicts):
     return combined
 
 
-def create_sentiment_conll(finegrained_sent, norec_sents):
+def create_sentiment_conll(finegrained_sent, norec_sents, setup="point_to_root"):
     sentiment_conll = ""
     #
     sent_id = finegrained_sent["sent_id"]
@@ -216,7 +259,7 @@ def create_sentiment_conll(finegrained_sent, norec_sents):
     else:
         labels = [create_labels(text, [])]
     #
-    sent_labels = [create_sentiment_dict(l) for l in labels]
+    sent_labels = [create_sentiment_dict(l, setup=setup) for l in labels]
     combined_labels = combine_sentiment_dicts(sent_labels)
     #
     conll = create_conll_sent_dict(norec_sents[sent_id])
@@ -231,6 +274,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--norec_tar", default="data/norec_doc/conllu.tar.gz")
     parser.add_argument("--norec_fine_dir", default="../OLD/norec_fine/data")
+    parser.add_argument("--setup", default="point_to_root")
 
     args = parser.parse_args()
 
@@ -253,17 +297,20 @@ if __name__ == "__main__":
     train_anns = []
     for s in norec_fine_train:
         try:
-            train_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, train_sents)))
+            train_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, train_sents, setup=args.setup)))
+        # if the sent_id is not found in the document-level NoReC data
         except KeyError:
+            #print(s)
             pass
+        # if there is a tokenization error
         except UnboundLocalError:
-            print(s)
+            #print(s)
             pass
 
     dev_anns = []
     for s in norec_fine_dev:
         try:
-            dev_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, dev_sents)))
+            dev_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, dev_sents, setup=args.setup)))
         except KeyError:
             pass
         except UnboundLocalError:
@@ -273,7 +320,7 @@ if __name__ == "__main__":
     test_anns = []
     for s in norec_fine_test:
         try:
-            test_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, test_sents)))
+            test_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, test_sents, setup=args.setup)))
         except KeyError:
             pass
         except UnboundLocalError:
@@ -281,19 +328,21 @@ if __name__ == "__main__":
             pass
 
     # print the datasets to file
-    with open("data/sent_graphs/train.conllu", "w") as outfile:
+    os.makedirs("data/sent_graphs/{0}".format(args.setup), exist_ok=True)
+
+    with open("data/sent_graphs/{0}/train.conllu".format(args.setup), "w") as outfile:
         for sent_id, text, sent in train_anns:
             outfile.write("# sent_id = {0}\n".format(sent_id))
             outfile.write("# text = {0}\n".format(text))
             outfile.write(sent + "\n")
 
-    with open("data/sent_graphs/dev.conllu", "w") as outfile:
+    with open("data/sent_graphs/{0}/dev.conllu".format(args.setup), "w") as outfile:
         for sent_id, text, sent in dev_anns:
             outfile.write("# sent_id = {0}\n".format(sent_id))
             outfile.write("# text = {0}\n".format(text))
             outfile.write(sent + "\n")
 
-    with open("data/sent_graphs/test.conllu", "w") as outfile:
+    with open("data/sent_graphs/{0}/test.conllu".format(args.setup), "w") as outfile:
         for sent_id, text, sent in test_anns:
             outfile.write("# sent_id = {0}\n".format(sent_id))
             outfile.write("# text = {0}\n".format(text))
