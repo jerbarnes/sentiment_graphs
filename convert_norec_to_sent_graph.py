@@ -252,13 +252,19 @@ def combine_sentiment_dicts(sentiment_dicts):
 def create_sentiment_conll(finegrained_sent,
                            norec_sents,
                            setup="point_to_root",
-                           inside_label=False
+                           inside_label=False,
+                           use_dep_edges=False,
+                           use_dep_labels=False
                            ):
     sentiment_conll = ""
     #
     sent_id = finegrained_sent["sent_id"]
     text = finegrained_sent["text"]
     opinions = finegrained_sent["opinions"]
+    conll = norec_sents[sent_id]
+    conll_dict = create_conll_sent_dict(conll)
+    t2e = tokenidx2edge(conll)
+    t2l = tokenidx2deplabel(conll)
     #
     if len(opinions) > 0:
         labels = [create_labels(text, o) for o in opinions]
@@ -268,14 +274,172 @@ def create_sentiment_conll(finegrained_sent,
     sent_labels = [create_sentiment_dict(l,
                                          setup=setup,
                                          inside_label=inside_label) for l in labels]
+    if use_dep_edges:
+        if use_dep_labels:
+            sent_labels = [redefine_root_with_dep_edges(s, t2e, t2l) for s in sent_labels]
+        else:
+            sent_labels = [redefine_root_with_dep_edges(s, t2e) for s in sent_labels]
+
     combined_labels = combine_sentiment_dicts(sent_labels)
     #
-    conll = create_conll_sent_dict(norec_sents[sent_id])
-    for i in conll.keys():
+    for i in conll_dict.keys():
         #print(c[i] + "\t" + sd[i])
-        sentiment_conll += conll[i] + "\t" + combined_labels[i] + "\n"
+        sentiment_conll += conll_dict[i] + "\t" + combined_labels[i] + "\n"
     return sentiment_conll
 
+
+def redefine_root_with_dep_edges(sent_labels, t2e, t2l=None):
+    new_sent_labels = {}
+    # If there are no sentiment annotations, return the current labels
+    if set(sent_labels.values()) == {'_'}:
+        return sent_labels
+    # Find the full sentiment expression in the annotation
+    exp = []
+    exp_label = ""
+    for idx, label in sent_labels.items():
+        if "exp" in label:
+            exp_label = label
+            exp.append(idx)
+    exp_label = exp_label.split(":")[-1]
+    edges = [t2e[i] for i in exp]
+    if t2l:
+        deplabels = [t2l[i] for i in exp]
+    else:
+        deplabels = None
+    #
+    # given the dependency edges in the sentiment expression,
+    # find the one that has an incoming edge and set as root
+    root = get_const_root(exp, edges, deplabels)
+    new_sent_labels[root] = "0:" + exp_label
+    #
+    # Do the same for the target
+    targ = []
+    for idx, label in sent_labels.items():
+        if "targ" in label:
+            targ.append(idx)
+    if len(targ) > 0:
+        edges = [t2e[i] for i in targ]
+        if t2l:
+            deplabels = [t2l[i] for i in targ]
+        else:
+            deplabels = None
+        targ_root = get_const_root(targ, edges, deplabels)
+        new_sent_labels[targ_root] = "{0}:targ".format(root)
+    # Do the same for holder
+    holder = []
+    for idx, label in sent_labels.items():
+        if "holder" in label:
+            holder.append(idx)
+    if len(holder) > 0:
+        edges = [t2e[i] for i in holder]
+        if t2l:
+            deplabels = [t2l[i] for i in holder]
+        else:
+            deplabels = None
+        holder_root = get_const_root(holder, edges, deplabels)
+        new_sent_labels[holder_root] = "{0}:holder".format(root)
+    # Now iterate back through the remaining tokens in the sentiment expression
+    # and set their edges pointing towards the new root, as well as the target
+    # root and holder root
+    for idx, label in sent_labels.items():
+        if idx not in new_sent_labels:
+            if "exp" in label:
+                new_sent_labels[idx] = "{0}:IN:{1}".format(root, exp_label)
+            elif "targ" in label:
+                new_sent_labels[idx] = "{0}:IN:targ".format(targ_root)
+            elif "holder" in label:
+                new_sent_labels[idx] = "{0}:IN:holder".format(holder_root)
+            else:
+                new_sent_labels[idx] = label
+    return new_sent_labels
+
+
+def tokenidx2edge(conllu):
+    t2e = {}
+    for line in conllu.splitlines():
+        split = line.split("\t")
+        idx = int(split[0])
+        edge = int(split[6])
+        t2e[idx] = edge
+    return t2e
+
+def tokenidx2deplabel(conllu):
+    t2e = {}
+    for line in conllu.splitlines():
+        split = line.split("\t")
+        idx = int(split[0])
+        edge = split[7]
+        t2e[idx] = edge
+    return t2e
+
+def get_const_root(token_ids, edges, dep_labels=None):
+    # Given token ids, and dependency edges
+    # return the token id which has an incoming
+    # edge from outside the group
+    roots = []
+    labels = []
+    for i, token in enumerate(token_ids):
+        edge = edges[i]
+        if edge not in token_ids:
+            roots.append(token)
+            if dep_labels:
+                labels.append(dep_labels[i])
+    if len(roots) > 1:
+        if dep_labels:
+            # If we have the dependency labels, we can use these to decide
+            # which token to set as the root
+            new_roots = []
+            # remove any punctuation and obliques
+            for root, dep_label in zip(roots, labels):
+                if dep_label != "obl" and dep_label != "punct":
+                    new_roots.append(root)
+            if len(new_roots) > 0:
+                return new_roots[0]
+            else:
+                return roots[0]
+        else:
+            # if there's no better way to tell, return the first root
+            return roots[0]
+    elif len(roots) == 0:
+        return token_ids[0]
+    else:
+        return roots[0]
+
+def sanity_check(sent_id, fine, doclevel, verbose=False):
+    from pprint import pprint
+    for s in fine:
+        if s["sent_id"] == sent_id:
+            finegrained_sent = s
+    text = finegrained_sent["text"]
+    opinions = finegrained_sent["opinions"]
+    conll = doclevel[sent_id]
+    t2e = tokenidx2edge(conll)
+    t2l = tokenidx2deplabel(conll)
+    #
+    if len(opinions) > 0:
+        labels = [create_labels(text, o) for o in opinions]
+    else:
+        labels = [create_labels(text, [])]
+    #
+    sent_labels = [create_sentiment_dict(l,
+                                         setup="head_final",
+                                         inside_label=True) for l in labels]
+    if verbose:
+        print("ORIGINAL:")
+        print("-" * 50)
+        pprint(sent_labels)
+    edges_sent_labels = [redefine_root_with_dep_edges(s, t2e) for s in sent_labels]
+    if verbose:
+        print("EDGE Determined Roots:")
+        print("-" * 50)
+        pprint(edges_sent_labels)
+    #return sent_labels, t2e, t2l
+    labels_sent_labels = [redefine_root_with_dep_edges(s, t2e, t2l) for s in sent_labels]
+    if verbose:
+        print("EDGE + LABEL Determined Roots:")
+        print("-" * 50)
+        pprint(labels_sent_labels)
+    return edges_sent_labels, labels_sent_labels
 
 
 if __name__ == "__main__":
@@ -284,17 +448,29 @@ if __name__ == "__main__":
     parser.add_argument("--norec_fine_dir", default="data/norec_fine_final")
     parser.add_argument("--setup", default="head_first")
     parser.add_argument("--inside_label", action="store_true")
+    parser.add_argument("--use_dep_edges", action="store_true")
+    parser.add_argument("--use_dep_labels", action="store_true")
 
     args = parser.parse_args()
+
+    print("Setup: {}".format(args.setup))
+    if args.inside_label:
+        print("Using Inside Label")
+    if args.use_dep_edges:
+        print("Using Dependency Edges to create sentiment graph")
+    if args.use_dep_labels:
+        print("Using Dependency Labels to create sentiment graph")
 
     """
     pull in conllu and metada from original NoReC data and
     parse sents and create dictionary where keys are sent-ids
     and values are conllu sentences
     """
+    print("Opening Norec Document-level")
     train_sents, dev_sents, test_sents = import_conllu(args.norec_tar)
 
     # match up fine-grained sentences with their conllu
+    print("Opening Norec Fine")
     with open(os.path.join(args.norec_fine_dir, "train.json")) as infile:
         norec_fine_train = json.load(infile)
     with open(os.path.join(args.norec_fine_dir, "dev.json")) as infile:
@@ -302,24 +478,24 @@ if __name__ == "__main__":
     with open(os.path.join(args.norec_fine_dir, "test.json")) as infile:
         norec_fine_test = json.load(infile)
 
-    # take only annotated sentences and covert to sentiment graphs
+    # covert to sentiment graphs
     train_anns = []
     for s in norec_fine_train:
-        try:
-            train_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, train_sents, setup=args.setup, inside_label=args.inside_label)))
-        # if the sent_id is not found in the document-level NoReC data
-        except KeyError:
-            #print(s)
-            pass
-        # if there is a tokenization error
-        except UnboundLocalError:
-            #print(s)
-            pass
+        #try:
+        train_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, train_sents, setup=args.setup, inside_label=args.inside_label, use_dep_edges=args.use_dep_edges, use_dep_labels=args.use_dep_labels)))
+        # # if the sent_id is not found in the document-level NoReC data
+        # except KeyError:
+        #     #print(s)
+        #     pass
+        # # if there is a tokenization error
+        # except UnboundLocalError:
+        #     #print(s)
+        #     pass
 
     dev_anns = []
     for s in norec_fine_dev:
         try:
-            dev_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, dev_sents, setup=args.setup, inside_label=args.inside_label)))
+            dev_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, dev_sents, setup=args.setup, inside_label=args.inside_label, use_dep_edges=args.use_dep_edges, use_dep_labels=args.use_dep_labels)))
         except KeyError:
             pass
         except UnboundLocalError:
@@ -329,7 +505,7 @@ if __name__ == "__main__":
     test_anns = []
     for s in norec_fine_test:
         try:
-            test_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, test_sents, setup=args.setup, inside_label=args.inside_label)))
+            test_anns.append((s["sent_id"], s["text"], create_sentiment_conll(s, test_sents, setup=args.setup, inside_label=args.inside_label, use_dep_edges=args.use_dep_edges, use_dep_labels=args.use_dep_labels)))
         except KeyError:
             pass
         except UnboundLocalError:
@@ -341,6 +517,10 @@ if __name__ == "__main__":
         outdir = args.setup + "-inside_label"
     else:
         outdir = args.setup
+    if args.use_dep_edges:
+        outdir = outdir + "-dep_edges"
+    if args.use_dep_labels:
+        outdir = outdir + "-dep_labels"
     os.makedirs("data/sent_graphs/{0}".format(outdir), exist_ok=True)
 
     with open("data/sent_graphs/{0}/train.conllu".format(outdir), "w") as outfile:
