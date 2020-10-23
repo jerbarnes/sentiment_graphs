@@ -3,6 +3,8 @@
 
 import numpy as np
 import os
+import argparse
+from utils import read_data
 
 def convert_to_list(y_aspect, y_sentiment, mask):
     y_aspect_list = []
@@ -189,3 +191,16 @@ def evaluate_written_preds(gold_dir, prediction_dir):
     f_aspect, acc_s, f_s, f_absa = score(ae_gold, ae_pred, sent_gold, sent_pred, 0)
     f_opinion, _, _, _ = score(opinion_gold, opinion_pred, sent_gold, sent_pred, 1)
     return f_aspect, f_opinion, acc_s, f_s, f_absa
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("gold_dir")
+    parser.add_argument("pred_dir")
+
+    args = parser.parse_args()
+
+    scores = evaluate_written_preds(args.gold_dir, args.pred_dir)
+
+    print("AE\tOE\tS-acc\tS-f1\tABSA-f1")
+    print("{0:.3f}\t{1:.3f}\t{2:.3f}\t{3:.3f}\t{4:.3f}\t".format(*scores))

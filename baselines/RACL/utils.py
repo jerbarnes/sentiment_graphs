@@ -3,16 +3,17 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.python.keras import backend as K
 import bert_tokenization
+import os
 
 def read_data(fname, source_word2idx, max_length, is_testing=False):
     source_data, aspect_y, opinion_y, source_mask, sentiment_y = list(), list(), list(), list(), list()
     position_m = list()
     sentiment_mask = list()
 
-    review = open(fname + r'sentence.txt', 'r', encoding='utf-8').readlines()
-    ae_data = open(fname + r'target.txt', 'r', encoding='utf-8').readlines()
-    oe_data = open(fname + r'opinion.txt', 'r', encoding='utf-8').readlines()
-    sa_data = open(fname + r'target_polarity.txt', 'r', encoding='utf-8').readlines()
+    review = open(os.path.join(fname, 'sentence.txt')).readlines()
+    ae_data = open(os.path.join(fname, 'target.txt')).readlines()
+    oe_data = open(os.path.join(fname, 'opinion.txt')).readlines()
+    sa_data = open(os.path.join(fname, 'target_polarity.txt')).readlines()
     for index, _ in enumerate(review):
         '''
         Word Index

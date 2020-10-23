@@ -1,7 +1,7 @@
 from utils import *
 import numpy as np
 from math import sqrt
-from evaluation import get_metric
+from evaluation import get_metric, write_predictions
 import os
 import time
 import logging
@@ -272,9 +272,6 @@ class MODEL(object):
                 sentiment_f1_list.append(sentiment_f1)
                 ABSA_f1_list.append(ABSA_f1)
 
-                with open(os.path.join("predictions", "my_preds.pkl"), "wb") as outfile:
-                    pickle.dump((a_preds, a_labels, o_preds, o_labels, s_preds, s_labels, final_mask), outfile)
-
                 #self.logger.info("target preds: {0}".format(a_preds))
                 #self.logger.info("opinion preds: {0}".format(o_preds))
                 #self.logger.info("opinion labels: {0}".format(o_labels))
@@ -344,19 +341,24 @@ class MODEL(object):
                     break
             self.logger.info('\n{:-^80}'.format('Mission Complete'))
 
-            max_dev_index = dev_metric_list.index(max(dev_metric_list))
-            self.logger.info('Dev Max Metrics Index: {}'.format(max_dev_index))
-            self.logger.info('aspect f1={:.4f}, opinion f1={:.4f}, sentiment acc=={:.4f}, sentiment f1=={:.4f}, ABSA f1=={:.4f},'
-                  .format(aspect_f1_list[max_dev_index], opinion_f1_list[max_dev_index],
-                          sentiment_acc_list[max_dev_index],
-                          sentiment_f1_list[max_dev_index], ABSA_f1_list[max_dev_index]))
+            outdir = os.path.join("predictions", self.opt.task)
+            os.makedirs(outdir, exist_ok=True)
+            self.logger.info('\n{:-^80}'.format('Writing predictions to {}'.format(outdir)))
+            write_predictions(a_preds, o_preds, s_preds, final_mask, outdir)
 
-            min_dev_index = dev_loss_list.index(min(dev_loss_list))
-            self.logger.info('Dev Min Loss Index: {}'.format(min_dev_index))
-            self.logger.info('aspect f1={:.4f}, opinion f1={:.4f}, sentiment acc=={:.4f}, sentiment f1=={:.4f}, ABSA f1=={:.4f},'
-                  .format(aspect_f1_list[min_dev_index], opinion_f1_list[min_dev_index],
-                          sentiment_acc_list[min_dev_index],
-                          sentiment_f1_list[min_dev_index], ABSA_f1_list[min_dev_index]))
+            # max_dev_index = dev_metric_list.index(max(dev_metric_list))
+            # self.logger.info('Dev Max Metrics Index: {}'.format(max_dev_index))
+            # self.logger.info('aspect f1={:.4f}, opinion f1={:.4f}, sentiment acc=={:.4f}, sentiment f1=={:.4f}, ABSA f1=={:.4f},'
+            #       .format(aspect_f1_list[max_dev_index], opinion_f1_list[max_dev_index],
+            #               sentiment_acc_list[max_dev_index],
+            #               sentiment_f1_list[max_dev_index], ABSA_f1_list[max_dev_index]))
+
+            # min_dev_index = dev_loss_list.index(min(dev_loss_list))
+            # self.logger.info('Dev Min Loss Index: {}'.format(min_dev_index))
+            # self.logger.info('aspect f1={:.4f}, opinion f1={:.4f}, sentiment acc=={:.4f}, sentiment f1=={:.4f}, ABSA f1=={:.4f},'
+            #       .format(aspect_f1_list[min_dev_index], opinion_f1_list[min_dev_index],
+            #               sentiment_acc_list[min_dev_index],
+            #               sentiment_f1_list[min_dev_index], ABSA_f1_list[min_dev_index]))
 
     def get_batch_data(self, dataset, batch_size, keep_prob1, keep_prob2, is_training=False, is_shuffle=False):
         length = len(dataset[0])
