@@ -243,7 +243,7 @@ class MODEL(object):
                         tr_sloss += tr_seloss * num
                         tr_rloss += tr_reloss * num
                     #if i >= self.opt.warmup_iter:
-                        saver.save(sess, 'checkpoint/{}/RACL.ckpt'.format(self.opt.task), global_step=i)
+                    #    saver.save(sess, 'checkpoint/{}/RACL.ckpt'.format(self.opt.task), global_step=i)
                     epoch_end = time.time()
                     epoch_time = 'Epoch Time: {:.0f}m {:.0f}s'.format((epoch_end - epoch_start) // 60, (epoch_end - epoch_start) % 60)
 
