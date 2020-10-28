@@ -341,9 +341,14 @@ class MODEL(object):
                     break
             self.logger.info('\n{:-^80}'.format('Mission Complete'))
 
-            outdir = os.path.join("predictions", self.opt.task)
+            outdir = os.path.join("predictions", self.opt.task, "dev")
             os.makedirs(outdir, exist_ok=True)
-            self.logger.info('\n{:-^80}'.format('Writing predictions to {}'.format(outdir)))
+            self.logger.info('\n{:-^80}'.format('Writing dev predictions to {}'.format(outdir)))
+            write_predictions(dev_a_preds, dev_o_preds, dev_s_preds, dev_final_mask, outdir)
+
+            outdir = os.path.join("predictions", self.opt.task, "test")
+            os.makedirs(outdir, exist_ok=True)
+            self.logger.info('\n{:-^80}'.format('Writing test predictions to {}'.format(outdir)))
             write_predictions(a_preds, o_preds, s_preds, final_mask, outdir)
 
             # max_dev_index = dev_metric_list.index(max(dev_metric_list))
