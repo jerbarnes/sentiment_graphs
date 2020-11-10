@@ -1,0 +1,2737 @@
+# sent_id = corpora/ca/carpe-diem-cadaques403-1
+# text = Tot excel·lent .
+1	Tot	tot	DET	DI0MS0	2	det	_	_	2:targ
+2	excel·lent	excel·lent	ADJ	AQ0CS0	0	root	_	_	0:exp-Positive
+3	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/carpe-diem-cadaques403-2
+# text = Només vam trobar a faltar prestatges i penjadors a el bany , ja que érem tres a l' habitació i a el bany no hi havia on deixar les coses .
+1	Només	només	ADV	RG	3	advmod	_	_	_
+2	vam	anar	AUX	VAIP1P0	3	aux	_	_	3:holder|3:holder
+3	trobar	trobar	VERB	VMN0000	0	root	_	_	0:exp-Negative|0:exp-Negative
+4	a	a	ADP	SPS00	5	mark	_	_	3:exp-Negative|3:exp-Negative
+5	faltar	faltar	VERB	VMN0000	3	xcomp	_	_	3:exp-Negative|3:exp-Negative
+6	prestatges	prestatge	NOUN	NCMP000	5	obj	_	_	3:targ
+7	i	i	CCONJ	CC	8	cc	_	_	_
+8	penjadors	penjador	NOUN	NCMP000	6	conj	_	_	3:targ
+9	a	a	ADP	SPS00	11	case	_	_	8:targ
+10	el	el	DET	DA0MS0	11	det	_	_	8:targ
+11	bany	bany	NOUN	NCMS000	5	obl	_	_	8:targ
+12	,	,	ADJ	AQ0CS0	16	punct	_	_	_
+13	ja	ja	ADV	RG	16	mark	_	_	_
+14	que	que	SCONJ	CS	13	fixed	_	_	_
+15	érem	ser	VERB	VSII1P0	16	cop	_	_	_
+16	tres	tresar	VERB	VMIP1S0	3	advcl	_	_	_
+17	a	a	ADP	SPS00	19	case	_	_	_
+18	l'	el	DET	DA0CS0	19	det	_	_	_
+19	habitació	habitació	NOUN	NCFS000	16	obl	_	_	_
+20	i	i	CCONJ	CC	26	cc	_	_	_
+21	a	a	ADP	SPS00	23	case	_	_	_
+22	el	el	DET	DA0MS0	23	det	_	_	_
+23	bany	bany	NOUN	NCMS000	26	obl	_	_	_
+24	no	no	ADV	RN	26	advmod	_	_	_
+25	hi	hi	PRON	PP3CN000	26	obj	_	_	_
+26	havia	heure	VERB	VMII3S0	16	conj	_	_	_
+27	on	on	SCONJ	CS	28	obl	_	_	_
+28	deixar	deixar	VERB	VMN0000	26	advcl	_	_	_
+29	les	el	DET	DA0FP0	30	det	_	_	_
+30	coses	cosa	NOUN	NCFP000	28	obj	_	_	_
+31	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/carpe-diem-cadaques403-3
+# text = Totalment recomanable .
+1	Totalment	totalment	ADV	RG	2	advmod	_	_	0:exp-Positive
+2	recomanable	recomanable	ADJ	AQ0CS0	0	root	_	_	1:exp-Positive
+3	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/carpe-diem-cadaques403-4
+# text = Personal molt amable .
+1	Personal	personal	ADJ	AQ0CS0	0	root	_	_	2:targ
+2	molt	molt	ADV	RG	3	advmod	_	_	0:exp-Positive
+3	amable	amable	ADJ	AQ0CS0	1	amod	_	_	2:exp-Positive
+4	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/carpe-diem-cadaques403-5
+# text = Esmorzar excel·lent .
+1	Esmorzar	esmorzar	NOUN	NCMS000	0	root	_	_	2:targ
+2	excel·lent	excel·lent	ADJ	AQ0CS0	1	amod	_	_	0:exp-Positive
+3	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/carpe-diem-cadaques403-6
+# text = Aparcament gratuït .
+1	Aparcament	aparcament	NOUN	NCMS000	0	root	_	_	2:targ
+2	gratuït	gratuït	ADJ	AQ0MS0	1	amod	_	_	0:exp-Positive
+3	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/carpe-diem-cadaques403-7
+# text = Una estada fabulosa .
+1	Una	un	DET	DI0FS0	2	det	_	_	3:targ
+2	estada	estada	NOUN	NCFS000	0	root	_	_	1:targ
+3	fabulosa	fabulós	ADJ	AQ0FS0	2	amod	_	_	0:exp-Positive
+4	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/lauria-Santi-1
+# text = Neteja , amabilitat de el personal i situació de l' hotel .
+1	Neteja	neteja	NOUN	NCFS000	0	root	_	_	_
+2	,	,	ADJ	AQ0CS0	3	punct	_	_	_
+3	amabilitat	amabilitat	NOUN	NCFS000	1	conj	_	_	0:exp-Positive
+4	de	de	ADP	SPS00	6	case	_	_	_
+5	el	el	DET	DA0MS0	6	det	_	_	0:exp-Positive
+6	personal	personal	NOUN	NCFS000	3	nmod	_	_	5:exp-Positive
+7	i	i	CCONJ	CC	8	cc	_	_	_
+8	situació	situació	NOUN	NCFS000	1	conj	_	_	_
+9	de	de	ADP	SPS00	11	case	_	_	_
+10	l'	el	DET	DA0CS0	11	det	_	_	_
+11	hotel	hotel	NOUN	NCMS000	8	nmod	_	_	_
+12	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/hostal-ria-de-bilbao-Lluisa 1-1
+# text = erems 4 adults , 1 matrimoni , i 2 fills de 16 i 18 anys , el matrimoni ( nosaltres ) erems la habitacio i els fills grans , en 1 sofa cama tots dos , incomoda total , lo normal era 1 llit de matrimoni i els dos amb dos llits , ja que varem pagar per habitacio ( quadruple ) . 1 habitacio , correcte
+1	erems	erems	NOUN	NCMP000	0	root	_	_	_
+2	4	4	NOUN	NCMS000	3	nummod	_	_	_
+3	adults	adult	NOUN	NCMP000	1	obj	_	_	_
+4	,	,	ADJ	AQ0CS0	6	punct	_	_	_
+5	1	1	NOUN	NC00000	6	nummod	_	_	_
+6	matrimoni	matrimoni	NOUN	NCMS000	3	appos	_	_	_
+7	,	,	NOUN	NCFS000	6	punct	_	_	_
+8	i	i	CCONJ	CC	10	cc	_	_	_
+9	2	2	NOUN	NC00000	10	nummod	_	_	_
+10	fills	fill	NOUN	NCMP000	3	conj	_	_	_
+11	de	de	ADP	SPS00	15	case	_	_	_
+12	16	16	NOUN	NCFS000	15	nummod	_	_	_
+13	i	i	CCONJ	CC	14	cc	_	_	_
+14	18	18	NOUN	NCFS000	12	conj	_	_	_
+15	anys	any	NOUN	NCMP000	10	nmod	_	_	_
+16	,	,	VERB	VMIP3S0	10	punct	_	_	_
+17	el	el	DET	DA0MS0	18	det	_	_	_
+18	matrimoni	matrimoni	NOUN	NCMS000	10	appos	_	_	_
+19	(	(	ADJ	AQ0CS0	20	punct	_	_	_
+20	nosaltres	jo	PRON	PP1CP000	18	appos	_	_	_
+21	)	)	VERB	VMIP3S0	20	punct	_	_	_
+22	erems	erems	NOUN	NCMP000	10	acl	_	_	_
+23	la	el	DET	DA0FS0	24	det	_	_	_
+24	habitacio	habitacio	NOUN	NCFS000	22	obj	_	_	_
+25	i	i	CCONJ	CC	27	cc	_	_	_
+26	els	el	DET	DA0MP0	27	det	_	_	_
+27	fills	fill	NOUN	NCMP000	24	conj	_	_	_
+28	grans	gran	ADJ	AQ0CP0	27	amod	_	_	_
+29	,	,	NOUN	NCFS000	32	punct	_	_	_
+30	en	en	ADP	SPS00	32	case	_	_	_
+31	1	1	NOUN	NC00000	32	nummod	_	_	_
+32	sofa	sofa	VERB	VMIP3S0	22	obl	_	_	37:targ
+33	cama	cama	NOUN	NCFS000	32	nmod	_	_	32:targ
+34	tots	tot	DET	DI0MP0	35	nmod	_	_	_
+35	dos	dosar	VERB	VMIP1S0	37	obj	_	_	_
+36	,	,	ADV	RG	37	punct	_	_	_
+37	incomoda	incomodar	VERB	VMIP3S0	22	parataxis	_	_	0:exp-Negative
+38	total	total	NOUN	NCMS000	37	obj	_	_	37:exp-Negative
+39	,	,	ADJ	AQ0CS0	37	punct	_	_	_
+40	lo	lo	NOUN	NCMS000	41	obj	_	_	_
+41	normal	normal	ADJ	AQ0CS0	44	amod	_	_	_
+42	era	ser	VERB	VSII1S0	44	cop	_	_	_
+43	1	1	NOUN	NC00000	44	nummod	_	_	_
+44	llit	llit	NOUN	NCMS000	22	advcl	_	_	_
+45	de	de	ADP	SPS00	46	case	_	_	_
+46	matrimoni	matrimoni	NOUN	NCMS000	44	nmod	_	_	_
+47	i	i	CCONJ	CC	49	cc	_	_	_
+48	els	el	DET	DA0MP0	49	det	_	_	_
+49	dos	dosar	VERB	VMIP1S0	44	conj	_	_	_
+50	amb	amb	ADP	SPS00	52	case	_	_	_
+51	dos	dosar	VERB	VMIP1S0	52	nummod	_	_	_
+52	llits	llit	NOUN	NCMP000	49	nmod	_	_	_
+53	,	,	ADJ	AQ0CS0	57	punct	_	_	_
+54	ja	ja	ADV	RG	57	mark	_	_	_
+55	que	que	PRON	PR0CN000	54	fixed	_	_	_
+56	varem	varar	VERB	VMIP1P0	57	aux	_	_	_
+57	pagar	pagar	VERB	VMN0000	44	advcl	_	_	_
+58	per	per	ADP	SPS00	59	case	_	_	_
+59	habitacio	habitacio	NOUN	NCFS000	57	obl	_	_	_
+60	(	(	ADJ	AQ0CS0	61	punct	_	_	_
+61	quadruple	quadruple	NOUN	NCMS000	59	appos	_	_	_
+62	)	)	ADJ	AQ0CS0	61	punct	_	_	_
+63	.	.	NOUN	NCMS000	61	punct	_	_	_
+64	1	1	NOUN	NC00000	65	nummod	_	_	67:targ
+65	habitacio	habitacio	NOUN	NCFS000	57	obj	_	_	64:targ
+66	,	,	ADV	RG	57	punct	_	_	_
+67	correcte	correcte	ADJ	AQ0MS0	1	punct	_	_	0:exp-Positive
+
+# sent_id = corpora/ca/hotel-le-mathurin-Marta 1-1
+# text = Mida de l' hotel ni molt gran ni molt petit , molt ben situat tant per negocis com per visitar la ciutat .
+1	Mida	mida	NOUN	NCFS000	0	root	_	_	5:targ
+2	de	de	ADP	SPS00	4	case	_	_	1:targ
+3	l'	el	DET	DA0CS0	4	det	_	_	1:targ
+4	hotel	hotel	NOUN	NCMS000	1	nmod	_	_	1:targ
+5	ni	ni	CCONJ	CC	7	cc	_	_	0:exp-Positive
+6	molt	molt	ADV	RG	7	advmod	_	_	5:exp-Positive
+7	gran	gran	ADJ	AQ0CS0	4	conj	_	_	5:exp-Positive
+8	ni	ni	CCONJ	CC	10	cc	_	_	5:exp-Positive
+9	molt	molt	ADV	RG	10	advmod	_	_	5:exp-Positive
+10	petit	petit	ADJ	AQ0MS0	7	conj	_	_	5:exp-Positive
+11	,	,	VERB	VMIP3S0	14	punct	_	_	_
+12	molt	molt	ADV	RG	14	advmod	_	_	0:exp-Positive
+13	ben	ben	ADV	RG	14	advmod	_	_	12:exp-Positive
+14	situat	situar	VERB	VMP00SM	4	amod	_	_	12:exp-Positive
+15	tant	tant	ADV	RG	17	cc	_	_	_
+16	per	per	ADP	SPS00	17	case	_	_	_
+17	negocis	negoci	NOUN	NCMP000	14	obj	_	_	_
+18	com	com	SCONJ	CS	20	cc	_	_	_
+19	per	per	ADP	SPS00	20	mark	_	_	_
+20	visitar	visitar	VERB	VMN0000	14	conj	_	_	_
+21	la	el	DET	DA0FS0	22	det	_	_	_
+22	ciutat	ciutat	NOUN	NCFS000	20	obj	_	_	_
+23	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/hotel-le-mathurin-Marta 1-2
+# text = Sempre que puc hi vaig , el personal també es molt atent i les instal·lacions estan molt netes .
+1	Sempre	sempre	ADV	RG	5	mark	_	_	_
+2	que	que	PRON	PR0CN000	1	fixed	_	_	_
+3	puc	poder	VERB	VMIP1S0	5	aux	_	_	_
+4	hi	hi	PRON	PP3CN000	5	obj	_	_	_
+5	vaig	anar	AUX	VAIP1S0	12	advcl	_	_	_
+6	,	,	VERB	VMN0000	5	punct	_	_	_
+7	el	el	DET	DA0MS0	8	det	_	_	11:targ
+8	personal	personal	NOUN	NCFS000	12	nsubj	_	_	7:targ
+9	també	també	ADV	RG	12	advmod	_	_	_
+10	es	es	PRON	P0300000	12	obj	_	_	_
+11	molt	molt	ADV	RG	12	advmod	_	_	0:exp-Positive
+12	atent	atent	ADJ	AQ0MS0	0	root	_	_	11:exp-Positive
+13	i	i	CCONJ	CC	18	cc	_	_	_
+14	les	el	DET	DA0FP0	15	det	_	_	17:targ
+15	instal·lacions	instal·lació	NOUN	NCFP000	18	nsubj	_	_	14:targ
+16	estan	estar	VERB	VMIP3P0	18	cop	_	_	_
+17	molt	molt	ADV	RG	18	advmod	_	_	0:exp-Positive
+18	netes	net	ADJ	AQ0FP0	12	conj	_	_	17:exp-Positive
+19	.	.	NOUN	NCMS000	12	punct	_	_	_
+
+# sent_id = corpora/ca/dolce-sitges-J 1-1
+# text = Els preus i la qualitat de els productes de els bars i cafeteries , era caríssim i deixava molt que desitjar .
+1	Els	el	DET	DA0MP0	2	det	_	_	18:targ|16:targ
+2	preus	preu	NOUN	NCMP000	16	nsubj	_	_	1:targ|1:targ
+3	i	i	CCONJ	CC	5	cc	_	_	_
+4	la	el	DET	DA0FS0	5	det	_	_	18:targ|16:targ
+5	qualitat	qualitat	NOUN	NCFS000	2	conj	_	_	4:targ|4:targ
+6	de	de	ADP	SPS00	8	case	_	_	4:targ|4:targ
+7	els	el	DET	DA0MP0	8	det	_	_	4:targ|4:targ
+8	productes	producte	NOUN	NCMP000	2	nmod	_	_	4:targ|4:targ
+9	de	de	ADP	SPS00	11	case	_	_	4:targ|4:targ
+10	els	el	DET	DA0MP0	11	det	_	_	4:targ|4:targ
+11	bars	bar	NOUN	NCMP000	8	nmod	_	_	4:targ|4:targ
+12	i	i	CCONJ	CC	13	cc	_	_	4:targ|4:targ
+13	cafeteries	cafeteria	NOUN	NCFP000	11	conj	_	_	4:targ|4:targ
+14	,	,	ADJ	AQ0CS0	2	punct	_	_	_
+15	era	ser	VERB	VSII1S0	16	cop	_	_	_
+16	caríssim	caríssim	ADV	RG	0	root	_	_	0:exp-Negative|0:exp-Negative
+17	i	i	CCONJ	CC	18	cc	_	_	_
+18	deixava	deixar	VERB	VMII3S0	16	conj	_	_	0:exp-Negative|0:exp-Negative
+19	molt	molt	ADV	RG	18	advmod	_	_	18:exp-Negative|18:exp-Negative
+20	que	que	SCONJ	CS	21	mark	_	_	18:exp-Negative|18:exp-Negative
+21	desitjar	desitjar	VERB	VMN0000	18	xcomp	_	_	18:exp-Negative|18:exp-Negative
+22	.	.	NOUN	NCMS000	16	punct	_	_	_
+
+# sent_id = corpora/ca/dolce-sitges-J 1-2
+# text = Una cosa és que sigui un hotel de 5 * i l' altre que et vulguin robar .
+1	Una	un	DET	DI0FS0	2	det	_	_	_
+2	cosa	cosa	NOUN	NCFS000	3	nsubj	_	_	_
+3	és	ser	VERB	VSIP3S0	0	root	_	_	_
+4	que	que	SCONJ	CS	7	mark	_	_	_
+5	sigui	ser	VERB	VSSP1S0	7	cop	_	_	_
+6	un	un	DET	DI0MS0	7	det	_	_	_
+7	hotel	hotel	NOUN	NCMS000	3	ccomp	_	_	_
+8	de	de	ADP	SPS00	10	case	_	_	_
+9	5	5	NOUN	NCFS000	10	nummod	_	_	_
+10	*	*	ADJ	AQ0CS0	7	nmod	_	_	_
+11	i	i	CCONJ	CC	13	cc	_	_	_
+12	l'	el	DET	DA0CS0	13	det	_	_	_
+13	altre	altre	PRON	PI0MS000	7	conj	_	_	_
+14	que	que	SCONJ	CS	16	nsubj	_	_	_
+15	et	tu	PRON	PP2CS000	16	iobj	_	_	0:exp-Negative
+16	vulguin	voler	VERB	VMSP3P0	13	acl	_	_	15:exp-Negative
+17	robar	robar	VERB	VMN0000	16	xcomp	_	_	15:exp-Negative
+18	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/dolce-sitges-J 1-3
+# text = La situació , perquè està envoltat de paissatges i zones verdes .
+1	La	el	DET	DA0FS0	2	det	_	_	6:targ
+2	situació	situació	NOUN	NCFS000	6	nsubj	_	_	1:targ
+3	,	,	ADJ	AQ0CS0	6	punct	_	_	_
+4	perquè	perquè	SCONJ	CS	6	mark	_	_	_
+5	està	estar	VERB	VMIP3S0	6	cop	_	_	_
+6	envoltat	envoltar	VERB	VMP00SM	0	root	_	_	0:exp-Positive
+7	de	de	ADP	SPS00	8	case	_	_	6:exp-Positive
+8	paissatges	paissatges	NOUN	NCMP000	6	obj	_	_	6:exp-Positive
+9	i	i	CCONJ	CC	10	cc	_	_	6:exp-Positive
+10	zones	zona	NOUN	NCFP000	8	conj	_	_	6:exp-Positive
+11	verdes	verd	ADJ	AQ0FP0	10	amod	_	_	6:exp-Positive
+12	.	.	NOUN	NCMS000	6	punct	_	_	_
+
+# sent_id = corpora/ca/dolce-sitges-J 1-4
+# text = És un hotel molt gran amb espais molt amplis .
+1	És	ser	VERB	VSIP3S0	3	cop	_	_	_
+2	un	un	DET	DI0MS0	3	det	_	_	_
+3	hotel	hotel	NOUN	NCMS000	0	root	_	_	_
+4	molt	molt	ADV	RG	5	advmod	_	_	_
+5	gran	gran	ADJ	AQ0CS0	3	amod	_	_	_
+6	amb	amb	ADP	SPS00	7	case	_	_	_
+7	espais	espai	NOUN	NCMP000	3	nmod	_	_	_
+8	molt	molt	ADV	RG	9	advmod	_	_	_
+9	amplis	ampli	ADJ	AQ0MP0	7	amod	_	_	_
+10	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/turismo-rural-sant-marc-Laura-1
+# text = El restaurant està molt bé .
+1	El	el	DET	DA0MS0	2	det	_	_	4:targ
+2	restaurant	restaurant	NOUN	NCMS000	5	nsubj	_	_	1:targ
+3	està	estar	VERB	VMIP3S0	5	cop	_	_	_
+4	molt	molt	ADV	RG	5	advmod	_	_	0:exp-Positive
+5	bé	bé	ADV	RG	0	root	_	_	4:exp-Positive
+6	.	.	NOUN	NCMS000	5	punct	_	_	_
+
+# sent_id = corpora/ca/capri-sitges-Parella 1-1
+# text = - Poca pressió-quantitat d' aigua en el bany . - Esmorzar modest . - Hotel tranquil i confortable . - Molt cèntric . - Habitacions àmplies - Personal molt amable . - Faciliten servei de pàrquing durant el dia de la partida .
+1	-	-	ADV	RG	33	punct	_	_	_
+2	Poca	poc	DET	DI0FS0	3	det	_	_	0:exp-Negative
+3	pressió-quantitat	pressió-quantitat	NOUN	NCFS000	33	nsubj	_	_	2:exp-Negative
+4	d'	de	ADP	SPS00	5	case	_	_	2:exp-Negative
+5	aigua	aigua	NOUN	NCFS000	3	nmod	_	_	2:exp-Negative
+6	en	en	ADP	SPS00	8	case	_	_	_
+7	el	el	DET	DA0MS0	8	det	_	_	2:targ
+8	bany	bany	NOUN	NCMS000	3	nmod	_	_	7:targ
+9	.	.	NOUN	NCMS000	11	punct	_	_	_
+10	-	-	VERB	VMIP3S0	11	punct	_	_	_
+11	Esmorzar	esmorzar	VERB	VMN0000	3	appos	_	_	12:targ
+12	modest	modest	ADJ	AQ0MS0	11	amod	_	_	0:exp-Negative
+13	.	.	NOUN	NCMS000	11	punct	_	_	_
+14	-	-	ADJ	AQ0CS0	15	punct	_	_	_
+15	Hotel	hotel	NOUN	NCMS000	11	flat	_	_	18:targ|16:targ
+16	tranquil	tranquil	ADJ	AQ0MS0	15	flat	_	_	0:exp-Positive
+17	i	i	CCONJ	CC	18	cc	_	_	_
+18	confortable	confortable	ADJ	AQ0CS0	15	conj	_	_	0:exp-Positive
+19	.	.	NOUN	NCMS000	15	punct	_	_	_
+20	-	-	ADJ	AQ0CS0	21	punct	_	_	_
+21	Molt	molt	ADV	RG	11	flat	_	_	0:exp-Positive
+22	cèntric	cèntric	ADJ	AQ0MS0	21	flat	_	_	21:exp-Positive
+23	.	.	NOUN	NCMS000	21	punct	_	_	_
+24	-	-	ADJ	AQ0CS0	25	punct	_	_	_
+25	Habitacions	habitació	NOUN	NCFP000	21	flat	_	_	26:targ
+26	àmplies	ampli	ADJ	AQ0FP0	25	flat	_	_	0:exp-Positive
+27	-	-	NOUN	NCFS000	28	punct	_	_	_
+28	Personal	personal	ADJ	AQ0CS0	25	flat	_	_	29:targ
+29	molt	molt	ADV	RG	30	advmod	_	_	0:exp-Positive
+30	amable	amable	ADJ	AQ0CS0	28	amod	_	_	29:exp-Positive
+31	.	.	NOUN	NCMS000	28	punct	_	_	_
+32	-	-	ADJ	AQ0CS0	11	punct	_	_	_
+33	Faciliten	facilitar	VERB	VMIP3P0	0	root	_	_	0:exp-Positive
+34	servei	servei	NOUN	NCMS000	33	obj	_	_	33:targ
+35	de	de	ADP	SPS00	36	case	_	_	34:targ
+36	pàrquing	pàrquing	NOUN	NCMS000	34	nmod	_	_	34:targ
+37	durant	durant	ADP	SPS00	39	case	_	_	34:targ
+38	el	el	DET	DA0MS0	39	det	_	_	34:targ
+39	dia	dia	NOUN	NCMS000	33	obl	_	_	34:targ
+40	de	de	ADP	SPS00	42	case	_	_	34:targ
+41	la	el	DET	DA0FS0	42	det	_	_	34:targ
+42	partida	partida	NOUN	NCFS000	39	nmod	_	_	34:targ
+43	.	.	NOUN	NCMS000	33	punct	_	_	_
+
+# sent_id = corpora/ca/galeon-Josep-1
+# text = Wifi justet .
+1	Wifi	wifi	ADV	RG	0	root	_	_	2:targ
+2	justet	justet	ADV	RG	1	amod	_	_	0:exp-Negative
+3	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/galeon-Josep-2
+# text = Per nosaltres cap problema , pero per persones grans o amb mobilitat reduïda i ha moltes escales La situació excel·lent , l' habitació perfecta , molt neta .
+1	Per	per	ADP	SPS00	2	case	_	_	3:holder
+2	nosaltres	jo	PRON	PP1CP000	6	obl	_	_	1:holder
+3	cap	cap	DET	DI0CS0	4	det	_	_	0:exp-Positive
+4	problema	problema	NOUN	NCMS000	6	nsubj	_	_	3:exp-Positive
+5	,	,	ADJ	AQ0CS0	6	punct	_	_	_
+6	pero	pero	NOUN	NCMS000	0	root	_	_	_
+7	per	per	ADP	SPS00	8	case	_	_	14:holder
+8	persones	persona	NOUN	NCFP000	6	obj	_	_	7:holder
+9	grans	gran	ADJ	AQ0CP0	8	amod	_	_	7:holder
+10	o	o	CCONJ	CC	12	cc	_	_	7:holder
+11	amb	amb	ADP	SPS00	12	case	_	_	7:holder
+12	mobilitat	mobilitat	NOUN	NCFS000	8	conj	_	_	7:holder
+13	reduïda	reduir	VERB	VMP00SF	12	amod	_	_	7:holder
+14	i	i	CCONJ	CC	15	cc	_	_	0:exp-Negative
+15	ha	haver	AUX	VAIP3S0	6	conj	_	_	14:exp-Negative
+16	moltes	molt	DET	DI0FP0	17	det	_	_	14:targ
+17	escales	escala	NOUN	NCFP000	15	obj	_	_	16:targ
+18	La	el	DET	DA0FS0	19	det	_	_	_
+19	situació	situació	NOUN	NCFS000	15	obj	_	_	_
+20	excel·lent	excel·lent	ADJ	AQ0CS0	19	amod	_	_	_
+21	,	,	VERB	VMIP3S0	23	punct	_	_	_
+22	l'	el	DET	DA0CS0	23	det	_	_	24:targ|26:targ
+23	habitació	habitació	NOUN	NCFS000	19	appos	_	_	22:targ|22:targ
+24	perfecta	perfecte	ADJ	AQ0FS0	23	amod	_	_	0:exp-Positive
+25	,	,	ADJ	AQ0CS0	27	punct	_	_	_
+26	molt	molt	ADV	RG	27	advmod	_	_	0:exp-Positive
+27	neta	net	ADJ	AQ0FS0	23	amod	_	_	26:exp-Positive
+28	.	.	NOUN	NCMS000	6	punct	_	_	_
+
+# sent_id = corpora/ca/galeon-Josep-3
+# text = Sense pretensions pero no hi manca res i es molt gran
+1	Sense	sense	ADP	SPS00	2	case	_	_	0:exp-Negative
+2	pretensions	pretensió	NOUN	NCFP000	6	obl	_	_	1:exp-Negative
+3	pero	pero	NOUN	NCMS000	6	mark	_	_	_
+4	no	no	ADV	RN	6	advmod	_	_	0:exp-Positive
+5	hi	hi	PRON	PP3CN000	6	obj	_	_	10:targ|1:targ|4:exp-Positive
+6	manca	mancar	VERB	VMIP3S0	0	root	_	_	4:exp-Positive
+7	res	res	PRON	PI0CS000	6	nsubj	_	_	_
+8	i	i	CCONJ	CC	10	cc	_	_	_
+9	es	es	PRON	P0300000	6	obj	_	_	_
+10	molt	molt	ADV	RG	6	conj	_	_	0:exp-Positive
+11	gran	gran	ADJ	AQ0CS0	6	punct	_	_	10:exp-Positive
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach7-1
+# text = Se sent bastant soroll de el passadís , però tampoc impedeix dormir tranquil .
+1	Se	es	PRON	P0300000	4	expl:pass	_	_	0:exp-Negative
+2	sent	sentir	VERB	VMIP1S0	4	cop	_	_	1:exp-Negative
+3	bastant	bastant	ADV	RG	4	advmod	_	_	1:exp-Negative
+4	soroll	soroll	NOUN	NCMS000	0	root	_	_	1:exp-Negative
+5	de	de	ADP	SPS00	7	case	_	_	_
+6	el	el	DET	DA0MS0	7	det	_	_	_
+7	passadís	passadís	NOUN	NCMS000	4	nmod	_	_	_
+8	,	,	ADJ	AQ0CS0	11	punct	_	_	_
+9	però	però	CCONJ	CC	11	cc	_	_	_
+10	tampoc	tampoc	ADV	RG	11	advmod	_	_	_
+11	impedeix	impedir	VERB	VMIP3S0	4	conj	_	_	_
+12	dormir	dormir	VERB	VMN0000	11	xcomp	_	_	_
+13	tranquil	tranquil	ADJ	AQ0MS0	12	obj	_	_	_
+14	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach7-2
+# text = El preu una mica car .
+1	El	el	DET	DA0MS0	2	det	_	_	3:targ
+2	preu	preu	NOUN	NCMS000	5	nsubj	_	_	1:targ
+3	una	un	DET	DI0FS0	4	det	_	_	0:exp-Negative
+4	mica	mica	NOUN	NCFS000	5	nmod	_	_	3:exp-Negative
+5	car	car	ADJ	AQ0MS0	0	root	_	_	3:exp-Negative
+6	.	.	NOUN	NCMS000	5	punct	_	_	_
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach7-3
+# text = La situació és perfecta .
+1	La	el	DET	DA0FS0	2	det	_	_	4:targ
+2	situació	situació	NOUN	NCFS000	4	nsubj	_	_	1:targ
+3	és	ser	VERB	VSIP3S0	4	cop	_	_	_
+4	perfecta	perfecte	ADJ	AQ0FS0	0	root	_	_	0:exp-Positive
+5	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach7-4
+# text = A 1 minut de la platja principal i a 2-3 de la riera on es poc aparcar gratis sense problemes .
+1	A	a	ADP	SPS00	3	case	_	_	0:exp-Positive
+2	1	1	NOUN	NC00000	3	nummod	_	_	1:exp-Positive
+3	minut	minut	NOUN	NCMS000	0	root	_	_	1:exp-Positive
+4	de	de	ADP	SPS00	6	case	_	_	1:exp-Positive
+5	la	el	DET	DA0FS0	6	det	_	_	1:exp-Positive
+6	platja	platja	NOUN	NCFS000	3	nmod	_	_	1:exp-Positive
+7	principal	principal	ADJ	AQ0CS0	6	amod	_	_	1:exp-Positive
+8	i	i	CCONJ	CC	10	cc	_	_	_
+9	a	a	ADP	SPS00	10	case	_	_	_
+10	2-3	2-3	NOUN	NC00000	3	conj	_	_	_
+11	de	de	ADP	SPS00	13	case	_	_	_
+12	la	el	DET	DA0FS0	13	det	_	_	_
+13	riera	riera	NOUN	NCFS000	10	nmod	_	_	_
+14	on	on	PRON	PR000000	17	obl	_	_	_
+15	es	es	PRON	P0300000	17	obj	_	_	0:exp-Positive
+16	poc	poc	ADV	RG	17	advmod	_	_	15:exp-Positive
+17	aparcar	aparcar	VERB	VMN0000	13	acl	_	_	15:exp-Positive
+18	gratis	gratis	ADV	RG	17	nsubj	_	_	15:exp-Positive
+19	sense	sense	ADP	SPS00	20	case	_	_	_
+20	problemes	problema	NOUN	NCMP000	17	obl	_	_	_
+21	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach7-5
+# text = L' habitació i el bany molt espaiosos .
+1	L'	el	DET	DA0CS0	2	det	_	_	6:targ
+2	habitació	habitació	NOUN	NCFS000	0	root	_	_	1:targ
+3	i	i	CCONJ	CC	5	cc	_	_	_
+4	el	el	DET	DA0MS0	5	det	_	_	6:targ
+5	bany	bany	NOUN	NCMS000	2	conj	_	_	4:targ
+6	molt	molt	ADV	RG	7	advmod	_	_	0:exp-Positive|0:exp-Positive
+7	espaiosos	espaiós	ADJ	AQ0MP0	5	amod	_	_	6:exp-Positive|6:exp-Positive
+8	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hostal-central-bilbao-Gemma 1-1
+# text = - Un de els dos matalassos era massa tou ( feia mal d' esquena ) - No teníem finestra a l' exterior , era un cel obert - Dificultat per trobar l' aparcament públic - Situació molt cèntrica - Bon tracte de el personal - Habitació una mica justa ( armari petit , pas estret ) bona relació qualitat-preu quan valores com de cèntrica està la pensió - Ideal per poder fer turisme durant el dia i tornar a la pensió només per dormir , jo hi tornaria - Hi ha assecador de cabell - Donen xampú , gel i pastilla de sabó
+1	-	-	ADV	RG	9	punct	_	_	_
+2	Un	un	PRON	PI0MS000	9	nsubj	_	_	8:targ|11:targ
+3	de	de	ADP	SPS00	6	case	_	_	2:targ|2:targ
+4	els	el	DET	DA0MP0	6	det	_	_	2:targ|2:targ
+5	dos	dosar	VERB	VMIP1S0	4	nummod	_	_	2:targ|2:targ
+6	matalassos	matalàs	NOUN	NCMP000	2	nmod	_	_	2:targ|2:targ
+7	era	ser	VERB	VSII1S0	9	cop	_	_	_
+8	massa	massa	ADV	RG	9	advmod	_	_	0:exp-Negative
+9	tou	tou	ADJ	AQ0MS0	88	advcl	_	_	8:exp-Negative
+10	(	(	NOUN	NCFS000	11	punct	_	_	_
+11	feia	fer	VERB	VMII3S0	9	parataxis	_	_	0:exp-Negative
+12	mal	mal	NOUN	NCMS000	11	obj	_	_	11:exp-Negative
+13	d'	de	ADP	SPS00	14	case	_	_	11:exp-Negative
+14	esquena	esquena	NOUN	NCFS000	12	nmod	_	_	11:exp-Negative
+15	)	)	ADJ	AQ0CS0	11	punct	_	_	_
+16	-	-	NOUN	NCFS000	18	punct	_	_	_
+17	No	no	ADV	RN	18	advmod	_	_	0:exp-Negative
+18	teníem	tenir	VERB	VMII1P0	9	parataxis	_	_	17:exp-Negative
+19	finestra	finestra	NOUN	NCFS000	18	obj	_	_	17:targ
+20	a	a	ADP	SPS00	22	case	_	_	19:targ
+21	l'	el	DET	DA0CS0	22	det	_	_	19:targ
+22	exterior	exterior	NOUN	NCMS000	18	obl	_	_	19:targ
+23	,	,	ADJ	AQ0CS0	18	punct	_	_	_
+24	era	ser	VERB	VSII1S0	26	cop	_	_	_
+25	un	un	DET	DI0MS0	26	det	_	_	_
+26	cel	cel	NOUN	NCMS000	9	advcl	_	_	_
+27	obert	obrir	VERB	VMP00SM	26	amod	_	_	_
+28	-	-	ADV	RG	29	punct	_	_	_
+29	Dificultat	dificultat	NOUN	NCFS000	26	appos	_	_	0:exp-Negative
+30	per	per	ADP	SPS00	31	mark	_	_	29:exp-Negative
+31	trobar	trobar	VERB	VMN0000	29	acl	_	_	29:exp-Negative
+32	l'	el	DET	DA0CS0	33	det	_	_	29:targ
+33	aparcament	aparcament	NOUN	NCMS000	31	obj	_	_	32:targ
+34	públic	públic	ADJ	AQ0MS0	33	amod	_	_	32:targ
+35	-	-	NOUN	NCFS000	36	punct	_	_	_
+36	Situació	situació	NOUN	NCFS000	29	flat	_	_	37:targ
+37	molt	molt	ADV	RG	38	advmod	_	_	0:exp-Positive
+38	cèntrica	cèntric	ADJ	AQ0FS0	36	amod	_	_	37:exp-Positive
+39	-	-	NOUN	NCFS000	40	punct	_	_	_
+40	Bon	bo	ADJ	AQ0MS0	29	flat	_	_	0:exp-Positive
+41	tracte	tracte	NOUN	NCMS000	40	appos	_	_	40:targ
+42	de	de	ADP	SPS00	44	case	_	_	41:targ
+43	el	el	DET	DA0MS0	44	det	_	_	41:targ
+44	personal	personal	NOUN	NCFS000	40	nmod	_	_	41:targ
+45	-	-	ADJ	AQ0CS0	40	punct	_	_	_
+46	Habitació	habitació	NOUN	NCFS000	40	flat	_	_	47:targ
+47	una	un	DET	DI0FS0	48	det	_	_	0:exp-Negative
+48	mica	mica	NOUN	NCFS000	49	nmod	_	_	47:exp-Negative
+49	justa	just	ADJ	AQ0FS0	46	amod	_	_	47:exp-Negative
+50	(	(	ADJ	AQ0CS0	51	punct	_	_	_
+51	armari	armari	NOUN	NCMS000	48	appos	_	_	52:targ
+52	petit	petit	ADJ	AQ0MS0	51	amod	_	_	0:exp-Negative
+53	,	,	NOUN	NCFS000	54	punct	_	_	_
+54	pas	pas	NOUN	NCMS000	51	conj	_	_	55:targ
+55	estret	estret	NOUN	NCMS000	54	amod	_	_	0:exp-Negative
+56	)	)	ADV	RG	51	punct	_	_	_
+57	bona	bo	ADJ	AQ0FS0	58	amod	_	_	0:exp-Positive
+58	relació	relació	NOUN	NCFS000	49	obj	_	_	57:targ
+59	qualitat-preu	qualitat-preu	NOUN	NCCS000	58	amod	_	_	58:targ
+60	quan	quan	PRON	PR000000	96	mark	_	_	_
+61	valores	valorar	VERB	VMIP2S0	88	nsubj	_	_	_
+62	com	com	SCONJ	CS	64	mark	_	_	_
+63	de	de	ADP	SPS00	62	fixed	_	_	_
+64	cèntrica	cèntric	ADJ	AQ0FS0	61	nmod	_	_	0:exp-Positive
+65	està	estar	VERB	VMIP3S0	67	cop	_	_	_
+66	la	el	DET	DA0FS0	67	det	_	_	64:targ
+67	pensió	pensió	NOUN	NCFS000	64	nsubj	_	_	66:targ
+68	-	-	ADJ	AQ0CS0	69	punct	_	_	_
+69	Ideal	ideal	NOUN	NCMS000	88	nsubj	_	_	0:exp-Positive
+70	per	per	ADP	SPS00	72	mark	_	_	69:exp-Positive
+71	poder	poder	VERB	VMN0000	72	aux	_	_	69:exp-Positive
+72	fer	fer	VERB	VMN0000	67	acl	_	_	69:exp-Positive
+73	turisme	turisme	NOUN	NCMS000	72	obj	_	_	69:exp-Positive
+74	durant	durant	ADP	SPS00	76	case	_	_	69:exp-Positive
+75	el	el	DET	DA0MS0	76	det	_	_	69:exp-Positive
+76	dia	dia	NOUN	NCMS000	72	obl	_	_	69:exp-Positive
+77	i	i	CCONJ	CC	78	cc	_	_	_
+78	tornar	tornar	VERB	VMN0000	72	conj	_	_	_
+79	a	a	ADP	SPS00	81	case	_	_	_
+80	la	el	DET	DA0FS0	81	det	_	_	_
+81	pensió	pensió	NOUN	NCFS000	78	obl	_	_	_
+82	només	només	ADV	RG	78	advmod	_	_	_
+83	per	per	ADP	SPS00	82	case	_	_	_
+84	dormir	dormir	VERB	VMN0000	82	acl	_	_	_
+85	,	,	ADV	RG	29	punct	_	_	_
+86	jo	jo	PRON	PP1CSN00	88	nsubj	_	_	87:holder
+87	hi	hi	PRON	PP3CN000	88	obj	_	_	0:exp-Positive
+88	tornaria	tornar	VERB	VMIC3S0	96	parataxis	_	_	87:exp-Positive
+89	-	-	VERB	VMN0000	91	punct	_	_	_
+90	Hi	hi	PRON	PP3CN000	91	obj	_	_	0:exp-Positive
+91	ha	haver	AUX	VAIP3S0	88	parataxis	_	_	90:exp-Positive
+92	assecador	assecador	NOUN	NCMS000	91	obj	_	_	90:targ
+93	de	de	ADP	SPS00	94	case	_	_	92:targ
+94	cabell	cabell	NOUN	NCMS000	92	nmod	_	_	92:targ
+95	-	-	ADJ	AQ0CS0	36	punct	_	_	_
+96	Donen	donar	VERB	VMIP3P0	0	root	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
+97	xampú	xampú	NOUN	NCMS000	96	obj	_	_	96:targ
+98	,	,	ADJ	AQ0CS0	99	punct	_	_	_
+99	gel	gel	NOUN	NCMS000	97	conj	_	_	96:targ
+100	i	i	CCONJ	CC	101	cc	_	_	_
+101	pastilla	pastilla	NOUN	NCFS000	97	conj	_	_	96:targ
+102	de	de	ADP	SPS00	101	advmod	_	_	101:targ
+103	sabó	sabó	NOUN	NCMS000	96	punct	_	_	101:targ
+
+# sent_id = corpora/ca/milleniumgloucester-EnricSanti 1-1
+# text = La il·luminació de el bany .
+1	La	el	DET	DA0FS0	2	det	_	_	_
+2	il·luminació	il·luminació	NOUN	NCFS000	0	root	_	_	_
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	el	el	DET	DA0MS0	5	det	_	_	_
+5	bany	bany	NOUN	NCMS000	2	nmod	_	_	_
+6	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/milleniumgloucester-EnricSanti 1-2
+# text = Habitualment els hotels et permeten triar entre una il·luminació suau ( el mirall , p . ex. ) i una més forta .
+1	Habitualment	habitualment	ADV	RG	5	advmod	_	_	_
+2	els	el	DET	DA0MP0	3	det	_	_	_
+3	hotels	hotel	NOUN	NCMP000	5	nsubj	_	_	_
+4	et	tu	PRON	PP2CS000	5	iobj	_	_	_
+5	permeten	permetre	VERB	VMIP3P0	0	root	_	_	_
+6	triar	triar	VERB	VMN0000	5	xcomp	_	_	_
+7	entre	entre	ADP	SPS00	9	case	_	_	_
+8	una	un	DET	DI0FS0	9	det	_	_	_
+9	il·luminació	il·luminació	NOUN	NCFS000	6	obl	_	_	_
+10	suau	suau	ADJ	AQ0CS0	9	amod	_	_	_
+11	(	(	VERB	VMIP3S0	13	punct	_	_	_
+12	el	el	DET	DA0MS0	13	det	_	_	_
+13	mirall	mirall	NOUN	NCMS000	9	appos	_	_	_
+14	,	,	ADJ	AQ0CS0	15	punct	_	_	_
+15	p	p	NOUN	NCMS000	13	appos	_	_	_
+16	.	.	NOUN	NCMS000	13	punct	_	_	_
+17	ex.	ex.	NOUN	NCMS000	13	appos	_	_	_
+18	)	)	ADJ	AQ0CS0	13	punct	_	_	_
+19	i	i	CCONJ	CC	22	cc	_	_	_
+20	una	un	DET	DI0FS0	22	det	_	_	_
+21	més	més	ADV	RG	22	advmod	_	_	_
+22	forta	fort	ADJ	AQ0FS0	9	conj	_	_	_
+23	.	.	NOUN	NCMS000	5	punct	_	_	_
+
+# sent_id = corpora/ca/milleniumgloucester-EnricSanti 1-3
+# text = A el bany de la nostra habitació la il·luminació era molt forta , quatre focus empotrats a el sostre sense posibilitat de regularla .
+1	A	a	ADP	SPS00	3	case	_	_	11:targ|20:targ
+2	el	el	DET	DA0MS0	3	det	_	_	1:targ|1:targ
+3	bany	bany	NOUN	NCMS000	12	obl	_	_	1:targ|1:targ
+4	de	de	ADP	SPS00	7	case	_	_	1:targ|1:targ
+5	la	el	DET	DA0FS0	7	det	_	_	1:targ|1:targ
+6	nostra	nostre	PRON	PX1FS0P0	7	det	_	_	1:targ|1:targ
+7	habitació	habitació	NOUN	NCFS000	3	nmod	_	_	1:targ|1:targ
+8	la	el	DET	DA0FS0	9	det	_	_	1:targ|1:targ
+9	il·luminació	il·luminació	NOUN	NCFS000	12	nsubj	_	_	1:targ|1:targ
+10	era	ser	VERB	VSII1S0	12	cop	_	_	_
+11	molt	molt	ADV	RG	12	advmod	_	_	0:exp-Negative
+12	forta	fort	ADJ	AQ0FS0	0	root	_	_	11:exp-Negative
+13	,	,	NOUN	NCFS000	15	punct	_	_	_
+14	quatre	quatre	NOUN	NCMS000	15	nummod	_	_	_
+15	focus	focus	NOUN	NCMN000	12	obl	_	_	_
+16	empotrats	empotrats	ADJ	AQ0MP0	15	amod	_	_	_
+17	a	a	ADP	SPS00	19	case	_	_	_
+18	el	el	DET	DA0MS0	19	det	_	_	_
+19	sostre	sostre	NOUN	NCMS000	16	obl	_	_	_
+20	sense	sense	ADP	SPS00	21	case	_	_	0:exp-Negative
+21	posibilitat	posibilitat	NOUN	NCFS000	16	obl	_	_	20:exp-Negative
+22	de	de	ADP	SPS00	23	case	_	_	20:exp-Negative
+23	regularla	regularla	VERB	VMIP3S0	21	nmod	_	_	20:exp-Negative
+24	.	.	NOUN	NCMS000	12	punct	_	_	_
+
+# sent_id = corpora/ca/milleniumgloucester-EnricSanti 1-4
+# text = Quasi tot .
+1	Quasi	quasi	ADV	RG	0	root	_	_	_
+2	tot	tot	DET	DI0MS0	1	fixed	_	_	_
+3	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/milleniumgloucester-EnricSanti 1-5
+# text = Tracte amable , fàcil localització , situació privilegiada , net , comfortable ....
+1	Tracte	tracte	NOUN	NCMS000	0	root	_	_	2:targ
+2	amable	amable	ADJ	AQ0CS0	1	amod	_	_	0:exp-Positive
+3	,	,	NOUN	NCFS000	5	punct	_	_	_
+4	fàcil	fàcil	ADJ	AQ0CS0	5	amod	_	_	0:exp-Positive
+5	localització	localització	NOUN	NCFS000	1	conj	_	_	4:targ
+6	,	,	ADJ	AQ0CS0	7	punct	_	_	_
+7	situació	situació	NOUN	NCFS000	1	conj	_	_	8:targ
+8	privilegiada	privilegiar	VERB	VMP00SF	7	amod	_	_	0:exp-Positive
+9	,	,	NOUN	NCFS000	10	punct	_	_	_
+10	net	net	ADJ	AQ0MS0	8	conj	_	_	0:exp-Positive
+11	,	,	NOUN	NCFS000	12	punct	_	_	_
+12	comfortable	comfortable	ADJ	AQ0CS0	1	amod	_	_	0:exp-Positive
+13	....	....	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/the-z-piccadilly-Monica 1-1
+# text = Preu diari de el parking .
+1	Preu	preu	NOUN	NCMS000	0	root	_	_	_
+2	diari	diari	ADJ	AQ0MS0	1	amod	_	_	_
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	el	el	DET	DA0MS0	5	det	_	_	_
+5	parking	parking	NOUN	NCMS000	1	nmod	_	_	_
+6	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/the-z-piccadilly-Monica 1-2
+# text = A més , el caixer automàtic no admet targes de crèdit .
+1	A	a	ADP	SPS00	8	advmod	_	_	_
+2	més	més	ADV	RG	1	fixed	_	_	_
+3	,	,	VERB	VMN0000	1	punct	_	_	_
+4	el	el	DET	DA0MS0	5	det	_	_	7:targ
+5	caixer	caixer	NOUN	NCMS000	8	nsubj	_	_	4:targ
+6	automàtic	automàtic	ADJ	AQ0MS0	5	amod	_	_	4:targ
+7	no	no	ADV	RN	8	advmod	_	_	0:exp-Negative
+8	admet	admetre	VERB	VMIP1S0	0	root	_	_	7:exp-Negative
+9	targes	tarja	NOUN	NCFP000	8	obj	_	_	7:exp-Negative
+10	de	de	ADP	SPS00	11	case	_	_	7:exp-Negative
+11	crèdit	crèdit	NOUN	NCMS000	9	nmod	_	_	7:exp-Negative
+12	.	.	NOUN	NCMS000	8	punct	_	_	_
+
+# sent_id = corpora/ca/the-z-piccadilly-Monica 1-3
+# text = Situació adient , a prop de el Museu Guggenheim i de el casc antic .
+1	Situació	situació	NOUN	NCFS000	0	root	_	_	2:targ|4:targ
+2	adient	adient	ADJ	AQ0CS0	1	amod	_	_	0:exp-Positive
+3	,	,	NOUN	NCFS000	4	punct	_	_	_
+4	a	a	ADP	SPS00	1	advmod	_	_	0:exp-Positive
+5	prop	prop	ADV	RG	4	fixed	_	_	4:exp-Positive
+6	de	de	ADP	SPS00	8	case	_	_	4:exp-Positive
+7	el	el	DET	DA0MS0	8	det	_	_	4:exp-Positive
+8	Museu	museu	NOUN	NCMS000	4	obl	_	_	4:exp-Positive
+9	Guggenheim	guggenheim	ADJ	AQ0MS0	8	flat	_	_	4:exp-Positive
+10	i	i	CCONJ	CC	13	cc	_	_	_
+11	de	de	ADP	SPS00	13	case	_	_	_
+12	el	el	DET	DA0MS0	13	det	_	_	_
+13	casc	casc	NOUN	NCMS000	8	conj	_	_	_
+14	antic	antic	ADJ	AQ0MS0	13	amod	_	_	_
+15	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/the-z-piccadilly-Monica 1-4
+# text = Instal·lacions i asepcte general .
+1	Instal·lacions	instal·lació	NOUN	NCFP000	0	root	_	_	_
+2	i	i	CCONJ	CC	3	cc	_	_	_
+3	asepcte	asepcte	NOUN	NCMS000	1	conj	_	_	_
+4	general	general	ADJ	AQ0CS0	1	amod	_	_	_
+5	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/the-z-piccadilly-Monica 1-5
+# text = Amabilitat de el personal .
+1	Amabilitat	amabilitat	NOUN	NCFS000	0	root	_	_	0:exp-Positive
+2	de	de	ADP	SPS00	4	case	_	_	_
+3	el	el	DET	DA0MS0	4	det	_	_	1:targ
+4	personal	personal	ADJ	AQ0CS0	1	nmod	_	_	3:targ
+5	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/the-z-piccadilly-Monica 1-6
+# text = Cafès i tes disponibles a la habitació .
+1	Cafès	cafè	NOUN	NCMP000	0	root	_	_	4:targ
+2	i	i	CCONJ	CC	3	cc	_	_	_
+3	tes	te	NOUN	NCFP000	1	conj	_	_	4:targ
+4	disponibles	disponible	ADJ	AQ0CP0	1	amod	_	_	0:exp-Positive|0:exp-Positive
+5	a	a	ADP	SPS00	7	case	_	_	4:exp-Positive|4:exp-Positive
+6	la	el	DET	DA0FS0	7	det	_	_	4:exp-Positive|4:exp-Positive
+7	habitació	habitació	NOUN	NCFS000	1	nmod	_	_	4:exp-Positive|4:exp-Positive
+8	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/the-z-piccadilly-Monica 1-7
+# text = Vidres de les finestres de colors , que donen un toc original .
+1	Vidres	vidre	NOUN	NCMP000	0	root	_	_	9:targ
+2	de	de	ADP	SPS00	4	case	_	_	1:targ
+3	les	el	DET	DA0FP0	4	det	_	_	1:targ
+4	finestres	finestra	NOUN	NCFP000	1	nmod	_	_	1:targ
+5	de	de	ADP	SPS00	6	case	_	_	_
+6	colors	color	NOUN	NCMP000	4	nmod	_	_	_
+7	,	,	ADJ	AQ0CS0	9	punct	_	_	_
+8	que	que	PRON	PR0CN000	9	nsubj	_	_	_
+9	donen	donar	VERB	VMIP3P0	1	acl	_	_	0:exp-Positive
+10	un	un	DET	DI0MS0	11	det	_	_	9:exp-Positive
+11	toc	toc	NOUN	NCMS000	9	obj	_	_	9:exp-Positive
+12	original	original	ADJ	AQ0CS0	11	amod	_	_	9:exp-Positive
+13	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/cleopatra-Rebeca 1-1
+# text = Per ser un 4 estrelles superior , li falta renovar sobretot el mobiliari de les habitacions .
+1	Per	per	ADP	SPS00	5	mark	_	_	_
+2	ser	ser	VERB	VSN0000	5	cop	_	_	_
+3	un	un	DET	DI0MS0	4	nmod	_	_	_
+4	4	4	NOUN	NCMS000	5	nummod	_	_	_
+5	estrelles	estrella	NOUN	NCFP000	9	advcl	_	_	_
+6	superior	superior	ADJ	AQ0CS0	5	amod	_	_	_
+7	,	,	ADV	RG	5	punct	_	_	_
+8	li	ell	PRON	PP3CSD00	9	obj	_	_	0:exp-Negative
+9	falta	faltar	VERB	VMIP3S0	0	root	_	_	8:exp-Negative
+10	renovar	renovar	VERB	VMN0000	9	csubj	_	_	8:exp-Negative
+11	sobretot	sobretot	ADV	RG	10	advmod	_	_	_
+12	el	el	DET	DA0MS0	13	det	_	_	8:targ
+13	mobiliari	mobiliari	NOUN	NCMS000	10	obj	_	_	12:targ
+14	de	de	ADP	SPS00	16	case	_	_	12:targ
+15	les	el	DET	DA0FP0	16	det	_	_	12:targ
+16	habitacions	habitació	NOUN	NCFP000	13	nmod	_	_	12:targ
+17	.	.	NOUN	NCMS000	9	punct	_	_	_
+
+# sent_id = corpora/ca/cleopatra-Rebeca 1-2
+# text = Difícil trobar aparcament a la zona , i el d l' hotel es d pagament .
+1	Difícil	difícil	ADJ	AQ0CS0	0	root	_	_	0:exp-Negative
+2	trobar	trobar	VERB	VMN0000	1	csubj	_	_	1:exp-Negative
+3	aparcament	aparcament	NOUN	NCMS000	2	obj	_	_	1:targ
+4	a	a	ADP	SPS00	6	case	_	_	3:targ
+5	la	el	DET	DA0FS0	6	det	_	_	3:targ
+6	zona	zona	NOUN	NCFS000	2	obl	_	_	3:targ
+7	,	,	ADJ	AQ0CS0	14	punct	_	_	_
+8	i	i	CCONJ	CC	14	cc	_	_	_
+9	el	el	DET	DA0MS0	10	det	_	_	14:targ
+10	d	d	NOUN	NCMS000	14	nsubj	_	_	9:targ
+11	l'	el	DET	DA0CS0	12	det	_	_	9:targ
+12	hotel	hotel	NOUN	NCMS000	14	nsubj	_	_	9:targ
+13	es	es	PRON	P0300000	14	obj	_	_	_
+14	d	d	NOUN	NCMS000	2	conj	_	_	0:exp-Negative
+15	pagament	pagament	NOUN	NCMS000	14	obj	_	_	14:exp-Negative
+16	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/cleopatra-Rebeca 1-3
+# text = Personal , Àrees comuns i esmorzar bufet tot molt correcte .
+1	Personal	personal	NOUN	NCFS000	0	root	_	_	8:targ
+2	,	,	ADJ	AQ0CS0	3	punct	_	_	_
+3	Àrees	àrea	NOUN	NCFP000	1	conj	_	_	9:targ
+4	comuns	comú	ADJ	AQ0MP0	3	flat	_	_	3:targ
+5	i	i	CCONJ	CC	6	cc	_	_	_
+6	esmorzar	esmorzar	VERB	VMN0000	1	conj	_	_	9:targ
+7	bufet	bufet	NOUN	NCMS000	6	obj	_	_	6:targ
+8	tot	tot	ADV	RG	10	advmod	_	_	0:exp-Positive
+9	molt	molt	ADV	RG	10	advmod	_	_	8:exp-Positive|0:exp-Positive|0:exp-Positive
+10	correcte	correcte	ADJ	AQ0MS0	6	obj	_	_	8:exp-Positive|9:exp-Positive|9:exp-Positive
+11	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/sercotel-plaza-zaragoza-Catalana 1-1
+# text = La habitació feia olor a tabac , es veien bastant desperfectes a la habitació i a la zona de el esmorzar .
+1	La	el	DET	DA0FS0	2	det	_	_	3:targ
+2	habitació	habitació	NOUN	NCFS000	3	nsubj	_	_	1:targ
+3	feia	fer	VERB	VMII3S0	0	root	_	_	0:exp-Negative
+4	olor	olor	NOUN	NCFS000	3	obj	_	_	3:exp-Negative
+5	a	a	ADP	SPS00	6	case	_	_	3:exp-Negative
+6	tabac	tabac	NOUN	NCMS000	3	obl	_	_	3:exp-Negative
+7	,	,	ADJ	AQ0CS0	9	punct	_	_	_
+8	es	es	PRON	P0300000	9	obj	_	_	0:exp-Negative|0:exp-Negative
+9	veien	veure	VERB	VMII3P0	3	advcl	_	_	8:exp-Negative|8:exp-Negative
+10	bastant	bastant	ADV	RG	11	advmod	_	_	8:exp-Negative|8:exp-Negative
+11	desperfectes	desperfecte	NOUN	NCMP000	9	obj	_	_	8:exp-Negative|8:exp-Negative
+12	a	a	ADP	SPS00	14	case	_	_	_
+13	la	el	DET	DA0FS0	14	det	_	_	8:targ
+14	habitació	habitació	NOUN	NCFS000	9	obl	_	_	13:targ
+15	i	i	CCONJ	CC	18	cc	_	_	_
+16	a	a	ADP	SPS00	18	case	_	_	_
+17	la	el	DET	DA0FS0	18	det	_	_	8:targ
+18	zona	zona	NOUN	NCFS000	14	conj	_	_	17:targ
+19	de	de	ADP	SPS00	21	case	_	_	17:targ
+20	el	el	DET	DA0MS0	21	det	_	_	17:targ
+21	esmorzar	esmorzar	NOUN	NCMS000	18	nmod	_	_	17:targ
+22	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/sercotel-plaza-zaragoza-Catalana 1-2
+# text = La dutxa no va ok , no vaig saber com ficar aigua calenta , sort que feia calor .
+1	La	el	DET	DA0FS0	2	det	_	_	3:targ
+2	dutxa	dutxa	NOUN	NCFS000	4	nsubj	_	_	1:targ
+3	no	no	ADV	RN	4	advmod	_	_	0:exp-Negative
+4	va	anar	AUX	VAIP3S0	0	root	_	_	3:exp-Negative
+5	ok	ok	NOUN	NCMS000	4	obj	_	_	3:exp-Negative
+6	,	,	ADJ	AQ0CS0	9	punct	_	_	_
+7	no	no	ADV	RN	9	advmod	_	_	0:exp-Negative
+8	vaig	anar	AUX	VAIP1S0	9	aux	_	_	7:exp-Negative
+9	saber	saber	VERB	VMN0000	4	advcl	_	_	7:exp-Negative
+10	com	com	SCONJ	CS	9	obj	_	_	7:exp-Negative
+11	ficar	ficar	VERB	VMN0000	9	xcomp	_	_	_
+12	aigua	aigua	NOUN	NCFS000	11	obj	_	_	7:targ
+13	calenta	calent	ADJ	AQ0FS0	12	amod	_	_	12:targ
+14	,	,	ADJ	AQ0CS0	15	punct	_	_	_
+15	sort	sort	NOUN	NCFS000	12	appos	_	_	_
+16	que	que	PRON	PR0CN000	17	nsubj	_	_	_
+17	feia	fer	VERB	VMII3S0	15	acl	_	_	_
+18	calor	calor	NOUN	NCFS000	17	obj	_	_	_
+19	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/sercotel-plaza-zaragoza-Catalana 1-3
+# text = L' esmorzar es molt escàs , ens vam trobar pa de motlle florit ( ho vam dir a el cambrer i ho van canviar ràpidament ) El preu i que No hem tingut que entrar a la ciutat ja que estavem només x fer nit
+1	L'	el	DET	DA0CS0	2	det	_	_	4:targ
+2	esmorzar	esmorzar	VERB	VMN0000	9	nsubj	_	_	1:targ
+3	es	es	PRON	P0300000	5	obj	_	_	_
+4	molt	molt	ADV	RG	5	advmod	_	_	0:exp-Negative
+5	escàs	escar	VERB	VMSI3S0	2	amod	_	_	4:exp-Negative
+6	,	,	VERB	VMN0000	5	punct	_	_	_
+7	ens	jo	PRON	PP1CP000	9	obj	_	_	_
+8	vam	anar	AUX	VAIP1P0	9	aux	_	_	_
+9	trobar	trobar	VERB	VMN0000	0	root	_	_	_
+10	pa	pa	NOUN	NCMS000	9	obj	_	_	_
+11	de	de	ADP	SPS00	12	case	_	_	13:targ
+12	motlle	motlle	NOUN	NCMS000	10	nmod	_	_	11:targ
+13	florit	florit	NOUN	NCMS000	12	amod	_	_	0:exp-Negative
+14	(	(	NOUN	NCFS000	17	punct	_	_	_
+15	ho	ho	PRON	PP3NN000	17	obj	_	_	_
+16	vam	anar	AUX	VAIP1P0	17	aux	_	_	_
+17	dir	dir	VERB	VMN0000	9	parataxis	_	_	_
+18	a	a	ADP	SPS00	20	case	_	_	_
+19	el	el	DET	DA0MS0	20	det	_	_	_
+20	cambrer	cambrer	NOUN	NCMS000	17	obl	_	_	_
+21	i	i	CCONJ	CC	24	cc	_	_	_
+22	ho	ho	PRON	PP3NN000	24	obj	_	_	_
+23	van	anar	AUX	VAIP3P0	24	aux	_	_	_
+24	canviar	canviar	VERB	VMN0000	17	conj	_	_	_
+25	ràpidament	ràpidament	ADV	RG	24	advmod	_	_	_
+26	)	)	VERB	VMIP3S0	17	punct	_	_	_
+27	El	el	DET	DA0MS0	28	det	_	_	_
+28	preu	preu	NOUN	NCMS000	24	obj	_	_	_
+29	i	i	CCONJ	CC	33	cc	_	_	_
+30	que	que	SCONJ	CS	33	mark	_	_	_
+31	No	no	ADV	RN	33	advmod	_	_	_
+32	hem	haver	AUX	VAIP1P0	33	aux	_	_	_
+33	tingut	tenir	VERB	VMP00SM	9	conj	_	_	_
+34	que	que	SCONJ	CS	44	mark	_	_	_
+35	entrar	entrar	VERB	VMN0000	44	csubj	_	_	_
+36	a	a	ADP	SPS00	38	case	_	_	_
+37	la	el	DET	DA0FS0	38	det	_	_	_
+38	ciutat	ciutat	NOUN	NCFS000	35	obl	_	_	_
+39	ja	ja	ADV	RG	41	mark	_	_	_
+40	que	que	PRON	PR0CN000	39	fixed	_	_	_
+41	estavem	estavem	VERB	VMIP1P0	33	ccomp	_	_	_
+42	només	només	ADV	RG	44	advmod	_	_	_
+43	x	x	VERB	VMIP3S0	44	aux	_	_	_
+44	fer	fer	VERB	VMN0000	33	xcomp	_	_	_
+45	nit	nit	NOUN	NCFS000	9	punct	_	_	_
+
+# sent_id = corpora/ca/carlemanygirona-Marta-1
+# text = El tracte de la cafetería i l' habitació em va semblar que necesitaba una renovació Els lavabos de la planta baixa necesitaven un servei de neteja més acurat .
+1	El	el	DET	DA0MS0	2	det	_	_	_
+2	tracte	tracte	NOUN	NCMS000	11	nsubj	_	_	_
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	la	el	DET	DA0FS0	5	det	_	_	_
+5	cafetería	cafetería	NOUN	NCFS000	2	nmod	_	_	_
+6	i	i	CCONJ	CC	8	cc	_	_	_
+7	l'	el	DET	DA0CS0	8	det	_	_	13:targ
+8	habitació	habitació	NOUN	NCFS000	5	conj	_	_	7:targ
+9	em	jo	PRON	PP1CS000	11	iobj	_	_	13:holder
+10	va	anar	AUX	VAIP3S0	11	aux	_	_	_
+11	semblar	semblar	VERB	VMN0000	0	root	_	_	_
+12	que	que	SCONJ	CS	13	mark	_	_	_
+13	necesitaba	necesitaba	VERB	VMIP3S0	11	ccomp	_	_	0:exp-Negative
+14	una	un	DET	DI0FS0	15	det	_	_	13:exp-Negative
+15	renovació	renovació	NOUN	NCFS000	13	obj	_	_	13:exp-Negative
+16	Els	el	DET	DA0MP0	17	det	_	_	22:targ
+17	lavabos	lavabo	NOUN	NCMP000	13	obj	_	_	16:targ
+18	de	de	ADP	SPS00	20	case	_	_	16:targ
+19	la	el	DET	DA0FS0	20	det	_	_	16:targ
+20	planta	planta	NOUN	NCFS000	17	nmod	_	_	16:targ
+21	baixa	baix	ADJ	AQ0FS0	20	amod	_	_	16:targ
+22	necesitaven	necesitaven	VERB	VMII3P0	11	ccomp	_	_	0:exp-Negative
+23	un	un	DET	DI0MS0	24	det	_	_	22:exp-Negative
+24	servei	servei	NOUN	NCMS000	22	obj	_	_	22:exp-Negative
+25	de	de	ADP	SPS00	26	case	_	_	22:exp-Negative
+26	neteja	neteja	NOUN	NCFS000	24	nmod	_	_	22:exp-Negative
+27	més	més	ADV	RG	28	advmod	_	_	22:exp-Negative
+28	acurat	acurat	ADJ	AQ0MS0	24	amod	_	_	22:exp-Negative
+29	.	.	NOUN	NCMS000	11	punct	_	_	_
+
+# sent_id = corpora/ca/carlemanygirona-Marta-2
+# text = La situación de l' hotel i el tracte .
+1	La	el	DET	DA0FS0	2	det	_	_	_
+2	situación	situación	NOUN	NCMS000	0	root	_	_	_
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	l'	el	DET	DA0CS0	5	det	_	_	_
+5	hotel	hotel	NOUN	NCMS000	2	nmod	_	_	_
+6	i	i	CCONJ	CC	8	cc	_	_	_
+7	el	el	DET	DA0MS0	8	det	_	_	_
+8	tracte	tracte	NOUN	NCMS000	2	conj	_	_	_
+9	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hotel-margarit-Rosa-1
+# text = El fet que no hi hagi aire acondicionat ; feia tanta calor a l habitacio que et marejaves L habitacio es correcta i la situació de l hotel bona
+1	El	el	DET	DA0MS0	2	det	_	_	_
+2	fet	fet	NOUN	NCMS000	10	nsubj	_	_	_
+3	que	que	PRON	PR0CN000	6	mark	_	_	_
+4	no	no	ADV	RN	6	advmod	_	_	0:exp-Negative
+5	hi	hi	PRON	PP3CN000	6	obj	_	_	4:exp-Negative
+6	hagi	haver	AUX	VASP1S0	2	acl	_	_	4:exp-Negative
+7	aire	aire	NOUN	NCMS000	6	obj	_	_	4:targ
+8	acondicionat	acondicionat	VERB	VMP00SM	7	amod	_	_	7:targ
+9	;	;	ADV	RG	10	punct	_	_	_
+10	feia	fer	VERB	VMII3S0	0	root	_	_	0:exp-Negative
+11	tanta	tant	DET	DI0FS0	12	det	_	_	10:exp-Negative
+12	calor	calor	NOUN	NCFS000	10	obj	_	_	_
+13	a	a	ADP	SPS00	15	case	_	_	_
+14	l	litre	NOUN	NCMN000	15	det	_	_	_
+15	habitacio	habitacio	NOUN	NCFS000	10	obl	_	_	_
+16	que	que	PRON	PR0CN000	18	nsubj	_	_	_
+17	et	tu	PRON	PP2CS000	18	obj	_	_	_
+18	marejaves	marejar	VERB	VMII2S0	15	acl	_	_	_
+19	L	litre	NOUN	NCMN000	20	det	_	_	22:targ
+20	habitacio	habitacio	NOUN	NCFS000	18	nsubj	_	_	19:targ
+21	es	es	PRON	P0300000	22	expl:pass	_	_	_
+22	correcta	correcte	ADJ	AQ0FS0	10	advcl	_	_	0:exp-Positive
+23	i	i	CCONJ	CC	25	cc	_	_	_
+24	la	el	DET	DA0FS0	25	det	_	_	29:targ
+25	situació	situació	NOUN	NCFS000	22	conj	_	_	24:targ
+26	de	de	ADP	SPS00	28	case	_	_	24:targ
+27	l	litre	NOUN	NCMN000	28	det	_	_	24:targ
+28	hotel	hotel	NOUN	NCMS000	25	nmod	_	_	24:targ
+29	bona	bo	ADJ	AQ0FS0	10	punct	_	_	0:exp-Positive
+
+# sent_id = corpora/ca/apartaments-turastics-puigcerda-cal-bertran-Francesc-1
+# text = Moltes mosques inclús sense gairebé obrir finestres .
+1	Moltes	molt	DET	DI0FP0	2	det	_	_	0:exp-Negative
+2	mosques	mosca	NOUN	NCFP000	0	root	_	_	1:targ
+3	inclús	inclús	ADV	RG	2	advmod	_	_	_
+4	sense	sense	ADP	SPS00	3	case	_	_	_
+5	gairebé	gairebé	ADV	RG	6	advmod	_	_	_
+6	obrir	obrir	VERB	VMN0000	3	acl	_	_	_
+7	finestres	finestra	NOUN	NCFP000	6	obj	_	_	_
+8	.	.	PUNCT	Fp	2	punct	_	_	_
+
+# sent_id = corpora/ca/apartaments-turastics-puigcerda-cal-bertran-Francesc-2
+# text = La relació qualitat preu es bona .
+1	La	el	DET	DA0FS0	2	det	_	_	6:targ
+2	relació	relació	NOUN	NCFS000	6	nsubj	_	_	1:targ
+3	qualitat	qualitat	NOUN	NCFS000	2	amod	_	_	1:targ
+4	preu	preu	NOUN	NCMS000	2	appos	_	_	1:targ
+5	es	es	PRON	P0300000	6	obj	_	_	_
+6	bona	bo	ADJ	AQ0FS0	0	root	_	_	0:exp-Positive
+7	.	.	PUNCT	Fp	6	punct	_	_	_
+
+# sent_id = corpora/ca/apartaments-turastics-puigcerda-cal-bertran-Francesc-3
+# text = Teniem amplitut i intimitat .
+1	Teniem	teniem	VERB	VMIP1P0	0	root	_	_	2:holder|4:holder
+2	amplitut	amplitut	VERB	VMP00SM	1	obj	_	_	0:exp-Positive
+3	i	i	CCONJ	CC	4	cc	_	_	_
+4	intimitat	intimitat	NOUN	NCFS000	2	conj	_	_	0:exp-Positive
+5	.	.	PUNCT	Fp	1	punct	_	_	_
+
+# sent_id = corpora/ca/carlemanygirona-Mateu-1
+# text = Esta aprop de lestacio , i per tant el trajecte amb lequipatge es curt .
+1	Esta	esta	NOUN	NCFS000	2	det	_	_	_
+2	aprop	apropar	VERB	VMIP1S0	14	nsubj	_	_	0:exp-Positive
+3	de	de	ADP	SPS00	4	case	_	_	2:exp-Positive
+4	lestacio	lestacio	NOUN	NCFS000	2	nmod	_	_	2:exp-Positive
+5	,	,	ADJ	AQ0CS0	14	punct	_	_	_
+6	i	i	CCONJ	CC	14	cc	_	_	_
+7	per	per	ADP	SPS00	10	advmod	_	_	_
+8	tant	tant	ADV	RG	7	fixed	_	_	_
+9	el	el	DET	DA0MS0	10	det	_	_	_
+10	trajecte	trajecte	NOUN	NCMS000	2	conj	_	_	_
+11	amb	amb	ADP	SPS00	12	case	_	_	_
+12	lequipatge	lequipatge	NOUN	NCMS000	10	nmod	_	_	_
+13	es	es	PRON	P0300000	14	expl:pass	_	_	_
+14	curt	curt	ADJ	AQ0MS0	0	root	_	_	_
+15	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/carlemanygirona-Mateu-2
+# text = Adames no esta molt lluny de el casc antic
+1	Adames	adames	NOUN	NCMP000	3	nsubj	_	_	_
+2	no	no	ADV	RN	3	advmod	_	_	0:exp-Positive
+3	esta	esta	VERB	VMIP3S0	0	root	_	_	2:exp-Positive
+4	molt	molt	ADV	RG	5	advmod	_	_	2:exp-Positive
+5	lluny	lluny	ADV	RG	3	advmod	_	_	2:exp-Positive
+6	de	de	ADP	SPS00	8	case	_	_	2:exp-Positive
+7	el	el	DET	DA0MS0	8	det	_	_	2:exp-Positive
+8	casc	casc	NOUN	NCMS000	5	obl	_	_	2:exp-Positive
+9	antic	antic	ADJ	AQ0MS0	3	punct	_	_	2:exp-Positive
+
+# sent_id = corpora/ca/sa-guilla72-1
+# text = Se sent bastant soroll de el passadís , però tampoc impedeix dormir tranquil .
+1	Se	es	PRON	P0300000	4	expl:pass	_	_	0:exp-Negative
+2	sent	sentir	VERB	VMIP1S0	4	cop	_	_	1:exp-Negative
+3	bastant	bastant	ADV	RG	4	advmod	_	_	1:exp-Negative
+4	soroll	soroll	NOUN	NCMS000	0	root	_	_	1:exp-Negative
+5	de	de	ADP	SPS00	7	case	_	_	_
+6	el	el	DET	DA0MS0	7	det	_	_	_
+7	passadís	passadís	NOUN	NCMS000	4	nmod	_	_	_
+8	,	,	ADJ	AQ0CS0	11	punct	_	_	_
+9	però	però	CCONJ	CC	11	cc	_	_	_
+10	tampoc	tampoc	ADV	RG	11	advmod	_	_	_
+11	impedeix	impedir	VERB	VMIP3S0	4	conj	_	_	_
+12	dormir	dormir	VERB	VMN0000	11	xcomp	_	_	_
+13	tranquil	tranquil	ADJ	AQ0MS0	12	obj	_	_	_
+14	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/sa-guilla72-2
+# text = El preu una mica car .
+1	El	el	DET	DA0MS0	2	det	_	_	3:targ
+2	preu	preu	NOUN	NCMS000	5	nsubj	_	_	1:targ
+3	una	un	DET	DI0FS0	4	det	_	_	0:exp-Negative
+4	mica	mica	NOUN	NCFS000	5	nmod	_	_	3:exp-Negative
+5	car	car	ADJ	AQ0MS0	0	root	_	_	3:exp-Negative
+6	.	.	NOUN	NCMS000	5	punct	_	_	_
+
+# sent_id = corpora/ca/sa-guilla72-3
+# text = La situació és perfecta .
+1	La	el	DET	DA0FS0	2	det	_	_	4:targ
+2	situació	situació	NOUN	NCFS000	4	nsubj	_	_	1:targ
+3	és	ser	VERB	VSIP3S0	4	cop	_	_	_
+4	perfecta	perfecte	ADJ	AQ0FS0	0	root	_	_	0:exp-Positive
+5	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/sa-guilla72-4
+# text = A 1 minut de la platja principal i a 2-3 de la riera on es poc aparcar gratis sense problemes .
+1	A	a	ADP	SPS00	3	case	_	_	_
+2	1	1	NOUN	NC00000	3	nummod	_	_	_
+3	minut	minut	NOUN	NCMS000	0	root	_	_	_
+4	de	de	ADP	SPS00	6	case	_	_	_
+5	la	el	DET	DA0FS0	6	det	_	_	_
+6	platja	platja	NOUN	NCFS000	3	nmod	_	_	_
+7	principal	principal	ADJ	AQ0CS0	6	amod	_	_	_
+8	i	i	CCONJ	CC	10	cc	_	_	_
+9	a	a	ADP	SPS00	10	case	_	_	_
+10	2-3	2-3	NOUN	NC00000	3	conj	_	_	_
+11	de	de	ADP	SPS00	13	case	_	_	_
+12	la	el	DET	DA0FS0	13	det	_	_	_
+13	riera	riera	NOUN	NCFS000	10	nmod	_	_	_
+14	on	on	PRON	PR000000	17	obl	_	_	_
+15	es	es	PRON	P0300000	17	obj	_	_	_
+16	poc	poc	ADV	RG	17	advmod	_	_	_
+17	aparcar	aparcar	VERB	VMN0000	13	acl	_	_	19:targ|18:targ
+18	gratis	gratis	ADV	RG	17	nsubj	_	_	0:exp-Positive
+19	sense	sense	ADP	SPS00	20	case	_	_	0:exp-Positive
+20	problemes	problema	NOUN	NCMP000	17	obl	_	_	19:exp-Positive
+21	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/sa-guilla72-5
+# text = L' habitació i el bany molt espaiosos .
+1	L'	el	DET	DA0CS0	2	det	_	_	6:targ
+2	habitació	habitació	NOUN	NCFS000	0	root	_	_	1:targ
+3	i	i	CCONJ	CC	5	cc	_	_	_
+4	el	el	DET	DA0MS0	5	det	_	_	6:targ
+5	bany	bany	NOUN	NCMS000	2	conj	_	_	4:targ
+6	molt	molt	ADV	RG	7	advmod	_	_	0:exp-Positive|0:exp-Positive
+7	espaiosos	espaiós	ADJ	AQ0MP0	5	amod	_	_	6:exp-Positive|6:exp-Positive
+8	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hospes-villa-paulita-Carmen-1
+# text = la situació és privilegiada .
+1	la	el	DET	DA0FS0	2	det	_	_	4:targ
+2	situació	situació	NOUN	NCFS000	4	nsubj	_	_	1:targ
+3	és	ser	VERB	VSIP3S0	4	cop	_	_	_
+4	privilegiada	privilegiar	VERB	VMP00SF	0	root	_	_	0:exp-Positive
+5	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/hospes-villa-paulita-Carmen-2
+# text = Molta calma i silenci .
+1	Molta	molt	DET	DI0FS0	2	det	_	_	0:exp-Positive|0:exp-Positive
+2	calma	calma	NOUN	NCMS000	0	root	_	_	1:targ
+3	i	i	CCONJ	CC	4	cc	_	_	_
+4	silenci	silenci	NOUN	NCMS000	2	conj	_	_	1:targ
+5	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hospes-villa-paulita-Carmen-3
+# text = Ideal per a desconectar
+1	Ideal	ideal	NOUN	NCMS000	0	root	_	_	0:exp-Positive
+2	per	per	ADP	SPS00	1	advmod	_	_	1:exp-Positive
+3	a	a	ADP	SPS00	1	advmod	_	_	1:exp-Positive
+4	desconectar	desconectar	VERB	VMN0000	1	punct	_	_	1:exp-Positive
+
+# sent_id = corpora/ca/hospes-villa-paulita-Albert_A-1
+# text = Habitacio amplia i banys molt complets
+1	Habitacio	habitacio	NOUN	NCFS000	2	nsubj	_	_	2:targ
+2	amplia	ampliar	VERB	VMIP3S0	0	root	_	_	0:exp-Positive
+3	i	i	CCONJ	CC	4	cc	_	_	_
+4	banys	bany	NOUN	NCMP000	2	conj	_	_	5:targ
+5	molt	molt	ADV	RG	4	advmod	_	_	0:exp-Positive
+6	complets	complet	ADJ	AQ0MP0	2	punct	_	_	5:exp-Positive
+
+# sent_id = corpora/ca/camping-resort-bungalow-park-mas-patoxas65-1
+# text = No controlaven les arrivades , li van anotar que un hoste arribava més tard i quan va arribar no el va saber localitzar i li van dir que no tenia habitació .
+1	No	no	ADV	RN	2	advmod	_	_	0:exp-Negative
+2	controlaven	controlar	VERB	VMII3P0	0	root	_	_	1:exp-Negative
+3	les	el	DET	DA0FP0	4	det	_	_	1:exp-Negative
+4	arrivades	arrivades	ADJ	AQ0FP0	2	obj	_	_	1:exp-Negative
+5	,	,	NOUN	NCFS000	8	punct	_	_	_
+6	li	ell	PRON	PP3CSD00	8	iobj	_	_	_
+7	van	anar	AUX	VAIP3P0	8	aux	_	_	_
+8	anotar	anotar	VERB	VMN0000	2	advcl	_	_	_
+9	que	que	SCONJ	CS	12	mark	_	_	_
+10	un	un	DET	DI0MS0	11	det	_	_	_
+11	hoste	hoste	NOUN	NCMS000	12	nsubj	_	_	_
+12	arribava	arribar	VERB	VMII3S0	8	ccomp	_	_	_
+13	més	més	ADV	RG	14	advmod	_	_	_
+14	tard	tard	ADV	RG	12	advmod	_	_	_
+15	i	i	CCONJ	CC	23	cc	_	_	_
+16	quan	quan	PRON	PR000000	18	mark	_	_	_
+17	va	anar	AUX	VAIP3S0	18	aux	_	_	_
+18	arribar	arribar	VERB	VMN0000	23	advcl	_	_	_
+19	no	no	ADV	RN	23	advmod	_	_	_
+20	el	ell	PRON	PP3MSA00	23	obj	_	_	_
+21	va	anar	AUX	VAIP3S0	23	aux	_	_	_
+22	saber	saber	VERB	VMN0000	23	aux	_	_	_
+23	localitzar	localitzar	VERB	VMN0000	12	conj	_	_	_
+24	i	i	CCONJ	CC	27	cc	_	_	_
+25	li	ell	PRON	PP3CSD00	27	iobj	_	_	_
+26	van	anar	AUX	VAIP3P0	27	aux	_	_	_
+27	dir	dir	VERB	VMN0000	23	conj	_	_	_
+28	que	que	SCONJ	CS	30	mark	_	_	_
+29	no	no	ADV	RN	30	advmod	_	_	_
+30	tenia	tenir	VERB	VMII3S0	27	ccomp	_	_	_
+31	habitació	habitació	NOUN	NCFS000	30	obj	_	_	_
+32	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/camping-resort-bungalow-park-mas-patoxas65-2
+# text = Ens van fer pagar per avançat la habitació .
+1	Ens	jo	PRON	PP1CP000	3	obj	_	_	2:holder
+2	van	anar	AUX	VAIP3P0	3	aux	_	_	0:exp-Negative
+3	fer	fer	VERB	VMN0000	0	root	_	_	2:exp-Negative
+4	pagar	pagar	VERB	VMN0000	3	xcomp	_	_	2:exp-Negative
+5	per	per	ADP	SPS00	6	case	_	_	2:exp-Negative
+6	avançat	avançar	VERB	VMP00SM	3	obl	_	_	2:exp-Negative
+7	la	el	DET	DA0FS0	8	det	_	_	_
+8	habitació	habitació	NOUN	NCFS000	4	obj	_	_	_
+9	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/camping-resort-bungalow-park-mas-patoxas65-3
+# text = Em van despertar a les 4 de el matí per dir-me si pagaría l' habitació d' una companya .
+1	Em	jo	PRON	PP1CS000	3	obj	_	_	2:holder
+2	van	anar	AUX	VAIP3P0	3	aux	_	_	0:exp-Negative
+3	despertar	despertar	VERB	VMN0000	0	root	_	_	2:exp-Negative
+4	a	a	ADP	SPS00	6	case	_	_	2:exp-Negative
+5	les	el	DET	DA0FP0	6	det	_	_	2:exp-Negative
+6	4	4	NOUN	NCMS000	3	obl	_	_	2:exp-Negative
+7	de	de	ADP	SPS00	9	case	_	_	2:exp-Negative
+8	el	el	DET	DA0MS0	9	det	_	_	2:exp-Negative
+9	matí	matí	NOUN	NCMS000	6	compound	_	_	2:exp-Negative
+10	per	per	ADP	SPS00	11	mark	_	_	_
+11	dir-me	dir-me	NOUN	NCMS000	3	advcl	_	_	_
+12	si	si	SCONJ	CS	13	mark	_	_	_
+13	pagaría	pagaría	VERB	VMIP3S0	11	ccomp	_	_	_
+14	l'	el	DET	DA0CS0	15	det	_	_	_
+15	habitació	habitació	NOUN	NCFS000	13	obj	_	_	_
+16	d'	de	ADP	SPS00	18	case	_	_	_
+17	una	un	DET	DI0FS0	18	det	_	_	_
+18	companya	companya	NOUN	NCFS000	15	nmod	_	_	_
+19	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/apartaments-turistics-puigcerda-Joan-1
+# text = L' excel·lent tracta rebut a la reserva i a l' arribada .
+1	L'	el	DET	DA0CS0	2	det	_	_	_
+2	excel·lent	excel·lent	NOUN	NCMS000	3	nsubj	_	_	0:exp-Positive
+3	tracta	tractar	VERB	VMIP3S0	0	root	_	_	2:targ
+4	rebut	rebre	VERB	VMP00SM	3	obj	_	_	_
+5	a	a	ADP	SPS00	7	case	_	_	_
+6	la	el	DET	DA0FS0	7	det	_	_	_
+7	reserva	reserva	NOUN	NCFS000	4	obl	_	_	_
+8	i	i	CCONJ	CC	11	cc	_	_	_
+9	a	a	ADP	SPS00	11	case	_	_	_
+10	l'	el	DET	DA0CS0	11	det	_	_	_
+11	arribada	arribada	NOUN	NCFS000	7	conj	_	_	_
+12	.	.	PUNCT	Fp	3	punct	_	_	_
+
+# sent_id = corpora/ca/nharanzazu-Josep-1
+# text = Se sent bastant soroll de el passadís , però tampoc impedeix dormir tranquil .
+1	Se	es	PRON	P0300000	4	expl:pass	_	_	0:exp-Negative
+2	sent	sentir	VERB	VMIP1S0	4	cop	_	_	1:exp-Negative
+3	bastant	bastant	ADV	RG	4	advmod	_	_	1:exp-Negative
+4	soroll	soroll	NOUN	NCMS000	0	root	_	_	1:exp-Negative
+5	de	de	ADP	SPS00	7	case	_	_	_
+6	el	el	DET	DA0MS0	7	det	_	_	10:targ|1:targ
+7	passadís	passadís	NOUN	NCMS000	4	nmod	_	_	6:targ|6:targ
+8	,	,	ADJ	AQ0CS0	11	punct	_	_	_
+9	però	però	CCONJ	CC	11	cc	_	_	_
+10	tampoc	tampoc	ADV	RG	11	advmod	_	_	0:exp-Positive
+11	impedeix	impedir	VERB	VMIP3S0	4	conj	_	_	10:exp-Positive
+12	dormir	dormir	VERB	VMN0000	11	xcomp	_	_	10:exp-Positive
+13	tranquil	tranquil	ADJ	AQ0MS0	12	obj	_	_	10:exp-Positive
+14	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/nharanzazu-Josep-2
+# text = El preu una mica car .
+1	El	el	DET	DA0MS0	2	det	_	_	3:targ
+2	preu	preu	NOUN	NCMS000	5	nsubj	_	_	1:targ
+3	una	un	DET	DI0FS0	4	det	_	_	0:exp-Negative
+4	mica	mica	NOUN	NCFS000	5	nmod	_	_	3:exp-Negative
+5	car	car	ADJ	AQ0MS0	0	root	_	_	3:exp-Negative
+6	.	.	NOUN	NCMS000	5	punct	_	_	_
+
+# sent_id = corpora/ca/nharanzazu-Josep-3
+# text = La situació és perfecta .
+1	La	el	DET	DA0FS0	2	det	_	_	4:targ
+2	situació	situació	NOUN	NCFS000	4	nsubj	_	_	1:targ
+3	és	ser	VERB	VSIP3S0	4	cop	_	_	_
+4	perfecta	perfecte	ADJ	AQ0FS0	0	root	_	_	0:exp-Positive
+5	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/nharanzazu-Josep-4
+# text = A 1 minut de la platja principal i a 2-3 de la riera on es poc aparcar gratis sense problemes .
+1	A	a	ADP	SPS00	3	case	_	_	0:exp-Positive
+2	1	1	NOUN	NC00000	3	nummod	_	_	1:exp-Positive
+3	minut	minut	NOUN	NCMS000	0	root	_	_	1:exp-Positive
+4	de	de	ADP	SPS00	6	case	_	_	1:exp-Positive
+5	la	el	DET	DA0FS0	6	det	_	_	1:exp-Positive
+6	platja	platja	NOUN	NCFS000	3	nmod	_	_	1:exp-Positive
+7	principal	principal	ADJ	AQ0CS0	6	amod	_	_	_
+8	i	i	CCONJ	CC	10	cc	_	_	_
+9	a	a	ADP	SPS00	10	case	_	_	_
+10	2-3	2-3	NOUN	NC00000	3	conj	_	_	_
+11	de	de	ADP	SPS00	13	case	_	_	_
+12	la	el	DET	DA0FS0	13	det	_	_	_
+13	riera	riera	NOUN	NCFS000	10	nmod	_	_	_
+14	on	on	PRON	PR000000	17	obl	_	_	_
+15	es	es	PRON	P0300000	17	obj	_	_	0:exp-Positive
+16	poc	poc	ADV	RG	17	advmod	_	_	15:exp-Positive
+17	aparcar	aparcar	VERB	VMN0000	13	acl	_	_	15:exp-Positive
+18	gratis	gratis	ADV	RG	17	nsubj	_	_	15:exp-Positive
+19	sense	sense	ADP	SPS00	20	case	_	_	_
+20	problemes	problema	NOUN	NCMP000	17	obl	_	_	_
+21	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/nharanzazu-Josep-5
+# text = L' habitació i el bany molt espaiosos .
+1	L'	el	DET	DA0CS0	2	det	_	_	6:targ
+2	habitació	habitació	NOUN	NCFS000	0	root	_	_	1:targ
+3	i	i	CCONJ	CC	5	cc	_	_	_
+4	el	el	DET	DA0MS0	5	det	_	_	6:targ
+5	bany	bany	NOUN	NCMS000	2	conj	_	_	4:targ
+6	molt	molt	ADV	RG	7	advmod	_	_	0:exp-Positive|0:exp-Positive
+7	espaiosos	espaiós	ADJ	AQ0MP0	5	amod	_	_	6:exp-Positive|6:exp-Positive
+8	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/cal-marrufa-s-Marion-1
+# text = La banyera de l' estudi , millor un plat de dutxa .
+1	La	el	DET	DA0FS0	2	det	_	_	7:targ
+2	banyera	banyera	NOUN	NCFS000	0	root	_	_	1:targ
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	l'	el	DET	DA0CS0	5	det	_	_	_
+5	estudi	estudi	NOUN	NCMS000	2	nmod	_	_	_
+6	,	,	ADV	RG	7	punct	_	_	_
+7	millor	millor	ADJ	AQ0CS0	2	amod	_	_	0:exp-Negative
+8	un	un	DET	DI0MS0	9	det	_	_	7:exp-Negative
+9	plat	plat	NOUN	NCMS000	2	appos	_	_	7:exp-Negative
+10	de	de	ADP	SPS00	11	case	_	_	7:exp-Negative
+11	dutxa	dutxa	NOUN	NCFS000	9	nmod	_	_	7:exp-Negative
+12	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/cal-marrufa-s-Marion-2
+# text = Hi han moltes escales .
+1	Hi	hi	PRON	PP3CN000	2	obj	_	_	0:exp-Negative
+2	han	haver	AUX	VAIP3P0	0	root	_	_	1:exp-Negative
+3	moltes	molt	DET	DI0FP0	4	det	_	_	1:exp-Negative
+4	escales	escala	NOUN	NCFP000	2	obj	_	_	1:targ
+5	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/cal-marrufa-s-Marion-3
+# text = Tot el conjunt en general , la tranquilitat .
+1	Tot	tot	DET	DI0MS0	2	det	_	_	_
+2	el	el	DET	DA0MS0	3	det	_	_	_
+3	conjunt	conjunt	NOUN	NCMS000	0	root	_	_	_
+4	en	en	ADP	SPS00	3	advmod	_	_	_
+5	general	general	ADJ	AQ0CS0	4	fixed	_	_	_
+6	,	,	NOUN	NCFS000	8	punct	_	_	_
+7	la	el	DET	DA0FS0	8	det	_	_	_
+8	tranquilitat	tranquilitat	NOUN	NCFS000	3	appos	_	_	_
+9	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/cal-marrufa-s-Marion-4
+# text = Punt d' estada per fer moltes sortides .
+1	Punt	punt	NOUN	NCMS000	0	root	_	_	0:exp-Positive
+2	d'	de	ADP	SPS00	3	case	_	_	1:exp-Positive
+3	estada	estada	NOUN	NCFS000	1	nmod	_	_	1:exp-Positive
+4	per	per	ADP	SPS00	5	mark	_	_	1:exp-Positive
+5	fer	fer	VERB	VMN0000	1	acl	_	_	1:exp-Positive
+6	moltes	molt	DET	DI0FP0	7	det	_	_	1:exp-Positive
+7	sortides	sortida	NOUN	NCFP000	5	obj	_	_	1:exp-Positive
+8	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdegerona-Emili-1
+# text = Tot ha estar correcte .
+1	Tot	tot	ADV	RG	4	advmod	_	_	4:targ
+2	ha	haver	AUX	VAIP3S0	4	aux	_	_	_
+3	estar	estar	VERB	VMN0000	4	cop	_	_	_
+4	correcte	correcte	ADJ	AQ0MS0	0	root	_	_	0:exp-Positive
+5	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdegerona-Emili-2
+# text = L ! habitació i l' atenció a el públic
+1	L	litre	NOUN	NCMN000	0	root	_	_	_
+2	!	!	ADJ	AQ0CS0	3	punct	_	_	_
+3	habitació	habitació	NOUN	NCFS000	1	appos	_	_	_
+4	i	i	CCONJ	CC	6	cc	_	_	_
+5	l'	el	DET	DA0CS0	6	det	_	_	_
+6	atenció	atenció	NOUN	NCFS000	3	conj	_	_	_
+7	a	a	ADP	SPS00	8	case	_	_	_
+8	el	el	DET	DA0MS0	6	det	_	_	_
+9	públic	públic	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/hospes-villa-paulita-Eivissa-1
+# text = Molt justet , relaciò a el preu elevat
+1	Molt	molt	ADV	RG	2	advmod	_	_	0:exp-Negative
+2	justet	justet	ADV	RG	0	root	_	_	1:exp-Negative
+3	,	,	ADJ	AQ0CS0	2	punct	_	_	_
+4	relaciò	relaciò	ADV	RG	2	advcl	_	_	8:targ
+5	a	a	ADP	SPS00	7	case	_	_	4:targ
+6	el	el	DET	DA0MS0	7	det	_	_	4:targ
+7	preu	preu	NOUN	NCMS000	4	obl	_	_	4:targ
+8	elevat	elevar	VERB	VMP00SM	4	punct	_	_	0:exp-Negative
+
+# sent_id = corpora/ca/ciutatdegerona-Pau-1
+# text = M' ha agradat tot molt .
+1	M'	jo	PRON	PP1CS000	3	obj	_	_	2:holder
+2	ha	haver	AUX	VAIP3S0	3	aux	_	_	0:exp-Positive
+3	agradat	agradar	VERB	VMP00SM	0	root	_	_	2:exp-Positive
+4	tot	tot	DET	DI0MS0	3	advmod	_	_	2:exp-Positive
+5	molt	molt	ADV	RG	4	fixed	_	_	_
+6	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdegerona-Pau-2
+# text = El llit , el bany , el confort , la neteja , el tracte de el personal .
+1	El	el	DET	DA0MS0	2	det	_	_	_
+2	llit	llit	NOUN	NCMS000	0	root	_	_	_
+3	,	,	VERB	VMIP3S0	5	punct	_	_	_
+4	el	el	DET	DA0MS0	5	det	_	_	_
+5	bany	bany	NOUN	NCMS000	2	appos	_	_	_
+6	,	,	VERB	VMIP3S0	8	punct	_	_	_
+7	el	el	DET	DA0MS0	8	det	_	_	_
+8	confort	confort	NOUN	NCMS000	2	appos	_	_	_
+9	,	,	VERB	VMIP3S0	11	punct	_	_	_
+10	la	el	DET	DA0FS0	11	det	_	_	_
+11	neteja	neteja	NOUN	NCFS000	2	appos	_	_	_
+12	,	,	VERB	VMIP3S0	14	punct	_	_	_
+13	el	el	DET	DA0MS0	14	det	_	_	_
+14	tracte	tracte	NOUN	NCMS000	2	appos	_	_	_
+15	de	de	ADP	SPS00	17	case	_	_	_
+16	el	el	DET	DA0MS0	17	det	_	_	_
+17	personal	personal	ADJ	AQ0CS0	14	nmod	_	_	_
+18	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdegerona-Pau-3
+# text = Tot
+1	Tot	tot	DET	DI0MS0	0	root	_	_	_
+
+# sent_id = corpora/ca/novotel-gare-de-lyon-Joan 1-1
+# text = Que la foto de mostra no ha coincidit amb l' apartament assignat .
+1	Que	que	SCONJ	CS	8	mark	_	_	_
+2	la	el	DET	DA0FS0	3	det	_	_	6:targ
+3	foto	foto	NOUN	NCFS000	8	nsubj	_	_	2:targ
+4	de	de	ADP	SPS00	5	case	_	_	2:targ
+5	mostra	mostra	NOUN	NCFS000	3	nmod	_	_	2:targ
+6	no	no	ADV	RN	8	advmod	_	_	0:exp-Negative
+7	ha	haver	AUX	VAIP3S0	8	aux	_	_	6:exp-Negative
+8	coincidit	coincidir	VERB	VMP00SM	0	root	_	_	6:exp-Negative
+9	amb	amb	ADP	SPS00	11	case	_	_	6:exp-Negative
+10	l'	el	DET	DA0CS0	11	det	_	_	6:exp-Negative
+11	apartament	apartament	NOUN	NCMS000	8	obj	_	_	6:exp-Negative
+12	assignat	assignat	NOUN	NCMS000	11	amod	_	_	6:exp-Negative
+13	.	.	NOUN	NCMS000	8	punct	_	_	_
+
+# sent_id = corpora/ca/novotel-gare-de-lyon-Joan 1-2
+# text = Que la plaça d' aparcament no entri en el preu de l' allotjament .
+1	Que	que	SCONJ	CS	7	mark	_	_	_
+2	la	el	DET	DA0FS0	3	det	_	_	6:targ
+3	plaça	plaça	NOUN	NCFS000	7	nsubj	_	_	2:targ
+4	d'	de	ADP	SPS00	5	case	_	_	2:targ
+5	aparcament	aparcament	NOUN	NCMS000	3	nmod	_	_	2:targ
+6	no	no	ADV	RN	7	advmod	_	_	0:exp-Negative
+7	entri	entrar	VERB	VMSP1S0	0	root	_	_	6:exp-Negative
+8	en	en	ADP	SPS00	10	case	_	_	6:exp-Negative
+9	el	el	DET	DA0MS0	10	det	_	_	6:exp-Negative
+10	preu	preu	NOUN	NCMS000	7	obl	_	_	6:exp-Negative
+11	de	de	ADP	SPS00	13	case	_	_	6:exp-Negative
+12	l'	el	DET	DA0CS0	13	det	_	_	6:exp-Negative
+13	allotjament	allotjament	NOUN	NCMS000	10	nmod	_	_	6:exp-Negative
+14	.	.	NOUN	NCMS000	7	punct	_	_	_
+
+# sent_id = corpora/ca/novotel-gare-de-lyon-Joan 1-3
+# text = La situació molt a prop de el Gugguenheim .
+1	La	el	DET	DA0FS0	2	det	_	_	3:targ
+2	situació	situació	NOUN	NCFS000	0	root	_	_	1:targ
+3	molt	molt	ADV	RG	4	advmod	_	_	0:exp-Positive
+4	a	a	ADP	SPS00	2	advmod	_	_	3:exp-Positive
+5	prop	prop	ADV	RG	4	fixed	_	_	3:exp-Positive
+6	de	de	ADP	SPS00	8	case	_	_	3:exp-Positive
+7	el	el	DET	DA0MS0	8	det	_	_	3:exp-Positive
+8	Gugguenheim	gugguenheim	ADJ	AQ0MS0	4	obl	_	_	3:exp-Positive
+9	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/novotel-gare-de-lyon-Joan 1-4
+# text = El tracte molt correcte , les instal·lacions molt bé .
+1	El	el	DET	DA0MS0	2	det	_	_	3:targ
+2	tracte	tracte	NOUN	NCMS000	0	root	_	_	1:targ
+3	molt	molt	ADV	RG	4	advmod	_	_	0:exp-Positive
+4	correcte	correcte	ADJ	AQ0MS0	2	amod	_	_	3:exp-Positive
+5	,	,	VERB	VMIP3S0	7	punct	_	_	_
+6	les	el	DET	DA0FP0	7	det	_	_	8:targ
+7	instal·lacions	instal·lació	NOUN	NCFP000	2	appos	_	_	6:targ
+8	molt	molt	ADV	RG	9	advmod	_	_	0:exp-Positive
+9	bé	bé	ADV	RG	7	advmod	_	_	8:exp-Positive
+10	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hispania-Cristina 1-1
+# text = No hi havia secador !
+1	No	no	ADV	RN	3	advmod	_	_	0:exp-Negative
+2	hi	hi	PRON	PP3CN000	3	obj	_	_	1:exp-Negative
+3	havia	haver	AUX	VAII1S0	0	root	_	_	1:exp-Negative
+4	secador	secador	NOUN	NCMS000	3	obj	_	_	1:exp-Negative
+5	!	!	ADJ	AQ0CS0	3	punct	_	_	_
+
+# sent_id = corpora/ca/hispania-Cristina 1-2
+# text = A part una de les recepcionistes va ser una mica antipàtica .
+1	A	a	ADP	SPS00	11	advmod	_	_	_
+2	part	part	NOUN	NCFS000	1	fixed	_	_	_
+3	una	un	DET	DI0FS0	11	nsubj	_	_	9:targ
+4	de	de	ADP	SPS00	6	case	_	_	3:targ
+5	les	el	DET	DA0FP0	6	det	_	_	3:targ
+6	recepcionistes	recepcionistes	NOUN	NCCP000	3	nmod	_	_	3:targ
+7	va	anar	AUX	VAIP3S0	11	aux	_	_	_
+8	ser	ser	VERB	VSN0000	11	cop	_	_	_
+9	una	un	DET	DI0FS0	10	det	_	_	0:exp-Negative
+10	mica	mica	NOUN	NCFS000	11	nmod	_	_	9:exp-Negative
+11	antipàtica	antipàtic	ADJ	AQ0FS0	0	root	_	_	9:exp-Negative
+12	.	.	NOUN	NCMS000	11	punct	_	_	_
+
+# sent_id = corpora/ca/hispania-Cristina 1-3
+# text = Habitació petita .
+1	Habitació	habitació	NOUN	NCFS000	0	root	_	_	2:targ
+2	petita	petit	ADJ	AQ0FS0	1	amod	_	_	0:exp-Negative
+3	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/hispania-Cristina 1-4
+# text = Si et dutxes més de 5 minuts queda tot ple de fum .
+1	Si	si	SCONJ	CS	8	mark	_	_	_
+2	et	tu	PRON	PP2CS000	8	obj	_	_	_
+3	dutxes	dutxar	VERB	VMSP2S0	8	obl	_	_	_
+4	més	més	ADV	RG	7	advmod	_	_	_
+5	de	de	ADP	SPS00	7	case	_	_	_
+6	5	5	NOUN	NCFS000	7	nummod	_	_	_
+7	minuts	minut	NOUN	NCMP000	3	nmod	_	_	_
+8	queda	quedar	VERB	VMIP3S0	0	root	_	_	0:exp-Negative
+9	tot	tot	DET	DI0MS0	10	det	_	_	8:exp-Negative
+10	ple	ple	NOUN	NCMS000	8	nsubj	_	_	8:exp-Negative
+11	de	de	ADP	SPS00	12	case	_	_	8:exp-Negative
+12	fum	fum	NOUN	NCMS000	10	nmod	_	_	8:exp-Negative
+13	.	.	NOUN	NCMS000	8	punct	_	_	_
+
+# sent_id = corpora/ca/hispania-Cristina 1-5
+# text = Feia caloreta a l' habitació .
+1	Feia	fer	VERB	VMII3S0	0	root	_	_	0:exp-Negative
+2	caloreta	caloreta	ADJ	AQ0FS0	1	obj	_	_	1:exp-Negative
+3	a	a	ADP	SPS00	5	case	_	_	_
+4	l'	el	DET	DA0CS0	5	det	_	_	1:targ
+5	habitació	habitació	NOUN	NCFS000	1	obl	_	_	4:targ
+6	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/hispania-Cristina 1-6
+# text = Molt net tot .
+1	Molt	molt	ADV	RG	2	advmod	_	_	0:exp-Positive
+2	net	net	ADJ	AQ0MS0	0	root	_	_	1:exp-Positive
+3	tot	tot	DET	DI0MS0	2	advmod	_	_	1:targ
+4	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hispania-Cristina 1-7
+# text = La recepcionista ens va ajudar .
+1	La	el	DET	DA0FS0	2	det	_	_	4:targ
+2	recepcionista	recepcionista	ADJ	AQ0CS0	5	nsubj	_	_	1:targ
+3	ens	jo	PRON	PP1CP000	5	obj	_	_	4:holder
+4	va	anar	AUX	VAIP3S0	5	aux	_	_	0:exp-Positive
+5	ajudar	ajudar	VERB	VMN0000	0	root	_	_	4:exp-Positive
+6	.	.	NOUN	NCMS000	5	punct	_	_	_
+
+# sent_id = corpora/ca/hispania-Cristina 1-8
+# text = Molt bona situació .
+1	Molt	molt	ADV	RG	3	advmod	_	_	0:exp-Positive
+2	bona	bo	ADJ	AQ0FS0	3	amod	_	_	1:exp-Positive
+3	situació	situació	NOUN	NCFS000	0	root	_	_	1:targ
+4	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/subur-Oscar-1
+# text = Amabilitat dls recepcionistes ... i situacio . tranquilitat etc .... lo recomiendo
+1	Amabilitat	amabilitat	NOUN	NCFS000	0	root	_	_	0:exp-Positive
+2	dls	dls	ADJ	AQ0CP0	1	flat	_	_	_
+3	recepcionistes	recepcionistes	NOUN	NCCP000	1	nmod	_	_	1:targ
+4	...	...	NOUN	NCMS000	1	punct	_	_	_
+5	i	i	CCONJ	CC	6	cc	_	_	_
+6	situacio	situacio	NOUN	NCFS000	1	conj	_	_	_
+7	.	.	NOUN	NCMS000	6	punct	_	_	_
+8	tranquilitat	tranquilitat	NOUN	NCFS000	6	flat	_	_	_
+9	etc	etcètera	PUNCT	Fs	6	punct	_	_	_
+10	....	....	NOUN	NCMS000	1	punct	_	_	_
+11	lo	lo	NOUN	NCMS000	1	appos	_	_	0:exp-Positive
+12	recomiendo	recomiendo	NOUN	NCMS000	1	punct	_	_	11:exp-Positive
+
+# sent_id = corpora/ca/turismo-rural-sant-marc-Joan-1
+# text = Masa calor a l' habitació Tot bé i un entorn molt agradable
+1	Masa	masa	VERB	VMIP3S0	0	root	_	_	0:exp-Negative
+2	calor	calor	NOUN	NCFS000	1	nmod	_	_	1:targ
+3	a	a	ADP	SPS00	5	case	_	_	_
+4	l'	el	DET	DA0CS0	5	det	_	_	_
+5	habitació	habitació	NOUN	NCFS000	1	nmod	_	_	_
+6	Tot	tot	DET	DI0MS0	10	advmod	_	_	7:targ
+7	bé	bé	NOUN	NCMS000	6	fixed	_	_	0:exp-Positive
+8	i	i	CCONJ	CC	10	cc	_	_	_
+9	un	un	DET	DI0MS0	10	det	_	_	11:targ
+10	entorn	entorn	NOUN	NCMS000	1	conj	_	_	9:targ
+11	molt	molt	ADV	RG	10	advmod	_	_	0:exp-Positive
+12	agradable	agradable	ADJ	AQ0CS0	1	punct	_	_	11:exp-Positive
+
+# sent_id = corpora/ca/la-residencia267-1
+# text = A l' habitació no hi havia gelera L' habitació estava a la planta reformada Llit de matrimoni Estava net La dutxa , una passada !
+1	A	a	ADP	SPS00	3	case	_	_	_
+2	l'	el	DET	DA0CS0	3	det	_	_	_
+3	habitació	habitació	NOUN	NCFS000	6	obl	_	_	_
+4	no	no	ADV	RN	6	advmod	_	_	0:exp-Negative
+5	hi	hi	PRON	PP3CN000	6	obj	_	_	4:exp-Negative
+6	havia	haver	AUX	VAII1S0	10	advcl	_	_	4:exp-Negative
+7	gelera	gelera	NOUN	NCFS000	6	obj	_	_	4:targ
+8	L'	el	DET	DA0CS0	9	det	_	_	11:targ
+9	habitació	habitació	NOUN	NCFS000	10	nsubj	_	_	8:targ
+10	estava	estar	VERB	VMII3S0	0	root	_	_	_
+11	a	a	ADP	SPS00	13	case	_	_	0:exp-Positive
+12	la	el	DET	DA0FS0	13	det	_	_	11:exp-Positive
+13	planta	planta	NOUN	NCFS000	10	obj	_	_	11:exp-Positive
+14	reformada	reformada	NOUN	NCFS000	13	amod	_	_	11:exp-Positive
+15	Llit	llit	NOUN	NCMS000	13	appos	_	_	19:targ
+16	de	de	ADP	SPS00	17	case	_	_	15:targ
+17	matrimoni	matrimoni	NOUN	NCMS000	15	flat	_	_	15:targ
+18	Estava	estar	VERB	VMII3S0	17	flat	_	_	_
+19	net	net	ADJ	AQ0MS0	17	flat	_	_	0:exp-Positive
+20	La	el	DET	DA0FS0	21	det	_	_	23:targ
+21	dutxa	dutxa	NOUN	NCFS000	15	flat	_	_	20:targ
+22	,	,	VERB	VMIP3S0	24	punct	_	_	_
+23	una	un	DET	DI0FS0	24	det	_	_	0:exp-Positive
+24	passada	passada	NOUN	NCFS000	15	flat	_	_	23:exp-Positive
+25	!	!	ADJ	AQ0CS0	10	punct	_	_	23:exp-Positive
+
+# sent_id = corpora/ca/la-residencia267-2
+# text = Hotel fàcil de trobar , ben situat a l' entrada de el poble Bon aparcament Wi-Fi a l' habitació
+1	Hotel	hotel	NOUN	NCMS000	0	root	_	_	6:targ|2:targ
+2	fàcil	fàcil	ADJ	AQ0CS0	1	amod	_	_	0:exp-Positive
+3	de	de	ADP	SPS00	4	mark	_	_	2:exp-Positive
+4	trobar	trobar	VERB	VMN0000	2	acl	_	_	2:exp-Positive
+5	,	,	ADV	RG	7	punct	_	_	_
+6	ben	ben	ADV	RG	7	advmod	_	_	0:exp-Positive
+7	situat	situar	VERB	VMP00SM	1	amod	_	_	6:exp-Positive
+8	a	a	ADP	SPS00	10	case	_	_	_
+9	l'	el	DET	DA0CS0	10	det	_	_	_
+10	entrada	entrada	NOUN	NCFS000	7	obj	_	_	_
+11	de	de	ADP	SPS00	13	case	_	_	_
+12	el	el	DET	DA0MS0	13	det	_	_	_
+13	poble	poble	NOUN	NCMS000	10	nmod	_	_	_
+14	Bon	bo	ADJ	AQ0MS0	13	appos	_	_	0:exp-Positive
+15	aparcament	aparcament	NOUN	NCMS000	14	appos	_	_	14:targ
+16	Wi-Fi	wi-fi	ADV	RG	14	flat	_	_	_
+17	a	a	ADP	SPS00	18	case	_	_	_
+18	l'	el	DET	DA0CS0	4	det	_	_	_
+19	habitació	habitació	NOUN	NCFS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdetarragona-Pere-1
+# text = No estan preparats perque els sords puguin veure la tv .
+1	No	no	ADV	RN	3	advmod	_	_	0:exp-Negative
+2	estan	estar	VERB	VMIP3P0	3	cop	_	_	1:exp-Negative
+3	preparats	preparat	NOUN	NCMP000	0	root	_	_	1:exp-Negative
+4	perque	perque	ADV	RG	8	mark	_	_	1:exp-Negative
+5	els	el	DET	DA0MP0	6	det	_	_	1:exp-Negative
+6	sords	sord	NOUN	NCMP000	8	nsubj	_	_	1:exp-Negative
+7	puguin	poder	VERB	VMSP3P0	8	aux	_	_	1:exp-Negative
+8	veure	veure	VERB	VMN0000	3	csubj	_	_	1:exp-Negative
+9	la	el	DET	DA0FS0	10	det	_	_	1:targ
+10	tv	tv	NOUN	NC00000	8	obj	_	_	9:targ
+11	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdetarragona-Pere-2
+# text = No tenen conexió per auricolars a les tv .
+1	No	no	ADV	RN	2	advmod	_	_	_
+2	tenen	tenir	VERB	VMIP3P0	0	root	_	_	_
+3	conexió	conexió	NOUN	NCFS000	2	obj	_	_	_
+4	per	per	ADP	SPS00	5	case	_	_	_
+5	auricolars	auricolars	ADJ	AQ0CP0	3	nmod	_	_	_
+6	a	a	ADP	SPS00	8	case	_	_	_
+7	les	el	DET	DA0FP0	8	det	_	_	_
+8	tv	tv	NOUN	NC00000	2	obl	_	_	_
+9	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdetarragona-Pere-3
+# text = Ni tv .
+1	Ni	ni	CCONJ	CC	2	cc	_	_	_
+2	tv	tv	NOUN	NC00000	0	root	_	_	_
+3	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdetarragona-Pere-4
+# text = Subtitulades Nevera bruta .
+1	Subtitulades	subtitular	VERB	VMP00PF	0	root	_	_	_
+2	Nevera	nevera	NOUN	NCFS000	1	obj	_	_	3:targ
+3	bruta	brut	ADJ	AQ0FS0	2	amod	_	_	0:exp-Negative
+4	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdetarragona-Pere-5
+# text = El tracte de el personal
+1	El	el	DET	DA0MS0	2	det	_	_	_
+2	tracte	tracte	NOUN	NCMS000	0	root	_	_	_
+3	de	de	ADP	SPS00	4	case	_	_	_
+4	el	el	DET	DA0MS0	2	det	_	_	_
+5	personal	personal	NOUN	NCFS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/parada-puigcerda-Xavier-1
+# text = Un de el millors hotels com a comoditat , tranquilitat , la varietat de l' esmorçar comoditat de el llit de matrimoni i mides un terraza enorme de la suite el silenci un jardi enorme a 5min de el centre urba
+1	Un	un	PRON	PI0MS000	0	root	_	_	0:exp-Positive
+2	de	de	ADP	SPS00	5	case	_	_	1:exp-Positive
+3	el	el	DET	DA0MS0	5	det	_	_	1:exp-Positive
+4	millors	millor	ADJ	AQ0CP0	5	amod	_	_	1:exp-Positive
+5	hotels	hotel	NOUN	NCMP000	1	nmod	_	_	8:targ|1:targ|10:targ
+6	com	com	SCONJ	CS	8	case	_	_	_
+7	a	a	ADP	SPS00	6	fixed	_	_	_
+8	comoditat	comoditat	NOUN	NCFS000	1	nmod	_	_	0:exp-Positive
+9	,	,	ADJ	AQ0CS0	10	punct	_	_	_
+10	tranquilitat	tranquilitat	NOUN	NCFS000	8	conj	_	_	0:exp-Positive
+11	,	,	VERB	VMIP3S0	13	punct	_	_	_
+12	la	el	DET	DA0FS0	13	det	_	_	0:exp-Positive
+13	varietat	varietat	NOUN	NCFS000	1	appos	_	_	12:exp-Positive
+14	de	de	ADP	SPS00	17	case	_	_	_
+15	l'	el	DET	DA0CS0	17	det	_	_	12:targ
+16	esmorçar	esmorçar	VERB	VMN0000	17	amod	_	_	15:targ
+17	comoditat	comoditat	NOUN	NCFS000	13	nmod	_	_	0:exp-Positive
+18	de	de	ADP	SPS00	20	case	_	_	_
+19	el	el	DET	DA0MS0	20	det	_	_	17:targ
+20	llit	llit	NOUN	NCMS000	17	nmod	_	_	19:targ
+21	de	de	ADP	SPS00	22	case	_	_	19:targ
+22	matrimoni	matrimoni	NOUN	NCMS000	20	nmod	_	_	19:targ
+23	i	i	CCONJ	CC	24	cc	_	_	_
+24	mides	midar	VERB	VMSP2S0	1	conj	_	_	_
+25	un	un	DET	DI0MS0	26	det	_	_	27:targ
+26	terraza	terraza	VERB	VMIP3S0	1	appos	_	_	25:targ
+27	enorme	enorme	ADJ	AQ0CS0	26	amod	_	_	0:exp-Positive
+28	de	de	ADP	SPS00	30	case	_	_	_
+29	la	el	DET	DA0FS0	30	det	_	_	_
+30	suite	suite	NOUN	NCFS000	26	nmod	_	_	_
+31	el	el	DET	DA0MS0	32	det	_	_	_
+32	silenci	silenci	NOUN	NCMS000	26	appos	_	_	_
+33	un	un	PRON	PI0MS000	34	det	_	_	35:targ
+34	jardi	jardi	VERB	VMSP3S0	26	appos	_	_	33:targ
+35	enorme	enorme	ADJ	AQ0CS0	34	amod	_	_	0:exp-Positive
+36	a	a	ADP	SPS00	37	case	_	_	0:exp-Positive
+37	5min	5min	VERB	VMSP3P0	34	nummod	_	_	36:exp-Positive
+38	de	de	ADP	SPS00	40	case	_	_	36:exp-Positive
+39	el	el	DET	DA0MS0	40	det	_	_	36:exp-Positive
+40	centre	centre	NOUN	NCMS000	37	nmod	_	_	36:exp-Positive
+41	urba	urba	VERB	VMIP3S0	1	punct	_	_	36:exp-Positive
+
+# sent_id = corpora/ca/galeon-Ramon-1
+# text = Esmorzar molt complert i l horari ampli .
+1	Esmorzar	esmorzar	VERB	VMN0000	0	root	_	_	2:targ
+2	molt	molt	ADV	RG	3	advmod	_	_	0:exp-Positive
+3	complert	complir	VERB	VMP00SM	1	amod	_	_	2:exp-Positive
+4	i	i	CCONJ	CC	6	cc	_	_	_
+5	l	litre	NOUN	NCMN000	6	det	_	_	7:targ
+6	horari	horari	NOUN	NCMS000	1	conj	_	_	5:targ
+7	ampli	ampli	ADJ	AQ0MS0	6	amod	_	_	0:exp-Positive
+8	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/galeon-Ramon-2
+# text = Molt bona atenció atents i agradable .
+1	Molt	molt	ADV	RG	3	advmod	_	_	0:exp-Positive
+2	bona	bo	ADJ	AQ0FS0	3	amod	_	_	1:exp-Positive
+3	atenció	atenció	NOUN	NCFS000	0	root	_	_	1:targ
+4	atents	atent	ADJ	AQ0MP0	3	amod	_	_	0:exp-Positive
+5	i	i	CCONJ	CC	6	cc	_	_	_
+6	agradable	agradable	ADJ	AQ0CS0	4	conj	_	_	0:exp-Positive
+7	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdegerona-Josep-1
+# text = Els sofas de la recepcio Tranquilitat Bon tracte Bons consells de el personal
+1	Els	el	DET	DA0MP0	2	det	_	_	_
+2	sofas	sofas	VERB	VMIP2S0	8	nsubj	_	_	_
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	la	el	DET	DA0FS0	5	det	_	_	_
+5	recepcio	recepcio	NOUN	NCFS000	2	nmod	_	_	_
+6	Tranquilitat	tranquilitat	NOUN	NCFS000	5	appos	_	_	_
+7	Bon	bo	ADJ	AQ0MS0	6	flat	_	_	0:exp-Positive
+8	tracte	tracte	NOUN	NCMS000	0	root	_	_	7:targ
+9	Bons	bo	ADJ	AQ0MP0	8	obj	_	_	0:exp-Positive
+10	consells	consell	NOUN	NCMP000	8	obj	_	_	9:targ
+11	de	de	ADP	SPS00	12	case	_	_	10:targ
+12	el	el	DET	DA0MS0	10	det	_	_	10:targ
+13	personal	personal	NOUN	NCFS000	8	punct	_	_	10:targ
+
+# sent_id = corpora/ca/astari-Sergi-1
+# text = La moqueta de la piscina ... Ubicació , net , piscina i un bon buffet d' esmorzar .
+1	La	el	DET	DA0FS0	2	det	_	_	_
+2	moqueta	moqueta	NOUN	NCFS000	0	root	_	_	_
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	la	el	DET	DA0FS0	5	det	_	_	_
+5	piscina	piscina	NOUN	NCFS000	2	nmod	_	_	_
+6	...	...	NOUN	NCMS000	7	punct	_	_	_
+7	Ubicació	ubicació	NOUN	NCFS000	2	appos	_	_	_
+8	,	,	VERB	VMIP3S0	9	punct	_	_	_
+9	net	net	ADJ	AQ0MS0	7	amod	_	_	0:exp-Positive
+10	,	,	VERB	VMN0000	11	punct	_	_	_
+11	piscina	piscina	NOUN	NCFS000	7	appos	_	_	_
+12	i	i	CCONJ	CC	15	cc	_	_	_
+13	un	un	DET	DI0MS0	15	det	_	_	14:targ
+14	bon	bo	ADJ	AQ0MS0	15	amod	_	_	0:exp-Positive
+15	buffet	buffet	NOUN	NCMS000	2	conj	_	_	13:targ
+16	d'	de	ADP	SPS00	17	case	_	_	13:targ
+17	esmorzar	esmorzar	VERB	VMN0000	15	nmod	_	_	_
+18	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/astari-Sergi-2
+# text = Habitació triple àmplia .
+1	Habitació	habitació	NOUN	NCFS000	0	root	_	_	3:targ
+2	triple	triple	ADJ	AQ0MS0	1	amod	_	_	1:targ
+3	àmplia	ampli	ADJ	AQ0FS0	1	amod	_	_	0:exp-Positive
+4	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/astari-Sergi-3
+# text = Ambient tranquil .
+1	Ambient	ambient	NOUN	NCMS000	0	root	_	_	2:targ
+2	tranquil	tranquil	ADJ	AQ0MS0	1	amod	_	_	0:exp-Positive
+3	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/astari-Sergi-4
+# text = Fàcil aparcar relativament aprop gratuitament ( tot i que tenen pàrking ) .
+1	Fàcil	fàcil	ADJ	AQ0CS0	2	obj	_	_	0:exp-Positive
+2	aparcar	aparcar	VERB	VMN0000	0	root	_	_	1:targ|5:targ|3:targ
+3	relativament	relativament	ADV	RG	4	advmod	_	_	0:exp-Positive
+4	aprop	apropar	VERB	VMIP1S0	2	obj	_	_	3:exp-Positive
+5	gratuitament	gratuitament	NOUN	NCMS000	2	advmod	_	_	0:exp-Positive
+6	(	(	ADJ	AQ0CS0	10	punct	_	_	_
+7	tot	tot	ADV	RG	10	mark	_	_	_
+8	i	i	CCONJ	CC	7	fixed	_	_	_
+9	que	que	PRON	PR0CN000	7	fixed	_	_	_
+10	tenen	tenir	VERB	VMIP3P0	2	advcl	_	_	_
+11	pàrking	pàrking	NOUN	NCMS000	10	obj	_	_	_
+12	)	)	ADJ	AQ0CS0	10	punct	_	_	_
+13	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-1
+# text = Aire condicionat habitació amb soroll .
+1	Aire	aire	NOUN	NCMS000	0	root	_	_	4:targ
+2	condicionat	condicionar	VERB	VMP00SM	1	amod	_	_	1:targ
+3	habitació	habitació	NOUN	NCFS000	1	nmod	_	_	1:targ
+4	amb	amb	ADP	SPS00	5	case	_	_	0:exp-Negative
+5	soroll	soroll	NOUN	NCMS000	3	nmod	_	_	4:exp-Negative
+6	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-2
+# text = SPA a temperatura incorrecta ( freda ) Hamaques habitació amb traus a el teixit .
+1	SPA	spa	NOUN	NCFS000	0	root	_	_	2:targ|6:targ
+2	a	a	ADP	SPS00	3	case	_	_	0:exp-Negative
+3	temperatura	temperatura	NOUN	NCFS000	1	nmod	_	_	2:exp-Negative
+4	incorrecta	incorrecte	ADJ	AQ0FS0	3	amod	_	_	2:exp-Negative
+5	(	(	NOUN	NCFS000	6	punct	_	_	_
+6	freda	fred	ADJ	AQ0FS0	1	appos	_	_	0:exp-Negative
+7	)	)	NOUN	NCFS000	6	punct	_	_	_
+8	Hamaques	hamaca	NOUN	NCFP000	9	appos	_	_	10:targ
+9	habitació	habitació	NOUN	NCFS000	1	appos	_	_	8:targ
+10	amb	amb	ADP	SPS00	11	case	_	_	0:exp-Negative
+11	traus	trau	NOUN	NCMP000	9	nmod	_	_	10:exp-Negative
+12	a	a	ADP	SPS00	14	case	_	_	10:exp-Negative
+13	el	el	DET	DA0MS0	14	det	_	_	10:exp-Negative
+14	teixit	teixit	NOUN	NCMS000	9	nmod	_	_	10:exp-Negative
+15	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-3
+# text = TV de grandària una mica petita .
+1	TV	tv	NOUN	NC00000	0	root	_	_	4:targ
+2	de	de	ADP	SPS00	3	case	_	_	_
+3	grandària	grandària	NOUN	NCFS000	1	nmod	_	_	_
+4	una	un	DET	DI0FS0	5	det	_	_	0:exp-Negative
+5	mica	mica	NOUN	NCFS000	1	appos	_	_	4:exp-Negative
+6	petita	petit	ADJ	AQ0FS0	1	amod	_	_	4:exp-Negative
+7	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-4
+# text = Cobrament de els entreteniments de el restaurant sense avisar .
+1	Cobrament	cobrament	NOUN	NCMS000	0	root	_	_	8:targ
+2	de	de	ADP	SPS00	4	case	_	_	1:targ
+3	els	el	DET	DA0MP0	4	det	_	_	1:targ
+4	entreteniments	entreteniment	NOUN	NCMP000	1	nmod	_	_	1:targ
+5	de	de	ADP	SPS00	7	case	_	_	1:targ
+6	el	el	DET	DA0MS0	7	det	_	_	1:targ
+7	restaurant	restaurant	NOUN	NCMS000	4	nmod	_	_	1:targ
+8	sense	sense	ADP	SPS00	9	mark	_	_	0:exp-Negative
+9	avisar	avisar	VERB	VMN0000	1	acl	_	_	8:exp-Negative
+10	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-5
+# text = Pensàvem que era un detall de la casa .
+1	Pensàvem	pensar	VERB	VMII1P0	0	root	_	_	_
+2	que	que	SCONJ	CS	5	mark	_	_	_
+3	era	ser	VERB	VSII1S0	5	cop	_	_	_
+4	un	un	DET	DI0MS0	5	det	_	_	_
+5	detall	detall	NOUN	NCMS000	1	ccomp	_	_	_
+6	de	de	ADP	SPS00	8	case	_	_	_
+7	la	el	DET	DA0FS0	8	det	_	_	_
+8	casa	casa	NOUN	NCFS000	5	nmod	_	_	_
+9	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-6
+# text = Manca de productes per a celíacs .
+1	Manca	manca	NOUN	NCFS000	0	root	_	_	0:exp-Negative
+2	de	de	ADP	SPS00	3	case	_	_	_
+3	productes	producte	NOUN	NCMP000	1	nmod	_	_	1:targ
+4	per	per	ADP	SPS00	6	case	_	_	3:targ
+5	a	a	ADP	SPS00	6	case	_	_	3:targ
+6	celíacs	celíac	ADJ	AQ0MP0	1	nmod	_	_	3:targ
+7	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-7
+# text = Entorn molt cuidat .
+1	Entorn	entornar	VERB	VMIP1S0	0	root	_	_	2:targ
+2	molt	molt	ADV	RG	3	advmod	_	_	0:exp-Positive
+3	cuidat	cuidat	NOUN	NCMS000	1	amod	_	_	2:exp-Positive
+4	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-8
+# text = Restaurant : Qualitat de els plats i ambient .
+1	Restaurant	restaurant	NOUN	NCMS000	0	root	_	_	_
+2	:	:	ADJ	AQ0CS0	3	punct	_	_	_
+3	Qualitat	qualitat	NOUN	NCFS000	1	flat	_	_	_
+4	de	de	ADP	SPS00	6	case	_	_	_
+5	els	el	DET	DA0MP0	6	det	_	_	_
+6	plats	plat	NOUN	NCMP000	3	nmod	_	_	_
+7	i	i	CCONJ	CC	8	cc	_	_	_
+8	ambient	ambient	NOUN	NCMS000	6	conj	_	_	_
+9	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-9
+# text = Amplitud de les habitacions .
+1	Amplitud	amplitud	NOUN	NCFS000	0	root	_	_	_
+2	de	de	ADP	SPS00	4	case	_	_	_
+3	les	el	DET	DA0FP0	4	det	_	_	_
+4	habitacions	habitació	NOUN	NCFP000	1	nmod	_	_	_
+5	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-10
+# text = Tranquil·litat .
+1	Tranquil·litat	tranquil·litat	NOUN	NCFS000	0	root	_	_	_
+2	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-11
+# text = Amabilitat de el personal .
+1	Amabilitat	amabilitat	NOUN	NCFS000	0	root	_	_	0:exp-Positive
+2	de	de	ADP	SPS00	4	case	_	_	_
+3	el	el	DET	DA0MS0	4	det	_	_	1:targ
+4	personal	personal	ADJ	AQ0CS0	1	nmod	_	_	3:targ
+5	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/nou-estrelles399-12
+# text = Buffet d' esmorzar perfecte .
+1	Buffet	buffet	ADV	RG	0	root	_	_	4:targ
+2	d'	de	ADP	SPS00	3	case	_	_	1:targ
+3	esmorzar	esmorzar	VERB	VMN0000	1	nmod	_	_	1:targ
+4	perfecte	perfecte	ADJ	AQ0MS0	3	amod	_	_	0:exp-Positive
+5	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/apartaments-turistics-puigcerda-Judith-1
+# text = El sofà_llit molt incòmode impossible dormir Molt ampli i ben equipat
+1	El	el	DET	DA0MS0	2	det	_	_	3:targ|5:targ
+2	sofà_llit	sofà_llit	NOUN	NCMS000	0	root	_	_	1:targ|1:targ
+3	molt	molt	ADV	RG	4	advmod	_	_	0:exp-Negative
+4	incòmode	incòmode	ADJ	AQ0MS0	2	amod	_	_	3:exp-Negative
+5	impossible	impossible	ADJ	AQ0CS0	2	amod	_	_	0:exp-Negative
+6	dormir	dormir	VERB	VMN0000	5	csubj	_	_	5:exp-Negative
+7	Molt	molt	ADV	RG	8	advmod	_	_	0:exp-Positive
+8	ampli	ampli	ADJ	AQ0MS0	6	obj	_	_	7:exp-Positive
+9	i	i	CCONJ	CC	10	cc	_	_	_
+10	ben	ben	ADV	RG	8	conj	_	_	0:exp-Positive
+11	equipat	equipar	VERB	VMP00SM	2	punct	_	_	10:exp-Positive
+
+# sent_id = corpora/ca/es-portal8-1
+# text = No hi ha es destacable però puc fer dos suggeriments : Mirall a cos senser a l' Habitació .
+1	No	no	ADV	RN	3	advmod	_	_	_
+2	hi	hi	PRON	PP3CN000	3	obj	_	_	_
+3	ha	haver	AUX	VAIP3S0	0	root	_	_	_
+4	es	es	PRON	P0300000	3	obj	_	_	_
+5	destacable	destacable	ADJ	AQ0CS0	3	obj	_	_	_
+6	però	però	CCONJ	CC	8	cc	_	_	_
+7	puc	poder	VERB	VMIP1S0	8	aux	_	_	_
+8	fer	fer	VERB	VMN0000	3	conj	_	_	_
+9	dos	dosar	VERB	VMIP1S0	10	nummod	_	_	_
+10	suggeriments	suggeriment	NOUN	NCMP000	8	obj	_	_	_
+11	:	:	ADJ	AQ0CS0	12	punct	_	_	_
+12	Mirall	mirall	NOUN	NCMS000	10	appos	_	_	_
+13	a	a	ADP	SPS00	14	case	_	_	_
+14	cos	cos	NOUN	NCMS000	12	nmod	_	_	_
+15	senser	senser	ADV	RG	14	amod	_	_	_
+16	a	a	ADP	SPS00	18	case	_	_	_
+17	l'	el	DET	DA0CS0	18	det	_	_	_
+18	Habitació	habitació	NOUN	NCFS000	12	nmod	_	_	_
+19	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/es-portal8-2
+# text = L' aigua de la dutxa podria estar millor si assolirs més graus de temperatura .
+1	L'	el	DET	DA0CS0	2	det	_	_	6:targ
+2	aigua	aigua	NOUN	NCFS000	8	nsubj	_	_	1:targ
+3	de	de	ADP	SPS00	5	case	_	_	1:targ
+4	la	el	DET	DA0FS0	5	det	_	_	1:targ
+5	dutxa	dutxa	NOUN	NCFS000	2	nmod	_	_	1:targ
+6	podria	poder	VERB	VMIC3S0	8	aux	_	_	0:exp-Negative
+7	estar	estar	VERB	VMN0000	8	cop	_	_	6:exp-Negative
+8	millor	millor	ADV	RG	0	root	_	_	6:exp-Negative
+9	si	si	SCONJ	CS	10	mark	_	_	_
+10	assolirs	assolirs	ADV	RG	8	advmod	_	_	_
+11	més	més	ADV	RG	12	advmod	_	_	_
+12	graus	grau	NOUN	NCMP000	8	obl	_	_	_
+13	de	de	ADP	SPS00	14	case	_	_	_
+14	temperatura	temperatura	NOUN	NCFS000	12	nmod	_	_	_
+15	.	.	NOUN	NCMS000	8	punct	_	_	_
+
+# sent_id = corpora/ca/es-portal8-3
+# text = El tracte , l' esmorzar , l' entorn , les instal·lacions ( piscina climatitzada oberta totes les hores ) , el llit , el lavabo , els llits de les terrasses de l ´ habitació .
+1	El	el	DET	DA0MS0	2	det	_	_	_
+2	tracte	tracte	NOUN	NCMS000	0	root	_	_	_
+3	,	,	VERB	VMIP3S0	5	punct	_	_	_
+4	l'	el	DET	DA0CS0	5	det	_	_	_
+5	esmorzar	esmorzar	NOUN	NCMS000	2	appos	_	_	_
+6	,	,	VERB	VMIP3S0	8	punct	_	_	_
+7	l'	el	DET	DA0CS0	8	det	_	_	_
+8	entorn	entorn	NOUN	NCMS000	2	appos	_	_	_
+9	,	,	VERB	VMIP3S0	11	punct	_	_	_
+10	les	el	DET	DA0FP0	11	det	_	_	_
+11	instal·lacions	instal·lació	NOUN	NCFP000	2	appos	_	_	_
+12	(	(	ADJ	AQ0CS0	13	punct	_	_	_
+13	piscina	piscina	NOUN	NCFS000	11	appos	_	_	14:targ|15:targ
+14	climatitzada	climatitzar	VERB	VMP00SF	13	amod	_	_	0:exp-Positive
+15	oberta	obrir	VERB	VMP00SF	13	amod	_	_	0:exp-Positive
+16	totes	tot	DET	DI0FP0	17	det	_	_	15:exp-Positive
+17	les	el	DET	DA0FP0	18	det	_	_	15:exp-Positive
+18	hores	hora	NOUN	NCFP000	15	obl	_	_	15:exp-Positive
+19	)	)	VERB	VMIP3S0	13	punct	_	_	_
+20	,	,	VERB	VMN0000	22	punct	_	_	_
+21	el	el	DET	DA0MS0	22	det	_	_	_
+22	llit	llit	NOUN	NCMS000	2	appos	_	_	_
+23	,	,	VERB	VMIP3S0	25	punct	_	_	_
+24	el	el	DET	DA0MS0	25	det	_	_	_
+25	lavabo	lavabo	NOUN	NCMS000	2	appos	_	_	_
+26	,	,	VERB	VMIP3S0	28	punct	_	_	_
+27	els	el	DET	DA0MP0	28	det	_	_	_
+28	llits	llit	NOUN	NCMP000	2	appos	_	_	_
+29	de	de	ADP	SPS00	31	case	_	_	_
+30	les	el	DET	DA0FP0	31	det	_	_	_
+31	terrasses	terrassa	NOUN	NCFP000	28	nmod	_	_	_
+32	de	de	ADP	SPS00	33	case	_	_	_
+33	l	litre	NOUN	NCMN000	31	nmod	_	_	_
+34	´	´	ADJ	AQ0CS0	35	case	_	_	_
+35	habitació	habitació	NOUN	NCFS000	31	nmod	_	_	_
+36	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/ultonia-Anonim-1
+# text = Es podria milliorar l' habitació , que era una mica petita i donava a un pati interior .
+1	Es	es	PRON	P0300000	3	obj	_	_	0:exp-Negative
+2	podria	poder	VERB	VMIC3S0	3	aux	_	_	1:exp-Negative
+3	milliorar	milliorar	VERB	VMN0000	0	root	_	_	1:exp-Negative
+4	l'	el	DET	DA0CS0	5	det	_	_	9:targ|1:targ|13:targ
+5	habitació	habitació	NOUN	NCFS000	3	nsubj	_	_	4:targ|4:targ|4:targ
+6	,	,	ADJ	AQ0CS0	11	punct	_	_	_
+7	que	que	PRON	PR0CN000	11	nsubj	_	_	_
+8	era	ser	VERB	VSII1S0	11	cop	_	_	_
+9	una	un	DET	DI0FS0	10	det	_	_	0:exp-Negative
+10	mica	mica	NOUN	NCFS000	11	obl	_	_	9:exp-Negative
+11	petita	petit	ADJ	AQ0FS0	5	acl	_	_	9:exp-Negative
+12	i	i	CCONJ	CC	13	cc	_	_	_
+13	donava	donar	VERB	VMII3S0	11	conj	_	_	0:exp-Negative
+14	a	a	ADP	SPS00	16	case	_	_	13:exp-Negative
+15	un	un	DET	DI0MS0	16	det	_	_	13:exp-Negative
+16	pati	pati	NOUN	NCMS000	13	obj	_	_	13:exp-Negative
+17	interior	interior	ADJ	AQ0CS0	16	amod	_	_	13:exp-Negative
+18	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/ultonia-Anonim-2
+# text = La localització i la qualitat preu .
+1	La	el	DET	DA0FS0	2	det	_	_	_
+2	localització	localització	NOUN	NCFS000	0	root	_	_	_
+3	i	i	CCONJ	CC	5	cc	_	_	_
+4	la	el	DET	DA0FS0	5	det	_	_	_
+5	qualitat	qualitat	NOUN	NCFS000	2	conj	_	_	_
+6	preu	preuar	VERB	VMIP1S0	5	nmod	_	_	_
+7	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/octavia356-1
+# text = Costa trobar algo negatiu .
+1	Costa	costar	VERB	VMIP3S0	2	nsubj	_	_	0:exp-Positive
+2	trobar	trobar	VERB	VMN0000	0	root	_	_	1:exp-Positive
+3	algo	algo	NOUN	NCMS000	2	obj	_	_	1:exp-Positive
+4	negatiu	negatiu	ADJ	AQ0MS0	3	amod	_	_	1:exp-Positive
+5	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/octavia356-2
+# text = Potser les portes les podrien posar de millor qualitat a les habitacions i quan entra canalla jove els haurien de fer callar i portarse be ja que a el arribar uns van fer bastant xivarri El tracte , el lloc en general i la tranquilitat
+1	Potser	potser	ADV	RG	6	advmod	_	_	_
+2	les	el	DET	DA0FP0	3	det	_	_	5:targ
+3	portes	porta	NOUN	NCFP000	6	iobj	_	_	2:targ
+4	les	ell	PRON	PP3FPA00	6	obj	_	_	2:targ
+5	podrien	poder	VERB	VMIC3P0	6	aux	_	_	0:exp-Negative
+6	posar	posar	VERB	VMN0000	0	root	_	_	5:exp-Negative
+7	de	de	ADP	SPS00	9	case	_	_	5:exp-Negative
+8	millor	millor	ADJ	AQ0CS0	9	amod	_	_	5:exp-Negative
+9	qualitat	qualitat	NOUN	NCFS000	6	obl	_	_	5:exp-Negative
+10	a	a	ADP	SPS00	12	case	_	_	_
+11	les	el	DET	DA0FP0	12	det	_	_	_
+12	habitacions	habitació	NOUN	NCFP000	6	obl	_	_	_
+13	i	i	CCONJ	CC	21	cc	_	_	_
+14	quan	quan	PRON	PR000000	15	mark	_	_	_
+15	entra	entrar	VERB	VMIP3S0	21	csubj	_	_	_
+16	canalla	canalla	NOUN	NCFS000	15	nsubj	_	_	19:targ
+17	jove	jove	NOUN	NCCS000	16	amod	_	_	16:targ
+18	els	ell	PRON	PP3CP000	21	obj	_	_	16:targ
+19	haurien	haver	AUX	VAIC3P0	21	aux	_	_	0:exp-Negative
+20	de	de	ADP	SPS00	21	mark	_	_	19:exp-Negative
+21	fer	fer	VERB	VMN0000	6	conj	_	_	19:exp-Negative
+22	callar	callar	VERB	VMN0000	21	xcomp	_	_	19:exp-Negative
+23	i	i	CCONJ	CC	25	cc	_	_	19:exp-Negative
+24	portarse	portarse	NOUN	NCFS000	25	amod	_	_	19:exp-Negative
+25	be	be	NOUN	NCMS000	22	obj	_	_	19:exp-Negative
+26	ja	ja	ADV	RG	33	mark	_	_	_
+27	que	que	SCONJ	CS	26	fixed	_	_	_
+28	a	a	ADP	SPS00	30	mark	_	_	_
+29	el	el	DET	DA0MS0	30	det	_	_	_
+30	arribar	arribar	VERB	VMN0000	33	advcl	_	_	_
+31	uns	un	DET	DI0MP0	30	obj	_	_	_
+32	van	anar	AUX	VAIP3P0	33	aux	_	_	_
+33	fer	fer	VERB	VMN0000	22	advcl	_	_	_
+34	bastant	bastant	ADV	RG	35	advmod	_	_	_
+35	xivarri	xivarri	NOUN	NCMS000	33	obj	_	_	_
+36	El	el	DET	DA0MS0	37	det	_	_	_
+37	tracte	tracte	NOUN	NCMS000	33	obj	_	_	_
+38	,	,	VERB	VMIP3S0	40	punct	_	_	_
+39	el	el	DET	DA0MS0	40	det	_	_	_
+40	lloc	lloc	NOUN	NCMS000	37	appos	_	_	_
+41	en	en	ADP	SPS00	40	advmod	_	_	_
+42	general	general	ADJ	AQ0CS0	41	fixed	_	_	_
+43	i	i	CCONJ	CC	44	cc	_	_	_
+44	la	el	DET	DA0FS0	41	conj	_	_	_
+45	tranquilitat	tranquilitat	NOUN	NCFS000	6	punct	_	_	_
+
+# sent_id = corpora/ca/peninsular-Jordi-1
+# text = Manca d' insonorització habitació , especialment de el carrer Ubicació
+1	Manca	manca	NOUN	NCFS000	0	root	_	_	0:exp-Negative
+2	d'	de	ADP	SPS00	3	case	_	_	_
+3	insonorització	insonorització	NOUN	NCFS000	1	nmod	_	_	1:targ
+4	habitació	habitació	NOUN	NCFS000	3	appos	_	_	3:targ
+5	,	,	VERB	VMIP3S0	6	punct	_	_	_
+6	especialment	especialment	ADV	RG	1	advmod	_	_	_
+7	de	de	ADP	SPS00	6	case	_	_	_
+8	el	el	DET	DA0MS0	9	det	_	_	_
+9	carrer	carrer	NOUN	NCMS000	6	nmod	_	_	_
+10	Ubicació	ubicació	NOUN	NCFS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/subur-Ma-1
+# text = Està situat en plena zona d' ambient nocturn i es fa impossible dormir a la nit fins ben entrada la matinada .
+1	Està	estar	VERB	VMIP3S0	2	cop	_	_	_
+2	situat	situar	VERB	VMP00SM	0	root	_	_	0:exp-Negative
+3	en	en	ADP	SPS00	5	case	_	_	2:exp-Negative
+4	plena	ple	ADJ	AQ0FS0	5	amod	_	_	2:exp-Negative
+5	zona	zona	NOUN	NCFS000	2	obj	_	_	2:exp-Negative
+6	d'	de	ADP	SPS00	7	case	_	_	2:exp-Negative
+7	ambient	ambient	NOUN	NCMS000	5	nmod	_	_	2:exp-Negative
+8	nocturn	nocturn	ADJ	AQ0MS0	7	amod	_	_	2:exp-Negative
+9	i	i	CCONJ	CC	11	cc	_	_	_
+10	es	es	PRON	P0300000	11	obj	_	_	_
+11	fa	fer	VERB	VMIP3S0	2	conj	_	_	_
+12	impossible	impossible	ADJ	AQ0CS0	11	obj	_	_	0:exp-Negative
+13	dormir	dormir	VERB	VMN0000	11	csubj	_	_	12:exp-Negative
+14	a	a	ADP	SPS00	16	case	_	_	12:exp-Negative
+15	la	el	DET	DA0FS0	16	det	_	_	12:exp-Negative
+16	nit	nit	NOUN	NCFS000	13	obl	_	_	12:exp-Negative
+17	fins	fins	ADP	SPS00	19	case	_	_	_
+18	ben	ben	ADV	RG	19	advmod	_	_	_
+19	entrada	entrada	NOUN	NCFS000	13	advmod	_	_	_
+20	la	el	DET	DA0FS0	21	det	_	_	_
+21	matinada	matinada	NOUN	NCFS000	13	obl	_	_	_
+22	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/subur-Ma-2
+# text = Les finestres no aïllen gens ni mica de el soroll exterior .
+1	Les	el	DET	DA0FP0	2	det	_	_	3:targ
+2	finestres	finestra	NOUN	NCFP000	4	nsubj	_	_	1:targ
+3	no	no	ADV	RN	4	advmod	_	_	0:exp-Negative
+4	aïllen	aïllar	VERB	VMIP3P0	0	root	_	_	3:exp-Negative
+5	gens	gen	NOUN	NCMP000	6	advmod	_	_	3:exp-Negative
+6	ni	ni	CCONJ	CC	4	advmod	_	_	3:exp-Negative
+7	mica	mica	NOUN	NCFS000	6	fixed	_	_	3:exp-Negative
+8	de	de	ADP	SPS00	10	case	_	_	_
+9	el	el	DET	DA0MS0	10	det	_	_	_
+10	soroll	soroll	NOUN	NCMS000	4	obj	_	_	_
+11	exterior	exterior	ADJ	AQ0CS0	10	amod	_	_	_
+12	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/la-fonda-cadaques119-1
+# text = El fet que no hi hagi ningú que et pugui atendre a l' hotel a partir de les set de la tarda fins l' endemà pot tenir els seus inconvenients si necessites alguna cosa , tens alguna emergència o per la pròpia seguretat .
+1	El	el	DET	DA0MS0	2	det	_	_	_
+2	fet	fet	NOUN	NCMS000	27	nsubj	_	_	_
+3	que	que	PRON	PR0CN000	6	mark	_	_	_
+4	no	no	ADV	RN	6	advmod	_	_	0:exp-Negative
+5	hi	hi	PRON	PP3CN000	6	obj	_	_	4:exp-Negative
+6	hagi	haver	AUX	VASP1S0	2	acl	_	_	4:exp-Negative
+7	ningú	ningú	PRON	PI0CS000	6	obj	_	_	26:targ|4:targ
+8	que	que	PRON	PR0CN000	11	nsubj	_	_	7:targ|7:targ
+9	et	tu	PRON	PP2CS000	11	obj	_	_	7:targ|7:targ
+10	pugui	poder	VERB	VMSP1S0	11	aux	_	_	7:targ|7:targ
+11	atendre	atendre	VERB	VMN0000	7	acl	_	_	7:targ|7:targ
+12	a	a	ADP	SPS00	14	case	_	_	7:targ|7:targ
+13	l'	el	DET	DA0CS0	14	det	_	_	7:targ|7:targ
+14	hotel	hotel	NOUN	NCMS000	11	obl	_	_	7:targ|7:targ
+15	a	a	ADP	SPS00	19	case	_	_	_
+16	partir	partir	VERB	VMN0000	15	fixed	_	_	_
+17	de	de	ADP	SPS00	15	fixed	_	_	_
+18	les	el	DET	DA0FP0	19	det	_	_	_
+19	set	set	NOUN	NCFS000	11	obl	_	_	_
+20	de	de	ADP	SPS00	22	case	_	_	_
+21	la	el	DET	DA0FS0	22	det	_	_	_
+22	tarda	tarda	NOUN	NCFS000	19	compound	_	_	_
+23	fins	fins	ADP	SPS00	25	case	_	_	_
+24	l'	el	DET	DA0CS0	25	det	_	_	_
+25	endemà	endemà	NOUN	NCMS000	19	nmod	_	_	_
+26	pot	poder	VERB	VMIP3S0	27	aux	_	_	0:exp-Negative
+27	tenir	tenir	VERB	VMN0000	0	root	_	_	26:exp-Negative
+28	els	el	DET	DA0MP0	30	det	_	_	26:exp-Negative
+29	seus	seu	PRON	PX3MP0C0	30	det	_	_	26:exp-Negative
+30	inconvenients	inconvenient	NOUN	NCMP000	27	obj	_	_	26:exp-Negative
+31	si	si	SCONJ	CS	32	mark	_	_	_
+32	necessites	necessitar	VERB	VMSP2S0	27	advcl	_	_	_
+33	alguna	algun	DET	DI0FS0	34	det	_	_	_
+34	cosa	cosa	NOUN	NCFS000	32	obj	_	_	_
+35	,	,	ADV	RG	36	punct	_	_	_
+36	tens	tens	ADJ	AQ0MS0	27	advcl	_	_	_
+37	alguna	algun	DET	DI0FS0	38	det	_	_	_
+38	emergència	emergència	NOUN	NCFS000	36	obj	_	_	_
+39	o	o	CCONJ	CC	43	cc	_	_	_
+40	per	per	ADP	SPS00	43	case	_	_	_
+41	la	el	DET	DA0FS0	43	det	_	_	_
+42	pròpia	propi	ADJ	AQ0FS0	43	amod	_	_	_
+43	seguretat	seguretat	NOUN	NCFS000	38	conj	_	_	_
+44	.	.	NOUN	NCMS000	36	punct	_	_	_
+
+# sent_id = corpora/ca/la-fonda-cadaques119-2
+# text = El preu és excessiu per el servei i les instal·lacions que ofereix .
+1	El	el	DET	DA0MS0	2	det	_	_	4:targ
+2	preu	preu	NOUN	NCMS000	4	nsubj	_	_	1:targ
+3	és	ser	VERB	VSIP3S0	4	cop	_	_	_
+4	excessiu	excessiu	ADJ	AQ0MS0	0	root	_	_	0:exp-Negative
+5	per	per	ADP	SPS00	7	case	_	_	_
+6	el	el	DET	DA0MS0	7	det	_	_	_
+7	servei	servei	NOUN	NCMS000	4	obl	_	_	_
+8	i	i	CCONJ	CC	10	cc	_	_	_
+9	les	el	DET	DA0FP0	10	det	_	_	_
+10	instal·lacions	instal·lació	NOUN	NCFP000	7	conj	_	_	_
+11	que	que	PRON	PR0CN000	12	obj	_	_	_
+12	ofereix	oferir	VERB	VMIP3S0	10	acl	_	_	_
+13	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/la-fonda-cadaques119-3
+# text = Les vistes de el Cap de Creus i l' entorn de l' hotel .
+1	Les	el	DET	DA0FP0	2	det	_	_	_
+2	vistes	vista	NOUN	NCFP000	0	root	_	_	_
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	el	el	DET	DA0MS0	5	det	_	_	_
+5	Cap	cap	NOUN	NCCS000	2	nmod	_	_	_
+6	de	de	ADP	SPS00	7	case	_	_	_
+7	Creus	creu	NOUN	NCFP000	5	flat	_	_	_
+8	i	i	CCONJ	CC	10	cc	_	_	_
+9	l'	el	DET	DA0CS0	10	det	_	_	_
+10	entorn	entorn	NOUN	NCMS000	2	conj	_	_	_
+11	de	de	ADP	SPS00	13	case	_	_	_
+12	l'	el	DET	DA0CS0	13	det	_	_	_
+13	hotel	hotel	NOUN	NCMS000	10	nmod	_	_	_
+14	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/cal-marrufa-s-Lleidatana-1
+# text = Feia molta calor i no hi havia aire condicionat .
+1	Feia	fer	VERB	VMII3S0	0	root	_	_	0:exp-Negative
+2	molta	molt	DET	DI0FS0	3	det	_	_	1:exp-Negative
+3	calor	calor	NOUN	NCFS000	1	obj	_	_	1:exp-Negative
+4	i	i	CCONJ	CC	7	cc	_	_	_
+5	no	no	ADV	RN	7	advmod	_	_	0:exp-Negative
+6	hi	hi	PRON	PP3CN000	7	obj	_	_	5:exp-Negative
+7	havia	haver	AUX	VAII1S0	1	conj	_	_	5:exp-Negative
+8	aire	aire	NOUN	NCMS000	7	obj	_	_	5:targ|1:targ
+9	condicionat	condicionar	VERB	VMP00SM	8	amod	_	_	8:targ|8:targ
+10	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/cal-marrufa-s-Lleidatana-2
+# text = L' esmorzar per ser una casa rural podia ser més natural i variat .
+1	L'	el	DET	DA0CS0	2	det	_	_	8:targ
+2	esmorzar	esmorzar	NOUN	NCMS000	11	nsubj	_	_	1:targ
+3	per	per	ADP	SPS00	6	mark	_	_	_
+4	ser	ser	VERB	VSN0000	6	cop	_	_	_
+5	una	un	DET	DI0FS0	6	det	_	_	_
+6	casa	casa	NOUN	NCFS000	2	acl	_	_	_
+7	rural	rural	ADJ	AQ0CS0	6	amod	_	_	_
+8	podia	poder	VERB	VMII3S0	11	aux	_	_	0:exp-Negative
+9	ser	ser	VERB	VSN0000	11	cop	_	_	8:exp-Negative
+10	més	més	ADV	RG	11	advmod	_	_	8:exp-Negative
+11	natural	natural	ADJ	AQ0CS0	0	root	_	_	8:exp-Negative
+12	i	i	CCONJ	CC	13	cc	_	_	8:exp-Negative
+13	variat	variar	VERB	VMP00SM	11	conj	_	_	8:exp-Negative
+14	.	.	NOUN	NCMS000	11	punct	_	_	_
+
+# sent_id = corpora/ca/cal-marrufa-s-Lleidatana-3
+# text = Sucs prwfabricats El lloc i les instalacions són boniques
+1	Sucs	suc	NOUN	NCMP000	0	root	_	_	2:targ
+2	prwfabricats	prwfabricats	ADJ	AQ0MP0	1	amod	_	_	0:exp-Negative
+3	El	el	DET	DA0MS0	4	det	_	_	9:targ
+4	lloc	lloc	NOUN	NCMS000	2	obj	_	_	3:targ
+5	i	i	CCONJ	CC	7	cc	_	_	_
+6	les	el	DET	DA0FP0	7	det	_	_	9:targ
+7	instalacions	instalacions	NOUN	NCFP000	1	conj	_	_	6:targ
+8	són	ser	VERB	VSIP3P0	7	cop	_	_	_
+9	boniques	bonic	ADJ	AQ0FP0	1	punct	_	_	0:exp-Positive|0:exp-Positive
+
+# sent_id = corpora/ca/placa-de-la-font-Marta-1
+# text = el llit doble era petit i molt incòmode ben situat
+1	el	el	DET	DA0MS0	2	det	_	_	7:targ|5:targ
+2	llit	llit	NOUN	NCMS000	5	nsubj	_	_	1:targ|1:targ
+3	doble	doble	ADJ	AQ0CS0	2	amod	_	_	1:targ|1:targ
+4	era	ser	VERB	VSII1S0	5	cop	_	_	_
+5	petit	petit	ADJ	AQ0MS0	0	root	_	_	0:exp-Negative
+6	i	i	CCONJ	CC	8	cc	_	_	_
+7	molt	molt	ADV	RG	8	advmod	_	_	0:exp-Negative
+8	incòmode	incòmode	ADJ	AQ0MS0	5	conj	_	_	7:exp-Negative
+9	ben	ben	ADV	RG	8	advmod	_	_	0:exp-Positive
+10	situat	situar	VERB	VMP00SM	5	punct	_	_	9:targ
+
+# sent_id = corpora/ca/hospes-villa-paulita-Gemma-1
+# text = Les parets i portes mal sonorització .
+1	Les	el	DET	DA0FP0	2	det	_	_	5:targ
+2	parets	paret	NOUN	NCFP000	0	root	_	_	1:targ
+3	i	i	CCONJ	CC	4	cc	_	_	_
+4	portes	porta	NOUN	NCFP000	2	conj	_	_	5:targ
+5	mal	mal	ADJ	AQ0MS0	6	amod	_	_	0:exp-Negative|0:exp-Negative
+6	sonorització	sonorització	NOUN	NCFS000	2	conj	_	_	5:exp-Negative|5:exp-Negative
+7	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hospes-villa-paulita-Gemma-2
+# text = Se senten les converses i sorolls de l' entrada , si més no a la planta baixa de l' edifici nou .
+1	Se	es	PRON	P0300000	2	obj	_	_	0:exp-Negative
+2	senten	sentir	VERB	VMIP3P0	0	root	_	_	1:exp-Negative
+3	les	el	DET	DA0FP0	4	det	_	_	1:exp-Negative
+4	converses	conversa	NOUN	NCFP000	2	nsubj	_	_	1:exp-Negative
+5	i	i	CCONJ	CC	6	cc	_	_	1:exp-Negative
+6	sorolls	soroll	NOUN	NCMP000	4	conj	_	_	1:exp-Negative
+7	de	de	ADP	SPS00	9	case	_	_	1:exp-Negative
+8	l'	el	DET	DA0CS0	9	det	_	_	1:exp-Negative
+9	entrada	entrada	NOUN	NCFS000	4	nmod	_	_	1:exp-Negative
+10	,	,	ADJ	AQ0CS0	13	punct	_	_	_
+11	si	si	SCONJ	CS	13	mark	_	_	_
+12	més	més	ADV	RG	11	fixed	_	_	_
+13	no	no	ADV	RN	2	advmod	_	_	_
+14	a	a	ADP	SPS00	13	case	_	_	_
+15	la	el	DET	DA0FS0	16	det	_	_	_
+16	planta	planta	NOUN	NCFS000	13	nmod	_	_	_
+17	baixa	baix	ADJ	AQ0FS0	16	amod	_	_	_
+18	de	de	ADP	SPS00	20	case	_	_	_
+19	l'	el	DET	DA0CS0	20	det	_	_	_
+20	edifici	edifici	NOUN	NCMS000	16	nmod	_	_	_
+21	nou	nou	ADJ	AQ0MS0	20	amod	_	_	_
+22	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hospes-villa-paulita-Gemma-3
+# text = Pàrquing 21 Euros-dia .
+1	Pàrquing	pàrquing	NOUN	NCMS000	0	root	_	_	_
+2	21	21	NOUN	NC00000	1	nummod	_	_	_
+3	Euros-dia	euros-dia	VERB	VMII3S0	1	flat	_	_	_
+4	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/hospes-villa-paulita-Gemma-4
+# text = Habitació senzilla decorada amb gust .
+1	Habitació	habitació	NOUN	NCFS000	0	root	_	_	2:targ|3:targ
+2	senzilla	senzill	ADJ	AQ0FS0	1	amod	_	_	0:exp-Negative
+3	decorada	decorar	VERB	VMP00SF	1	amod	_	_	0:exp-Positive
+4	amb	amb	ADP	SPS00	5	case	_	_	3:exp-Positive
+5	gust	gust	NOUN	NCMS000	3	obl	_	_	3:exp-Positive
+6	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/quintessence-Miriam-1
+# text = La porteria i l ' escala .
+1	La	el	DET	DA0FS0	2	det	_	_	_
+2	porteria	porteria	NOUN	NCFS000	0	root	_	_	_
+3	i	i	CCONJ	CC	4	cc	_	_	_
+4	l	litre	NOUN	NCMN000	2	conj	_	_	_
+5	'	'	ADJ	AQ0CS0	6	nmod	_	_	_
+6	escala	escala	NOUN	NCFS000	2	appos	_	_	_
+7	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/quintessence-Miriam-2
+# text = Son poc accesibles quan vas amb nens petits i no posaba res a l ' anunci
+1	Son	son	DET	DP3MSC	0	root	_	_	2:targ
+2	poc	poc	ADV	RG	3	advmod	_	_	0:exp-Negative|0:exp-Negative
+3	accesibles	accesibles	ADJ	AQ0CP0	1	obj	_	_	2:exp-Negative|2:exp-Negative
+4	quan	quan	SCONJ	CS	5	mark	_	_	_
+5	vas	anar	VERB	VMIP2S0	1	advcl	_	_	_
+6	amb	amb	ADP	SPS00	7	case	_	_	_
+7	nens	nen	NOUN	NCMP000	5	obl	_	_	_
+8	petits	petit	ADJ	AQ0MP0	7	amod	_	_	_
+9	i	i	CCONJ	CC	11	cc	_	_	_
+10	no	no	ADV	RN	11	advmod	_	_	0:exp-Negative
+11	posaba	posaba	VERB	VMIP3S0	1	conj	_	_	10:exp-Negative
+12	res	res	PRON	PI0CS000	11	obj	_	_	10:exp-Negative
+13	a	a	ADP	SPS00	14	case	_	_	10:exp-Negative
+14	l	litre	NOUN	NCMN000	11	obj	_	_	10:exp-Negative
+15	'	'	ADJ	AQ0CS0	1	nmod	_	_	10:exp-Negative
+16	anunci	anunci	NOUN	NCMS000	1	punct	_	_	10:exp-Negative
+
+# sent_id = corpora/ca/hotelcatalunyaexpress-Ruben-1
+# text = No hi ha molt cosa que dir , preu i qualitat més que acceptable .
+1	No	no	ADV	RN	3	advmod	_	_	_
+2	hi	hi	PRON	PP3CN000	3	obj	_	_	_
+3	ha	haver	AUX	VAIP3S0	0	root	_	_	_
+4	molt	molt	DET	DI0MS0	5	det	_	_	_
+5	cosa	cosa	NOUN	NCFS000	3	obj	_	_	_
+6	que	que	PRON	PR0CN000	7	nsubj	_	_	_
+7	dir	dir	VERB	VMN0000	5	acl	_	_	_
+8	,	,	VERB	VMN0000	9	punct	_	_	_
+9	preu	preu	NOUN	NCMS000	5	appos	_	_	12:targ
+10	i	i	CCONJ	CC	11	cc	_	_	9:targ
+11	qualitat	qualitat	NOUN	NCFS000	9	conj	_	_	9:targ
+12	més	més	ADV	RG	9	advmod	_	_	0:exp-Positive
+13	que	que	SCONJ	CS	14	mark	_	_	12:exp-Positive
+14	acceptable	acceptable	ADJ	AQ0CS0	12	amod	_	_	12:exp-Positive
+15	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/hotelcatalunyaexpress-Ruben-2
+# text = Tot en general .
+1	Tot	tot	PRON	PI0MS000	0	root	_	_	_
+2	en	en	ADP	SPS00	1	fixed	_	_	_
+3	general	general	ADJ	AQ0CS0	1	fixed	_	_	_
+4	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/ciutatdegerona-Miquel-1
+# text = La situació de l' hotel La amabilitat de el personal
+1	La	el	DET	DA0FS0	2	det	_	_	_
+2	situació	situació	NOUN	NCFS000	0	root	_	_	_
+3	de	de	ADP	SPS00	5	case	_	_	_
+4	l'	el	DET	DA0CS0	5	det	_	_	_
+5	hotel	hotel	NOUN	NCMS000	2	nmod	_	_	_
+6	La	el	DET	DA0FS0	7	det	_	_	0:exp-Positive
+7	amabilitat	amabilitat	NOUN	NCFS000	2	appos	_	_	6:exp-Positive
+8	de	de	ADP	SPS00	9	case	_	_	_
+9	el	el	DET	DA0MS0	7	det	_	_	6:targ
+10	personal	personal	NOUN	NCFS000	2	punct	_	_	9:targ
+
+# sent_id = corpora/ca/terramar-sitges-Manuel 1-1
+# text = Crec que els cal atendre a detalls que fan l' estada mes confortable .
+1	Crec	creure	VERB	VMIP1S0	0	root	_	_	3:holder
+2	que	que	SCONJ	CS	4	mark	_	_	_
+3	els	ell	PRON	PP3CP000	4	obj	_	_	0:exp-Negative
+4	cal	caldre	VERB	VMIP3S0	1	ccomp	_	_	3:exp-Negative
+5	atendre	atendre	VERB	VMN0000	4	csubj	_	_	3:exp-Negative
+6	a	a	ADP	SPS00	7	case	_	_	3:exp-Negative
+7	detalls	detall	NOUN	NCMP000	5	obj	_	_	3:targ
+8	que	que	PRON	PR0CN000	9	obj	_	_	7:targ
+9	fan	fer	VERB	VMIP3P0	7	acl	_	_	7:targ
+10	l'	el	DET	DA0CS0	11	det	_	_	7:targ
+11	estada	estada	NOUN	NCFS000	9	nsubj	_	_	7:targ
+12	mes	mes	NOUN	NCMS000	9	obl	_	_	7:targ
+13	confortable	confortable	ADJ	AQ0CS0	12	amod	_	_	7:targ
+14	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/terramar-sitges-Manuel 1-2
+# text = Falta manteniment d' habitació ( no sortia l' aigua calenta a la dutxa correctament ) - varem avisar .
+1	Falta	faltar	VERB	VMIP3S0	18	obj	_	_	0:exp-Negative
+2	manteniment	manteniment	NOUN	NCMS000	1	nmod	_	_	1:targ
+3	d'	de	ADP	SPS00	4	case	_	_	2:targ
+4	habitació	habitació	NOUN	NCFS000	2	nmod	_	_	2:targ
+5	(	(	ADJ	AQ0CS0	7	punct	_	_	_
+6	no	no	ADV	RN	7	advmod	_	_	_
+7	sortia	sortir	VERB	VMII3S0	1	acl	_	_	_
+8	l'	el	DET	DA0CS0	9	det	_	_	_
+9	aigua	aigua	NOUN	NCFS000	7	nsubj	_	_	_
+10	calenta	calent	ADJ	AQ0FS0	9	amod	_	_	_
+11	a	a	ADP	SPS00	13	case	_	_	_
+12	la	el	DET	DA0FS0	13	det	_	_	_
+13	dutxa	dutxa	NOUN	NCFS000	7	obl	_	_	_
+14	correctament	correctament	ADV	RG	7	advmod	_	_	_
+15	)	)	ADJ	AQ0CS0	7	punct	_	_	_
+16	-	-	NOUN	NCFS000	7	punct	_	_	_
+17	varem	varar	VERB	VMIP1P0	18	aux	_	_	_
+18	avisar	avisar	VERB	VMN0000	0	root	_	_	_
+19	.	.	NOUN	NCMS000	18	punct	_	_	_
+
+# sent_id = corpora/ca/terramar-sitges-Manuel 1-3
+# text = Cal llum de tauletes no es pot tenir únicament focus a el sostre .
+1	Cal	caldre	VERB	VMIP3S0	0	root	_	_	0:exp-Negative
+2	llum	llum	NOUN	NCFS000	1	nsubj	_	_	1:targ
+3	de	de	ADP	SPS00	4	case	_	_	2:targ
+4	tauletes	tauleta	NOUN	NCFP000	2	nmod	_	_	2:targ
+5	no	no	ADV	RN	8	advmod	_	_	_
+6	es	es	PRON	P0300000	8	obj	_	_	_
+7	pot	poder	VERB	VMIP3S0	8	aux	_	_	_
+8	tenir	tenir	VERB	VMN0000	1	csubj	_	_	_
+9	únicament	únicament	ADV	RG	8	advmod	_	_	_
+10	focus	focus	NOUN	NCMN000	8	nsubj	_	_	_
+11	a	a	ADP	SPS00	13	case	_	_	_
+12	el	el	DET	DA0MS0	13	det	_	_	_
+13	sostre	sostre	NOUN	NCMS000	8	obl	_	_	_
+14	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/terramar-sitges-Manuel 1-4
+# text = Els radiadors no son graduables .
+1	Els	el	DET	DA0MP0	2	det	_	_	3:targ
+2	radiadors	radiador	NOUN	NCMP000	4	nsubj	_	_	1:targ
+3	no	no	ADV	RN	4	advmod	_	_	0:exp-Negative
+4	son	sonar	VERB	VMIP1S0	0	root	_	_	3:exp-Negative
+5	graduables	graduable	ADJ	AQ0CP0	4	obj	_	_	3:exp-Negative
+6	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/terramar-sitges-Manuel 1-5
+# text = La ubicació , la tranquil·litat , el jardi .
+1	La	el	DET	DA0FS0	2	det	_	_	_
+2	ubicació	ubicació	NOUN	NCFS000	0	root	_	_	_
+3	,	,	VERB	VMIP3S0	5	punct	_	_	_
+4	la	el	DET	DA0FS0	5	det	_	_	_
+5	tranquil·litat	tranquil·litat	NOUN	NCFS000	2	appos	_	_	_
+6	,	,	VERB	VMIP3S0	8	punct	_	_	_
+7	el	el	DET	DA0MS0	8	det	_	_	_
+8	jardi	jardi	VERB	VMSP3S0	2	appos	_	_	_
+9	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/galeon-Josep 1-1
+# text = Tenir que sortir de el hotel per anar a les habitacions es un anexa , i quant fas la reserva no saps si la habitacio estar en el hotel o es el anexa . quasi tot , estar molt proper de el centre , un gran bufet per esmorza , molt net , i una bona relació qualitat preu , recomanable .
+1	Tenir	tenir	VERB	VMN0000	22	csubj	_	_	_
+2	que	que	SCONJ	CS	3	mark	_	_	_
+3	sortir	sortir	VERB	VMN0000	1	xcomp	_	_	_
+4	de	de	ADP	SPS00	6	case	_	_	_
+5	el	el	DET	DA0MS0	6	det	_	_	_
+6	hotel	hotel	NOUN	NCMS000	3	obl	_	_	_
+7	per	per	ADP	SPS00	8	mark	_	_	_
+8	anar	anar	VERB	VMN0000	3	advcl	_	_	_
+9	a	a	ADP	SPS00	11	case	_	_	_
+10	les	el	DET	DA0FP0	11	det	_	_	_
+11	habitacions	habitació	NOUN	NCFP000	8	obj	_	_	_
+12	es	es	PRON	P0300000	14	obj	_	_	_
+13	un	un	DET	DI0MS0	14	det	_	_	_
+14	anexa	anexa	ADJ	AQ0FS0	22	ccomp	_	_	_
+15	,	,	NOUN	NCFS000	22	punct	_	_	_
+16	i	i	CCONJ	CC	18	cc	_	_	_
+17	quant	quant	PRON	PT0MS000	18	nsubj	_	_	_
+18	fas	fer	VERB	VMIP2S0	22	conj	_	_	_
+19	la	el	DET	DA0FS0	20	det	_	_	21:targ
+20	reserva	reserva	NOUN	NCFS000	18	obj	_	_	19:targ
+21	no	no	ADV	RN	22	advmod	_	_	0:exp-Negative
+22	saps	saber	VERB	VMIP2S0	0	root	_	_	21:exp-Negative
+23	si	si	SCONJ	CS	25	mark	_	_	21:exp-Negative
+24	la	el	DET	DA0FS0	25	obj	_	_	21:exp-Negative
+25	habitacio	habitacio	NOUN	NCFS000	22	ccomp	_	_	21:exp-Negative
+26	estar	estar	VERB	VMN0000	29	cop	_	_	21:exp-Negative
+27	en	en	ADP	SPS00	29	case	_	_	21:exp-Negative
+28	el	el	DET	DA0MS0	29	det	_	_	21:exp-Negative
+29	hotel	hotel	NOUN	NCMS000	25	xcomp	_	_	21:exp-Negative
+30	o	o	CCONJ	CC	33	cc	_	_	_
+31	es	es	PRON	P0300000	33	obj	_	_	_
+32	el	el	DET	DA0MS0	33	det	_	_	_
+33	anexa	anexa	ADJ	AQ0FS0	22	conj	_	_	_
+34	.	.	NOUN	NCMS000	35	punct	_	_	_
+35	quasi	quasi	ADV	RG	40	advmod	_	_	_
+36	tot	tot	DET	DI0MS0	35	fixed	_	_	_
+37	,	,	NOUN	NCFS000	35	punct	_	_	_
+38	estar	estar	VERB	VMN0000	40	cop	_	_	_
+39	molt	molt	ADV	RG	40	advmod	_	_	0:exp-Positive
+40	proper	proper	ADJ	AQ0MS0	33	advcl	_	_	39:exp-Positive
+41	de	de	ADP	SPS00	43	case	_	_	39:exp-Positive
+42	el	el	DET	DA0MS0	43	det	_	_	39:exp-Positive
+43	centre	centre	NOUN	NCMS000	40	nmod	_	_	39:exp-Positive
+44	,	,	VERB	VMIP3S0	47	punct	_	_	_
+45	un	un	DET	DI0MS0	47	det	_	_	_
+46	gran	gran	ADJ	AQ0CS0	47	amod	_	_	0:exp-Positive
+47	bufet	bufet	NOUN	NCMS000	40	obj	_	_	46:targ
+48	per	per	ADP	SPS00	49	case	_	_	47:targ
+49	esmorza	esmorzar	VERB	VMIP3S0	47	nmod	_	_	47:targ
+50	,	,	NOUN	NCFS000	52	punct	_	_	_
+51	molt	molt	ADV	RG	52	advmod	_	_	0:exp-Positive
+52	net	net	ADJ	AQ0MS0	47	amod	_	_	51:exp-Positive
+53	,	,	NOUN	NCFS000	52	punct	_	_	_
+54	i	i	CCONJ	CC	57	cc	_	_	_
+55	una	un	DET	DI0FS0	57	det	_	_	_
+56	bona	bo	ADJ	AQ0FS0	57	amod	_	_	0:exp-Positive
+57	relació	relació	NOUN	NCFS000	40	conj	_	_	56:targ
+58	qualitat	qualitat	NOUN	NCFS000	57	amod	_	_	57:targ
+59	preu	preuar	VERB	VMIP1S0	57	appos	_	_	57:targ
+60	,	,	NOUN	NCFS000	61	punct	_	_	_
+61	recomanable	recomanable	ADJ	AQ0CS0	59	amod	_	_	0:exp-Positive
+62	.	.	NOUN	NCMS000	22	punct	_	_	_
+
+# sent_id = corpora/ca/hotellosgirasoleszaragoza-Emili 1-1
+# text = Estàvem a el primer pis I la insonorització de el carrer no és bona , com eren festes , tota la nit va haver-hi molt de soroll .
+1	Estàvem	estar	VERB	VMII1P0	5	cop	_	_	_
+2	a	a	ADP	SPS00	5	case	_	_	_
+3	el	el	DET	DA0MS0	5	det	_	_	_
+4	primer	primer	ADJ	AO0MS0	5	amod	_	_	_
+5	pis	pis	NOUN	NCMS000	0	root	_	_	_
+6	I	i	CCONJ	CC	14	cc	_	_	_
+7	la	el	DET	DA0FS0	8	det	_	_	12:targ
+8	insonorització	insonorització	NOUN	NCFS000	14	nsubj	_	_	7:targ
+9	de	de	ADP	SPS00	11	case	_	_	_
+10	el	el	DET	DA0MS0	11	det	_	_	_
+11	carrer	carrer	NOUN	NCMS000	8	nmod	_	_	_
+12	no	no	ADV	RN	14	advmod	_	_	0:exp-Negative
+13	és	ser	VERB	VSIP3S0	14	cop	_	_	12:exp-Negative
+14	bona	bo	ADJ	AQ0FS0	5	conj	_	_	12:exp-Negative
+15	,	,	VERB	VMN0000	18	punct	_	_	_
+16	com	com	SCONJ	CS	18	mark	_	_	_
+17	eren	ser	VERB	VSII3P0	18	cop	_	_	_
+18	festes	festa	NOUN	NCFP000	14	advcl	_	_	_
+19	,	,	ADJ	AQ0CS0	18	punct	_	_	_
+20	tota	tot	DET	DI0FS0	21	det	_	_	_
+21	la	el	DET	DA0FS0	22	det	_	_	_
+22	nit	nit	NOUN	NCFS000	24	obl	_	_	_
+23	va	anar	AUX	VAIP3S0	24	aux	_	_	0:exp-Negative
+24	haver-hi	haver-hi	NOUN	NCMS000	14	advcl	_	_	23:exp-Negative
+25	molt	molt	ADV	RG	24	advmod	_	_	23:exp-Negative
+26	de	de	ADP	SPS00	27	case	_	_	_
+27	soroll	soroll	NOUN	NCMS000	24	obj	_	_	23:targ
+28	.	.	NOUN	NCMS000	5	punct	_	_	_
+
+# sent_id = corpora/ca/hotellosgirasoleszaragoza-Emili 1-2
+# text = Apartament ample I ben equipat .
+1	Apartament	apartament	NOUN	NCMS000	0	root	_	_	2:targ|4:targ
+2	ample	ample	ADJ	AQ0MS0	1	amod	_	_	0:exp-Positive
+3	I	i	CCONJ	CC	5	cc	_	_	_
+4	ben	ben	ADV	RG	5	advmod	_	_	0:exp-Positive
+5	equipat	equipar	VERB	VMP00SM	1	conj	_	_	4:exp-Positive
+6	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/hotellosgirasoleszaragoza-Emili 1-3
+# text = Pàrking privat a un preu raonable .
+1	Pàrking	pàrking	NOUN	NCMS000	0	root	_	_	3:targ
+2	privat	privat	NOUN	NCMS000	1	amod	_	_	1:targ
+3	a	a	ADP	SPS00	5	case	_	_	0:exp-Positive
+4	un	un	DET	DI0MS0	5	det	_	_	3:exp-Positive
+5	preu	preu	NOUN	NCMS000	1	nmod	_	_	3:exp-Positive
+6	raonable	raonable	ADJ	AQ0CS0	5	amod	_	_	3:exp-Positive
+7	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/hotellosgirasoleszaragoza-Emili 1-4
+# text = Prou cèntric .
+1	Prou	prou	DET	DI0CN0	2	det	_	_	0:exp-Positive
+2	cèntric	cèntric	ADJ	AQ0MS0	0	root	_	_	1:exp-Positive
+3	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hostal-ria-de-bilbao-Joan 1-1
+# text = Se suposa que no t' has de cremar amb la dutxa .
+1	Se	es	PRON	P0300000	2	obj	_	_	_
+2	suposa	suposar	VERB	VMIP3S0	0	root	_	_	_
+3	que	que	SCONJ	CS	8	mark	_	_	_
+4	no	no	ADV	RN	8	advmod	_	_	_
+5	t'	tu	PRON	PP2CS000	8	obj	_	_	_
+6	has	haver	AUX	VAIP2S0	8	aux	_	_	_
+7	de	de	ADP	SPS00	8	mark	_	_	_
+8	cremar	cremar	VERB	VMN0000	2	csubj	_	_	_
+9	amb	amb	ADP	SPS00	11	case	_	_	_
+10	la	el	DET	DA0FS0	11	det	_	_	_
+11	dutxa	dutxa	NOUN	NCFS000	8	obl	_	_	_
+12	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hostal-ria-de-bilbao-Joan 1-2
+# text = Se suposa que no s' ha de passar fred .
+1	Se	es	PRON	P0300000	2	obj	_	_	_
+2	suposa	suposar	VERB	VMIP3S0	0	root	_	_	_
+3	que	que	SCONJ	CS	8	mark	_	_	_
+4	no	no	ADV	RN	8	advmod	_	_	_
+5	s'	es	PRON	P0300000	8	obj	_	_	_
+6	ha	haver	AUX	VAIP3S0	8	aux	_	_	_
+7	de	de	ADP	SPS00	8	mark	_	_	_
+8	passar	passar	VERB	VMN0000	2	csubj	_	_	_
+9	fred	fred	ADJ	AQ0MS0	8	obj	_	_	_
+10	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/hostal-ria-de-bilbao-Joan 1-3
+# text = Només hi ha un calefactor mini per el bany i una estufa d' oli electrica de 3 barilles per tot l' apartament .
+1	Només	només	ADV	RG	3	advmod	_	_	_
+2	hi	hi	PRON	PP3CN000	3	obj	_	_	_
+3	ha	haver	AUX	VAIP3S0	0	root	_	_	_
+4	un	un	DET	DI0MS0	5	det	_	_	_
+5	calefactor	calefactor	ADJ	AQ0MS0	3	obj	_	_	_
+6	mini	mini	NOUN	NCMS000	5	amod	_	_	_
+7	per	per	ADP	SPS00	9	case	_	_	_
+8	el	el	DET	DA0MS0	9	det	_	_	_
+9	bany	bany	NOUN	NCMS000	5	nmod	_	_	_
+10	i	i	CCONJ	CC	12	cc	_	_	_
+11	una	un	DET	DI0FS0	12	det	_	_	_
+12	estufa	estufa	NOUN	NCFS000	5	conj	_	_	_
+13	d'	de	ADP	SPS00	14	case	_	_	_
+14	oli	oli	NOUN	NCMS000	12	nmod	_	_	_
+15	electrica	electrica	ADJ	AQ0FS0	14	amod	_	_	_
+16	de	de	ADP	SPS00	18	case	_	_	_
+17	3	3	NOUN	NC00000	18	nummod	_	_	_
+18	barilles	barilles	NOUN	NCFP000	12	nmod	_	_	_
+19	per	per	ADP	SPS00	22	case	_	_	_
+20	tot	tot	DET	DI0MS0	21	det	_	_	_
+21	l'	el	DET	DA0CS0	22	det	_	_	_
+22	apartament	apartament	NOUN	NCMS000	18	nmod	_	_	_
+23	.	.	NOUN	NCMS000	3	punct	_	_	_
+
+# sent_id = corpora/ca/hostal-ria-de-bilbao-Joan 1-4
+# text = El fred va inclòs en el preu .
+1	El	el	DET	DA0MS0	2	det	_	_	0:exp-Negative
+2	fred	fred	NOUN	NCMS000	4	nsubj	_	_	1:exp-Negative
+3	va	anar	AUX	VAIP3S0	4	aux	_	_	1:exp-Negative
+4	inclòs	incloure	VERB	VMP00SM	0	root	_	_	1:exp-Negative
+5	en	en	ADP	SPS00	7	case	_	_	1:exp-Negative
+6	el	el	DET	DA0MS0	7	det	_	_	1:exp-Negative
+7	preu	preu	NOUN	NCMS000	4	obl	_	_	1:exp-Negative
+8	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/hostal-ria-de-bilbao-Joan 1-5
+# text = La situació és execepcional
+1	La	el	DET	DA0FS0	2	det	_	_	4:targ
+2	situació	situació	NOUN	NCFS000	0	root	_	_	1:targ
+3	és	ser	VERB	VSIP3S0	2	cop	_	_	_
+4	execepcional	execepcional	ADJ	AQ0CS0	2	punct	_	_	0:exp-Positive
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach8-1
+# text = No m' ha agradat que la habitació que vam reservar ens fiquessin un llit de matrimoni tot I haver-ho demanat de forma expressa .
+1	No	no	ADV	RN	4	advmod	_	_	0:exp-Negative
+2	m'	jo	PRON	PP1CS000	4	obj	_	_	1:exp-Negative
+3	ha	haver	AUX	VAIP3S0	4	aux	_	_	1:exp-Negative
+4	agradat	agradar	VERB	VMP00SM	0	root	_	_	_
+5	que	que	SCONJ	CS	12	mark	_	_	_
+6	la	el	DET	DA0FS0	7	det	_	_	_
+7	habitació	habitació	NOUN	NCFS000	12	nsubj	_	_	_
+8	que	que	PRON	PR0CN000	10	obj	_	_	_
+9	vam	anar	AUX	VAIP1P0	10	aux	_	_	_
+10	reservar	reservar	VERB	VMN0000	7	acl	_	_	_
+11	ens	jo	PRON	PP1CP000	12	obj	_	_	_
+12	fiquessin	ficar	VERB	VMSI3P0	4	csubj	_	_	_
+13	un	un	DET	DI0MS0	14	det	_	_	1:targ
+14	llit	llit	NOUN	NCMS000	12	obj	_	_	13:targ
+15	de	de	ADP	SPS00	16	case	_	_	13:targ
+16	matrimoni	matrimoni	NOUN	NCMS000	14	nmod	_	_	13:targ
+17	tot	tot	ADV	RG	20	mark	_	_	_
+18	I	i	CCONJ	CC	17	fixed	_	_	_
+19	haver-ho	haver-ho	NOUN	NCMS000	20	aux	_	_	_
+20	demanat	demanar	VERB	VMP00SM	12	advcl	_	_	_
+21	de	de	ADP	SPS00	22	case	_	_	_
+22	forma	forma	NOUN	NCFS000	20	obl	_	_	_
+23	expressa	expressar	VERB	VMIP3S0	22	amod	_	_	_
+24	.	.	NOUN	NCMS000	4	punct	_	_	_
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach8-2
+# text = Van viatjar a Cadaqués I a aquest hotel per celebrar el nostre 6e aniversari de bodes I vam tenir que dormir en llits separats .
+1	Van	anar	AUX	VAIP3P0	2	aux	_	_	_
+2	viatjar	viatjar	VERB	VMN0000	0	root	_	_	_
+3	a	a	ADP	SPS00	4	case	_	_	_
+4	Cadaqués	cadaqués	VERB	VMSI3S0	2	obl	_	_	_
+5	I	i	CCONJ	CC	8	cc	_	_	_
+6	a	a	ADP	SPS00	8	case	_	_	_
+7	aquest	aquest	DET	DD0MS0	8	det	_	_	_
+8	hotel	hotel	NOUN	NCMS000	4	conj	_	_	_
+9	per	per	ADP	SPS00	10	mark	_	_	_
+10	celebrar	celebrar	VERB	VMN0000	2	advcl	_	_	_
+11	el	el	DET	DA0MS0	14	det	_	_	_
+12	nostre	nostre	PRON	PX1MS0P0	14	det	_	_	_
+13	6e	6e	NOUN	NCMS000	14	nummod	_	_	_
+14	aniversari	aniversari	NOUN	NCMS000	10	obj	_	_	_
+15	de	de	ADP	SPS00	16	case	_	_	_
+16	bodes	boda	NOUN	NCFP000	14	nmod	_	_	_
+17	I	i	CCONJ	CC	19	cc	_	_	_
+18	vam	anar	AUX	VAIP1P0	19	aux	_	_	0:exp-Negative
+19	tenir	tenir	VERB	VMN0000	2	conj	_	_	18:exp-Negative
+20	que	que	SCONJ	CS	21	mark	_	_	18:exp-Negative
+21	dormir	dormir	VERB	VMN0000	19	xcomp	_	_	18:exp-Negative
+22	en	en	ADP	SPS00	23	case	_	_	18:exp-Negative
+23	llits	llit	NOUN	NCMP000	21	obl	_	_	18:exp-Negative
+24	separats	separar	VERB	VMP00PM	23	amod	_	_	18:exp-Negative
+25	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach8-3
+# text = Zona de pk privat gratuït a la vora de l' hotel .
+1	Zona	zona	NOUN	NCFS000	0	root	_	_	5:targ
+2	de	de	ADP	SPS00	3	case	_	_	1:targ
+3	pk	pk	NOUN	NCMS000	1	nmod	_	_	1:targ
+4	privat	privat	NOUN	NCMS000	3	amod	_	_	1:targ
+5	gratuït	gratuït	ADJ	AQ0MS0	3	amod	_	_	0:exp-Positive
+6	a	a	ADP	SPS00	8	case	_	_	_
+7	la	el	DET	DA0FS0	8	det	_	_	_
+8	vora	vora	NOUN	NCFS000	1	nmod	_	_	_
+9	de	de	ADP	SPS00	11	case	_	_	_
+10	l'	el	DET	DA0CS0	11	det	_	_	_
+11	hotel	hotel	NOUN	NCMS000	8	nmod	_	_	_
+12	.	.	NOUN	NCMS000	1	punct	_	_	_
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach8-4
+# text = Les habitacions netes I amples .
+1	Les	el	DET	DA0FP0	2	det	_	_	3:targ|5:targ
+2	habitacions	habitació	NOUN	NCFP000	0	root	_	_	1:targ|1:targ
+3	netes	net	ADJ	AQ0FP0	2	amod	_	_	0:exp-Positive
+4	I	i	CCONJ	CC	5	cc	_	_	_
+5	amples	ample	ADJ	AQ0CP0	3	conj	_	_	0:exp-Positive
+6	.	.	NOUN	NCMS000	2	punct	_	_	_
+
+# sent_id = corpora/ca/aparthotel-village-golf-beach8-5
+# text = Decoració genial I original , materials gens deteriorats .
+1	Decoració	decoració	NOUN	NCFS000	0	root	_	_	2:targ|4:targ
+2	genial	genial	ADJ	AQ0CS0	1	amod	_	_	0:exp-Positive
+3	I	i	CCONJ	CC	4	cc	_	_	_
+4	original	original	ADJ	AQ0CS0	2	conj	_	_	0:exp-Positive
+5	,	,	NOUN	NCFS000	6	punct	_	_	_
+6	materials	material	ADJ	AQ0CP0	1	conj	_	_	7:targ
+7	gens	gens	ADV	RG	8	advmod	_	_	0:exp-Positive
+8	deteriorats	deteriorar	VERB	VMP00PM	6	amod	_	_	7:exp-Positive
+9	.	.	NOUN	NCMS000	1	punct	_	_	_
+
