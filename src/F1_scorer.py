@@ -1,4 +1,78 @@
 import argparse
+import col_data as cd
+from tabulate import tabulate
+import os
+
+
+def get_flat(sent):
+    labels = []
+    for token in sent.tokens:
+        scopes = token.scope
+        if len(scopes) > 0:
+            label = scopes[-1][-1]
+        else:
+            label = "O"
+        labels.append(label)
+    return labels
+
+def span_f1(gold, pred, mapping, test_label="holder"):
+    tp, fp, fn = 0, 0, 0
+    for gold_sent, pred_sent in zip(gold, pred):
+        gold_labels = get_flat(gold_sent)
+        pred_labels = get_flat(pred_sent)
+        for gold_label, pred_label in zip(gold_labels, pred_labels):
+            gold_label = mapping[gold_label]
+            pred_label = mapping[pred_label]
+            # TP
+            if gold_label == pred_label == test_label:
+                tp += 1
+            #FP
+            if gold_label != test_label and pred_label == test_label:
+                fp += 1
+            #FN
+            if gold_label == test_label and pred_label != test_label:
+                fn += 1
+    prec = tp / (tp + fp + 1e-6)
+    rec = tp / (tp + fn + 1e-6)
+    f1 = 2 * prec * rec / (prec + rec + 1e-6)
+    return prec, rec, f1
+
+def convert_to_targeted(labeled_edges):
+    targets = []
+    if len(labeled_edges) == 0:
+        return set(targets)
+    else:
+        for token_idx, edge, label in labeled_edges:
+            if label == "targ":
+                target = [token_idx]
+                for tidx, e, l in labeled_edges:
+                    if tidx == edge and "exp" in l:
+                        polarity = l.split("-")[-1]
+                    if e == token_idx and "targ" in l:
+                        target.append(tidx)
+                try:
+                    targets.append((tuple(set(target)), polarity))
+                # It's possible for a target not to be connected to any
+                # polar expression, in which case, it will have no polarity
+                except UnboundLocalError:
+                    pass
+        return set(targets)
+
+def targeted_f1(gold_edges, pred_edges):
+    tp, fp, fn = 0, 0, 0
+    #
+    for key in gold_edges.keys():
+        try:
+            gold_targets = convert_to_targeted(gold_edges[key])
+            pred_targets = convert_to_targeted(pred_edges[key])
+            tp += len(pred_targets.intersection(gold_targets))
+            fp += len(pred_targets.difference(gold_targets))
+            fn += len(gold_targets.difference(pred_targets))
+        except:
+            print(key)
+    prec = tp / (tp + fp + 1e-6)
+    rec = tp / (tp + fn + 1e-6)
+    return 2 * (prec * rec) / (prec + rec + 1e-6)
 
 def get_sent_tuples(labeled_edges, keep_polarity=True):
     sent_tuples = []
@@ -261,49 +335,78 @@ def F1(gold, pred):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("goldfile")
-    parser.add_argument("predfile")
+    parser.add_argument("golddir")
+    parser.add_argument("preddir")
+    parser.add_argument("--experiments", "-e", nargs="+", default=["point_to_root", "head_first", "head_first-inside_label", "head_final", "head_final-inside_label", "head_final-inside_label-dep_edges", "head_final-inside_label-dep_edges-dep_labels"])
 
     args = parser.parse_args()
 
+    mapping = {'exp-Negative': "exp", 'exp-negative': "exp", 'IN:exp-neutral': "exp", 'exp-neutral': "exp", 'IN:exp-Negative': "exp", 'IN:exp-negative': "exp", 'targ': "targ", 'exp-positive': "exp", 'exp-Positive': "exp", 'IN:exp-Positive': "exp", 'IN:exp-positive': "exp", 'holder': "holder", 'IN:targ': "targ", 'IN:holder': "holder", 'IN:exp-None': "exp", 'exp-None': "exp", "exp-conflict": "exp", "IN:exp-conflict": "exp", "O": "O"}
 
-    lgold = read_labeled(args.goldfile)
-    lpred = read_labeled(args.predfile)
+    name_map = {"point_to_root": "Point-to-root",
+                "head_first": "Head-first",
+                "head_first-inside_label": "+inlabel",
+                "head_final": "Head-final",
+                "head_final-inside_label": "+inlabel",
+                "head_final-inside_label-dep_edges": "Dep. edges",
+                "head_final-inside_label-dep_edges-dep_labels": "Dep. labels"}
 
-    ugold = read_unlabeled(args.goldfile)
-    upred = read_unlabeled(args.predfile)
 
-    print("Unlabeled")
-    prec = precision(ugold, upred)
-    rec = recall(ugold, upred)
-    f1 = F1(ugold, upred)
-    print("P: {0:.3f}".format(prec))
-    print("R: {0:.3f}".format(rec))
-    print("F1: {0:.3f}".format(f1))
-    print()
+    headers = ["holder", "target", "exp", "Targeted F1", "UF", "LF", "USF", "LSF"]
+    metrics = []
 
-    print("Labeled")
-    prec = precision(lgold, lpred)
-    rec = recall(lgold, lpred)
-    f1 = F1(lgold, lpred)
-    print("P: {0:.3f}".format(prec))
-    print("R: {0:.3f}".format(rec))
-    print("F1: {0:.3f}".format(f1))
-    print()
 
-    print("Sentiment Tuple - Polarity ")
-    tp, fp, prec = tuple_precision(lgold, lpred, False)
-    tp, fn, rec = tuple_recall(lgold, lpred, False)
-    f1 = tuple_F1(lgold, lpred, False)
-    print("P: {0:.3f}".format(prec))
-    print("R: {0:.3f}".format(rec))
-    print("F1: {0:.3f}".format(f1))
-    print()
+    # Find which experiments have been run
+    #experiment_names = set(name_map.keys())
+    #experiments_run = set(os.listdir(args.preddir))
+    #to_check = experiment_names.intersection(experiments_run)
 
-    print("Sentiment Tuple + Polarity")
-    tp, fp, prec = tuple_precision(lgold, lpred)
-    tp, fn, rec = tuple_recall(lgold, lpred)
-    f1 = tuple_F1(lgold, lpred)
-    print("P: {0:.3f}".format(prec))
-    print("R: {0:.3f}".format(rec))
-    print("F1: {0:.3f}".format(f1))
+    for setup in args.experiments:
+        metric = []
+        metric.append("")
+        metric.append(name_map[setup])
+
+        #goldfile = os.path.join(args.golddir, setup, "test.conllu")
+        #predfile = os.path.join(args.preddir, setup, "test.conllu.pred")
+        goldfile = os.path.join(args.golddir, setup, "dev.conllu")
+        predfile = os.path.join(args.preddir, setup, "dev.conllu.pred")
+
+        gold = list(cd.read_col_data(goldfile))
+        pred = list(cd.read_col_data(predfile))
+        for label in ["holder", "targ", "exp"]:
+            prec, rec, f1 = span_f1(gold, pred, mapping, test_label=label)
+            metric.append(f1 * 100)
+            #print("{0}: {1:.1f}".format(label, f1 * 100))
+
+        lgold = read_labeled(goldfile)
+        lpred = read_labeled(predfile)
+
+        ugold = read_unlabeled(goldfile)
+        upred = read_unlabeled(predfile)
+
+        #print("Targeted F1")
+        f1 = targeted_f1(lgold, lpred)
+        metric.append(f1 * 100)
+        #print("F1: {0:.1f}".format(f1 * 100))
+        #print()
+
+        #print("Unlabeled")
+        f1 = F1(ugold, upred)
+        metric.append(f1 * 100)
+
+        #print("Labeled")
+        f1 = F1(lgold, lpred)
+        metric.append(f1 * 100)
+
+        #print("Sentiment Tuple - Polarity ")
+        f1 = tuple_F1(lgold, lpred, False)
+        metric.append(f1 * 100)
+
+        #print("Sentiment Tuple + Polarity")
+        f1 = tuple_F1(lgold, lpred)
+        metric.append(f1 * 100)
+
+        metrics.append(metric)
+
+
+    print(tabulate(metrics, headers=headers, tablefmt="latex", floatfmt="0.1f"))
