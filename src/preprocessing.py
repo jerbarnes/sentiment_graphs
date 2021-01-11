@@ -8,7 +8,7 @@ import h5py
 class IndexEntry:
     """Convert and store a Sentence in index format"""
 
-    def __init__(self, sentence, vocabs, external, settings, elmo_vecs):
+    def __init__(self, sentence, vocabs, external, settings, elmo_vecs, vec_dim=1024):
 
         word_indices = []
         pos_indices = []
@@ -28,7 +28,7 @@ class IndexEntry:
         char_indices.append(
             tuple(vocabs.chars.get(vcb.BOS) for c in range(1)))
         if settings.use_elmo:
-            elmo_vectors.append(torch.zeros(1024))
+            elmo_vectors.append(torch.zeros(vec_dim))
         else:
             elmo_vecs = [None for _ in range(len(sentence))]
 
@@ -53,7 +53,7 @@ class IndexEntry:
         self.pos_indices = torch.LongTensor(pos_indices)
         self.external_indices = torch.LongTensor(external_indices)
         self.lemma_indices = torch.LongTensor(lemma_indices)
-        self.targets = [torch.zeros(len(sentence)+1, len(sentence)+1), 
+        self.targets = [torch.zeros(len(sentence)+1, len(sentence)+1),
                         sentence.make_matrix("syn", True, vocabs.synrels.w2i),
                         sentence.make_matrix("sem", True, vocabs.semrels.w2i),
                         sentence.make_matrix("cue", True, vocabs.scoperels.w2i),
@@ -67,20 +67,21 @@ class IndexEntry:
             self.elmo_vecs = None
 
         # no gradients require for external vectors and indices
-        self.word_indices.requires_grad = False     
-        self.pos_indices.requires_grad = False      
+        self.word_indices.requires_grad = False
+        self.pos_indices.requires_grad = False
         self.external_indices.requires_grad = False
-        self.lemma_indices.requires_grad = False    
+        self.lemma_indices.requires_grad = False
 
 
 class MyDataset(Dataset):
-    def __init__(self, data_path, vocabs, external, settings, elmo):
+    def __init__(self, data_path, vocabs, external, settings, elmo, vec_dim):
         super().__init__()
 
         self.external = external
         self.vocabs = vocabs
         self.index_entries = None
         self.settings = settings
+        self.vec_dim = vec_dim
 
         pos_style = settings.pos_style
         target_style=settings.target_style
@@ -108,7 +109,7 @@ class MyDataset(Dataset):
             #print(len(sentence), len(felmo[sentence.id]))
             if self.use_elmo:
                 self.index_entries.append(IndexEntry(
-                    sentence, self.vocabs, self.external, self.settings, felmo[sentence.id])
+                    sentence, self.vocabs, self.external, self.settings, felmo[sentence.id], self.vec_dim)
                     )
             else:
                 self.index_entries.append(IndexEntry(
@@ -118,7 +119,7 @@ class MyDataset(Dataset):
         if self.use_elmo:
             felmo.close()
         print("Done")
-        #return data 
+        #return data
 
     def __len__(self):
         return len(self.index_entries)
@@ -191,7 +192,7 @@ class External(vcb.Vocab):
                 model = gensim.models.KeyedVectors.load(fname)
             else:
                 model = gensim.models.KeyedVectors.load_word2vec_format(fname, binary=True, unicode_errors="replace")
-        
+
         extra = len(self.w2i)
         self.dim = model.vector_size
         self.data = torch.cat([torch.zeros(extra, self.dim, requires_grad=False), torch.tensor(model.vectors, requires_grad=False)])

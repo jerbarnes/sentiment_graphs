@@ -30,6 +30,7 @@ def get_args(forced_args=None):
     parser.add_argument("--elmo_train", type=str, default=None)
     parser.add_argument("--elmo_dev", type=str, default=None)
     parser.add_argument("--elmo_test", type=str, default=None)
+    parser.add_argument("--vec_dim", type=int, default=1024)
     parser.add_argument("--use_elmo", type=str2bool, default=False)
     parser.add_argument("--recycle", type=str, default=None)
     parser.add_argument("--recycle_layers", type=str, default=None)

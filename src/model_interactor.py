@@ -81,7 +81,7 @@ class ModelInteractor:
         #other_dict = {k: v for k, v in other_dict.items() if k in args}
         # 2. overwrite entries in the existing state dict
         print(od.keys())
-        model_dict.update(od) 
+        model_dict.update(od)
         # 3. load the new state dict
         self.model.load_state_dict(model_dict)
 
@@ -100,7 +100,8 @@ class ModelInteractor:
             vocabs=self.vocabs,
             external=self.external,
             settings=self.settings,
-            elmo=self.settings.elmo_train)
+            elmo=self.settings.elmo_train,
+            vec_dim=self.settings.vec_dim)
         return DataLoader(
             self.train_data,
             batch_size=self.batch_size,
@@ -142,10 +143,10 @@ class ModelInteractor:
                                          gradient_clipping)
             debug_loss.append(loss)
             if torch.cuda.is_available():
-               print(torch.cuda.memory_allocated(self.device)/10**6) 
-               print(torch.cuda.memory_cached(self.device)/10**6) 
+               print(torch.cuda.memory_allocated(self.device)/10**6)
+               print(torch.cuda.memory_cached(self.device)/10**6)
                torch.cuda.empty_cache()
-               print(torch.cuda.memory_cached(self.device)/10**6) 
+               print(torch.cuda.memory_cached(self.device)/10**6)
 
             if verbose and (i + 1) % print_every == 0:
                 percentage = int((i + 1) / print_every)
@@ -198,7 +199,7 @@ class ModelInteractor:
                 if len(other_predicted) > 0:
                     other_f1, _ = sc.score(*zip(*((entry[1][self.ot].numpy(), other_predicted[entry[0]].numpy()) for entry in entries)))
                     print("Secondary Dev F1 on epoch {} is {:.2%}".format(epoch, other_f1))
-                #f1 = sc.score() 
+                #f1 = sc.score()
                 improvement = f1 > best_f1
                 elapsed = epoch - best_f1_epoch
                 es_active = settings.early_stopping > 0
@@ -292,10 +293,10 @@ class ModelInteractor:
         #####
         if torch.cuda.is_available():
             print("other_loss")
-            print(torch.cuda.memory_allocated(self.device)/10**6) 
-            print(torch.cuda.memory_cached(self.device)/10**6) 
+            print(torch.cuda.memory_allocated(self.device)/10**6)
+            print(torch.cuda.memory_cached(self.device)/10**6)
             torch.cuda.empty_cache()
-            print(torch.cuda.memory_cached(self.device)/10**6) 
+            print(torch.cuda.memory_cached(self.device)/10**6)
 
         other_label_scores_transposed = other_label_scores.transpose(0, 1)
         other_edge_targets = (batch.targetss[self.ot] > 0)
@@ -327,7 +328,7 @@ class ModelInteractor:
         loss *= 1 - self.model_interpolation
         loss += other_loss * self.model_interpolation
 
-        return loss 
+        return loss
         #####
     def other_predict(self, other_edge_scores, other_label_scores, i, size, other_predictions, batch):
        ####
