@@ -143,7 +143,7 @@ class BaseLSTM(nn.Module):
         external_indices = external_indices if self.use_external else None
         lemma_indices = lemma_indices if self.use_lemma else None
         seq_lengths = seq_lengths
-        
+
         char_features = self.char_model(
             chars, self.dropout_embedding) if self.use_char else None
 
@@ -163,7 +163,7 @@ class SecondLSTM(nn.Module):
     def __init__(self, settings):
         super().__init__()
 
-        
+
         fnn_input = settings.hidden_lstm * 2
         self.lstm_to_fnn = nn.Linear(fnn_input, settings.hidden_lstm)
 
@@ -286,7 +286,7 @@ class BiLSTMModel(nn.Module):
     def __init__(self, vocabs, external, settings):
         super().__init__()
 
-        only_lonely = True 
+        only_lonely = True
         self.settings = settings
 
         self.n_labels_other = 0 if vocabs[settings.ot] is None else len(vocabs[settings.ot])
@@ -298,7 +298,7 @@ class BiLSTMModel(nn.Module):
         self.helpers = settings.helpers
         self.base = BaseLSTM(vocabs, external, settings)
         if settings.use_elmo:
-            self.scalelmo = nn.Linear(1024, 100)
+            self.scalelmo = nn.Linear(settings.vec_dim, 100)
         else:
             self.scalelmo = None
         if settings.ot:
@@ -338,19 +338,19 @@ class BiLSTMModel(nn.Module):
         # (batch x seq x 2*dim_lstm)
         if torch.cuda.is_available():
             print("model start")
-            print(torch.cuda.memory_allocated(self.settings.device)/10**6) 
-            print(torch.cuda.memory_cached(self.settings.device)/10**6) 
+            print(torch.cuda.memory_allocated(self.settings.device)/10**6)
+            print(torch.cuda.memory_cached(self.settings.device)/10**6)
             torch.cuda.empty_cache()
-            print(torch.cuda.memory_cached(self.settings.device)/10**6) 
+            print(torch.cuda.memory_cached(self.settings.device)/10**6)
         output, inputs = self.base( seq_lengths, chars, word_indices, pos_indices,
                 external_indices, lemma_indices, elmo_scaled)
-        
+
         if torch.cuda.is_available():
             print("post bilstm")
-            print(torch.cuda.memory_allocated(self.settings.device)/10**6) 
-            print(torch.cuda.memory_cached(self.settings.device)/10**6) 
+            print(torch.cuda.memory_allocated(self.settings.device)/10**6)
+            print(torch.cuda.memory_cached(self.settings.device)/10**6)
             torch.cuda.empty_cache()
-            print(torch.cuda.memory_cached(self.settings.device)/10**6) 
+            print(torch.cuda.memory_cached(self.settings.device)/10**6)
 
         dp_output = None
         other_edge_scores = None
@@ -366,10 +366,10 @@ class BiLSTMModel(nn.Module):
 
         if torch.cuda.is_available():
             print("post other")
-            print(torch.cuda.memory_allocated(self.settings.device)/10**6) 
-            print(torch.cuda.memory_cached(self.settings.device)/10**6) 
+            print(torch.cuda.memory_allocated(self.settings.device)/10**6)
+            print(torch.cuda.memory_cached(self.settings.device)/10**6)
             torch.cuda.empty_cache()
-            print(torch.cuda.memory_cached(self.settings.device)/10**6) 
+            print(torch.cuda.memory_cached(self.settings.device)/10**6)
 
         edge_scores, label_scores = self.scorer(output, dp_output)
 
@@ -384,16 +384,16 @@ class GCN(nn.Module):
         super().__init__()
         #self.device = device
         self.layers = layers
-        self.hidden_dim = hidden_dim 
+        self.hidden_dim = hidden_dim
 
 
         self.W_parents  = [nn.Linear(gcn_input, self.hidden_dim)]#.to(self.device)]
         self.W_children = [nn.Linear(gcn_input, self.hidden_dim)]#.to(self.device)]
         self.W_self     = [nn.Linear(gcn_input, self.hidden_dim)]#.to(self.device)]
         for l in range(1, layers):
-            self.W_parents.append(nn.Linear(self.hidden_dim, self.hidden_dim))#.to(self.device)) 
+            self.W_parents.append(nn.Linear(self.hidden_dim, self.hidden_dim))#.to(self.device))
             self.W_children.append(nn.Linear(self.hidden_dim, self.hidden_dim))#.to(self.device))
-            self.W_self.append(nn.Linear(self.hidden_dim, self.hidden_dim))#.to(self.device)) 
+            self.W_self.append(nn.Linear(self.hidden_dim, self.hidden_dim))#.to(self.device))
         self.W_parents = nn.ModuleList(self.W_parents)
         self.W_children = nn.ModuleList(self.W_children)
         self.W_self = nn.ModuleList(self.W_self)
@@ -410,7 +410,7 @@ class GCN(nn.Module):
     def forward(self, adj, inputs, label_scores=None):
         # adj_labeled als Tensor? jede gelabelte Kante ist der jewelige bias vector
         # man muss nen lookup machen?
-        # 
+        #
         #L = self.label_bias(torch.argmax(label_scores, dim=1))
         X = inputs
         #adj = adj.to(self.device)
@@ -449,7 +449,7 @@ class GCN(nn.Module):
             #self_sum = eye @ self.sigmoid(self.W_self[l](X))
 
             X = self.relu(parent_sum + child_sum + self_sum)
-        
+
         return self.last(X)
 
 
