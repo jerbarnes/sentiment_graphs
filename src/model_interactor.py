@@ -114,7 +114,8 @@ class ModelInteractor:
             vocabs=self.vocabs,
             external=self.external,
             settings=self.settings,
-            elmo=elmo_path)
+            elmo=elmo_path,
+            vec_dim=self.settings.vec_dim)
         return DataLoader(
             self.test_data,
             batch_size=self.batch_size,
