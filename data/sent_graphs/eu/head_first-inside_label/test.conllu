@@ -1,9 +1,9 @@
 # sent_id = corpora/eu/aretaetxea_1-3
 # text = Aukera ugari eskaintzen dituzte lauan paseatzeko eta mendira joateko , tartean Toloñora .
 1	Aukera	aukera	NOUN	IZE_ARR_ZERO	_	3	obj	_	_	0:exp-Positive
-2	ugari	ugari	DET	DET_DZG_ABS	_	1	det	_	_	1:exp-Positive
-3	eskaintzen	eskaini	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
-4	dituzte	*edun	AUX	ADL	_	3	aux	_	_	1:exp-Positive
+2	ugari	ugari	DET	DET_DZG_ABS	_	1	det	_	_	1:IN:exp-Positive
+3	eskaintzen	eskaini	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
+4	dituzte	*edun	AUX	ADL	_	3	aux	_	_	1:IN:exp-Positive
 5	lauan	lau	NOUN	IZE_ARR_INE	_	6	obl	_	_	_
 6	paseatzeko	paseatu	VERB	ADI_SIN_ABS	_	3	advcl	_	_	_
 7	eta	eta	CCONJ	LOT_JNT	_	9	cc	_	_	_
@@ -17,18 +17,18 @@
 # sent_id = corpora/eu/aretaetxea_1-4
 # text = Areta etxeko instalakuntzak oso egokiak dira baina batez ere Txarok eman zigun tratua , beroa eta gertukoa .
 1	Areta	areta	NOUN	IZE_LIB_ZERO	_	2	nmod	_	_	4:targ
-2	etxeko	etxe	NOUN	IZE_ARR_GEL	_	3	nmod	_	_	1:targ
-3	instalakuntzak	instalakuntza	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	1:targ
+2	etxeko	etxe	NOUN	IZE_ARR_GEL	_	3	nmod	_	_	1:IN:targ
+3	instalakuntzak	instalakuntza	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	1:IN:targ
 4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive
-5	egokiak	egoki	ADJ	ADJ_ARR_ABS	_	0	root	_	_	4:exp-Positive
+5	egokiak	egoki	ADJ	ADJ_ARR_ABS	_	0	root	_	_	4:IN:exp-Positive
 6	dira	izan	AUX	ADT	_	5	cop	_	_	_
 7	baina	baina	CCONJ	LOT_JNT	_	6	cc	_	_	_
 8	batez	batez	ADV	ADB_ARR_ZERO	_	7	nmod	_	_	_
 9	ere	ere	ADV	LOT_LOK	_	8	fixed	_	_	_
 10	Txarok	txaro	NOUN	IZE_LIB_ERG	_	11	nsubj	_	_	17:targ|15:targ
-11	eman	eman	VERB	ADI_SIN_NOTDEK	_	13	acl	_	_	10:targ|10:targ
-12	zigun	*edun	AUX	ADL	_	11	aux	_	_	10:targ|10:targ
-13	tratua	tratu	NOUN	IZE_ARR_ABS	_	7	obj	_	_	10:targ|10:targ
+11	eman	eman	VERB	ADI_SIN_NOTDEK	_	13	acl	_	_	10:IN:targ|10:IN:targ
+12	zigun	*edun	AUX	ADL	_	11	aux	_	_	10:IN:targ|10:IN:targ
+13	tratua	tratu	NOUN	IZE_ARR_ABS	_	7	obj	_	_	10:IN:targ|10:IN:targ
 14	,	,	PUNCT	PUNCT	_	15	punct	_	_	_
 15	beroa	bero	NOUN	IZE_ARR_ABS	_	13	conj	_	_	0:exp-Positive
 16	eta	eta	CCONJ	LOT_JNT	_	17	cc	_	_	_
@@ -39,24 +39,24 @@
 # text = Gainera etxean egindako ardoa froga dezakezue , guri asko gustatu zaigu .
 1	Gainera	gainera	ADV	LOT_LOK	_	5	advmod	_	_	_
 2	etxean	etxe	NOUN	IZE_ARR_INE	_	3	obl	_	_	5:targ|9:targ
-3	egindako	egin	VERB	ADI_SIN_GEL	_	4	advcl	_	_	2:targ|2:targ
-4	ardoa	ardo	NOUN	IZE_ARR_ABS	_	5	obj	_	_	2:targ|2:targ
+3	egindako	egin	VERB	ADI_SIN_GEL	_	4	advcl	_	_	2:IN:targ|2:IN:targ
+4	ardoa	ardo	NOUN	IZE_ARR_ABS	_	5	obj	_	_	2:IN:targ|2:IN:targ
 5	froga	froga	NOUN	IZE_ARR_ABS	_	0	root	_	_	0:exp-Positive
-6	dezakezue	ue	AUX	ADL	_	5	aux	_	_	5:exp-Positive
+6	dezakezue	ue	AUX	ADL	_	5	aux	_	_	5:IN:exp-Positive
 7	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 8	guri	gu	PRON	IOR_PERARR_DAT	_	10	nsubj	_	_	5:holder|9:holder
-9	asko	asko	ADV	ADB_ARR	_	10	advmod	_	_	8:holder|0:exp-Positive
-10	gustatu	gustatu	VERB	ADI_SIN_NOTDEK	_	5	conj	_	_	9:exp-Positive
+9	asko	asko	ADV	ADB_ARR	_	10	advmod	_	_	8:IN:holder|0:exp-Positive
+10	gustatu	gustatu	VERB	ADI_SIN_NOTDEK	_	5	conj	_	_	9:IN:exp-Positive
 11	zaigu	izan	AUX	ADL	_	10	aux	_	_	_
 12	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/aretaetxea_1-6
 # text = Zer gehiago eska dezakegu ba
 1	Zer	zer	DET	DET_NOLGAL_ABS	_	3	obj	_	_	0:exp-Positive
-2	gehiago	gehiago	DET	DET_DZG_ABS	_	1	det	_	_	1:exp-Positive
-3	eska	eskatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
-4	dezakegu	*ezan	AUX	ADL	_	3	aux	_	_	1:exp-Positive
-5	ba	ba	SCONJ	BA_BA_BA	_	3	punct	_	_	1:exp-Positive
+2	gehiago	gehiago	DET	DET_DZG_ABS	_	1	det	_	_	1:IN:exp-Positive
+3	eska	eskatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
+4	dezakegu	*ezan	AUX	ADL	_	3	aux	_	_	1:IN:exp-Positive
+5	ba	ba	SCONJ	BA_BA_BA	_	3	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/chalets-etchemendigaraya-Anonimo_1-1
 # text = Atzeginak .
@@ -69,7 +69,7 @@
 2	polita	polit	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	_
 3	eta	eta	CCONJ	LOT_JNT	_	5	cc	_	_	_
 4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive
-5	lasaia.Ardiak	lasaia.ardia	NOUN	IZE_LIB_ERG	_	2	conj	_	_	4:exp-Positive
+5	lasaia.Ardiak	lasaia.ardia	NOUN	IZE_LIB_ERG	_	2	conj	_	_	4:IN:exp-Positive
 6	eta	eta	CCONJ	LOT_JNT	_	5	cc	_	_	_
 7	gazta	gazta	NOUN	IZE_ARR_ZERO	_	9	obl	_	_	_
 8	zelan	zelan	ADV	ADB_GAL_ZERO	_	9	advmod	_	_	_
@@ -77,7 +77,7 @@
 10	den	izan	AUX	ADL	_	9	aux	_	_	_
 11	ikusteko	ikusi	NOUN	IZE_ARR_GEL	_	12	advcl	_	_	_
 12	aukera.Euskaldunak	aukera.euskaldun	NOUN	IZE_ARR_ABS	_	0	root	_	_	0:exp-Positive
-13	dira	izan	AUX	ADT	_	12	punct	_	_	12:exp-Positive
+13	dira	izan	AUX	ADT	_	12	punct	_	_	12:IN:exp-Positive
 
 # sent_id = corpora/eu/residence_paris_massy_1-1
 # text = Balkoian zigarrokinak daude , hautsontzia jarri behar .
@@ -87,7 +87,7 @@
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 5	hautsontzia	hautsontzi	NOUN	IZE_ARR_ABS	_	6	obj	_	_	6:targ
 6	jarri	jarri	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	0:exp-Negative
-7	behar	behar_izan	VERB	ADI_ADK_NOTDEK	_	3	conj	_	_	6:exp-Negative
+7	behar	behar_izan	VERB	ADI_ADK_NOTDEK	_	3	conj	_	_	6:IN:exp-Negative
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/residence_paris_massy_1-2
@@ -112,8 +112,8 @@
 # text = Oheak oso oso eroso eta goxoak .
 1	Oheak	ohe	NOUN	IZE_ARR_ABS	_	4	nsubj	_	_	6:targ|2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	oso	oso	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:exp-Positive
-4	eroso	eroso	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:exp-Positive
+3	oso	oso	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:IN:exp-Positive
+4	eroso	eroso	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:IN:exp-Positive
 5	eta	eta	CCONJ	LOT_JNT	_	6	cc	_	_	_
 6	goxoak	goxo	NOUN	IZE_ARR_ABS	_	4	conj	_	_	0:exp-Positive
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
@@ -123,8 +123,8 @@
 1	Sukalde	sukalde	NOUN	IZE_ARR_ZERO	_	5	nsubj	_	_	2:targ|3:targ
 2	txikia	txiki	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	0:exp-Negative
 3	oso	oso	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	0:exp-Positive
-4	ongi	ongi	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	3:exp-Positive
-5	hornitua	hornitu	VERB	ADI_SIN_ABS	_	0	root	_	_	3:exp-Positive
+4	ongi	ongi	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	3:IN:exp-Positive
+5	hornitua	hornitu	VERB	ADI_SIN_ABS	_	0	root	_	_	3:IN:exp-Positive
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_	_
 7	ontzi	ontzi	NOUN	IZE_ARR_ZERO	_	5	obj	_	_	_
 8	garbigailu	garbigailu	NOUN	IZE_ARR_ZERO	_	7	amod	_	_	_
@@ -135,26 +135,26 @@
 # sent_id = corpora/eu/entrefrutales_1-1
 # text = Oso ongi pasa genuen , Txaro eta Tomas oso ongi portatu ziren gurekin , gosariak oso gozoan zenden eta oso instalazio onak zituen etxea .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	ongi	ongi	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	ongi	ongi	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	genuen	*edun	AUX	ADL	_	3	aux	_	_	1:holder
 5	,	,	PUNCT	PUNCT	_	11	punct	_	_	_
 6	Txaro	txaro	NOUN	IZE_IZB_ZERO	_	11	nsubj	_	_	9:targ
 7	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 8	Tomas	tomas	NOUN	IZE_IZB_ZERO	_	6	conj	_	_	9:targ
 9	oso	oso	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	0:exp-Positive|0:exp-Positive
-10	ongi	ongi	ADV	ADB_ARR_ZERO	_	11	advmod	_	_	9:exp-Positive|9:exp-Positive
-11	portatu	portatu	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	9:exp-Positive|9:exp-Positive
+10	ongi	ongi	ADV	ADB_ARR_ZERO	_	11	advmod	_	_	9:IN:exp-Positive|9:IN:exp-Positive
+11	portatu	portatu	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	9:IN:exp-Positive|9:IN:exp-Positive
 12	ziren	izan	AUX	ADL	_	11	aux	_	_	_
 13	gurekin	gu	NOUN	IZE_ARR_SOZ	_	11	obl	_	_	9:holder|9:holder
 14	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 15	gosariak	gosari	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	16:targ
 16	oso	oso	ADV	ADB_ARR_ZERO	_	17	advmod	_	_	0:exp-Positive
-17	gozoan	gozo	NOUN	IZE_ARR_INE	_	18	obl	_	_	16:exp-Positive
+17	gozoan	gozo	NOUN	IZE_ARR_INE	_	18	obl	_	_	16:IN:exp-Positive
 18	zenden	ukan	AUX	ADT	_	3	conj	_	_	_
 19	eta	eta	CCONJ	LOT_JNT	_	23	cc	_	_	_
 20	oso	oso	ADV	ADB_ARR_ZERO	_	22	nmod	_	_	0:exp-Positive
-21	instalazio	instalazio	NOUN	IZE_ARR_ZERO	_	23	obj	_	_	20:exp-Positive
+21	instalazio	instalazio	NOUN	IZE_ARR_ZERO	_	23	obj	_	_	20:IN:exp-Positive
 22	onak	on	ADJ	ADJ_ARR_ABS	_	21	amod	_	_	_
 23	zituen	ukan	AUX	ADT	_	3	conj	_	_	_
 24	etxea	etxe	NOUN	IZE_ARR_ABS	_	23	obj	_	_	_
@@ -170,8 +170,8 @@
 6	seguru	seguru	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	_
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 8	zein	zein	DET	DET_NOLGAL_ZERO	_	9	det	_	_	0:exp-Positive
-9	ondo	ondo	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	8:exp-Positive
-10	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	8:exp-Positive
+9	ondo	ondo	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	8:IN:exp-Positive
+10	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	8:IN:exp-Positive
 11	genuen	*edun	AUX	ADL	_	10	aux	_	_	8:holder
 12	txopebentan	txopebenta	NOUN	IZE_ARR_INE	_	13	obl	_	_	8:targ
 13	izan	izan	VERB	ADI_SIN_NOTDEK	_	10	advcl	_	_	_
@@ -186,8 +186,8 @@
 22	ez	ez	ADV	PRT_EGI	_	23	advmod	_	_	_
 23	lagundu	lagundu	VERB	ADI_SIN_NOTDEK	_	26	xcomp	_	_	_
 24	oso	oso	ADV	ADB_ARR_ZERO	_	25	advmod	_	_	0:exp-Positive
-25	ondo	ondo	ADV	ADB_ARR_ZERO	_	26	advmod	_	_	24:exp-Positive
-26	moldatu	moldatu	VERB	ADI_SIN_NOTDEK	_	10	conj	_	_	24:exp-Positive
+25	ondo	ondo	ADV	ADB_ARR_ZERO	_	26	advmod	_	_	24:IN:exp-Positive
+26	moldatu	moldatu	VERB	ADI_SIN_NOTDEK	_	10	conj	_	_	24:IN:exp-Positive
 27	giñek	giñ	NOUN	IZE_ARR_ERG	_	26	aux	_	_	24:holder
 28	inguruak	inguru	NOUN	IZE_ARR_ABS	_	29	obj	_	_	_
 29	ezagutzeko	ezagutu	VERB	ADI_SIN_ABS	_	26	advcl	_	_	_
@@ -202,7 +202,7 @@
 # text = Gela oso polita , eta gosaria .... ai zenbat gogoratu giñen zure gosaritaz New York-en ibili giñen egunetan , igualeko ibiliko giñateke , zure gosari horietako bat jan ondoren !! Muxu haundi bat lazkautik
 1	Gela	gela	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	polita	polit	ADJ	ADJ_ARR_ABS	_	10	advcl	_	_	2:exp-Positive
+3	polita	polit	ADJ	ADJ_ARR_ABS	_	10	advcl	_	_	2:IN:exp-Positive
 4	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 5	eta	eta	CCONJ	LOT_JNT	_	6	cc	_	_	_
 6	gosaria	gosari	NOUN	IZE_ARR_ABS	_	3	conj	_	_	_
@@ -261,7 +261,7 @@
 # text = Dena zoragarria izan da , benetan .
 1	Dena	dena	DET	DET_ORO_ABS	_	2	nsubj	_	_	2:targ
 2	zoragarria	zoragarri	ADJ	ADJ_ARR_ABS	_	0	root	_	_	0:exp-Positive
-3	izan	izan	VERB	ADI_SIN_NOTDEK	_	2	cop	_	_	2:exp-Positive
+3	izan	izan	VERB	ADI_SIN_NOTDEK	_	2	cop	_	_	2:IN:exp-Positive
 4	da	izan	AUX	ADL	_	3	aux	_	_	_
 5	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 6	benetan	benetan	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	_
@@ -284,8 +284,8 @@
 # sent_id = corpora/eu/zelaikoetxe-2_1-4
 # text = Inoiz ahaztuko ez dugun asteburua igaro dugula jakitea nahi genuen .
 1	Inoiz	inoiz	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	ahaztuko	ahaztu	VERB	ADI_SIN_NOTDEK	_	5	acl	_	_	1:exp-Positive
-3	ez	ez	ADV	PRT_EGI	_	2	advmod	_	_	1:exp-Positive
+2	ahaztuko	ahaztu	VERB	ADI_SIN_NOTDEK	_	5	acl	_	_	1:IN:exp-Positive
+3	ez	ez	ADV	PRT_EGI	_	2	advmod	_	_	1:IN:exp-Positive
 4	dugun	*edun	AUX	ADL	_	2	aux	_	_	1:holder
 5	asteburua	asteburu	NOUN	IZE_ARR_ABS	_	6	obj	_	_	1:targ
 6	igaro	igaro	VERB	ADI_SIN_NOTDEK	_	8	ccomp	_	_	_
@@ -317,7 +317,7 @@
 # sent_id = corpora/eu/zelaikoetxe-2_1-6
 # text = Eskerrik asko inguruko leku ikusgarrien inguruan informatzeagatik eta laburmetrai maratoi hori gomendatzeagatik , azkenean joan ezin izan genuen arren .
 1	Eskerrik	esker	NOUN	IZE_ARR_PAR	_	7	obj	_	_	0:exp-Positive
-2	asko	asko	DET	DET_DZG_ABS	_	1	det	_	_	1:exp-Positive
+2	asko	asko	DET	DET_DZG_ABS	_	1	det	_	_	1:IN:exp-Positive
 3	inguruko	inguru	NOUN	IZE_ARR_GEL	_	4	nmod	_	_	_
 4	leku	leku	NOUN	IZE_ARR_ZERO	_	7	obl	_	_	_
 5	ikusgarrien	ikusgarri	ADJ	ADJ_ARR_GEN	_	4	nmod	_	_	_
@@ -369,7 +369,7 @@
 7	egon	egon	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	_
 8	ziur	zidur	AUX	ADL	_	7	obl	_	_	_
 9	noizbait	noizbait	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	0:exp-Positive
-10	bueltatuko	bueltatu	VERB	ADI_SIN_NOTDEK	_	7	ccomp	_	_	9:exp-Positive
+10	bueltatuko	bueltatu	VERB	ADI_SIN_NOTDEK	_	7	ccomp	_	_	9:IN:exp-Positive
 11	garela	izan	AUX	ADL	_	10	aux	_	_	9:holder
 12	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
@@ -393,12 +393,12 @@
 # sent_id = corpora/eu/Bielsa_1-1
 # text = Ondo afaltzen da , aparkaleku handia dauka eta nahi izan ezkero oso goiz ematen dizute gosaria , niri interesatzen zaidana mendira lehenengo orduan joateko .
 1	Ondo	ondo	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	afaltzen	afaldu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
-3	da	izan	AUX	ADL	_	2	aux	_	_	1:exp-Positive
+2	afaltzen	afaldu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
+3	da	izan	AUX	ADL	_	2	aux	_	_	1:IN:exp-Positive
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_	_
 5	aparkaleku	aparkaleku	NOUN	IZE_ARR_ZERO	_	7	obj	_	_	6:targ
 6	handia	handi	ADJ	ADJ_ARR_ABS	_	5	amod	_	_	0:exp-Positive
-7	dauka	eduki	AUX	ADT	_	2	conj	_	_	6:exp-Positive
+7	dauka	eduki	AUX	ADT	_	2	conj	_	_	6:IN:exp-Positive
 8	eta	eta	CCONJ	LOT_JNT	_	14	cc	_	_	_
 9	nahi	nahi_izan	VERB	ADI_ADK_NOTDEK	_	10	compound	_	_	_
 10	izan	gai_izan	VERB	ADI_ADK_NOTDEK	_	14	advcl	_	_	_
@@ -424,13 +424,13 @@
 2	esan	esan	VERB	ADI_SIN_NOTDEK	_	9	advcl	_	_	_
 3	,	,	PUNCT	PUNCT	_	9	punct	_	_	_
 4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive
-5	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	4:exp-Positive
+5	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	4:IN:exp-Positive
 6	eta	eta	CCONJ	LOT_JNT	_	7	cc	_	_	_
 7	berezia	berezi	ADJ	ADJ_ARR_ABS	_	5	conj	_	_	0:exp-Positive
 8	dela	izan	AUX	ADT	_	5	cop	_	_	_
 9	esango	esan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 10	nuke.Oso	nuke.oso	AUX	ADL	_	9	aux	_	_	0:exp-Positive
-11	giro	giro	NOUN	IZE_ARR_ZERO	_	9	obj	_	_	10:exp-Positive|14:targ
+11	giro	giro	NOUN	IZE_ARR_ZERO	_	9	obj	_	_	10:IN:exp-Positive|14:targ
 12	informala	informal	ADJ	ADJ_ARR_ABS	_	11	amod	_	_	_
 13	eta	eta	CCONJ	LOT_JNT	_	14	cc	_	_	_
 14	jatorra	jator	ADJ	ADJ_ARR_ABS	_	12	conj	_	_	0:exp-Positive
@@ -443,14 +443,14 @@
 21	izan	izan	VERB	ADI_SIN_NOTDEK	_	20	aux	_	_	_
 22	ezkero	ezkero	ADV	ADB_ARR_ZERO	_	20	advcl	_	_	_
 23	oso	oso	ADV	ADB_ARR_ZERO	_	24	advmod	_	_	0:exp-Positive
-24	ondo	ondo	ADV	ADB_ARR_ZERO	_	29	advmod	_	_	23:exp-Positive
+24	ondo	ondo	ADV	ADB_ARR_ZERO	_	29	advmod	_	_	23:IN:exp-Positive
 25	dago.Aldi	dago.aldin	AUX	ADT	_	28	nmod	_	_	_
 26	berean	bera	DET	DET_ERKIND_INE	_	25	det	_	_	_
 27	inguruko	inguru	NOUN	IZE_ARR_GEL	_	26	case	_	_	0:exp-Positive
-28	hondartzetara	hondartzeta	NOUN	IZE_ARR_ALA	_	29	obl	_	_	27:exp-Positive
-29	joateko	joan	VERB	ADI_SIN_GEL	_	30	advcl	_	_	27:exp-Positive
-30	aukera	aukera	NOUN	IZE_ARR_ABS	_	31	nsubj	_	_	27:exp-Positive
-31	dago	egon	AUX	ADT	_	9	conj	_	_	27:exp-Positive
+28	hondartzetara	hondartzeta	NOUN	IZE_ARR_ALA	_	29	obl	_	_	27:IN:exp-Positive
+29	joateko	joan	VERB	ADI_SIN_GEL	_	30	advcl	_	_	27:IN:exp-Positive
+30	aukera	aukera	NOUN	IZE_ARR_ABS	_	31	nsubj	_	_	27:IN:exp-Positive
+31	dago	egon	AUX	ADT	_	9	conj	_	_	27:IN:exp-Positive
 32	.	.	PUNCT	PUNCT	_	9	punct	_	_	_
 
 # sent_id = corpora/eu/ten15nyc_1-1
@@ -471,7 +471,7 @@
 # text = Apartamentua ongi ekipatua eta garbia .
 1	Apartamentua	apartamentu	NOUN	IZE_ARR_ABS	_	3	obj	_	_	2:targ|5:targ
 2	ongi	ongi	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	ekipatua	ekipatu	VERB	ADI_SIN_ABS	_	0	root	_	_	2:exp-Positive
+3	ekipatua	ekipatu	VERB	ADI_SIN_ABS	_	0	root	_	_	2:IN:exp-Positive
 4	eta	eta	CCONJ	LOT_JNT	_	5	cc	_	_	_
 5	garbia	garbi	ADJ	ADJ_ARR_ABS	_	3	conj	_	_	0:exp-Positive
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
@@ -479,12 +479,12 @@
 # sent_id = corpora/eu/city-rooms_1-1
 # text = Kalera ematen duten geletan trafikoaren zarata entzuten da goizetan .
 1	Kalera	kalera	NOUN	IZE_ARR_ABS	_	2	obl	_	_	5:targ
-2	ematen	eman	VERB	ADI_SIN_NOTDEK	_	4	acl	_	_	1:targ
-3	duten	*edun	AUX	ADL	_	2	aux	_	_	1:targ
-4	geletan	gela	DET	DET_ORO_INE	_	7	obl	_	_	1:targ
+2	ematen	eman	VERB	ADI_SIN_NOTDEK	_	4	acl	_	_	1:IN:targ
+3	duten	*edun	AUX	ADL	_	2	aux	_	_	1:IN:targ
+4	geletan	gela	DET	DET_ORO_INE	_	7	obl	_	_	1:IN:targ
 5	trafikoaren	trafiko	NOUN	IZE_ARR_GEN	_	6	nmod	_	_	0:exp-Negative
-6	zarata	zarata	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	5:exp-Negative
-7	entzuten	entzun	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	5:exp-Negative
+6	zarata	zarata	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	5:IN:exp-Negative
+7	entzuten	entzun	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	5:IN:exp-Negative
 8	da	izan	AUX	ADL	_	7	aux	_	_	_
 9	goizetan	goiz	NOUN	IZE_ARR_INE	_	7	obl	_	_	_
 10	.	.	PUNCT	PUNCT	_	7	punct	_	_	_
@@ -492,14 +492,14 @@
 # sent_id = corpora/eu/city-rooms_1-2
 # text = Kalitate/prezio erlazio ona du
 1	Kalitate/prezio	kalitate/prezio	NOUN	IZE_ARR_ZERO	_	2	nmod	_	_	3:targ
-2	erlazio	erlazio	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:targ
+2	erlazio	erlazio	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:IN:targ
 3	ona	on	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	0:exp-Positive
 4	du	ukan	AUX	ADT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-ane_1-1
 # text = Ikaragarri gustatu zaigu etxea .
 1	Ikaragarri	ikaragarri	ADV	ADB_ARR_ZERO	_	2	obl	_	_	0:exp-Positive
-2	gustatu	gustatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	gustatu	gustatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 3	zaigu	izan	AUX	ADL	_	2	aux	_	_	1:holder
 4	etxea	etxe	NOUN	IZE_ARR_ABS	_	2	nsubj	_	_	1:targ
 5	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
@@ -507,13 +507,13 @@
 # sent_id = corpora/eu/katxenea-ane_1-2
 # text = Berri berria dago eta behar duzun guztiz ornituta dago .
 1	Berri	berri	NOUN	IZE_ARR_ZERO	_	3	nsubj	_	_	0:exp-Positive
-2	berria	berri	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	1:exp-Positive
+2	berria	berri	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	1:IN:exp-Positive
 3	dago	egon	AUX	ADT	_	0	root	_	_	_
 4	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 5	behar	behar_izan	VERB	ADI_ADK_NOTDEK	_	6	compound	_	_	0:exp-Positive
-6	duzun	*edun	AUX	ADL	_	8	ccomp	_	_	5:exp-Positive
-7	guztiz	guztiz	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	5:exp-Positive
-8	ornituta	ornitu	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	5:exp-Positive
+6	duzun	*edun	AUX	ADL	_	8	ccomp	_	_	5:IN:exp-Positive
+7	guztiz	guztiz	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	5:IN:exp-Positive
+8	ornituta	ornitu	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	5:IN:exp-Positive
 9	dago	egon	AUX	ADT	_	8	cop	_	_	_
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -523,22 +523,22 @@
 2	logela	logela	NOUN	IZE_ARR_ABS	_	3	obj	_	_	4:targ
 3	ditu	ukan	AUX	ADT	_	0	root	_	_	_
 4	bakoitza	bakoitz	ADJ	ADJ_ARR_ABS	_	3	nsubj	_	_	0:exp-Positive
-5	bere	bera	DET	DET_ERKIND_GEN	_	6	nmod	_	_	4:exp-Positive
-6	bainugelarekin	bainugel	NOUN	IZE_ARR_SOZ	_	3	obl	_	_	4:exp-Positive
+5	bere	bera	DET	DET_ERKIND_GEN	_	6	nmod	_	_	4:IN:exp-Positive
+6	bainugelarekin	bainugel	NOUN	IZE_ARR_SOZ	_	3	obl	_	_	4:IN:exp-Positive
 7	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-ane_1-4
 # text = Gelak primeran dekoratuta daude eta bainugela denak bere dutxa dute .
 1	Gelak	gela	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	primeran	primeran	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	dekoratuta	dekoratu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:exp-Positive
+3	dekoratuta	dekoratu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:IN:exp-Positive
 4	daude	egon	AUX	ADT	_	3	cop	_	_	_
 5	eta	eta	CCONJ	LOT_JNT	_	10	cc	_	_	_
 6	bainugela	bainugelan	AUX	ADT	_	10	obj	_	_	8:targ
-7	denak	dena	DET	DET_ORO_ABS	_	6	det	_	_	6:targ
+7	denak	dena	DET	DET_ORO_ABS	_	6	det	_	_	6:IN:targ
 8	bere	bera	DET	DET_ERKIND_GEN	_	9	nmod	_	_	0:exp-Positive
-9	dutxa	dutxa	NOUN	IZE_ARR_ABS	_	10	obj	_	_	8:exp-Positive
-10	dute	ukan	AUX	ADT	_	4	conj	_	_	8:exp-Positive
+9	dutxa	dutxa	NOUN	IZE_ARR_ABS	_	10	obj	_	_	8:IN:exp-Positive
+10	dute	ukan	AUX	ADT	_	4	conj	_	_	8:IN:exp-Positive
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-ane_1-5
@@ -551,11 +551,11 @@
 6	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
 7	eta	eta	CCONJ	LOT_JNT	_	12	cc	_	_	_
 8	berriz	berriz	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	0:exp-Positive
-9	noiz	noiz	ADV	ADB_GAL_ZERO	_	10	advmod	_	_	8:exp-Positive
-10	bueltatu	bueltatu	VERB	ADI_SIN_NOTDEK	_	11	xcomp	_	_	8:exp-Positive
-11	pentsatzen	pentsatu	VERB	ADI_SIN_INE	_	12	advcl	_	_	8:exp-Positive
-12	etorri	etorri	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	8:exp-Positive
-13	gera	izan	AUX	ADL	_	12	aux	_	_	8:exp-Positive
+9	noiz	noiz	ADV	ADB_GAL_ZERO	_	10	advmod	_	_	8:IN:exp-Positive
+10	bueltatu	bueltatu	VERB	ADI_SIN_NOTDEK	_	11	xcomp	_	_	8:IN:exp-Positive
+11	pentsatzen	pentsatu	VERB	ADI_SIN_INE	_	12	advcl	_	_	8:IN:exp-Positive
+12	etorri	etorri	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	8:IN:exp-Positive
+13	gera	izan	AUX	ADL	_	12	aux	_	_	8:IN:exp-Positive
 14	.	.	PUNCT	PUNCT	_	12	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-ane_1-6
@@ -565,8 +565,8 @@
 3	gera	izan	AUX	ADL	_	0	root	_	_	_
 4	horrelako	horrelako	ADJ	ADJ_ARR_ZERO	_	6	amod	_	_	_
 5	nekazal	nekazal	NOUN	IZE_ARR_ZERO	_	6	nmod	_	_	8:targ
-6	turismoko	turismo	ADJ	ADJ_ARR_GEL	_	7	nmod	_	_	5:targ
-7	etxe	etxe	NOUN	IZE_ARR_ZERO	_	9	obl	_	_	5:targ
+6	turismoko	turismo	ADJ	ADJ_ARR_GEL	_	7	nmod	_	_	5:IN:targ
+7	etxe	etxe	NOUN	IZE_ARR_ZERO	_	9	obl	_	_	5:IN:targ
 8	politean	polite	ADJ	ADJ_ARR_INE	_	7	nmod	_	_	0:exp-Positive
 9	egon	egon	VERB	ADI_SIN_NOTDEK	_	3	xcomp	_	_	_
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
@@ -574,10 +574,10 @@
 # sent_id = corpora/eu/katxenea-ane_1-7
 # text = Edozein hotel baino ederragoa iruditu zaigu .
 1	Edozein	edozein	DET	DET_NOLARR_ZERO	_	2	det	_	_	0:exp-Positive
-2	hotel	hotel	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	1:exp-Positive
-3	baino	baino	X	BST	_	5	advmod	_	_	1:exp-Positive
-4	ederragoa	eder	ADJ	ADJ_ARR_ABS	_	5	xcomp	_	_	1:exp-Positive
-5	iruditu	iruditu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	hotel	hotel	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	1:IN:exp-Positive
+3	baino	baino	X	BST	_	5	advmod	_	_	1:IN:exp-Positive
+4	ederragoa	eder	ADJ	ADJ_ARR_ABS	_	5	xcomp	_	_	1:IN:exp-Positive
+5	iruditu	iruditu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 6	zaigu	izan	AUX	ADL	_	5	aux	_	_	1:holder
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
@@ -585,34 +585,34 @@
 # text = Eta etxeko jabea Maika oso jatorra da .
 1	Eta	eta	CCONJ	LOT_JNT	_	7	cc	_	_	_
 2	etxeko	etxe	NOUN	IZE_ARR_GEL	_	3	nmod	_	_	5:targ
-3	jabea	jabe	NOUN	IZE_ARR_ABS	_	6	nsubj	_	_	2:targ
-4	Maika	maika	ADV	ADB_ARR_ZERO	_	6	nsubj	_	_	2:targ
+3	jabea	jabe	NOUN	IZE_ARR_ABS	_	6	nsubj	_	_	2:IN:targ
+4	Maika	maika	ADV	ADB_ARR_ZERO	_	6	nsubj	_	_	2:IN:targ
 5	oso	oso	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
-6	jatorra	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	5:exp-Positive
+6	jatorra	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	5:IN:exp-Positive
 7	da	izan	AUX	ADT	_	6	cop	_	_	_
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-ane_1-9
 # text = Edozertan laguntzeko prest .
 1	Edozertan	edozertan	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	laguntzeko	lagundu	VERB	ADI_SIN_GEL	_	3	advcl	_	_	1:exp-Positive
-3	prest	prest	ADV	ADB_ARR_ZERO	_	0	root	_	_	1:exp-Positive
+2	laguntzeko	lagundu	VERB	ADI_SIN_GEL	_	3	advcl	_	_	1:IN:exp-Positive
+3	prest	prest	ADV	ADB_ARR_ZERO	_	0	root	_	_	1:IN:exp-Positive
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-ane_1-10
 # text = Eskerrik asko denagaitik .
 1	Eskerrik	esker	NOUN	IZE_ARR_PAR	_	3	obj	_	_	0:exp-Positive
-2	asko	asko	DET	DET_DZG_ABS	_	1	det	_	_	1:exp-Positive
-3	denagaitik	denagai	NOUN	IZE_ARR_ABL	_	0	root	_	_	1:exp-Positive
+2	asko	asko	DET	DET_DZG_ABS	_	1	det	_	_	1:IN:exp-Positive
+3	denagaitik	denagai	NOUN	IZE_ARR_ABL	_	0	root	_	_	1:IN:exp-Positive
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-3519462_1-1
 # text = Braga erdigunetik oinez oso gertu dagoen etxea .
 1	Braga	braga	NOUN	IZE_LIB_ZERO	_	5	nsubj	_	_	_
 2	erdigunetik	erdigune	NOUN	IZE_ARR_ABL	_	6	obl	_	_	0:exp-Positive
-3	oinez	oinez	ADV	ADB_ARR_ZERO	_	6	obl	_	_	2:exp-Positive
-4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	2:exp-Positive
-5	gertu	gertu	ADV	ADB_ARR_ZERO	_	7	acl	_	_	2:exp-Positive
+3	oinez	oinez	ADV	ADB_ARR_ZERO	_	6	obl	_	_	2:IN:exp-Positive
+4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	2:IN:exp-Positive
+5	gertu	gertu	ADV	ADB_ARR_ZERO	_	7	acl	_	_	2:IN:exp-Positive
 6	dagoen	egon	AUX	ADT	_	5	cop	_	_	_
 7	etxea	etxe	NOUN	IZE_ARR_ABS	_	0	root	_	_	2:targ
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_	_
@@ -620,7 +620,7 @@
 # sent_id = corpora/eu/airbnb-3519462_1-2
 # text = Oso argia eta eguzkitsua .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	argia	argi	ADJ	ADJ_ARR_ABS	_	0	root	_	_	1:exp-Positive
+2	argia	argi	ADJ	ADJ_ARR_ABS	_	0	root	_	_	1:IN:exp-Positive
 3	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	_
 4	eguzkitsua	eguzkitsu	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	0:exp-Positive
 5	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
@@ -645,29 +645,29 @@
 1	Gainera	gainera	ADV	LOT_LOK	_	5	advmod	_	_	_
 2	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 3	aparkatzeko	aparkatu	VERB	ADI_SIN_GEL	_	4	advcl	_	_	7:targ
-4	lekua	leku	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	3:targ
+4	lekua	leku	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	3:IN:targ
 5	egoten	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 6	da	izan	AUX	ADL	_	5	aux	_	_	_
 7	atari	ata	NOUN	IZE_ARR_DAT	_	5	obl	_	_	0:exp-Positive
-8	parean	pare	NOUN	IZE_ARR_INE	_	7	case	_	_	7:exp-Positive
+8	parean	pare	NOUN	IZE_ARR_INE	_	7	case	_	_	7:IN:exp-Positive
 9	,	,	PUNCT	PUNCT	_	13	punct	_	_	_
 10	eta	eta	CCONJ	LOT_JNT	_	13	cc	_	_	_
 11	hori	hori	DET	DET_ERKARR_ABS	_	13	nsubj	_	_	_
 12	Bragan	braga	NOUN	IZE_LIB_INE	_	13	nsubj	_	_	_
 13	luxua	luxu	NOUN	IZE_ARR_ABS	_	5	conj	_	_	0:exp-Positive
-14	da	izan	AUX	ADT	_	13	cop	_	_	13:exp-Positive
-15	!!!	!!!	PUNCT	PUNCT	_	5	punct	_	_	13:exp-Positive
+14	da	izan	AUX	ADT	_	13	cop	_	_	13:IN:exp-Positive
+15	!!!	!!!	PUNCT	PUNCT	_	5	punct	_	_	13:IN:exp-Positive
 
 # sent_id = corpora/eu/airbnb-3519462_1-5
 # text = Ederki ibili gara eta Eugenia bera oso atsegina da , abegitsua .
 1	Ederki	ederki	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	ibili	ibili	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	ibili	ibili	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 3	gara	izan	AUX	ADL	_	2	aux	_	_	1:holder
 4	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 5	Eugenia	eugenia	NOUN	IZE_LIB_ABS	_	8	nsubj	_	_	7:targ|11:targ
 6	bera	bera	DET	DET_ERKIND_ABS	_	5	det	_	_	_
 7	oso	oso	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	0:exp-Positive
-8	atsegina	atsegin	VERB	ADI_SIN_ABS	_	2	conj	_	_	7:exp-Positive
+8	atsegina	atsegin	VERB	ADI_SIN_ABS	_	2	conj	_	_	7:IN:exp-Positive
 9	da	izan	AUX	ADT	_	8	cop	_	_	_
 10	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
 11	abegitsua	abegitsu	ADJ	ADJ_ARR_ABS	_	8	conj	_	_	0:exp-Positive
@@ -677,36 +677,36 @@
 # text = Hezetasun apur bat somatu genuen , bestela oso ondo dago .
 1	Hezetasun	hezetasun	NOUN	IZE_ARR_ZERO	_	4	obj	_	_	2:targ
 2	apur	apur	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	0:exp-Negative
-3	bat	bat	DET	DET_DZH_ABS	_	1	nummod	_	_	2:exp-Negative
-4	somatu	soma	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:exp-Negative
+3	bat	bat	DET	DET_DZH_ABS	_	1	nummod	_	_	2:IN:exp-Negative
+4	somatu	soma	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:IN:exp-Negative
 5	genuen	*edun	AUX	ADL	_	4	aux	_	_	2:holder
 6	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 7	bestela	bestela	ADV	LOT_LOK	_	10	advmod	_	_	_
 8	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	0:exp-Positive
-9	ondo	ondo	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	8:exp-Positive
+9	ondo	ondo	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	8:IN:exp-Positive
 10	dago	egon	AUX	ADT	_	4	conj	_	_	_
 11	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/poggio-imperiale-apartments_1-2
 # text = Oso ondo kokatuta dago , autobus geralekuetatik oso gertu .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	ondo	ondo	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	ondo	ondo	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	dago	egon	AUX	ADT	_	3	cop	_	_	_
 5	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 6	autobus	autobus	NOUN	IZE_ARR_ZERO	_	7	nmod	_	_	0:exp-Positive
-7	geralekuetatik	geraleku	ADJ	ADJ_ARR_MOT	_	9	nmod	_	_	6:exp-Positive
-8	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	6:exp-Positive
-9	gertu	gertu	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	6:exp-Positive
+7	geralekuetatik	geraleku	ADJ	ADJ_ARR_MOT	_	9	nmod	_	_	6:IN:exp-Positive
+8	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	6:IN:exp-Positive
+9	gertu	gertu	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	6:IN:exp-Positive
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/poggio-imperiale-apartments_1-3
 # text = Oinez ere joan daiteke hirira .
 1	Oinez	oinez	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-2	ere	ere	ADV	LOT_LOK	_	3	advmod	_	_	1:exp-Positive
-3	joan	joan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
-4	daiteke	*edin	AUX	ADL	_	3	aux	_	_	1:exp-Positive
-5	hirira	hiri	NOUN	IZE_ARR_ALA	_	3	obl	_	_	1:exp-Positive
+2	ere	ere	ADV	LOT_LOK	_	3	advmod	_	_	1:IN:exp-Positive
+3	joan	joan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
+4	daiteke	*edin	AUX	ADL	_	3	aux	_	_	1:IN:exp-Positive
+5	hirira	hiri	NOUN	IZE_ARR_ALA	_	3	obl	_	_	1:IN:exp-Positive
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/poggio-imperiale-apartments_1-4
@@ -741,18 +741,18 @@
 # sent_id = corpora/eu/poggio-imperiale-apartments_1-6
 # text = Bertako andrea , Clara , oso atsegina da eta informazio pilo bat eman zigun .
 1	Bertako	bertako	ADJ	ADJ_ARR_ZERO	_	2	amod	_	_	6:targ|10:targ
-2	andrea	andre	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	1:targ|1:targ
-3	,	,	PUNCT	PUNCT	_	2	punct	_	_	1:targ|1:targ
+2	andrea	andre	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	1:IN:targ|1:IN:targ
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_	1:IN:targ|1:IN:targ
 4	Clara	cla	NOUN	IZE_LIB_ALA	_	2	appos	_	_	_
 5	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
 6	oso	oso	ADV	ADB_ARR_ZERO	_	7	advmod	_	_	0:exp-Positive
-7	atsegina	atsegin	ADJ	ADJ_ARR_ABS	_	0	root	_	_	6:exp-Positive
+7	atsegina	atsegin	ADJ	ADJ_ARR_ABS	_	0	root	_	_	6:IN:exp-Positive
 8	da	izan	AUX	ADT	_	7	cop	_	_	_
 9	eta	eta	CCONJ	LOT_JNT	_	13	cc	_	_	_
 10	informazio	informazio	NOUN	IZE_ARR_ZERO	_	13	obj	_	_	0:exp-Positive
-11	pilo	pilo	NOUN	IZE_ARR_ZERO	_	10	amod	_	_	10:exp-Positive
-12	bat	bat	DET	DET_DZH_ABS	_	10	nummod	_	_	10:exp-Positive
-13	eman	eman	VERB	ADI_SIN_NOTDEK	_	8	conj	_	_	10:exp-Positive
+11	pilo	pilo	NOUN	IZE_ARR_ZERO	_	10	amod	_	_	10:IN:exp-Positive
+12	bat	bat	DET	DET_DZH_ABS	_	10	nummod	_	_	10:IN:exp-Positive
+13	eman	eman	VERB	ADI_SIN_NOTDEK	_	8	conj	_	_	10:IN:exp-Positive
 14	zigun	*edun	AUX	ADL	_	13	aux	_	_	6:holder|10:holder
 15	.	.	PUNCT	PUNCT	_	7	punct	_	_	_
 
@@ -760,7 +760,7 @@
 # text = Apartamentua ondo ekipatuta dago , batez ere sukaldea .
 1	Apartamentua	apartamentu	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	ondo	ondo	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive|0:exp-Positive
-3	ekipatuta	ekipatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:exp-Positive|2:exp-Positive
+3	ekipatuta	ekipatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:IN:exp-Positive|2:IN:exp-Positive
 4	dago	egon	AUX	ADT	_	3	cop	_	_	_
 5	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 6	batez	bat	DET	DET_DZH_INS	_	4	obl	_	_	_
@@ -776,8 +776,8 @@
 4	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
 5	baina	baina	CCONJ	LOT_JNT	_	3	cc	_	_	_
 6	pertsona	pertsona	NOUN	IZE_ARR_ZERO	_	5	nsubj	_	_	0:exp-Positive
-7	birentzat	biren	ADJ	ADJ_ARR_PRO	_	6	det	_	_	6:exp-Positive
-8	nahikoa	nahikoa	ADV	ADB_ARR_ZERO	_	5	nmod	_	_	6:exp-Positive
+7	birentzat	biren	ADJ	ADJ_ARR_PRO	_	6	det	_	_	6:IN:exp-Positive
+8	nahikoa	nahikoa	ADV	ADB_ARR_ZERO	_	5	nmod	_	_	6:IN:exp-Positive
 9	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/Pagorriaga_2-1
@@ -836,8 +836,8 @@
 14	hartzen	hartu	VERB	ADI_SIN_NOTDEK	_	10	advcl	_	_	_
 15	eta	eta	CCONJ	LOT_JNT	_	17	cc	_	_	_
 16	zoragarri	zoragarri	ADJ	ADJ_ARR_ABS	_	17	obl	_	_	0:exp-Positive
-17	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	16:exp-Positive
-18	dugu	*edun	AUX	ADL	_	17	aux	_	_	16:exp-Positive
+17	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	16:IN:exp-Positive
+18	dugu	*edun	AUX	ADL	_	17	aux	_	_	16:IN:exp-Positive
 19	!!	!!	SCONJ	LOT_MEN	_	4	punct	_	_	_
 20	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
@@ -849,7 +849,7 @@
 4	izan	izan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 5	genuen	*edun	AUX	ADL	_	4	aux	_	_	_
 6	Pagorriko	pagorri	NOUN	IZE_LIB_GEL	_	7	nmod	_	_	8:targ
-7	paraje	paraje	NOUN	IZE_ARR_ZERO	_	9	obl	_	_	6:targ
+7	paraje	paraje	NOUN	IZE_ARR_ZERO	_	9	obl	_	_	6:IN:targ
 8	ederrez	eder	ADJ	ADJ_ARR_INS	_	7	amod	_	_	0:exp-Positive
 9	gozatzeko	gozatu	VERB	ADI_SIN_ABS	_	4	advcl	_	_	_
 10	,	,	PUNCT	PUNCT	_	19	punct	_	_	_
@@ -861,7 +861,7 @@
 16	zuenez	*edun	AUX	ADL	_	19	advcl	_	_	_
 17	,	,	PUNCT	PUNCT	_	19	punct	_	_	_
 18	ederki	ederki	ADV	ADB_ARR_ZERO	_	19	advmod	_	_	0:exp-Positive
-19	egon	egon	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	18:exp-Positive
+19	egon	egon	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	18:IN:exp-Positive
 20	ginen	izan	AUX	ADL	_	19	aux	_	_	18:holder
 21	etxean	etxe	NOUN	IZE_ARR_INE	_	19	obl	_	_	18:targ
 22	(	(	PUNCT	PUNCT	_	23	punct	_	_	_
@@ -875,8 +875,8 @@
 30	,	,	PUNCT	PUNCT	_	36	punct	_	_	_
 31	eta	eta	CCONJ	LOT_JNT	_	36	cc	_	_	_
 32	Gotzonek	gotzon	NOUN	IZE_IZB_ERG	_	33	nsubj	_	_	35:targ
-33	prestatutako	prestatu	VERB	ADI_SIN_GEL	_	35	advcl	_	_	32:targ
-34	bazkari	bazkari	NOUN	IZE_ARR_ABS	_	35	nmod	_	_	32:targ
+33	prestatutako	prestatu	VERB	ADI_SIN_GEL	_	35	advcl	_	_	32:IN:targ
+34	bazkari	bazkari	NOUN	IZE_ARR_ABS	_	35	nmod	_	_	32:IN:targ
 35	goxoa	goxo	ADJ	ADJ_ARR_ABS	_	36	obj	_	_	0:exp-Positive
 36	jaten	jan	NOUN	IZE_ZKI_ABS	_	4	conj	_	_	_
 37	)	)	PUNCT	PUNCT	_	19	punct	_	_	_
@@ -885,7 +885,7 @@
 # sent_id = corpora/eu/Pagorriaga_2-4
 # text = Gomendatu egiten dizuet Pagorri , eta espero dut laster aukera izatea egin ditudan lagun berrien etxeak ezagutzeko ere : Uxarte , Txopebenta , Bisalde ... Haien berri emango dizuet joan bezain laster .
 1	Gomendatu	gomendatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	0:exp-Positive
-2	egiten	egin	VERB	ADI_SIN_NOTDEK	_	1	aux	_	_	1:exp-Positive
+2	egiten	egin	VERB	ADI_SIN_NOTDEK	_	1	aux	_	_	1:IN:exp-Positive
 3	dizuet	*edun	AUX	ADL	_	1	aux	_	_	1:holder
 4	Pagorri	pagor	NOUN	IZE_IZB_DAT	_	1	iobj	_	_	1:targ
 5	,	,	PUNCT	PUNCT	_	8	punct	_	_	_
@@ -921,7 +921,7 @@
 # sent_id = corpora/eu/Pagorriaga_2-5
 # text = Eskumiñak hiruei !
 1	Eskumiñak	eskumiña	NOUN	IZE_LIB_ERG	_	2	nsubj	_	_	0:exp-Positive
-2	hiruei	hiru	NOUN	IZE_ARR_DAT	_	0	root	_	_	1:exp-Positive
+2	hiruei	hiru	NOUN	IZE_ARR_DAT	_	0	root	_	_	1:IN:exp-Positive
 3	!	!	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/Pagorriaga_2-6
@@ -931,9 +931,9 @@
 # sent_id = corpora/eu/airbnb-12941686_1-1
 # text = Etxea aurkitzea asko kostatu zitzaigun .
 1	Etxea	etxe	NOUN	IZE_ARR_ABS	_	2	obj	_	_	3:targ
-2	aurkitzea	aurkitu	VERB	ADI_SIN_ABS	_	4	csubj	_	_	1:targ
+2	aurkitzea	aurkitu	VERB	ADI_SIN_ABS	_	4	csubj	_	_	1:IN:targ
 3	asko	asko	ADV	ADB_ARR	_	4	advmod	_	_	0:exp-Negative
-4	kostatu	kostatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	3:exp-Negative
+4	kostatu	kostatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	3:IN:exp-Negative
 5	zitzaigun	izan	AUX	ADL	_	4	aux	_	_	3:holder
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
@@ -1057,9 +1057,9 @@
 7	,	,	PUNCT	PUNCT	_	13	punct	_	_	_
 8	baina	baina	CCONJ	LOT_JNT	_	13	cc	_	_	_
 9	ez	ez	ADV	PRT_EGI	_	13	advmod	_	_	0:exp-Negative
-10	ginen	izan	AUX	ADT	_	13	aux	_	_	9:exp-Negative
-11	oso	oso	ADV	ADB_ARR_ZERO	_	12	advmod	_	_	9:exp-Negative
-12	ondo	ondo	ADV	ADB_ARR_ZERO	_	13	advmod	_	_	9:exp-Negative
+10	ginen	izan	AUX	ADT	_	13	aux	_	_	9:IN:exp-Negative
+11	oso	oso	ADV	ADB_ARR_ZERO	_	12	advmod	_	_	9:IN:exp-Negative
+12	ondo	ondo	ADV	ADB_ARR_ZERO	_	13	advmod	_	_	9:IN:exp-Negative
 13	sentitu	sentitu	VERB	ADI_SIN_NOTDEK	_	5	conj	_	_	_
 14	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 15	beste	beste	DET	DET_DZG_ZERO	_	16	det	_	_	_
@@ -1102,9 +1102,9 @@
 # sent_id = corpora/eu/evora_1-3
 # text = Hotz xamarra zegoen .
 1	Hotz	hotz	NOUN	IZE_ARR_ZERO	_	3	nsubj	_	_	0:exp-Negative
-2	xamarra	xamar	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	1:exp-Negative
+2	xamarra	xamar	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	1:IN:exp-Negative
 3	zegoen	egon	AUX	ADT	_	0	root	_	_	1:targ
-4	.	.	PUNCT	PUNCT	_	3	punct	_	_	3:targ
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_	3:IN:targ
 
 # sent_id = corpora/eu/evora_1-4
 # text = Logela erosoak terrazarekin .
@@ -1132,11 +1132,11 @@
 # sent_id = corpora/eu/evora_1-7
 # text = Kanpoko igerilekua eta berdegunea oso atseginak .
 1	Kanpoko	kanpoko	ADJ	ADJ_ARR_ZERO	_	2	amod	_	_	5:targ
-2	igerilekua	igerileku	NOUN	IZE_ARR_ABS	_	6	nsubj	_	_	1:targ
+2	igerilekua	igerileku	NOUN	IZE_ARR_ABS	_	6	nsubj	_	_	1:IN:targ
 3	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	_
 4	berdegunea	berdegune	NOUN	IZE_ARR_ABS	_	2	conj	_	_	5:targ
 5	oso	oso	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive|0:exp-Positive
-6	atseginak	atsegin	ADJ	ADJ_ARR_ABS	_	0	root	_	_	5:exp-Positive|5:exp-Positive
+6	atseginak	atsegin	ADJ	ADJ_ARR_ABS	_	0	root	_	_	5:IN:exp-Positive|5:IN:exp-Positive
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/evora_1-8
@@ -1157,7 +1157,7 @@
 4	joaten	joan	VERB	ADI_SIN_NOTDEK	_	9	advcl	_	_	_
 5	direnean	izan	AUX	ADL	_	4	aux	_	_	_
 6	oso	oso	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	0:exp-Positive
-7	gune	gune	NOUN	IZE_ARR_ZERO	_	0	root	_	_	6:exp-Positive
+7	gune	gune	NOUN	IZE_ARR_ZERO	_	0	root	_	_	6:IN:exp-Positive
 8	lasaia	lasai	ADJ	ADJ_ARR_ABS	_	7	amod	_	_	_
 9	izaten	izan	VERB	ADI_SIN_NOTDEK	_	7	cop	_	_	_
 10	da	izan	AUX	ADL	_	9	aux	_	_	_
@@ -1218,9 +1218,9 @@
 # sent_id = corpora/eu/evora_1-14
 # text = Jan guztia oso goxoa eta buffeta izateko kalitatezkoa .
 1	Jan	jan	NOUN	IZE_IZB_ZERO	_	4	nsubj	_	_	3:targ
-2	guztia	guzti	DET	DET_ORO_ABS	_	1	det	_	_	1:targ
+2	guztia	guzti	DET	DET_ORO_ABS	_	1	det	_	_	1:IN:targ
 3	oso	oso	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	0:exp-Positive
-4	goxoa	goxo	ADJ	ADJ_ARR_ABS	_	8	advcl	_	_	3:exp-Positive
+4	goxoa	goxo	ADJ	ADJ_ARR_ABS	_	8	advcl	_	_	3:IN:exp-Positive
 5	eta	eta	CCONJ	LOT_JNT	_	6	cc	_	_	_
 6	buffeta	buffeta	NOUN	IZE_ARR_ABS	_	4	conj	_	_	8:targ
 7	izateko	izan	VERB	ADI_SIN_GEL	_	4	cop	_	_	_
@@ -1230,10 +1230,10 @@
 # sent_id = corpora/eu/evora_1-15
 # text = Jatetxeko langileen jarrera oso atsegina .
 1	Jatetxeko	jatetxe	NOUN	IZE_ARR_GEL	_	2	nmod	_	_	4:targ
-2	langileen	langile	NOUN	IZE_ARR_GEN	_	3	nmod	_	_	1:targ
-3	jarrera	jarrera	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	1:targ
+2	langileen	langile	NOUN	IZE_ARR_GEN	_	3	nmod	_	_	1:IN:targ
+3	jarrera	jarrera	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	1:IN:targ
 4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive
-5	atsegina	atsegin	VERB	ADI_SIN_ABS	_	0	root	_	_	4:exp-Positive
+5	atsegina	atsegin	VERB	ADI_SIN_ABS	_	0	root	_	_	4:IN:exp-Positive
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/evora_1-16
@@ -1242,8 +1242,8 @@
 2	ondo	ondo	ADV	ADB_ARR_ZERO	_	3	nmod	_	_	0:exp-Positive
 3	baina	baina	CCONJ	LOT_JNT	_	6	cc	_	_	_
 4	beste	beste	DET	DET_DZG_ZERO	_	5	det	_	_	0:exp-Negative
-5	munduko	mundu	NOUN	IZE_ARR_GEL	_	6	nmod	_	_	4:exp-Negative
-6	ezer	ezer	PRON	IOR_IZGMGB_ABS	_	0	root	_	_	4:exp-Negative
+5	munduko	mundu	NOUN	IZE_ARR_GEL	_	6	nmod	_	_	4:IN:exp-Negative
+6	ezer	ezer	PRON	IOR_IZGMGB_ABS	_	0	root	_	_	4:IN:exp-Negative
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/evora_1-17
@@ -1263,9 +1263,9 @@
 # text = Hotelak lasai egoteko guneak ditu , barruan taberna , kanpoan terraza .
 1	Hotelak	hotel	NOUN	IZE_ARR_ABS	_	3	obj	_	_	2:targ
 2	lasai	lasai	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	egoteko	egon	VERB	ADI_SIN_GEL	_	4	advcl	_	_	2:exp-Positive
-4	guneak	gune	NOUN	IZE_ARR_ABS	_	5	obj	_	_	2:exp-Positive
-5	ditu	ukan	AUX	ADT	_	0	root	_	_	2:exp-Positive
+3	egoteko	egon	VERB	ADI_SIN_GEL	_	4	advcl	_	_	2:IN:exp-Positive
+4	guneak	gune	NOUN	IZE_ARR_ABS	_	5	obj	_	_	2:IN:exp-Positive
+5	ditu	ukan	AUX	ADT	_	0	root	_	_	2:IN:exp-Positive
 6	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 7	barruan	barru	NOUN	IZE_ARR_INE	_	5	obl	_	_	_
 8	taberna	taberna	NOUN	IZE_ARR_ABS	_	5	conj	_	_	_
@@ -1277,14 +1277,14 @@
 # sent_id = corpora/eu/evora_1-19
 # text = Kanpoko terraza oso ondo dekoratuta dago eta gustura egoten da bertan zerbait hartzen .
 1	Kanpoko	kanpoko	ADJ	ADJ_ARR_ZERO	_	2	amod	_	_	8:targ|3:targ
-2	terraza	terraz	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	1:targ|1:targ
+2	terraza	terraz	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	1:IN:targ|1:IN:targ
 3	oso	oso	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	0:exp-Positive
-4	ondo	ondo	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	3:exp-Positive
-5	dekoratuta	dekoratu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	3:exp-Positive
+4	ondo	ondo	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	3:IN:exp-Positive
+5	dekoratuta	dekoratu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	3:IN:exp-Positive
 6	dago	egon	AUX	ADT	_	5	cop	_	_	_
 7	eta	eta	CCONJ	LOT_JNT	_	9	cc	_	_	_
 8	gustura	gustura	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	0:exp-Positive
-9	egoten	egon	VERB	ADI_SIN_NOTDEK	_	6	conj	_	_	8:exp-Positive
+9	egoten	egon	VERB	ADI_SIN_NOTDEK	_	6	conj	_	_	8:IN:exp-Positive
 10	da	izan	AUX	ADL	_	9	aux	_	_	_
 11	bertan	bertan	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	_
 12	zerbait	zerbait	PRON	IOR_IZGMGB_ABS	_	13	obj	_	_	_
@@ -1295,7 +1295,7 @@
 # text = Apartamentua oso polita da .
 1	Apartamentua	apartamentu	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	polita	polit	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:exp-Positive
+3	polita	polit	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:IN:exp-Positive
 4	da	izan	AUX	ADT	_	3	cop	_	_	_
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -1310,15 +1310,15 @@
 # text = Kokapena ezin hobea ; zentroan eta edozein lekutara joateko komunikazio onarekin .
 1	Kokapena	kokapen	NOUN	IZE_ARR_ABS	_	4	obj	_	_	2:targ|8:targ|5:targ
 2	ezin	ezin	NOUN	IZE_ARR_ABS	_	0	root	_	_	0:exp-Positive
-3	hobea	hobe	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	2:exp-Positive
+3	hobea	hobe	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	2:IN:exp-Positive
 4	;	;	PUNCT	PUNCT	_	2	punct	_	_	_
 5	zentroan	zentro	NOUN	IZE_ARR_INE	_	9	obl	_	_	0:exp-Positive
 6	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 7	edozein	edozein	DET	DET_NOLARR_ZERO	_	8	det	_	_	_
 8	lekutara	leku	NOUN	IZE_ARR_ALA	_	5	conj	_	_	0:exp-Positive
-9	joateko	joan	VERB	ADI_SIN_GEL	_	10	advcl	_	_	8:exp-Positive
-10	komunikazio	komunikazio	NOUN	IZE_ARR_ZERO	_	4	nmod	_	_	8:exp-Positive
-11	onarekin	on	ADJ	ADJ_ARR_SOZ	_	10	amod	_	_	8:exp-Positive
+9	joateko	joan	VERB	ADI_SIN_GEL	_	10	advcl	_	_	8:IN:exp-Positive
+10	komunikazio	komunikazio	NOUN	IZE_ARR_ZERO	_	4	nmod	_	_	8:IN:exp-Positive
+11	onarekin	on	ADJ	ADJ_ARR_SOZ	_	10	amod	_	_	8:IN:exp-Positive
 12	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/boullion_1-4
@@ -1334,7 +1334,7 @@
 # sent_id = corpora/eu/boullion_1-5
 # text = Ederra !
 1	Ederra	eder	ADJ	ADJ_ARR_ABS	_	0	root	_	_	0:exp-Positive
-2	!	!	PUNCT	PUNCT	_	1	punct	_	_	1:exp-Positive
+2	!	!	PUNCT	PUNCT	_	1	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/au-pa-c-rigord-noir_1-1
 # text = Atsedenaldiko geldialdia zen .
@@ -1359,19 +1359,19 @@
 3	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	_
 4	herria	herri	NOUN	IZE_ARR_ABS	_	2	conj	_	_	5:targ
 5	oso	oso	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
-6	ederra	eder	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	5:exp-Positive
+6	ederra	eder	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	5:IN:exp-Positive
 7	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/au-pa-c-rigord-noir_1-4
 # text = Hotelean dena ongi , ezin zaio gehiagorik eskatu .
 1	Hotelean	hotel	NOUN	IZE_ARR_INE	_	6	obl	_	_	5:targ|3:targ
-2	dena	dena	DET	DET_ORO_ABS	_	3	nsubj	_	_	1:targ|1:targ
+2	dena	dena	DET	DET_ORO_ABS	_	3	nsubj	_	_	1:IN:targ|1:IN:targ
 3	ongi	ongi	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 5	ezin	ezin_izan	VERB	ADI_ADK_NOTDEK	_	6	compound	_	_	0:exp-Positive
-6	zaio	izan	AUX	ADL	_	0	root	_	_	5:exp-Positive
-7	gehiagorik	gehiago	ADJ	ADJ_ARR_PAR	_	8	obj	_	_	5:exp-Positive
-8	eskatu	eskatu	VERB	ADI_SIN_NOTDEK	_	6	xcomp	_	_	5:exp-Positive
+6	zaio	izan	AUX	ADL	_	0	root	_	_	5:IN:exp-Positive
+7	gehiagorik	gehiago	ADJ	ADJ_ARR_PAR	_	8	obj	_	_	5:IN:exp-Positive
+8	eskatu	eskatu	VERB	ADI_SIN_NOTDEK	_	6	xcomp	_	_	5:IN:exp-Positive
 9	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/kris-alcala_1-1
@@ -1379,33 +1379,33 @@
 1	Igerilekuan	igerileku	NOUN	IZE_ARR_INE	_	3	obl	_	_	3:targ
 2	etzanda	etzan	VERB	ADI_SIN_NOTDEK	_	4	advcl	_	_	_
 3	egoteko	egon	VERB	ADI_SIN_ABS	_	2	cop	_	_	0:exp-Negative
-4	eserleku	eserleku	NOUN	IZE_ARR_ZERO	_	0	root	_	_	3:exp-Negative
-5	gutxi	gutxi	DET	DET_DZG_ABS	_	4	det	_	_	3:exp-Negative
+4	eserleku	eserleku	NOUN	IZE_ARR_ZERO	_	0	root	_	_	3:IN:exp-Negative
+5	gutxi	gutxi	DET	DET_DZG_ABS	_	4	det	_	_	3:IN:exp-Negative
 6	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/kris-alcala_1-2
 # text = Herrigunetik urrun egotea .
 1	Herrigunetik	herrigun	NOUN	IZE_ARR_ABL	_	3	obl	_	_	0:exp-Negative
-2	urrun	urrun	ADV	ADB_ARR_ZERO	_	1	case	_	_	1:exp-Negative
-3	egotea	egon	VERB	ADI_SIN_ABS	_	0	root	_	_	1:exp-Negative
+2	urrun	urrun	ADV	ADB_ARR_ZERO	_	1	case	_	_	1:IN:exp-Negative
+3	egotea	egon	VERB	ADI_SIN_ABS	_	0	root	_	_	1:IN:exp-Negative
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/kris-alcala_1-3
 # text = Tren geltoki bat du 5 minutura eta berehala iristen da baina oinez oso urruti dago .
 1	Tren	t	NOUN	IZE_IZB_GEN	_	2	nmod	_	_	4:targ
-2	geltoki	geltoki	NOUN	IZE_ARR_ZERO	_	4	obj	_	_	1:targ
-3	bat	bat	DET	DET_DZH_ABS	_	2	nummod	_	_	1:targ
+2	geltoki	geltoki	NOUN	IZE_ARR_ZERO	_	4	obj	_	_	1:IN:targ
+3	bat	bat	DET	DET_DZH_ABS	_	2	nummod	_	_	1:IN:targ
 4	du	ukan	AUX	ADT	_	0	root	_	_	0:exp-Positive
-5	5	5	DET	DET_DZH_ZERO	_	6	nummod	_	_	4:exp-Positive
-6	minutura	minutu	NOUN	IZE_ARR_ALA	_	4	obl	_	_	4:exp-Positive
+5	5	5	DET	DET_DZH_ZERO	_	6	nummod	_	_	4:IN:exp-Positive
+6	minutura	minutu	NOUN	IZE_ARR_ALA	_	4	obl	_	_	4:IN:exp-Positive
 7	eta	eta	CCONJ	LOT_JNT	_	9	cc	_	_	_
 8	berehala	berehala	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	0:exp-Positive
-9	iristen	iritsi	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	8:exp-Positive
-10	da	izan	AUX	ADL	_	9	aux	_	_	8:exp-Positive
+9	iristen	iritsi	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	8:IN:exp-Positive
+10	da	izan	AUX	ADL	_	9	aux	_	_	8:IN:exp-Positive
 11	baina	baina	CCONJ	LOT_JNT	_	14	cc	_	_	_
 12	oinez	oinez	ADV	ADB_ARR_ZERO	_	15	obl	_	_	0:exp-Negative
-13	oso	oso	ADV	ADB_ARR_ZERO	_	14	advmod	_	_	12:exp-Negative
-14	urruti	urruti	ADV	ADB_ARR_ZERO	_	4	conj	_	_	12:exp-Negative
+13	oso	oso	ADV	ADB_ARR_ZERO	_	14	advmod	_	_	12:IN:exp-Negative
+14	urruti	urruti	ADV	ADB_ARR_ZERO	_	4	conj	_	_	12:IN:exp-Negative
 15	dago	egon	AUX	ADT	_	14	cop	_	_	_
 16	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
@@ -1420,7 +1420,7 @@
 # sent_id = corpora/eu/kris-alcala_1-5
 # text = Gertutasun hau garrantzitsua da hurrengo egunean hegaldia baduzu .
 1	Gertutasun	gertutasun	NOUN	IZE_ARR_ZERO	_	3	nsubj	_	_	3:targ
-2	hau	hau	DET	DET_ERKARR_ABS	_	1	det	_	_	1:targ
+2	hau	hau	DET	DET_ERKARR_ABS	_	1	det	_	_	1:IN:targ
 3	garrantzitsua	garrantzitsu	ADJ	ADJ_ARR_ABS	_	0	root	_	_	0:exp-Positive
 4	da	izan	AUX	ADT	_	3	cop	_	_	_
 5	hurrengo	hurrengo	ADJ	ADJ_ARR_ZERO	_	6	amod	_	_	_
@@ -1437,16 +1437,16 @@
 4	handiak	handi	ADJ	ADJ_ARR_ABS	_	3	amod	_	_	0:exp-Positive|0:exp-Positive
 5	eta	eta	CCONJ	LOT_JNT	_	7	cc	_	_	_
 6	oso	oso	ADV	ADB_ARR_ZERO	_	7	advmod	_	_	0:exp-Positive|0:exp-Positive
-7	txukunak	txukun	ADJ	ADJ_ARR_ABS	_	1	conj	_	_	6:exp-Positive|6:exp-Positive
+7	txukunak	txukun	ADJ	ADJ_ARR_ABS	_	1	conj	_	_	6:IN:exp-Positive|6:IN:exp-Positive
 8	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/kris-alcala_1-7
 # text = Gosaria zuzena eskaintzen duten preziorako .
 1	Gosaria	gosari	NOUN	IZE_ARR_ABS	_	3	obj	_	_	2:targ
 2	zuzena	zuzen	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	0:exp-Positive
-3	eskaintzen	eskaini	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:exp-Positive
-4	duten	*edun	AUX	ADL	_	3	aux	_	_	2:exp-Positive
-5	preziorako	prezio	NOUN	IZE_ARR_ABS	_	3	obl	_	_	2:exp-Positive
+3	eskaintzen	eskaini	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:IN:exp-Positive
+4	duten	*edun	AUX	ADL	_	3	aux	_	_	2:IN:exp-Positive
+5	preziorako	prezio	NOUN	IZE_ARR_ABS	_	3	obl	_	_	2:IN:exp-Positive
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/kris-alcala_1-8
@@ -1457,8 +1457,8 @@
 4	da	izan	AUX	ADT	_	3	cop	_	_	_
 5	baina	baina	SCONJ	BA_BA_BA	_	8	cc	_	_	_
 6	uste	uste	NOUN	IZE_ARR_ABS	_	7	compound	_	_	0:exp-Positive
-7	baino	baino	X	BST	_	13	advmod	_	_	6:exp-Positive
-8	atseginagoa	atsegin	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	6:exp-Positive
+7	baino	baino	X	BST	_	13	advmod	_	_	6:IN:exp-Positive
+8	atseginagoa	atsegin	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	6:IN:exp-Positive
 9	(	(	PUNCT	PUNCT	_	8	punct	_	_	_
 10	argazkietan	argazki	NOUN	IZE_ARR_INE	_	13	obl	_	_	_
 11	beste	beste	DET	DET_DZG_ZERO	_	12	det	_	_	_
@@ -1478,10 +1478,10 @@
 1	Samira	samira	NOUN	IZE_IZB_ZERO	_	7	obj	_	_	5:targ
 2	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	_
 3	bere	bera	DET	DET_ERKIND_GEN	_	4	nmod	_	_	5:targ
-4	familiak	familia	NOUN	IZE_ARR_ERG	_	1	conj	_	_	3:targ
+4	familiak	familia	NOUN	IZE_ARR_ERG	_	1	conj	_	_	3:IN:targ
 5	oso	oso	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive|0:exp-Positive
-6	ondo	ondo	ADV	ADB_ARR_ZERO	_	7	advmod	_	_	5:exp-Positive|5:exp-Positive
-7	hartu	hartu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	5:exp-Positive|5:exp-Positive
+6	ondo	ondo	ADV	ADB_ARR_ZERO	_	7	advmod	_	_	5:IN:exp-Positive|5:IN:exp-Positive
+7	hartu	hartu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	5:IN:exp-Positive|5:IN:exp-Positive
 8	gaituzte	*edun	AUX	ADL	_	7	aux	_	_	5:holder|5:holder
 9	.	.	PUNCT	PUNCT	_	7	punct	_	_	_
 
@@ -1489,31 +1489,31 @@
 # text = Etxea Arles bertatik aparte samar dago , eta guk horregatik aukeratu genuen , gero aparkaleku arazorik ez izateko .
 1	Etxea	etxe	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	2:targ|10:targ|15:targ
 2	Arles	arles	NOUN	IZE_IZB_ZERO	_	5	nsubj	_	_	0:exp-Negative
-3	bertatik	bertatik	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	2:exp-Negative
-4	aparte	aparte	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	2:exp-Negative
-5	samar	samar	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:exp-Negative
+3	bertatik	bertatik	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	2:IN:exp-Negative
+4	aparte	aparte	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	2:IN:exp-Negative
+5	samar	samar	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:IN:exp-Negative
 6	dago	egon	AUX	ADT	_	5	cop	_	_	_
 7	,	,	PUNCT	PUNCT	_	11	punct	_	_	_
 8	eta	eta	CCONJ	LOT_JNT	_	11	cc	_	_	_
 9	guk	gu	PRON	IOR_PERARR_ERG	_	11	nsubj	_	_	2:holder|10:holder|15:holder
-10	horregatik	horregatik	ADV	ADB_ARR_ZERO	_	11	advmod	_	_	9:holder|0:exp-Positive|9:holder
-11	aukeratu	aukeratu	VERB	ADI_SIN_NOTDEK	_	6	conj	_	_	10:exp-Positive
+10	horregatik	horregatik	ADV	ADB_ARR_ZERO	_	11	advmod	_	_	9:IN:holder|0:exp-Positive|9:IN:holder
+11	aukeratu	aukeratu	VERB	ADI_SIN_NOTDEK	_	6	conj	_	_	10:IN:exp-Positive
 12	genuen	*edun	AUX	ADL	_	11	aux	_	_	_
 13	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 14	gero	gero	ADV	ADB_ARR_ZERO	_	18	advmod	_	_	_
 15	aparkaleku	aparkaleku	NOUN	IZE_ARR_ZERO	_	16	nmod	_	_	0:exp-Positive
-16	arazorik	arazo	NOUN	IZE_ARR_PAR	_	18	obj	_	_	15:exp-Positive
-17	ez	ez	ADV	PRT_EGI	_	18	advmod	_	_	15:exp-Positive
-18	izateko	izan	VERB	ADI_SIN_ABS	_	11	advcl	_	_	15:exp-Positive
+16	arazorik	arazo	NOUN	IZE_ARR_PAR	_	18	obj	_	_	15:IN:exp-Positive
+17	ez	ez	ADV	PRT_EGI	_	18	advmod	_	_	15:IN:exp-Positive
+18	izateko	izan	VERB	ADI_SIN_ABS	_	11	advcl	_	_	15:IN:exp-Positive
 19	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-4460897_1-3
 # text = Autoz 5 minututan iristen da bertara .
 1	Autoz	auto	NOUN	IZE_ARR_INS	_	4	obl	_	_	0:exp-Positive
-2	5	5	DET	DET_DZH_ZERO	_	3	nummod	_	_	1:exp-Positive
-3	minututan	minutu	NOUN	IZE_ARR_INE	_	4	obl	_	_	1:exp-Positive
-4	iristen	iritsi	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
-5	da	izan	AUX	ADL	_	4	aux	_	_	1:exp-Positive
+2	5	5	DET	DET_DZH_ZERO	_	3	nummod	_	_	1:IN:exp-Positive
+3	minututan	minutu	NOUN	IZE_ARR_INE	_	4	obl	_	_	1:IN:exp-Positive
+4	iristen	iritsi	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
+5	da	izan	AUX	ADL	_	4	aux	_	_	1:IN:exp-Positive
 6	bertara	bertara	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	_
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
@@ -1523,9 +1523,9 @@
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 3	etxea	etxe	NOUN	IZE_ARR_ABS	_	6	nsubj	_	_	13:targ|4:targ|11:targ
 4	iragarkian	iragarki	NOUN	IZE_ARR_INE	_	6	obl	_	_	0:exp-Positive
-5	ageri	ageri_izan	VERB	ADI_ADK_NOTDEK	_	6	compound	_	_	4:exp-Positive
-6	den	izan	AUX	ADL	_	8	advcl	_	_	4:exp-Positive
-7	bezalaxe	bezalaxe	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	4:exp-Positive
+5	ageri	ageri_izan	VERB	ADI_ADK_NOTDEK	_	6	compound	_	_	4:IN:exp-Positive
+6	den	izan	AUX	ADL	_	8	advcl	_	_	4:IN:exp-Positive
+7	bezalaxe	bezalaxe	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	4:IN:exp-Positive
 8	topatu	topatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 9	dugu	*edun	AUX	ADL	_	8	aux	_	_	_
 10	:	:	PUNCT	PUNCT	_	6	punct	_	_	_
@@ -1537,34 +1537,34 @@
 # sent_id = corpora/eu/maison-aretxola-Gorka_1-1
 # text = Ezin da txartelagaz ordaindu Gosaria
 1	Ezin	ezin	NOUN	IZE_ARR_ABS	_	2	compound	_	_	0:exp-Negative
-2	da	izan	AUX	ADT	_	0	root	_	_	1:exp-Negative
-3	txartelagaz	txartelaga	NOUN	IZE_ARR_INS	_	4	obj	_	_	1:exp-Negative
-4	ordaindu	ordaindu	VERB	ADI_SIN_NOTDEK	_	2	csubj	_	_	1:exp-Negative
+2	da	izan	AUX	ADT	_	0	root	_	_	1:IN:exp-Negative
+3	txartelagaz	txartelaga	NOUN	IZE_ARR_INS	_	4	obj	_	_	1:IN:exp-Negative
+4	ordaindu	ordaindu	VERB	ADI_SIN_NOTDEK	_	2	csubj	_	_	1:IN:exp-Negative
 5	Gosaria	gosari	NOUN	IZE_ARR_ABS	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/101_Guesthouse_reykyavik_1-1
 # text = Harreran zeuden langileen arreta ez zen onena izan .
 1	Harreran	harrera	NOUN	IZE_ARR_INE	_	2	obl	_	_	5:targ
-2	zeuden	egon	AUX	ADT	_	3	acl	_	_	1:targ
-3	langileen	langile	NOUN	IZE_ARR_GEN	_	4	nmod	_	_	1:targ
-4	arreta	arreta	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	1:targ
+2	zeuden	egon	AUX	ADT	_	3	acl	_	_	1:IN:targ
+3	langileen	langile	NOUN	IZE_ARR_GEN	_	4	nmod	_	_	1:IN:targ
+4	arreta	arreta	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	1:IN:targ
 5	ez	ez	ADV	PRT_EGI	_	8	advmod	_	_	0:exp-Negative
-6	zen	izan	AUX	ADL	_	8	aux	_	_	5:exp-Negative
-7	onena	on	ADJ	ADJ_ARR_ABS	_	0	root	_	_	5:exp-Negative
-8	izan	izan	VERB	ADI_SIN_NOTDEK	_	7	cop	_	_	5:exp-Negative
+6	zen	izan	AUX	ADL	_	8	aux	_	_	5:IN:exp-Negative
+7	onena	on	ADJ	ADJ_ARR_ABS	_	0	root	_	_	5:IN:exp-Negative
+8	izan	izan	VERB	ADI_SIN_NOTDEK	_	7	cop	_	_	5:IN:exp-Negative
 9	.	.	PUNCT	PUNCT	_	7	punct	_	_	_
 
 # sent_id = corpora/eu/101_Guesthouse_reykyavik_1-2
 # text = Zentrotik hurbil , wifi konexio bikaina eta nahiko hotel erosoa .
 1	Zentrotik	zentro	NOUN	IZE_ARR_ABL	_	5	nmod	_	_	0:exp-Positive
-2	hurbil	hurbil	ADV	ADB_ARR_ZERO	_	1	case	_	_	1:exp-Positive
+2	hurbil	hurbil	ADV	ADB_ARR_ZERO	_	1	case	_	_	1:IN:exp-Positive
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 4	wifi	wifi_beste	X	BST	_	5	nsubj	_	_	6:targ
-5	konexio	konexio	NOUN	IZE_ARR_ZERO	_	0	root	_	_	4:targ
+5	konexio	konexio	NOUN	IZE_ARR_ZERO	_	0	root	_	_	4:IN:targ
 6	bikaina	bikain	ADJ	ADJ_ARR_ABS	_	5	amod	_	_	0:exp-Positive
 7	eta	eta	CCONJ	LOT_JNT	_	9	cc	_	_	_
 8	nahiko	nahiko	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	0:exp-Positive
-9	hotel	hotel	X	BST	_	5	conj	_	_	8:exp-Positive
+9	hotel	hotel	X	BST	_	5	conj	_	_	8:IN:exp-Positive
 10	erosoa	eroso	ADJ	ADJ_ARR_ABS	_	9	amod	_	_	_
 11	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
@@ -1591,25 +1591,25 @@
 # sent_id = corpora/eu/mendieta-etxea_1-1
 # text = Oso gomendagarria .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	0	root	_	_	1:exp-Positive
+2	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	0	root	_	_	1:IN:exp-Positive
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/mendieta-etxea_1-2
 # text = Benetan toki atsegina eta atentzioa ezin hobea .
 1	Benetan	benetan	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
-2	toki	toki	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:exp-Positive
+2	toki	toki	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:IN:exp-Positive
 3	atsegina	atsegin	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	_
 4	eta	eta	CCONJ	LOT_JNT	_	5	cc	_	_	_
 5	atentzioa	atentzio	NOUN	IZE_ARR_ABS	_	3	conj	_	_	6:targ
 6	ezin	ezin	NOUN	IZE_ARR_ABS	_	5	nmod	_	_	0:exp-Positive
-7	hobea	hobe	ADJ	ADJ_ARR_ABS	_	5	amod	_	_	6:exp-Positive
+7	hobea	hobe	ADJ	ADJ_ARR_ABS	_	5	amod	_	_	6:IN:exp-Positive
 8	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/mendieta-etxea_1-3
 # text = Mila esker !
 1	Mila	mila	DET	DET_DZH_ZERO	_	2	det	_	_	0:exp-Positive
-2	esker	esker	NOUN	IZE_ARR_ABS	_	0	root	_	_	1:exp-Positive
-3	!	!	PUNCT	PUNCT	_	2	punct	_	_	1:exp-Positive
+2	esker	esker	NOUN	IZE_ARR_ABS	_	0	root	_	_	1:IN:exp-Positive
+3	!	!	PUNCT	PUNCT	_	2	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/katxenea-endika_1-1
 # text = Kaixo !
@@ -1624,44 +1624,44 @@
 4	,	,	PUNCT	PUNCT	_	8	punct	_	_	_
 5	obra	obra	NOUN	IZE_ARR_ABS	_	6	obj	_	_	_
 6	duela	ukan	AUX	ADT	_	8	advcl	_	_	0:exp-Positive
-7	gutxi	gutxi	DET	DET_DZG_ABS	_	6	advmod	_	_	6:exp-Positive
-8	egin	egin	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	6:exp-Positive
+7	gutxi	gutxi	DET	DET_DZG_ABS	_	6	advmod	_	_	6:IN:exp-Positive
+8	egin	egin	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	6:IN:exp-Positive
 9	dute	*edun	AUX	ADL	_	8	aux	_	_	_
 10	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 11	kriston	kriston	NOUN	IZE_ARR_ZERO	_	8	advmod	_	_	0:exp-Positive
-12	gusto	gusto	ADJ	ADJ_ARR_ZERO	_	8	obl	_	_	11:exp-Positive
-13	onarekin	on	ADJ	ADJ_ARR_SOZ	_	12	amod	_	_	11:exp-Positive
+12	gusto	gusto	ADJ	ADJ_ARR_ZERO	_	8	obl	_	_	11:IN:exp-Positive
+13	onarekin	on	ADJ	ADJ_ARR_SOZ	_	12	amod	_	_	11:IN:exp-Positive
 14	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-endika_1-3
 # text = Etxe honetan behar duzun guztia aurkituko duzu .
 1	Etxe	etxe	NOUN	IZE_ARR_ZERO	_	4	obl	_	_	3:targ
-2	honetan	hau	DET	DET_ERKARR_INE	_	1	det	_	_	1:targ
+2	honetan	hau	DET	DET_ERKARR_INE	_	1	det	_	_	1:IN:targ
 3	behar	behar_izan	VERB	ADI_ADK_NOTDEK	_	4	compound	_	_	0:exp-Positive
-4	duzun	*edun	AUX	ADL	_	5	acl	_	_	3:exp-Positive
-5	guztia	guzti	DET	DET_ORO_ABS	_	6	obj	_	_	3:exp-Positive
-6	aurkituko	aurkitu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	3:exp-Positive
+4	duzun	*edun	AUX	ADL	_	5	acl	_	_	3:IN:exp-Positive
+5	guztia	guzti	DET	DET_ORO_ABS	_	6	obj	_	_	3:IN:exp-Positive
+6	aurkituko	aurkitu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	3:IN:exp-Positive
 7	duzu	*edun	AUX	ADL	_	6	aux	_	_	_
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-endika_1-4
 # text = Gela bakoitzak bere komuna du , hau ezinhobea da !!
 1	Gela	gela	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	3:targ|8:targ
-2	bakoitzak	bakoitz	ADJ	ADJ_ARR_ERG	_	1	amod	_	_	1:targ|1:targ
+2	bakoitzak	bakoitz	ADJ	ADJ_ARR_ERG	_	1	amod	_	_	1:IN:targ|1:IN:targ
 3	bere	bera	DET	DET_ERKIND_GEN	_	4	nmod	_	_	0:exp-Positive
-4	komuna	komun	NOUN	IZE_ARR_ABS	_	5	obj	_	_	3:exp-Positive
-5	du	ukan	AUX	ADT	_	0	root	_	_	3:exp-Positive
+4	komuna	komun	NOUN	IZE_ARR_ABS	_	5	obj	_	_	3:IN:exp-Positive
+5	du	ukan	AUX	ADT	_	0	root	_	_	3:IN:exp-Positive
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_	_
 7	hau	hau	DET	DET_ERKARR_ABS	_	8	nsubj	_	_	_
 8	ezinhobea	ezinhobe	ADJ	ADJ_ARR_ABS	_	5	conj	_	_	0:exp-Positive
-9	da	izan	AUX	ADT	_	8	cop	_	_	8:exp-Positive
+9	da	izan	AUX	ADT	_	8	cop	_	_	8:IN:exp-Positive
 10	!!	!!	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-endika_1-5
 # text = Oso gustora egon gara etxean .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	gustora	gustura	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	gustora	gustura	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	gara	izan	AUX	ADL	_	3	aux	_	_	1:holder
 5	etxean	etxe	NOUN	IZE_ARR_INE	_	3	obl	_	_	1:targ
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
@@ -1695,10 +1695,10 @@
 5	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 6	baina	baina	CCONJ	LOT_JNT	_	10	cc	_	_	_
 7	sutondoan	sutondo	NOUN	IZE_ARR_INE	_	10	obl	_	_	0:exp-Positive
-8	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	7:exp-Positive
-9	ongi	ongi	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	7:exp-Positive
-10	igaro	igaro	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	7:exp-Positive
-11	dugu	*edun	AUX	ADL	_	10	aux	_	_	7:exp-Positive
+8	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	7:IN:exp-Positive
+9	ongi	ongi	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	7:IN:exp-Positive
+10	igaro	igaro	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	7:IN:exp-Positive
+11	dugu	*edun	AUX	ADL	_	10	aux	_	_	7:IN:exp-Positive
 12	asteburua	asteburu	NOUN	IZE_ARR_ABS	_	10	obj	_	_	_
 13	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -1706,13 +1706,13 @@
 # text = Maika oso jatorra da , denbora guztian laguntzeko prest .
 1	Maika	maika	ADV	ADB_ARR_ZERO	_	3	nsubj	_	_	2:targ|6:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	jatorra	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:exp-Positive
+3	jatorra	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:IN:exp-Positive
 4	da	izan	AUX	ADT	_	3	cop	_	_	_
 5	,	,	PUNCT	PUNCT	_	9	punct	_	_	_
 6	denbora	denbora	NOUN	IZE_ARR_ZERO	_	8	obl	_	_	0:exp-Positive
-7	guztian	guzti	DET	DET_ORO_INE	_	6	det	_	_	6:exp-Positive
-8	laguntzeko	lagundu	VERB	ADI_SIN_GEL	_	9	advcl	_	_	6:exp-Positive
-9	prest	prest	ADV	ADB_ARR_ZERO	_	4	conj	_	_	6:exp-Positive
+7	guztian	guzti	DET	DET_ORO_INE	_	6	det	_	_	6:IN:exp-Positive
+8	laguntzeko	lagundu	VERB	ADI_SIN_GEL	_	9	advcl	_	_	6:IN:exp-Positive
+9	prest	prest	ADV	ADB_ARR_ZERO	_	4	conj	_	_	6:IN:exp-Positive
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/katxenea-endika_1-9
@@ -1730,10 +1730,10 @@
 11	gainera	gainera	ADV	LOT_LOK	_	9	mark	_	_	_
 12	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 13	Mendukiloko	mendukilo	NOUN	IZE_LIB_GEL	_	14	nmod	_	_	0:exp-Positive
-14	kobazuloak	kobazulo	NOUN	IZE_ARR_ERG	_	15	obj	_	_	13:exp-Positive
-15	ikusteko	ikusi	VERB	ADI_SIN_GEL	_	16	advcl	_	_	13:exp-Positive
-16	laguntza	laguntza	NOUN	IZE_ARR_ABS	_	17	obj	_	_	13:exp-Positive
-17	eman	eman	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	13:exp-Positive
+14	kobazuloak	kobazulo	NOUN	IZE_ARR_ERG	_	15	obj	_	_	13:IN:exp-Positive
+15	ikusteko	ikusi	VERB	ADI_SIN_GEL	_	16	advcl	_	_	13:IN:exp-Positive
+16	laguntza	laguntza	NOUN	IZE_ARR_ABS	_	17	obj	_	_	13:IN:exp-Positive
+17	eman	eman	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	13:IN:exp-Positive
 18	zigun	*edun	AUX	ADL	_	17	aux	_	_	13:holder
 19	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
@@ -1755,14 +1755,14 @@
 # sent_id = corpora/eu/katxenea-endika_1-11
 # text = Eskerrik asko !!
 1	Eskerrik	esker	NOUN	IZE_ARR_PAR	_	0	root	_	_	0:exp-Positive
-2	asko	asko	DET	DET_DZG_ABS	_	1	det	_	_	1:exp-Positive
-3	!!	!!	PUNCT	PUNCT	_	1	punct	_	_	1:exp-Positive
+2	asko	asko	DET	DET_DZG_ABS	_	1	det	_	_	1:IN:exp-Positive
+3	!!	!!	PUNCT	PUNCT	_	1	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/casaruralennavarra-iristxu_1-1
 # text = Oso ondo pasatu dugu Ada , Luismi eta Aliziaren etxean .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	nmod	_	_	0:exp-Positive
-2	ondo	ondo	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	pasatu	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	ondo	ondo	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	pasatu	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	dugu	*edun	AUX	ADL	_	3	aux	_	_	1:holder
 5	Ada	ada	NOUN	IZE_LIB_ZERO	_	10	nmod	_	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_	_
@@ -1787,8 +1787,8 @@
 # sent_id = corpora/eu/casaruralennavarra-iristxu_1-3
 # text = Beste bat arte
 1	Beste	beste	DET	DET_DZG_ZERO	_	2	det	_	_	0:exp-Positive
-2	bat	bat	DET	DET_DZH_ABS	_	0	root	_	_	1:exp-Positive
-3	arte	arte	NOUN	IZE_ARR_ABS	_	2	punct	_	_	1:exp-Positive
+2	bat	bat	DET	DET_DZH_ABS	_	0	root	_	_	1:IN:exp-Positive
+3	arte	arte	NOUN	IZE_ARR_ABS	_	2	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/catalonia-berlin-mitte_1-1
 # text = Ezer .
@@ -1815,15 +1815,15 @@
 # text = Metroa hoteletik 25m-tara dago .
 1	Metroa	metro	NOUN	IZE_ARR_ABS	_	4	nsubj	_	_	2:targ
 2	hoteletik	hotel	NOUN	IZE_ARR_ABL	_	4	obl	_	_	0:exp-Positive
-3	25m-tara	25m-ta	NOUN	IZE_ARR_ALA	_	4	obl	_	_	2:exp-Positive
+3	25m-tara	25m-ta	NOUN	IZE_ARR_ALA	_	4	obl	_	_	2:IN:exp-Positive
 4	dago	egon	AUX	ADT	_	0	root	_	_	_
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/catalonia-berlin-mitte_1-5
 # text = Oinez joan daiteke eta 15-20 minutu daude gehienez .
 1	Oinez	oinez	NOUN	IZE_IZB_ABS	_	2	advmod	_	_	0:exp-Positive
-2	joan	joan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
-3	daiteke	*edin	AUX	ADL	_	2	aux	_	_	1:exp-Positive
+2	joan	joan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
+3	daiteke	*edin	AUX	ADL	_	2	aux	_	_	1:IN:exp-Positive
 4	eta	eta	CCONJ	LOT_JNT	_	7	cc	_	_	_
 5	15-20	15-20	DET	DET_DZH_ZERO	_	6	det	_	_	_
 6	minutu	minutu	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	_
@@ -1836,9 +1836,9 @@
 1	Dena	e	DET	DET_ORO_ABS	_	3	acl	_	_	_
 2	den	izan	AUX	ADT	_	1	cop	_	_	_
 3	aukera	aukera	NOUN	IZE_ARR_ZERO	_	6	obj	_	_	0:exp-Positive
-4	onena	on	ADJ	ADJ_ARR_ABS	_	3	amod	_	_	3:exp-Positive
+4	onena	on	ADJ	ADJ_ARR_ABS	_	3	amod	_	_	3:IN:exp-Positive
 5	txirrindaz	txirrinda	NOUN	IZE_ARR_INS	_	6	obl	_	_	3:targ
-6	egitea	egin	VERB	ADI_SIN_ABS	_	0	root	_	_	5:targ
+6	egitea	egin	VERB	ADI_SIN_ABS	_	0	root	_	_	5:IN:targ
 7	da	izan	AUX	ADT	_	6	cop	_	_	_
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
@@ -1855,9 +1855,9 @@
 # text = Txirrinda hotelean bertan aloka dezakezu 12 € tan eguna .
 1	Txirrinda	txirrinda	NOUN	IZE_ARR_ZERO	_	2	nmod	_	_	2:targ
 2	hotelean	hotel	ADJ	ADJ_ARR_INE	_	4	obl	_	_	0:exp-Positive
-3	bertan	bertan	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:exp-Positive
-4	aloka	aloka	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:exp-Positive
-5	dezakezu	*ezan	AUX	ADL	_	4	aux	_	_	2:exp-Positive
+3	bertan	bertan	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:IN:exp-Positive
+4	aloka	aloka	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:IN:exp-Positive
+5	dezakezu	*ezan	AUX	ADL	_	4	aux	_	_	2:IN:exp-Positive
 6	12	12	DET	DET_DZH_ZERO	_	7	nummod	_	_	_
 7	€	€	NOUN	IZE_ARR_ABS	_	9	nmod	_	_	_
 8	tan	_	NOUN	IZE_ARR_INE	_	9	nmod	_	_	_
@@ -1874,13 +1874,13 @@
 # sent_id = corpora/eu/catalonia-berlin-mitte_1-10
 # text = Behekaldean dagoen taberna , egongela eta jatetxea eremu irekia eta zabala dira .
 1	Behekaldean	behekalde	NOUN	IZE_ARR_INE	_	2	obl	_	_	11:targ|9:targ
-2	dagoen	egon	AUX	ADT	_	3	acl	_	_	1:targ|1:targ
-3	taberna	taberna	NOUN	IZE_ARR_ZERO	_	8	nsubj	_	_	1:targ|1:targ
+2	dagoen	egon	AUX	ADT	_	3	acl	_	_	1:IN:targ|1:IN:targ
+3	taberna	taberna	NOUN	IZE_ARR_ZERO	_	8	nsubj	_	_	1:IN:targ|1:IN:targ
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 5	egongela	egongela	NOUN	IZE_ARR_ZERO	_	3	conj	_	_	11:targ|9:targ
 6	eta	eta	CCONJ	LOT_JNT	_	7	cc	_	_	_
 7	jatetxea	jatetxe	NOUN	IZE_ARR_ABS	_	3	conj	_	_	11:targ|9:targ
-8	eremu	eremu	NOUN	IZE_ARR_ZERO	_	0	root	_	_	7:targ|7:targ
+8	eremu	eremu	NOUN	IZE_ARR_ZERO	_	0	root	_	_	7:IN:targ|7:IN:targ
 9	irekia	ireki	VERB	ADI_SIN_ABS	_	8	nmod	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
 10	eta	eta	CCONJ	LOT_JNT	_	11	cc	_	_	_
 11	zabala	zabal	ADJ	ADJ_ARR_ABS	_	9	conj	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive
@@ -1911,7 +1911,7 @@
 3	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	_
 4	ohe	ohe	NOUN	IZE_ARR_ABS	_	2	conj	_	_	5:targ
 5	oso	oso	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
-6	erosoa	eroso	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	5:exp-Positive
+6	erosoa	eroso	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	5:IN:exp-Positive
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/catalonia-berlin-mitte_1-14
@@ -1940,14 +1940,14 @@
 8	gazia	gazi	NOUN	IZE_ARR_ABS	_	2	conj	_	_	_
 9	...	...	PUNCT	PUNCT	_	11	punct	_	_	_
 10	denetik	dena	DET	DET_ORO_ABL	_	1	cop	_	_	0:exp-Positive
-11	dago	egon	AUX	ADT	_	0	root	_	_	10:exp-Positive
+11	dago	egon	AUX	ADT	_	0	root	_	_	10:IN:exp-Positive
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_	_
 
 # sent_id = corpora/eu/el-cerco-Anonimo_1-1
 # text = Dena oso atsegina , harreragileak , gela , erosotasuna , herria bera
 1	Dena	dena	DET	DET_ORO_ABS	_	3	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive|0:exp-Positive|0:exp-Positive|0:exp-Positive|0:exp-Positive
-3	atsegina	atsegin	VERB	ADI_SIN_ABS	_	0	root	_	_	2:exp-Positive|2:exp-Positive|2:exp-Positive|2:exp-Positive|2:exp-Positive
+3	atsegina	atsegin	VERB	ADI_SIN_ABS	_	0	root	_	_	2:IN:exp-Positive|2:IN:exp-Positive|2:IN:exp-Positive|2:IN:exp-Positive|2:IN:exp-Positive
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 5	harreragileak	harreragile	NOUN	IZE_ARR_ERG	_	3	nsubj	_	_	2:targ
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_	_
@@ -1956,7 +1956,7 @@
 9	erosotasuna	erosotasun	NOUN	IZE_ARR_ABS	_	5	conj	_	_	2:targ
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_	_
 11	herria	herri	NOUN	IZE_ARR_ABS	_	5	conj	_	_	2:targ
-12	bera	bera	DET	DET_ERKIND_ABS	_	3	punct	_	_	11:targ
+12	bera	bera	DET	DET_ERKIND_ABS	_	3	punct	_	_	11:IN:targ
 
 # sent_id = corpora/eu/h24vacanze-villanova-monteleone_1-1
 # text = Ezer aipatzekotan , topatzeko izan genituen zailtasunak Jasandako tratua oso atsegina .
@@ -1964,13 +1964,13 @@
 2	aipatzekotan	aipatu	VERB	ADI_SIN_INE	_	5	advcl	_	_	_
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 4	topatzeko	topatu	VERB	ADI_SIN_ABS	_	5	advcl	_	_	0:exp-Negative
-5	izan	izan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	4:exp-Negative
-6	genituen	*edun	AUX	ADL	_	5	aux	_	_	4:exp-Negative
+5	izan	izan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	4:IN:exp-Negative
+6	genituen	*edun	AUX	ADL	_	5	aux	_	_	4:IN:exp-Negative
 7	zailtasunak	zailtasun	NOUN	IZE_ARR_ABS	_	5	obj	_	_	_
 8	Jasandako	jasanda	NOUN	IZE_LIB_GEL	_	9	nmod	_	_	10:targ
-9	tratua	tratu	NOUN	IZE_ARR_ABS	_	11	obj	_	_	8:targ
+9	tratua	tratu	NOUN	IZE_ARR_ABS	_	11	obj	_	_	8:IN:targ
 10	oso	oso	ADV	ADB_ARR_ZERO	_	11	advmod	_	_	0:exp-Positive
-11	atsegina	atsegin	VERB	ADI_SIN_ABS	_	5	xcomp	_	_	10:exp-Positive
+11	atsegina	atsegin	VERB	ADI_SIN_ABS	_	5	xcomp	_	_	10:IN:exp-Positive
 12	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/h24vacanze-villanova-monteleone_1-2
@@ -1985,7 +1985,7 @@
 # text = Kokapena ezin hobea : hondartza 15 km-ra ; Alghero 24 km-ra .
 1	Kokapena	kokapen	NOUN	IZE_ARR_ABS	_	0	root	_	_	2:targ
 2	ezin	ezin	NOUN	IZE_ARR_ABS	_	1	nmod	_	_	0:exp-Positive
-3	hobea	hobe	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	2:exp-Positive
+3	hobea	hobe	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	2:IN:exp-Positive
 4	:	:	PUNCT	PUNCT	_	7	punct	_	_	_
 5	hondartza	hondartza	NOUN	IZE_ARR_ZERO	_	7	nmod	_	_	_
 6	15	15	DET	DET_DZH_ZERO	_	7	nummod	_	_	_
@@ -2002,15 +2002,15 @@
 2	batzuk	batzuk	DET	DET_DZG_ABS	_	1	det	_	_	_
 3	emateko	eman	VERB	ADI_SIN_GEL	_	5	advcl	_	_	_
 4	erabat	erabat	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive
-5	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	0	root	_	_	4:exp-Positive
+5	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	0	root	_	_	4:IN:exp-Positive
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/4evora-hostel_1-1
 # text = Ez dago seinalerik bertara iristeko Leku modernoa , garbia eta txukuna .
 1	Ez	ez	ADV	PRT_EGI	_	2	advmod	_	_	0:exp-Negative
-2	dago	egon	AUX	ADT	_	0	root	_	_	1:exp-Negative
-3	seinalerik	seinale	NOUN	IZE_ARR_PAR	_	2	nsubj	_	_	1:exp-Negative
-4	bertara	bertara	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	1:exp-Negative
+2	dago	egon	AUX	ADT	_	0	root	_	_	1:IN:exp-Negative
+3	seinalerik	seinale	NOUN	IZE_ARR_PAR	_	2	nsubj	_	_	1:IN:exp-Negative
+4	bertara	bertara	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	1:IN:exp-Negative
 5	iristeko	iritsi	VERB	ADI_SIN_ABS	_	6	advcl	_	_	_
 6	Leku	leku	NOUN	IZE_ARR_ZERO	_	2	nsubj	_	_	11:targ|7:targ|9:targ
 7	modernoa	moderno	ADJ	ADJ_ARR_ABS	_	6	amod	_	_	0:exp-Positive
@@ -2024,10 +2024,10 @@
 # text = Langileak oso jatorrak , laguntzeko prest eta profesionalak .
 1	Langileak	langile	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ|8:targ|5:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	jatorrak	jator	ADJ	ADJ_ARR_ABS	_	6	nsubj	_	_	2:exp-Positive
+3	jatorrak	jator	ADJ	ADJ_ARR_ABS	_	6	nsubj	_	_	2:IN:exp-Positive
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 5	laguntzeko	lagundu	VERB	ADI_SIN_GEL	_	6	advcl	_	_	0:exp-Positive
-6	prest	prest	ADV	ADB_ARR_ZERO	_	0	root	_	_	5:exp-Positive
+6	prest	prest	ADV	ADB_ARR_ZERO	_	0	root	_	_	5:IN:exp-Positive
 7	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 8	profesionalak	profesional	NOUN	IZE_ARR_ABS	_	3	conj	_	_	0:exp-Positive
 9	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
@@ -2054,7 +2054,7 @@
 1	Aparkalekua	aparkaleku	NOUN	IZE_ARR_ABS	_	0	root	_	_	3:targ
 2	:	:	PUNCT	PUNCT	_	4	punct	_	_	_
 3	ate	ate	NOUN	IZE_ARR_ZERO	_	1	nmod	_	_	0:exp-Positive
-4	aurrean	aurre	NOUN	IZE_ARR_INE	_	3	case	_	_	3:exp-Positive
+4	aurrean	aurre	NOUN	IZE_ARR_INE	_	3	case	_	_	3:IN:exp-Positive
 5	.	.	PUNCT	PUNCT	_	1	punct	_	_	_
 
 # sent_id = corpora/eu/aparthotel-baobal_1-4
@@ -2078,7 +2078,7 @@
 # sent_id = corpora/eu/airbnb-7144181_1-2
 # text = Oso jatorra eta lagunkorra izan da tratua Anna , baina hegaldia bertan behera geratu zen Lufthansaren greba zela eta , ...
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	jatorra	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	1:exp-Positive
+2	jatorra	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	1:IN:exp-Positive
 3	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	_
 4	lagunkorra	lagunkor	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	0:exp-Positive
 5	izan	izan	VERB	ADI_SIN_NOTDEK	_	2	cop	_	_	_
@@ -2155,28 +2155,28 @@
 9	zauden	egon	AUX	ADT	_	14	advcl	_	_	_
 10	bitartean	bitarte	NOUN	IZE_ARR_INE	_	9	mark	_	_	_
 11	ahal	ahal_izan	VERB	ADI_ADK_NOTDEK	_	12	compound	_	_	0:exp-Positive
-12	duen	ukan	AUX	ADT	_	13	acl	_	_	11:exp-Positive
-13	guztia	guzti	DET	DET_ORO_ABS	_	14	obj	_	_	11:exp-Positive
-14	egingo	egin	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	11:exp-Positive
-15	du	*edun	AUX	ADL	_	14	aux	_	_	11:exp-Positive
-16	zure	zu	PRON	IOR_PERARR_GEN	_	17	nmod	_	_	11:exp-Positive
-17	egonaldia	egonaldi	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	11:exp-Positive
-18	atsegina	atsegin	VERB	ADI_SIN_ABS	_	14	advcl	_	_	11:exp-Positive
-19	izateko	izan	VERB	ADI_SIN_ABS	_	18	cop	_	_	11:exp-Positive
+12	duen	ukan	AUX	ADT	_	13	acl	_	_	11:IN:exp-Positive
+13	guztia	guzti	DET	DET_ORO_ABS	_	14	obj	_	_	11:IN:exp-Positive
+14	egingo	egin	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	11:IN:exp-Positive
+15	du	*edun	AUX	ADL	_	14	aux	_	_	11:IN:exp-Positive
+16	zure	zu	PRON	IOR_PERARR_GEN	_	17	nmod	_	_	11:IN:exp-Positive
+17	egonaldia	egonaldi	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	11:IN:exp-Positive
+18	atsegina	atsegin	VERB	ADI_SIN_ABS	_	14	advcl	_	_	11:IN:exp-Positive
+19	izateko	izan	VERB	ADI_SIN_ABS	_	18	cop	_	_	11:IN:exp-Positive
 20	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-4159654_1-4
 # text = Hendaiako etxea ederra da , urteko edozein sasoian egoteko aproposa .
 1	Hendaiako	hendaia	NOUN	IZE_LIB_GEL	_	2	nmod	_	_	3:targ|6:targ
-2	etxea	etxe	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	1:targ|1:targ
+2	etxea	etxe	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	1:IN:targ|1:IN:targ
 3	ederra	eder	ADJ	ADJ_ARR_ABS	_	0	root	_	_	0:exp-Positive
 4	da	izan	AUX	ADT	_	3	cop	_	_	_
 5	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 6	urteko	urte	NOUN	IZE_ARR_GEL	_	8	nmod	_	_	0:exp-Positive
-7	edozein	edozein	DET	DET_NOLARR_ZERO	_	8	det	_	_	6:exp-Positive
-8	sasoian	sasoi	NOUN	IZE_ARR_INE	_	9	obl	_	_	6:exp-Positive
-9	egoteko	egon	VERB	ADI_SIN_ABS	_	10	advcl	_	_	6:exp-Positive
-10	aproposa	apropos	ADJ	ADJ_ARR_ABS	_	3	conj	_	_	6:exp-Positive
+7	edozein	edozein	DET	DET_NOLARR_ZERO	_	8	det	_	_	6:IN:exp-Positive
+8	sasoian	sasoi	NOUN	IZE_ARR_INE	_	9	obl	_	_	6:IN:exp-Positive
+9	egoteko	egon	VERB	ADI_SIN_ABS	_	10	advcl	_	_	6:IN:exp-Positive
+10	aproposa	apropos	ADJ	ADJ_ARR_ABS	_	3	conj	_	_	6:IN:exp-Positive
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-4159654_1-5
@@ -2184,7 +2184,7 @@
 1	Udan	uda	NOUN	IZE_ARR_INE	_	6	advmod	_	_	_
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 3	Ondarraitzeko	ondarraitz	NOUN	IZE_LIB_GEL	_	4	nmod	_	_	7:targ|5:targ
-4	ondartza	ondartza	NOUN	IZE_ARR_ZERO	_	6	obj	_	_	3:targ|3:targ
+4	ondartza	ondartza	NOUN	IZE_ARR_ZERO	_	6	obj	_	_	3:IN:targ|3:IN:targ
 5	paregabea	paregabe	ADJ	ADJ_ARR_ABS	_	4	amod	_	_	0:exp-Positive
 6	duzu	ukan	AUX	ADT	_	0	root	_	_	_
 7	urbil	urbil	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
@@ -2194,12 +2194,12 @@
 11	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 12	portxea	portxe	NOUN	IZE_ARR_ABS	_	14	obj	_	_	13:targ
 13	kanpoan	kanpo	NOUN	IZE_ARR_INE	_	14	obl	_	_	0:exp-Positive
-14	bazkaldu	bazkaldu	VERB	ADI_SIN_NOTDEK	_	6	advcl	_	_	13:exp-Positive
-15	,	,	PUNCT	PUNCT	_	16	punct	_	_	13:exp-Positive
-16	afaldu	afaldu	VERB	ADI_SIN_NOTDEK	_	14	conj	_	_	13:exp-Positive
-17	eta	eta	CCONJ	LOT_JNT	_	19	cc	_	_	13:exp-Positive
-18	lagunekin	lagun	NOUN	IZE_ARR_SOZ	_	19	obl	_	_	13:exp-Positive
-19	disfrutatzeko	disfrutatu	VERB	ADI_SIN_ABS	_	14	conj	_	_	13:exp-Positive
+14	bazkaldu	bazkaldu	VERB	ADI_SIN_NOTDEK	_	6	advcl	_	_	13:IN:exp-Positive
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_	13:IN:exp-Positive
+16	afaldu	afaldu	VERB	ADI_SIN_NOTDEK	_	14	conj	_	_	13:IN:exp-Positive
+17	eta	eta	CCONJ	LOT_JNT	_	19	cc	_	_	13:IN:exp-Positive
+18	lagunekin	lagun	NOUN	IZE_ARR_SOZ	_	19	obl	_	_	13:IN:exp-Positive
+19	disfrutatzeko	disfrutatu	VERB	ADI_SIN_ABS	_	14	conj	_	_	13:IN:exp-Positive
 20	...	...	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-4159654_1-6
@@ -2213,17 +2213,17 @@
 7	eder	eder	ADJ	ADJ_ARR_ZERO	_	6	amod	_	_	0:exp-Positive
 8	bat	bat	DET	DET_DZH_ABS	_	6	nummod	_	_	_
 9	goxo	goxo	NOUN	IZE_ARR_ZERO	_	11	xcomp	_	_	0:exp-Positive
-10	goxo	goxo	ADJ	ADJ_ARR_ZERO	_	9	amod	_	_	9:exp-Positive
-11	egoteko	egon	VERB	ADI_SIN_ABS	_	0	root	_	_	9:exp-Positive
+10	goxo	goxo	ADJ	ADJ_ARR_ZERO	_	9	amod	_	_	9:IN:exp-Positive
+11	egoteko	egon	VERB	ADI_SIN_ABS	_	0	root	_	_	9:IN:exp-Positive
 12	.	.	PUNCT	PUNCT	_	9	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-4159654_1-7
 # text = Hendaia Irun eta Donostitik urbil , ordu batera Iruña edo Bilbotik .
 1	Hendaia	hendai	NOUN	IZE_ARR_ABS	_	0	root	_	_	2:targ
 2	Irun	iru	NOUN	IZE_LIB_INE	_	1	flat	_	_	0:exp-Positive
-3	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	2:exp-Positive
-4	Donostitik	donostit	NOUN	IZE_LIB_ABL	_	1	conj	_	_	2:exp-Positive
-5	urbil	urbil	ADV	ADB_ARR_ZERO	_	4	case	_	_	2:exp-Positive
+3	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	2:IN:exp-Positive
+4	Donostitik	donostit	NOUN	IZE_LIB_ABL	_	1	conj	_	_	2:IN:exp-Positive
+5	urbil	urbil	ADV	ADB_ARR_ZERO	_	4	case	_	_	2:IN:exp-Positive
 6	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
 7	ordu	ordu	NOUN	IZE_ARR_ZERO	_	1	conj	_	_	_
 8	batera	bat	DET	DET_DZH_ALA	_	7	nummod	_	_	_
@@ -2235,22 +2235,22 @@
 # sent_id = corpora/eu/airbnb-4159654_1-8
 # text = Ongi kokatua .
 1	Ongi	ongi	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	kokatua	kokatu	VERB	ADI_SIN_ABS	_	0	root	_	_	1:exp-Positive
+2	kokatua	kokatu	VERB	ADI_SIN_ABS	_	0	root	_	_	1:IN:exp-Positive
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-4159654_1-9
 # text = Bakartxo pertsona gomendagarria da , hartzen dituen konpromezuak bete egiten ditu .
 1	Bakartxo	bakar+txo	INTJ	ITJ_HAS_MAI	_	2	nsubj	_	_	2:targ|6:targ
 2	pertsona	pertsona	NOUN	IZE_ARR_ZERO	_	0	root	_	_	0:exp-Positive
-3	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	2:exp-Positive
+3	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	2:IN:exp-Positive
 4	da	izan	AUX	ADT	_	2	cop	_	_	_
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 6	hartzen	hartu	VERB	ADI_SIN_NOTDEK	_	8	acl	_	_	0:exp-Positive
-7	dituen	*edun	AUX	ADL	_	6	aux	_	_	6:exp-Positive
-8	konpromezuak	konpromezu	NOUN	IZE_ARR_ABS	_	9	obj	_	_	6:exp-Positive
-9	bete	bete	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	6:exp-Positive
-10	egiten	egin	VERB	ADI_SIN_NOTDEK	_	9	aux	_	_	6:exp-Positive
-11	ditu	*edun	AUX	ADL	_	9	aux	_	_	6:exp-Positive
+7	dituen	*edun	AUX	ADL	_	6	aux	_	_	6:IN:exp-Positive
+8	konpromezuak	konpromezu	NOUN	IZE_ARR_ABS	_	9	obj	_	_	6:IN:exp-Positive
+9	bete	bete	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	6:IN:exp-Positive
+10	egiten	egin	VERB	ADI_SIN_NOTDEK	_	9	aux	_	_	6:IN:exp-Positive
+11	ditu	*edun	AUX	ADL	_	9	aux	_	_	6:IN:exp-Positive
 12	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/hotel-nagusi_1-1
@@ -2264,26 +2264,26 @@
 7	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 8	atseginak.	atseginak.	ADJ	ADJ_ARR_ABS	_	6	conj	_	_	0:exp-Positive
 9	oso	oso	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	0:exp-Positive
-10	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	9:exp-Positive
+10	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	9:IN:exp-Positive
 11	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/amethyst-house_1-1
 # text = Eguneko menua jan genun eta benetan txarra zegon .
 1	Eguneko	eguneko	ADJ	ADJ_ARR_ZERO	_	2	nmod	_	_	6:targ
-2	menua	menu	NOUN	IZE_ARR_ABS	_	3	obj	_	_	1:targ
+2	menua	menu	NOUN	IZE_ARR_ABS	_	3	obj	_	_	1:IN:targ
 3	jan	jan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 4	genun	genun	AUX	ADL	_	3	aux	_	_	6:holder
 5	eta	eta	CCONJ	LOT_JNT	_	7	cc	_	_	_
 6	benetan	benetan	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	0:exp-Negative
-7	txarra	txar	ADJ	ADJ_ARR_ABS	_	3	conj	_	_	6:exp-Negative
+7	txarra	txar	ADJ	ADJ_ARR_ABS	_	3	conj	_	_	6:IN:exp-Negative
 8	zegon	zegon	AUX	ADT	_	7	cop	_	_	_
 9	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/amethyst-house_1-2
 # text = Gertu ez dago jatetxe edo dendarik .
 1	Gertu	gertu	VERB	ADI_SIN_NOTDEK	_	3	advmod	_	_	0:exp-Negative|0:exp-Negative
-2	ez	ez	ADV	PRT_EGI	_	3	advmod	_	_	1:exp-Negative|1:exp-Negative
-3	dago	egon	AUX	ADT	_	0	root	_	_	1:exp-Negative|1:exp-Negative
+2	ez	ez	ADV	PRT_EGI	_	3	advmod	_	_	1:IN:exp-Negative|1:IN:exp-Negative
+3	dago	egon	AUX	ADT	_	0	root	_	_	1:IN:exp-Negative|1:IN:exp-Negative
 4	jatetxe	jatetxe	NOUN	IZE_ARR_ZERO	_	3	nsubj	_	_	1:targ
 5	edo	edo	CCONJ	LOT_JNT	_	6	cc	_	_	_
 6	dendarik	dendari	DET	DET_ORO_ABL	_	4	conj	_	_	1:targ
@@ -2292,14 +2292,14 @@
 # sent_id = corpora/eu/amethyst-house_1-3
 # text = Aireportutik gertu dagi eta hara eramaten zaituzte edozein ordutan , gelaren prezio barruan .
 1	Aireportutik	aireportu	NOUN	IZE_ARR_ABL	_	3	obl	_	_	0:exp-Positive
-2	gertu	gertu	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
+2	gertu	gertu	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
 3	dagi	dagin	AUX	ADT	_	0	root	_	_	_
 4	eta	eta	CCONJ	LOT_JNT	_	6	cc	_	_	_
 5	hara	hara	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
-6	eramaten	eraman	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	5:exp-Positive
-7	zaituzte	zaituzte	AUX	ADL	_	6	aux	_	_	5:exp-Positive
-8	edozein	edozein	DET	DET_NOLARR_ZERO	_	9	det	_	_	5:exp-Positive
-9	ordutan	ordu	NOUN	IZE_ARR_INE	_	6	obl	_	_	5:exp-Positive
+6	eramaten	eraman	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	5:IN:exp-Positive
+7	zaituzte	zaituzte	AUX	ADL	_	6	aux	_	_	5:IN:exp-Positive
+8	edozein	edozein	DET	DET_NOLARR_ZERO	_	9	det	_	_	5:IN:exp-Positive
+9	ordutan	ordu	NOUN	IZE_ARR_INE	_	6	obl	_	_	5:IN:exp-Positive
 10	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 11	gelaren	gela	NOUN	IZE_ARR_GEN	_	13	nmod	_	_	_
 12	prezio	prezio	NOUN	IZE_ARR_ZERO	_	6	obl	_	_	_
@@ -2344,8 +2344,8 @@
 7	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 8	ta	ta	CCONJ	LOT_JNT	_	14	cc	_	_	_
 9	Josepik	josepi	NOUN	IZE_IZB_ERG	_	10	nsubj	_	_	14:targ
-10	emondako	emon	VERB	ADI_SIN_GEL	_	11	advcl	_	_	9:targ
-11	atentzioa	atentzio	NOUN	IZE_ARR_ABS	_	14	nsubj	_	_	9:targ
+10	emondako	emon	VERB	ADI_SIN_GEL	_	11	advcl	_	_	9:IN:targ
+11	atentzioa	atentzio	NOUN	IZE_ARR_ABS	_	14	nsubj	_	_	9:IN:targ
 12	ta	ta	CCONJ	LOT_JNT	_	13	cc	_	_	_
 13	aholkuak	aholku	NOUN	IZE_ARR_ABS	_	11	conj	_	_	14:targ
 14	ederrak	eder	ADJ	ADJ_ARR_ABS	_	7	conj	_	_	0:exp-Positive|0:exp-Positive
@@ -2357,15 +2357,15 @@
 # text = Logelak oso ongi dekoratuak ta txukun-txukun dana , gosarik oso goxoak ta beti konpainia onean .
 1	Logelak	logel	NOUN	IZE_ARR_ABS	_	4	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	ongi	ongi	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:exp-Positive
-4	dekoratuak	dekoratu	VERB	ADI_SIN_ABS	_	7	advcl	_	_	2:exp-Positive
+3	ongi	ongi	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:IN:exp-Positive
+4	dekoratuak	dekoratu	VERB	ADI_SIN_ABS	_	7	advcl	_	_	2:IN:exp-Positive
 5	ta	ta	CCONJ	LOT_JNT	_	6	nmod	_	_	_
 6	txukun-txukun	txukun-txukun	ADJ	ADJ_ARR_ABS	_	7	nsubj	_	_	0:exp-Positive
 7	dana	dana	AUX	ADT_IZEELI_PNT_ABS	_	0	root	_	_	6:targ
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_	_
 9	gosarik	gosa	NOUN	IZE_ARR_PAR	_	11	nsubj	_	_	10:targ
 10	oso	oso	ADV	ADB_ARR_ZERO	_	11	advmod	_	_	0:exp-Positive
-11	goxoak	goxo	NOUN	IZE_ARR_ERG	_	7	conj	_	_	10:exp-Positive
+11	goxoak	goxo	NOUN	IZE_ARR_ERG	_	7	conj	_	_	10:IN:exp-Positive
 12	ta	ta	CCONJ	LOT_JNT	_	11	cop	_	_	_
 13	beti	beti	ADV	ADB_ARR_ZERO	_	12	advmod	_	_	_
 14	konpainia	konpainia	NOUN	IZE_ARR_ZERO	_	12	obl	_	_	15:targ
@@ -2375,60 +2375,60 @@
 # sent_id = corpora/eu/casa-kordoa_1-4
 # text = Merezi du Erratzutik pasatia ta hantxe bertan egun batzuk igarotia .
 1	Merezi	merezi_izan	VERB	ADI_ADP_NOTDEK	_	2	compound	_	_	0:exp-Positive
-2	du	*edun	AUX	ADL	_	0	root	_	_	1:exp-Positive
+2	du	*edun	AUX	ADL	_	0	root	_	_	1:IN:exp-Positive
 3	Erratzutik	erratzuti	NOUN	IZE_IZB_ERG	_	2	obl	_	_	1:targ
-4	pasatia	pasati	NOUN	IZE_ARR_ABS	_	2	obj	_	_	3:targ
-5	ta	ta	CCONJ	LOT_JNT	_	2	cc	_	_	3:targ
-6	hantxe	hantxe	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	3:targ
-7	bertan	bertan	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	3:targ
-8	egun	egun	NOUN	IZE_ARR_ZERO	_	10	obj	_	_	3:targ
-9	batzuk	batzuk	DET	DET_DZG_ABS	_	8	det	_	_	3:targ
-10	igarotia	igaroti	NOUN	IZE_ARR_ABS	_	2	xcomp	_	_	3:targ
+4	pasatia	pasati	NOUN	IZE_ARR_ABS	_	2	obj	_	_	3:IN:targ
+5	ta	ta	CCONJ	LOT_JNT	_	2	cc	_	_	3:IN:targ
+6	hantxe	hantxe	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	3:IN:targ
+7	bertan	bertan	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	3:IN:targ
+8	egun	egun	NOUN	IZE_ARR_ZERO	_	10	obj	_	_	3:IN:targ
+9	batzuk	batzuk	DET	DET_DZG_ABS	_	8	det	_	_	3:IN:targ
+10	igarotia	igaroti	NOUN	IZE_ARR_ABS	_	2	xcomp	_	_	3:IN:targ
 11	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/casa-kordoa_1-5
 # text = Muxu handi bat bizkaialdetik ¡¡¡
 1	Muxu	muxu	NOUN	IZE_ARR_ZERO	_	0	root	_	_	0:exp-Positive
-2	handi	handi	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	1:exp-Positive
-3	bat	bat	DET	DET_DZH_ABS	_	1	nummod	_	_	1:exp-Positive
-4	bizkaialdetik	bizkaialde	NOUN	IZE_ARR_ABL	_	1	nmod	_	_	1:exp-Positive
-5	¡¡¡	¡¡¡	ADV	ADB_ARR_ZERO	_	1	punct	_	_	1:exp-Positive
+2	handi	handi	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	1:IN:exp-Positive
+3	bat	bat	DET	DET_DZH_ABS	_	1	nummod	_	_	1:IN:exp-Positive
+4	bizkaialdetik	bizkaialde	NOUN	IZE_ARR_ABL	_	1	nmod	_	_	1:IN:exp-Positive
+5	¡¡¡	¡¡¡	ADV	ADB_ARR_ZERO	_	1	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/a-amp-o-karlsruhe-hauptbahnhof_1-1
 # text = Logeletan ez dago takillarik edo banakako giltzapeko armairurik .
 1	Logeletan	logela	NOUN	IZE_ARR_INE	_	3	obl	_	_	_
 2	ez	ez	ADV	PRT_EGI	_	3	advmod	_	_	0:exp-Negative|0:exp-Negative
-3	dago	egon	AUX	ADT	_	0	root	_	_	2:exp-Negative|2:exp-Negative
+3	dago	egon	AUX	ADT	_	0	root	_	_	2:IN:exp-Negative|2:IN:exp-Negative
 4	takillarik	takilla	NOUN	IZE_ARR_PAR	_	3	nsubj	_	_	2:targ
 5	edo	edo	CCONJ	LOT_JNT	_	8	cc	_	_	_
 6	banakako	banakako	ADJ	ADJ_ARR_ZERO	_	7	nmod	_	_	2:targ
-7	giltzapeko	giltzape	NOUN	IZE_ARR_GEL	_	8	nmod	_	_	6:targ
-8	armairurik	armairu	VERB	ADI_SIN_PAR	_	4	conj	_	_	6:targ
+7	giltzapeko	giltzape	NOUN	IZE_ARR_GEL	_	8	nmod	_	_	6:IN:targ
+8	armairurik	armairu	VERB	ADI_SIN_PAR	_	4	conj	_	_	6:IN:targ
 9	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/a-amp-o-karlsruhe-hauptbahnhof_1-2
 # text = Logela partekatu batzuk oso handiak dira , baina beste batzuk oso txikiak eta ohe gehiegi .
 1	Logela	logela	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	4:targ
-2	partekatu	partekatu	NOUN	IZE_ARR_ZERO	_	1	nmod	_	_	1:targ
-3	batzuk	batzuk	DET	DET_DZG_ABS	_	1	det	_	_	1:targ
+2	partekatu	partekatu	NOUN	IZE_ARR_ZERO	_	1	nmod	_	_	1:IN:targ
+3	batzuk	batzuk	DET	DET_DZG_ABS	_	1	det	_	_	1:IN:targ
 4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive
-5	handiak	handi	ADJ	ADJ_ARR_ABS	_	0	root	_	_	4:exp-Positive
+5	handiak	handi	ADJ	ADJ_ARR_ABS	_	0	root	_	_	4:IN:exp-Positive
 6	dira	izan	AUX	ADT	_	5	cop	_	_	_
 7	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 8	baina	baina	CCONJ	LOT_JNT	_	6	cc	_	_	_
 9	beste	beste	DET	DET_DZG_ZERO	_	10	det	_	_	14:targ|11:targ
-10	batzuk	batzuk	DET	DET_DZG_ABS	_	8	nsubj	_	_	9:targ|9:targ
+10	batzuk	batzuk	DET	DET_DZG_ABS	_	8	nsubj	_	_	9:IN:targ|9:IN:targ
 11	oso	oso	ADV	ADB_ARR_ZERO	_	12	advmod	_	_	0:exp-Negative
-12	txikiak	txiki	ADJ	ADJ_ARR_ABS	_	8	nmod	_	_	11:exp-Negative
+12	txikiak	txiki	ADJ	ADJ_ARR_ABS	_	8	nmod	_	_	11:IN:exp-Negative
 13	eta	eta	CCONJ	LOT_JNT	_	14	cc	_	_	_
 14	ohe	ohe	NOUN	IZE_ARR_ZERO	_	12	conj	_	_	0:exp-Negative
-15	gehiegi	gehiegi	DET	DET_DZG_ABS	_	14	det	_	_	14:exp-Negative
+15	gehiegi	gehiegi	DET	DET_DZG_ABS	_	14	det	_	_	14:IN:exp-Negative
 16	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/a-amp-o-karlsruhe-hauptbahnhof_1-3
 # text = Tranbiaren zarata gau osoan .
 1	Tranbiaren	tranbi	NOUN	IZE_ARR_GEN	_	2	nmod	_	_	0:exp-Negative
-2	zarata	zarata	NOUN	IZE_ARR_ABS	_	0	root	_	_	1:exp-Negative
+2	zarata	zarata	NOUN	IZE_ARR_ABS	_	0	root	_	_	1:IN:exp-Negative
 3	gau	gau	NOUN	IZE_ARR_ZERO	_	2	nmod	_	_	_
 4	osoan	oso	ADJ	ADJ_ARR_INE	_	3	amod	_	_	_
 5	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
@@ -2437,7 +2437,7 @@
 # text = Logelak nahiko zikin .
 1	Logelak	logel	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	nahiko	nahiko	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Negative
-3	zikin	zikin	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:exp-Negative
+3	zikin	zikin	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:IN:exp-Negative
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/a-amp-o-karlsruhe-hauptbahnhof_1-5
@@ -2484,16 +2484,16 @@
 # sent_id = corpora/eu/a-amp-o-karlsruhe-hauptbahnhof_1-7
 # text = Doako interneta ez da motelegia , eta abiadura handikoa eskuragarri dago , gehiago ordainduz gero .
 1	Doako	doa	NOUN	IZE_LIB_GEL	_	2	nmod	_	_	3:targ
-2	interneta	interneta	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	1:targ
+2	interneta	interneta	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	1:IN:targ
 3	ez	ez	ADV	PRT_EGI	_	4	advmod	_	_	0:exp-Positive
-4	da	izan	AUX	ADL	_	5	cop	_	_	3:exp-Positive
-5	motelegia	motelegi	ADJ	ADJ_ARR_ABS	_	0	root	_	_	3:exp-Positive
+4	da	izan	AUX	ADL	_	5	cop	_	_	3:IN:exp-Positive
+5	motelegia	motelegi	ADJ	ADJ_ARR_ABS	_	0	root	_	_	3:IN:exp-Positive
 6	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 7	eta	eta	CCONJ	LOT_JNT	_	10	cc	_	_	_
 8	abiadura	abiadura	NOUN	IZE_ARR_ZERO	_	10	nsubj	_	_	10:targ
-9	handikoa	handi	ADJ	ADJ_IZEELI_IZAUR-_ABS	_	8	nmod	_	_	8:targ
+9	handikoa	handi	ADJ	ADJ_IZEELI_IZAUR-_ABS	_	8	nmod	_	_	8:IN:targ
 10	eskuragarri	eskuragarri	ADV	ADB_ARR_ZERO	_	4	conj	_	_	0:exp-Positive
-11	dago	egon	AUX	ADT	_	10	cop	_	_	10:exp-Positive
+11	dago	egon	AUX	ADT	_	10	cop	_	_	10:IN:exp-Positive
 12	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 13	gehiago	gehiago	DET	DET_DZG_ABS	_	14	obl	_	_	_
 14	ordainduz	ordaindu	VERB	ADI_SIN_INS	_	11	advcl	_	_	_
@@ -2536,28 +2536,28 @@
 2	hotela	hotela	ADV	LOT_LOK	_	8	obj	_	_	10:targ|7:targ|1:targ|4:targ
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
 4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive
-5	polita	polit	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	4:exp-Positive
+5	polita	polit	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	4:IN:exp-Positive
 6	eta	eta	CCONJ	LOT_JNT	_	7	cc	_	_	_
 7	ondo	ondo	ADV	ADB_ARR_ZERO	_	5	conj	_	_	0:exp-Positive
-8	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	7:exp-Positive
+8	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	7:IN:exp-Positive
 9	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
 10	hondartza	hondartza	NOUN	IZE_ARR_ZERO	_	8	obl	_	_	0:exp-Positive
-11	ondoan	ondo	NOUN	IZE_ARR_INE	_	10	case	_	_	10:exp-Positive
+11	ondoan	ondo	NOUN	IZE_ARR_INE	_	10	case	_	_	10:IN:exp-Positive
 12	.	.	PUNCT	PUNCT	_	8	punct	_	_	_
 
 # sent_id = corpora/eu/hotel-restaurante-arimune_1-2
 # text = Etxekoak bezela tratatu gaituzte .
 1	Etxekoak	etxe	NOUN	IZE_IZEELI_ABS_ABS	_	3	obj	_	_	0:exp-Positive
-2	bezela	bezela	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	tratatu	tratatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	bezela	bezela	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	tratatu	tratatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	gaituzte	*edun	AUX	ADL	_	3	aux	_	_	1:holder
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/hotel-restaurante-arimune_1-3
 # text = Mila Eskar !!
 1	Mila	mila	DET	DET_DZH_ZERO	_	2	det	_	_	0:exp-Positive
-2	Eskar	eskar	NOUN	IZE_ARR_ABS	_	0	root	_	_	1:exp-Positive
-3	!!	!!	PUNCT	PUNCT	_	2	punct	_	_	1:exp-Positive
+2	Eskar	eskar	NOUN	IZE_ARR_ABS	_	0	root	_	_	1:IN:exp-Positive
+3	!!	!!	PUNCT	PUNCT	_	2	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/airbnb-16163127_1-1
 # text = Lau egun igaro ditugu Timen etxean .
@@ -2576,18 +2576,18 @@
 3	modernoa	moderno	ADJ	ADJ_ARR_ABS	_	1	conj	_	_	0:exp-Positive
 4	eta	eta	CCONJ	LOT_JNT	_	6	cc	_	_	_
 5	behar	behar_izan	VERB	ADI_ADK_NOTDEK	_	6	compound	_	_	0:exp-Positive
-6	duzun	*edun	AUX	ADL	_	7	acl	_	_	5:exp-Positive
-7	guztia	guzti	DET	DET_ORO_ABS	_	8	obj	_	_	5:exp-Positive
-8	ditu	ukan	AUX	ADT	_	0	root	_	_	5:exp-Positive
+6	duzun	*edun	AUX	ADL	_	7	acl	_	_	5:IN:exp-Positive
+7	guztia	guzti	DET	DET_ORO_ABS	_	8	obj	_	_	5:IN:exp-Positive
+8	ditu	ukan	AUX	ADT	_	0	root	_	_	5:IN:exp-Positive
 9	etxeak	etxe	NOUN	IZE_ARR_ABS	_	8	nsubj	_	_	5:targ|1:targ|3:targ
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-16163127_1-3
 # text = Hiriburu erdian ez dagoen arrren , 26. tranbiaren bitartez lotuta dago geltoki zentralarekin .
 1	Hiriburu	hiriburu	NOUN	IZE_ARR_ZERO	_	4	obl	_	_	0:exp-Negative
-2	erdian	erdi	NOUN	IZE_ARR_INE	_	1	case	_	_	1:exp-Negative
-3	ez	ez	ADV	PRT_EGI	_	4	advmod	_	_	1:exp-Negative
-4	dagoen	egon	AUX	ADT	_	5	acl	_	_	1:exp-Negative
+2	erdian	erdi	NOUN	IZE_ARR_INE	_	1	case	_	_	1:IN:exp-Negative
+3	ez	ez	ADV	PRT_EGI	_	4	advmod	_	_	1:IN:exp-Negative
+4	dagoen	egon	AUX	ADT	_	5	acl	_	_	1:IN:exp-Negative
 5	arrren	arrren	SCONJ	LOT_MEN	_	10	nsubj	_	_	_
 6	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 7	26.	26.	DET	DET_ORD_ZERO	_	9	nmod	_	_	_
@@ -2602,8 +2602,8 @@
 # sent_id = corpora/eu/airbnb-16163127_1-4
 # text = Oso anfitrioi ona da Tim .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-2	anfitrioi	anfitrioi	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:exp-Positive
-3	ona	on	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	1:exp-Positive
+2	anfitrioi	anfitrioi	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:IN:exp-Positive
+3	ona	on	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	1:IN:exp-Positive
 4	da	izan	AUX	ADT	_	2	cop	_	_	_
 5	Tim	tim	NOUN	IZE_IZB_ABS	_	2	nsubj	_	_	1:targ
 6	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
@@ -2640,8 +2640,8 @@
 9	kontutan	kontu	NOUN	IZE_ARR_INE	_	10	compound	_	_	_
 10	izanda	izan	VERB	ADI_SIN_GEL	_	14	advcl	_	_	_
 11	aukera	aukera	NOUN	IZE_ARR_ABS	_	14	obj	_	_	0:exp-Positive
-12	oso	oso	ADV	ADB_ARR_ZERO	_	13	advmod	_	_	11:exp-Positive
-13	egokia	egoki	ADJ	ADJ_ARR_ABS	_	11	amod	_	_	11:exp-Positive
+12	oso	oso	ADV	ADB_ARR_ZERO	_	13	advmod	_	_	11:IN:exp-Positive
+13	egokia	egoki	ADJ	ADJ_ARR_ABS	_	11	amod	_	_	11:IN:exp-Positive
 14	ikusten	ikusi	VERB	ADI_SIN_NOTDEK	_	4	conj	_	_	_
 15	dogu	*edou	AUX	ADL	_	14	aux	_	_	11:holder
 16	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
@@ -2649,18 +2649,18 @@
 # sent_id = corpora/eu/appart-ha-tel-mer-amp-golf_1-1
 # text = Oso dotore apainduta , tranbia geltokia gertu .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	dotore	dotore	ADJ	ADJ_ARR_ABS	_	3	obl	_	_	1:exp-Positive
-3	apainduta	apaindu	VERB	ADI_SIN_NOTDEK	_	7	advcl	_	_	1:exp-Positive
+2	dotore	dotore	ADJ	ADJ_ARR_ABS	_	3	obl	_	_	1:IN:exp-Positive
+3	apainduta	apaindu	VERB	ADI_SIN_NOTDEK	_	7	advcl	_	_	1:IN:exp-Positive
 4	,	,	PUNCT	PUNCT	_	7	punct	_	_	_
 5	tranbia	tranbi	NOUN	IZE_ARR_ABS	_	6	nmod	_	_	7:targ
-6	geltokia	geltoki	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	5:targ
+6	geltokia	geltoki	NOUN	IZE_ARR_ABS	_	7	nsubj	_	_	5:IN:targ
 7	gertu	gertu	ADV	ADB_ARR_ZERO	_	0	root	_	_	0:exp-Positive
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_	_
 
 # sent_id = corpora/eu/appart-ha-tel-mer-amp-golf_1-2
 # text = Oso eroso , bikain .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	eroso	eroso	ADV	ADB_ARR_ZERO	_	0	root	_	_	1:exp-Positive
+2	eroso	eroso	ADV	ADB_ARR_ZERO	_	0	root	_	_	1:IN:exp-Positive
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_	_
 4	bikain	bikain	ADJ	ADJ_ARR_ABS	_	2	conj	_	_	0:exp-Positive
 5	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
@@ -2675,9 +2675,9 @@
 # sent_id = corpora/eu/aparamentos-jeremias_1-1
 # text = Eurhostal hotelaren ondoko ondartza , playa de las fuentes , polita bada ere ez da oso erosoa .
 1	Eurhostal	eurhostal	NOUN	IZE_LIB_ABS	_	3	nmod	_	_	11:targ|14:targ
-2	hotelaren	hotel	NOUN	IZE_ARR_GEN	_	4	nmod	_	_	1:targ|1:targ
-3	ondoko	ondo	NOUN	IZE_ARR_GEL	_	2	case	_	_	1:targ|1:targ
-4	ondartza	ondartz	NOUN	IZE_ARR_ABS	_	17	nsubj	_	_	1:targ|1:targ
+2	hotelaren	hotel	NOUN	IZE_ARR_GEN	_	4	nmod	_	_	1:IN:targ|1:IN:targ
+3	ondoko	ondo	NOUN	IZE_ARR_GEL	_	2	case	_	_	1:IN:targ|1:IN:targ
+4	ondartza	ondartz	NOUN	IZE_ARR_ABS	_	17	nsubj	_	_	1:IN:targ|1:IN:targ
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 6	playa	playa	NOUN	IZE_ARR_ABS	_	4	conj	_	_	_
 7	de	de	X	BST	_	6	flat	_	_	_
@@ -2688,9 +2688,9 @@
 12	bada	izan	AUX	ADT	_	11	cop	_	_	_
 13	ere	ere	ADV	LOT_LOK	_	12	mark	_	_	_
 14	ez	ez	ADV	PRT_EGI	_	15	advmod	_	_	0:exp-Negative
-15	da	izan	AUX	ADT	_	17	cop	_	_	14:exp-Negative
-16	oso	oso	ADV	ADB_ARR_ZERO	_	17	advmod	_	_	14:exp-Negative
-17	erosoa	eroso	ADJ	ADJ_ARR_ABS	_	0	root	_	_	14:exp-Negative
+15	da	izan	AUX	ADT	_	17	cop	_	_	14:IN:exp-Negative
+16	oso	oso	ADV	ADB_ARR_ZERO	_	17	advmod	_	_	14:IN:exp-Negative
+17	erosoa	eroso	ADJ	ADJ_ARR_ABS	_	0	root	_	_	14:IN:exp-Negative
 18	.	.	PUNCT	PUNCT	_	17	punct	_	_	_
 
 # sent_id = corpora/eu/aparamentos-jeremias_1-2
@@ -2708,13 +2708,13 @@
 11	,	,	PUNCT	PUNCT	_	13	punct	_	_	_
 12	zuloak	zulo	NOUN	IZE_ARR_ABS	_	13	nsubj	_	_	13:targ
 13	zeuden	egon	AUX	ADT	_	4	conj	_	_	0:exp-Negative
-14	edonon	edonon	NOUN	IZE_ARR_GEN	_	13	advmod	_	_	13:exp-Negative
+14	edonon	edonon	NOUN	IZE_ARR_GEN	_	13	advmod	_	_	13:IN:exp-Negative
 15	eta	eta	CCONJ	LOT_JNT	_	16	cc	_	_	_
 16	zorua	zoru	NOUN	IZE_ARR_ABS	_	20	nsubj	_	_	17:targ|23:targ
 17	ez	ez	ADV	PRT_EGI	_	18	advmod	_	_	0:exp-Negative
-18	zen	izan	AUX	ADT	_	23	cop	_	_	17:exp-Negative
-19	oso	oso	ADV	ADB_ARR_ZERO	_	20	advmod	_	_	17:exp-Negative
-20	uniformea	uniforme	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	17:exp-Negative
+18	zen	izan	AUX	ADT	_	23	cop	_	_	17:IN:exp-Negative
+19	oso	oso	ADV	ADB_ARR_ZERO	_	20	advmod	_	_	17:IN:exp-Negative
+20	uniformea	uniforme	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	17:IN:exp-Negative
 21	eta	eta	CCONJ	LOT_JNT	_	23	cc	_	_	_
 22	beraz	beraz	ADV	LOT_LOK	_	18	advmod	_	_	_
 23	arriskutsua	arriskutsu	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	0:exp-Negative
@@ -2726,7 +2726,7 @@
 2	gertu	gertu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	0:exp-Positive
 3	baziren	izan	AUX	ADL	_	2	dep	_	_	_
 4	beste	beste	DET	DET_DZG_ZERO	_	5	det	_	_	9:targ|2:targ|7:targ
-5	ondartzak	ondartz	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	4:targ|4:targ|4:targ
+5	ondartzak	ondartz	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	4:IN:targ|4:IN:targ|4:IN:targ
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_	_
 7	erosoak	eroso	NOUN	IZE_ARR_ABS	_	5	conj	_	_	0:exp-Positive
 8	eta	eta	CCONJ	LOT_JNT	_	9	cc	_	_	_
@@ -2773,13 +2773,13 @@
 # text = Dena oso ongi .
 1	Dena	dena	DET	DET_ORO_ABS	_	3	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	ongi	ongi	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:exp-Positive
+3	ongi	ongi	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:IN:exp-Positive
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/aparamentos-jeremias_1-7
 # text = Oso harrera ona , janaria primerakoa , atentzioa ezin hobea , zerbait esateko apartamentuak zaharrak direla baina oso garbi eta txukunak .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-2	harrera	harrera	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:exp-Positive
+2	harrera	harrera	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:IN:exp-Positive
 3	ona	on	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	_
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 5	janaria	janari	NOUN	IZE_ARR_ABS	_	6	conj	_	_	6:targ
@@ -2787,7 +2787,7 @@
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_	_
 8	atentzioa	atentzio	NOUN	IZE_ARR_ABS	_	2	conj	_	_	9:targ
 9	ezin	ezin	NOUN	IZE_ARR_ABS	_	8	nmod	_	_	0:exp-Positive
-10	hobea	hobe	ADJ	ADJ_ARR_ABS	_	9	amod	_	_	9:exp-Positive
+10	hobea	hobe	ADJ	ADJ_ARR_ABS	_	9	amod	_	_	9:IN:exp-Positive
 11	,	,	PUNCT	PUNCT	_	16	punct	_	_	_
 12	zerbait	zerbait	PRON	IOR_IZGMGB_ABS	_	13	obj	_	_	_
 13	esateko	esan	VERB	ADI_SIN_ABS	_	14	advcl	_	_	_
@@ -2796,7 +2796,7 @@
 16	direla	izan	AUX	ADT	_	15	cop	_	_	_
 17	baina	baina	CCONJ	LOT_JNT	_	21	cc	_	_	_
 18	oso	oso	ADV	ADB_ARR_ZERO	_	19	advmod	_	_	0:exp-Positive
-19	garbi	garbi	ADV	ADB_ARR_ZERO	_	16	conj	_	_	18:exp-Positive
+19	garbi	garbi	ADV	ADB_ARR_ZERO	_	16	conj	_	_	18:IN:exp-Positive
 20	eta	eta	CCONJ	LOT_JNT	_	21	cc	_	_	_
 21	txukunak	txukun	ADJ	ADJ_ARR_ABS	_	19	conj	_	_	0:exp-Positive
 22	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
@@ -2804,8 +2804,8 @@
 # sent_id = corpora/eu/aparamentos-jeremias_1-8
 # text = Oso ongi egon gara .
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	ongi	ongi	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	ongi	ongi	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	gara	izan	AUX	ADL	_	3	aux	_	_	1:holder
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -2815,23 +2815,23 @@
 2	eta	eta	CCONJ	LOT_JNT	_	3	cc	_	_	_
 3	jardina	jardin	NOUN	IZE_ARR_ABS	_	1	conj	_	_	4:targ
 4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive|0:exp-Positive
-5	ongi	ongi	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	4:exp-Positive|4:exp-Positive
+5	ongi	ongi	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	4:IN:exp-Positive|4:IN:exp-Positive
 6	eta	eta	CCONJ	LOT_JNT	_	7	cc	_	_	_
 7	lekua	leku	NOUN	IZE_ARR_ABS	_	5	conj	_	_	8:targ
 8	paregabea	paregabe	ADJ	ADJ_ARR_ABS	_	9	obl	_	_	0:exp-Positive
-9	paseatu	paseatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	8:exp-Positive
-10	eta	eta	CCONJ	LOT_JNT	_	13	cc	_	_	8:exp-Positive
-11	egun	egun	ADV	ADB_ARR_ZERO	_	13	obl	_	_	8:exp-Positive
-12	batzutan	batzutan	ADV	ADB_ARR_ZERO	_	11	det	_	_	8:exp-Positive
-13	deskonektatzeko	deskonektatu	VERB	ADI_SIN_ABS	_	9	conj	_	_	8:exp-Positive
+9	paseatu	paseatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	8:IN:exp-Positive
+10	eta	eta	CCONJ	LOT_JNT	_	13	cc	_	_	8:IN:exp-Positive
+11	egun	egun	ADV	ADB_ARR_ZERO	_	13	obl	_	_	8:IN:exp-Positive
+12	batzutan	batzutan	ADV	ADB_ARR_ZERO	_	11	det	_	_	8:IN:exp-Positive
+13	deskonektatzeko	deskonektatu	VERB	ADI_SIN_ABS	_	9	conj	_	_	8:IN:exp-Positive
 14	.	.	PUNCT	PUNCT	_	9	punct	_	_	_
 
 # sent_id = corpora/eu/aparamentos-jeremias_1-10
 # text = Haurrekin joateko oso toki egokia iruditzen zait .
 1	Haurrekin	haur	NOUN	IZE_ARR_SOZ	_	2	obl	_	_	0:exp-Positive
-2	joateko	joan	VERB	ADI_SIN_GEL	_	6	advcl	_	_	1:exp-Positive
-3	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	1:exp-Positive
-4	toki	toki	NOUN	IZE_ARR_ZERO	_	6	obj	_	_	1:exp-Positive
+2	joateko	joan	VERB	ADI_SIN_GEL	_	6	advcl	_	_	1:IN:exp-Positive
+3	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	1:IN:exp-Positive
+4	toki	toki	NOUN	IZE_ARR_ZERO	_	6	obj	_	_	1:IN:exp-Positive
 5	egokia	egoki	ADJ	ADJ_ARR_ABS	_	4	amod	_	_	_
 6	iruditzen	iruditu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 7	zait	izan	AUX	ADL	_	6	aux	_	_	1:holder
@@ -2844,7 +2844,7 @@
 3	gero	gero	ADV	ADB_ARR_ZERO	_	2	advcl	_	_	_
 4	berriz	berriz	ADV	ADB_ARR_ZERO	_	7	advmod	_	_	_
 5	nahiko	nahiko	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
-6	toki	toki	ADJ	ADJ_ARR_ABS	_	7	nsubj	_	_	5:exp-Positive
+6	toki	toki	ADJ	ADJ_ARR_ABS	_	7	nsubj	_	_	5:IN:exp-Positive
 7	dago	egon	AUX	ADT	_	0	root	_	_	5:targ
 8	aparkatzeko	aparkatu	VERB	ADI_SIN_ABS	_	7	advcl	_	_	_
 9	.	.	PUNCT	PUNCT	_	7	punct	_	_	_
@@ -2852,8 +2852,8 @@
 # sent_id = corpora/eu/aparamentos-jeremias_1-12
 # text = Egun zoragareiak pasa ditugu .
 1	Egun	egun	ADV	ADB_ARR_ZERO	_	3	obj	_	_	0:exp-Positive
-2	zoragareiak	zoragarei	NOUN	IZE_ARR_ABS	_	1	amod	_	_	1:exp-Positive
-3	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	zoragareiak	zoragarei	NOUN	IZE_ARR_ABS	_	1	amod	_	_	1:IN:exp-Positive
+3	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	ditugu	*edun	AUX	ADL	_	3	aux	_	_	1:holder
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -2861,40 +2861,40 @@
 # text = Leku aproposa denetatik alde egiteko .
 1	Leku	leku	NOUN	IZE_ARR_ZERO	_	5	obj	_	_	2:targ
 2	aproposa	apropos	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	0:exp-Positive
-3	denetatik	dena	AUX	ADT	_	5	obl	_	_	2:exp-Positive
-4	alde	alde_egin	VERB	ADI_ADK_ABS	_	3	case	_	_	2:exp-Positive
-5	egiteko	egin	VERB	ADI_SIN_ABS	_	0	root	_	_	2:exp-Positive
+3	denetatik	dena	AUX	ADT	_	5	obl	_	_	2:IN:exp-Positive
+4	alde	alde_egin	VERB	ADI_ADK_ABS	_	3	case	_	_	2:IN:exp-Positive
+5	egiteko	egin	VERB	ADI_SIN_ABS	_	0	root	_	_	2:IN:exp-Positive
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/casa-rural-urruska-Anonimo_1-2
 # text = Ta etxeko jendie ezin jatorragoa .
 1	Ta	ta	NOUN	IZE_ARR_ZERO	_	2	nmod	_	_	_
 2	etxeko	etxe	NOUN	IZE_ARR_GEL	_	3	nmod	_	_	4:targ
-3	jendie	jendie	NOUN	IZE_ARR_ZERO	_	0	root	_	_	2:targ
+3	jendie	jendie	NOUN	IZE_ARR_ZERO	_	0	root	_	_	2:IN:targ
 4	ezin	ezin	NOUN	IZE_ARR_ABS	_	3	nmod	_	_	0:exp-Positive
-5	jatorragoa	jator	ADJ	ADJ_ARR_ABS	_	3	amod	_	_	4:exp-Positive
+5	jatorragoa	jator	ADJ	ADJ_ARR_ABS	_	3	amod	_	_	4:IN:exp-Positive
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/lekeitio-aterpetxea-hostel-Ander_1-1
 # text = Oso oso gustura egon gara !
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	gustura	gustura	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	1:exp-Positive
-4	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
-5	gara	izan	AUX	ADL	_	4	aux	_	_	1:exp-Positive
+2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	gustura	gustura	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	1:IN:exp-Positive
+4	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
+5	gara	izan	AUX	ADL	_	4	aux	_	_	1:IN:exp-Positive
 6	!	!	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/lekeitio-aterpetxea-hostel-Ander_1-2
 # text = Jabea oso jatorra ta etxea oso ongi berriztua !
 1	Jabea	jabe	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	jatorra	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:exp-Positive
+3	jatorra	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:IN:exp-Positive
 4	ta	ta	CCONJ	LOT_JNT	_	3	cop	_	_	_
 5	etxea	etxe	NOUN	IZE_ARR_ABS	_	8	obj	_	_	6:targ
 6	oso	oso	ADV	ADB_ARR_ZERO	_	7	advmod	_	_	0:exp-Positive
-7	ongi	ongi	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	6:exp-Positive
-8	berriztua	berriztu	VERB	ADI_SIN_ABS	_	3	csubj	_	_	6:exp-Positive
-9	!	!	PUNCT	PUNCT	_	3	punct	_	_	6:exp-Positive
+7	ongi	ongi	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	6:IN:exp-Positive
+8	berriztua	berriztu	VERB	ADI_SIN_ABS	_	3	csubj	_	_	6:IN:exp-Positive
+9	!	!	PUNCT	PUNCT	_	3	punct	_	_	6:IN:exp-Positive
 
 # sent_id = corpora/eu/italia-goerlitz_1-1
 # text = Lehen egunean wifia ez zebilen .
@@ -2902,7 +2902,7 @@
 2	egunean	egun	NOUN	IZE_ARR_INE	_	5	obl	_	_	_
 3	wifia	wif	VERB	ADI_SIN_ABS	_	5	nsubj	_	_	4:targ
 4	ez	ez	ADV	PRT_EGI	_	5	advmod	_	_	0:exp-Negative
-5	zebilen	ibili	AUX	ADT	_	0	root	_	_	4:exp-Negative
+5	zebilen	ibili	AUX	ADT	_	0	root	_	_	4:IN:exp-Negative
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/italia-goerlitz_1-2
@@ -2919,13 +2919,13 @@
 # sent_id = corpora/eu/italia-goerlitz_1-3
 # text = Jabe italiar sinpatikoa dauka eta eman zigun gela handi-handia zen .
 1	Jabe	jabe	NOUN	IZE_ARR_ZERO	_	4	obj	_	_	3:targ
-2	italiar	italiar	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	1:targ
+2	italiar	italiar	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	1:IN:targ
 3	sinpatikoa	sinpatiko	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	0:exp-Positive
 4	dauka	eduki	AUX	ADT	_	0	root	_	_	_
 5	eta	eta	CCONJ	LOT_JNT	_	9	cc	_	_	_
 6	eman	eman	VERB	ADI_SIN_NOTDEK	_	8	acl	_	_	9:targ
-7	zigun	*edun	AUX	ADL	_	6	aux	_	_	6:targ
-8	gela	gela	NOUN	IZE_ARR_ABS	_	9	nsubj	_	_	6:targ
+7	zigun	*edun	AUX	ADL	_	6	aux	_	_	6:IN:targ
+8	gela	gela	NOUN	IZE_ARR_ABS	_	9	nsubj	_	_	6:IN:targ
 9	handi-handia	handi-handi	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	0:exp-Positive
 10	zen	izan	AUX	ADT	_	9	cop	_	_	_
 11	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
@@ -2933,15 +2933,15 @@
 # sent_id = corpora/eu/italia-goerlitz_1-4
 # text = Gustura egon ginen .
 1	Gustura	gustura	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 3	ginen	izan	AUX	ADL	_	2	aux	_	_	1:holder
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/lurdeia_1-1
 # text = Izugarri ondo pasa deu asteburua lurdeian .
 1	Izugarri	izugarri	ADV	ADB_ARR_ZERO	_	2	nmod	_	_	0:exp-Positive
-2	ondo	ondo	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	ondo	ondo	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	deu	deu	AUX	ADL	_	3	aux	_	_	1:holder
 5	asteburua	asteburu	NOUN	IZE_ARR_ABS	_	3	obj	_	_	_
 6	lurdeian	lurdei	NOUN	IZE_ARR_INE	_	3	obl	_	_	_
@@ -2950,55 +2950,55 @@
 # sent_id = corpora/eu/lurdeia_1-2
 # text = Urdaibai erdin kokatuta dagoenez , naturarekin bat egiten dezu eta mendi puntan egoteak ematen dizun lasaitasunak ezin da diruz ordaindu .
 1	Urdaibai	urdaibai	NOUN	IZE_LIB_ABS	_	3	nsubj	_	_	0:exp-Positive
-2	erdin	erdin	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	8	advcl	_	_	1:exp-Positive
+2	erdin	erdin	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	8	advcl	_	_	1:IN:exp-Positive
 4	dagoenez	egon	AUX	ADT_IZEELI_PNT_INS	_	3	cop	_	_	_
 5	,	,	PUNCT	PUNCT	_	8	punct	_	_	_
 6	naturarekin	natura	NOUN	IZE_ARR_SOZ	_	8	obl	_	_	0:exp-Positive
-7	bat	bat_egin	VERB	ADI_ADK_NOTDEK	_	8	obj	_	_	6:exp-Positive
-8	egiten	egin	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	6:exp-Positive
-9	dezu	*edun	AUX	ADL	_	8	aux	_	_	6:exp-Positive
+7	bat	bat_egin	VERB	ADI_ADK_NOTDEK	_	8	obj	_	_	6:IN:exp-Positive
+8	egiten	egin	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	6:IN:exp-Positive
+9	dezu	*edun	AUX	ADL	_	8	aux	_	_	6:IN:exp-Positive
 10	eta	eta	CCONJ	LOT_JNT	_	18	cc	_	_	_
 11	mendi	mendi	NOUN	IZE_ARR_ZERO	_	13	obl	_	_	17:targ
-12	puntan	punta	NOUN	IZE_ARR_INE	_	11	case	_	_	11:targ
-13	egoteak	egote	NOUN	IZE_ARR_ERG	_	14	nsubj	_	_	11:targ
-14	ematen	eman	VERB	ADI_SIN_NOTDEK	_	16	acl	_	_	11:targ
-15	dizun	dizun	AUX	ADL	_	14	aux	_	_	11:targ
-16	lasaitasunak	lasaitasun	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	11:targ
+12	puntan	punta	NOUN	IZE_ARR_INE	_	11	case	_	_	11:IN:targ
+13	egoteak	egote	NOUN	IZE_ARR_ERG	_	14	nsubj	_	_	11:IN:targ
+14	ematen	eman	VERB	ADI_SIN_NOTDEK	_	16	acl	_	_	11:IN:targ
+15	dizun	dizun	AUX	ADL	_	14	aux	_	_	11:IN:targ
+16	lasaitasunak	lasaitasun	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	11:IN:targ
 17	ezin	ezin	NOUN	IZE_ARR_ABS	_	18	compound	_	_	0:exp-Positive
-18	da	izan	AUX	ADT	_	8	conj	_	_	17:exp-Positive
-19	diruz	diru	NOUN	IZE_ARR_INS	_	20	obj	_	_	17:exp-Positive
-20	ordaindu	ordaindu	VERB	ADI_SIN_NOTDEK	_	18	xcomp	_	_	17:exp-Positive
+18	da	izan	AUX	ADT	_	8	conj	_	_	17:IN:exp-Positive
+19	diruz	diru	NOUN	IZE_ARR_INS	_	20	obj	_	_	17:IN:exp-Positive
+20	ordaindu	ordaindu	VERB	ADI_SIN_NOTDEK	_	18	xcomp	_	_	17:IN:exp-Positive
 21	.	.	PUNCT	PUNCT	_	8	punct	_	_	_
 
 # sent_id = corpora/eu/lurdeia_1-3
 # text = Etxea kampotik oso polita da eta paisaiak paradisiakuak , barrutik ere oso polita da , dekorazioa oso landua dago eta logela bakoitza bere xarma berezia dauka .
 1	Etxea	etxe	NOUN	IZE_ARR_ABS	_	4	nsubj	_	_	2:targ
 2	kampotik	kampo	NOUN	IZE_ARR_ABL	_	5	obl	_	_	0:exp-Positive
-3	oso	oso	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:exp-Positive
-4	polita	polit	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:exp-Positive
+3	oso	oso	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:IN:exp-Positive
+4	polita	polit	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:IN:exp-Positive
 5	da	izan	AUX	ADT	_	4	cop	_	_	_
 6	eta	eta	CCONJ	LOT_JNT	_	13	cc	_	_	_
 7	paisaiak	paisai	NOUN	IZE_ARR_ABS	_	13	nsubj	_	_	8:targ
 8	paradisiakuak	paradisiaku	NOUN	IZE_ARR_ABS	_	13	nsubj	_	_	0:exp-Positive
 9	,	,	PUNCT	PUNCT	_	13	punct	_	_	_
 10	barrutik	barru	NOUN	IZE_ARR_ABL	_	14	obl	_	_	0:exp-Positive
-11	ere	ere	ADV	LOT_LOK	_	14	advmod	_	_	10:exp-Positive
-12	oso	oso	ADV	ADB_ARR_ZERO	_	13	advmod	_	_	10:exp-Positive
+11	ere	ere	ADV	LOT_LOK	_	14	advmod	_	_	10:IN:exp-Positive
+12	oso	oso	ADV	ADB_ARR_ZERO	_	13	advmod	_	_	10:IN:exp-Positive
 13	polita	polit	ADJ	ADJ_ARR_ABS	_	5	conj	_	_	_
 14	da	izan	AUX	ADT	_	13	cop	_	_	_
 15	,	,	PUNCT	PUNCT	_	18	punct	_	_	_
 16	dekorazioa	dekorazio	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	17:targ
 17	oso	oso	ADV	ADB_ARR_ZERO	_	18	advmod	_	_	0:exp-Positive
-18	landua	landu	NOUN	IZE_ARR_ABS	_	5	conj	_	_	17:exp-Positive
+18	landua	landu	NOUN	IZE_ARR_ABS	_	5	conj	_	_	17:IN:exp-Positive
 19	dago	egon	AUX	ADT	_	18	cop	_	_	_
 20	eta	eta	CCONJ	LOT_JNT	_	26	cc	_	_	_
 21	logela	lmendean_ogela	VERB	ADI_ADK_NOTDEK	_	26	obj	_	_	23:targ
-22	bakoitza	bakoitz	ADJ	ADJ_ARR_ABS	_	21	det	_	_	21:targ
+22	bakoitza	bakoitz	ADJ	ADJ_ARR_ABS	_	21	det	_	_	21:IN:targ
 23	bere	bera	DET	DET_ERKIND_GEN	_	24	nmod	_	_	0:exp-Positive
-24	xarma	xarma	NOUN	IZE_ARR_ABS	_	26	obj	_	_	23:exp-Positive
-25	berezia	berezi	ADJ	ADJ_ARR_ABS	_	24	amod	_	_	23:exp-Positive
-26	dauka	eduki	AUX	ADT	_	5	conj	_	_	23:exp-Positive
+24	xarma	xarma	NOUN	IZE_ARR_ABS	_	26	obj	_	_	23:IN:exp-Positive
+25	berezia	berezi	ADJ	ADJ_ARR_ABS	_	24	amod	_	_	23:IN:exp-Positive
+26	dauka	eduki	AUX	ADT	_	5	conj	_	_	23:IN:exp-Positive
 27	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/lurdeia_1-4
@@ -3007,58 +3007,58 @@
 2	lurdeiako	lurdeia	NOUN	IZE_ARR_GEL	_	3	nmod	_	_	_
 3	onena	on	ADJ	ADJ_ARR_ABS	_	5	nsubj	_	_	0:exp-Positive
 4	bere	bera	DET	DET_ERKIND_GEN	_	5	nmod	_	_	12:targ|8:targ|14:targ|3:targ
-5	jabeak	jabe	NOUN	IZE_ARR_ABS	_	0	root	_	_	4:targ|4:targ|4:targ|4:targ
+5	jabeak	jabe	NOUN	IZE_ARR_ABS	_	0	root	_	_	4:IN:targ|4:IN:targ|4:IN:targ|4:IN:targ
 6	dira	izan	AUX	ADT	_	5	cop	_	_	_
 7	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 8	pertsona	pertsona	NOUN	IZE_ARR_ZERO	_	10	nsubj	_	_	0:exp-Positive
-9	oso	oso	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	8:exp-Positive
-10	atseginak	atsegin	ADJ	ADJ_ARR_ABS	_	5	conj	_	_	8:exp-Positive
+9	oso	oso	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	8:IN:exp-Positive
+10	atseginak	atsegin	ADJ	ADJ_ARR_ABS	_	5	conj	_	_	8:IN:exp-Positive
 11	,	,	PUNCT	PUNCT	_	12	punct	_	_	_
 12	jatorrak	jator	ADJ	ADJ_ARR_ABS	_	10	conj	_	_	0:exp-Positive
 13	ta	ta	CCONJ	LOT_JNT	_	15	advmod	_	_	_
 14	oso	oso	ADV	ADB_ARR_ZERO	_	15	advmod	_	_	0:exp-Positive
-15	adeitsuak	adeitsu	NOUN	IZE_ARR_ERG	_	3	conj	_	_	14:exp-Positive
+15	adeitsuak	adeitsu	NOUN	IZE_ARR_ERG	_	3	conj	_	_	14:IN:exp-Positive
 16	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 17	horrela	horrela	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
-18	bai	bai	ADV	PRT_EGI	_	19	cc	_	_	17:exp-Positive
-19	gustora	gustura	ADV	ADB_ARR_ZERO	_	17	conj	_	_	17:exp-Positive
+18	bai	bai	ADV	PRT_EGI	_	19	cc	_	_	17:IN:exp-Positive
+19	gustora	gustura	ADV	ADB_ARR_ZERO	_	17	conj	_	_	17:IN:exp-Positive
 20	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/lurdeia_1-5
 # text = Edozeini gomendatzeko lekua , mila esker lurdeiakoei , laister itzuliko gera. ( oso onak tomatiak )
 1	Edozeini	edozeini	NOUN	IZE_IZB_ABS	_	2	obj	_	_	0:exp-Positive
-2	gomendatzeko	gomendatu	VERB	ADI_SIN_GEL	_	3	advcl	_	_	1:exp-Positive
+2	gomendatzeko	gomendatu	VERB	ADI_SIN_GEL	_	3	advcl	_	_	1:IN:exp-Positive
 3	lekua	leku	NOUN	IZE_ARR_ABS	_	10	nsubj	_	_	1:targ
 4	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 5	mila	mila	DET	DET_DZH_ZERO	_	7	nummod	_	_	0:exp-Positive
-6	esker	esker	NOUN	IZE_ARR_ABS	_	5	case	_	_	5:exp-Positive
+6	esker	esker	NOUN	IZE_ARR_ABS	_	5	case	_	_	5:IN:exp-Positive
 7	lurdeiakoei	lurdeiako	NOUN	IZE_ARR_DAT	_	10	iobj	_	_	_
 8	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 9	laister	laister	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	0:exp-Positive
-10	itzuliko	itzuli	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	9:exp-Positive
-11	gera.	gera.tu	VERB	ADI_SIN_NOTDEK	_	10	aux	_	_	9:exp-Positive
+10	itzuliko	itzuli	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	9:IN:exp-Positive
+11	gera.	gera.tu	VERB	ADI_SIN_NOTDEK	_	10	aux	_	_	9:IN:exp-Positive
 12	(	(	PUNCT	PUNCT	_	10	punct	_	_	_
 13	oso	oso	ADV	ADB_ARR_ZERO	_	14	advmod	_	_	0:exp-Positive
-14	onak	on	ADJ	ADJ_ARR_ABS	_	10	obl	_	_	13:exp-Positive
+14	onak	on	ADJ	ADJ_ARR_ABS	_	10	obl	_	_	13:IN:exp-Positive
 15	tomatiak	tomati	NOUN	IZE_ARR_ABS	_	14	nmod	_	_	13:targ
 16	)	)	PUNCT	PUNCT	_	10	punct	_	_	_
 
 # sent_id = corpora/eu/country-house-zulueta-Leire_1-1
 # text = Bidea heltzeko oso estua da , ez da erreza beste kotxe batekin topatzen bazara .
 1	Bidea	bide	NOUN	IZE_ARR_ABS	_	2	obj	_	_	3:targ
-2	heltzeko	heldu	VERB	ADI_SIN_ABS	_	5	advcl	_	_	1:targ
+2	heltzeko	heldu	VERB	ADI_SIN_ABS	_	5	advcl	_	_	1:IN:targ
 3	oso	oso	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	0:exp-Negative
-4	estua	estu	ADJ	ADJ_ARR_ABS	_	0	root	_	_	3:exp-Negative
+4	estua	estu	ADJ	ADJ_ARR_ABS	_	0	root	_	_	3:IN:exp-Negative
 5	da	izan	AUX	ADT	_	4	cop	_	_	_
 6	,	,	PUNCT	PUNCT	_	9	punct	_	_	_
 7	ez	ez	ADV	PRT_EGI	_	8	advmod	_	_	0:exp-Negative
-8	da	izan	AUX	ADL	_	9	cop	_	_	7:exp-Negative
-9	erreza	erreza	NOUN	IZE_ARR_ABS	_	5	conj	_	_	7:exp-Negative
-10	beste	beste	DET	DET_DZG_ZERO	_	11	det	_	_	7:exp-Negative
-11	kotxe	kotxe	NOUN	IZE_ARR_ZERO	_	13	obl	_	_	7:exp-Negative
-12	batekin	bat	DET	DET_DZH_SOZ	_	11	det	_	_	7:exp-Negative
-13	topatzen	topatu	VERB	ADI_SIN_NOTDEK	_	8	advcl	_	_	7:exp-Negative
-14	bazara	izan	AUX	ADL	_	13	aux	_	_	7:exp-Negative
+8	da	izan	AUX	ADL	_	9	cop	_	_	7:IN:exp-Negative
+9	erreza	erreza	NOUN	IZE_ARR_ABS	_	5	conj	_	_	7:IN:exp-Negative
+10	beste	beste	DET	DET_DZG_ZERO	_	11	det	_	_	7:IN:exp-Negative
+11	kotxe	kotxe	NOUN	IZE_ARR_ZERO	_	13	obl	_	_	7:IN:exp-Negative
+12	batekin	bat	DET	DET_DZH_SOZ	_	11	det	_	_	7:IN:exp-Negative
+13	topatzen	topatu	VERB	ADI_SIN_NOTDEK	_	8	advcl	_	_	7:IN:exp-Negative
+14	bazara	izan	AUX	ADL	_	13	aux	_	_	7:IN:exp-Negative
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/country-house-zulueta-Leire_1-2
@@ -3066,13 +3066,13 @@
 1	Bestela	bestela	ADV	LOT_LOK	_	3	advmod	_	_	_
 2	dena	dena	DET	DET_ORO_ABS	_	3	nsubj	_	_	3:targ
 3	primeran	primeran	ADV	ADB_ARR_ZERO	_	0	root	_	_	0:exp-Positive
-4	!	!	PUNCT	PUNCT	_	3	punct	_	_	3:exp-Positive
+4	!	!	PUNCT	PUNCT	_	3	punct	_	_	3:IN:exp-Positive
 
 # sent_id = corpora/eu/country-house-zulueta-Leire_1-3
 # text = Oso gustura egon ginen , lekua itzela da
 1	Oso	oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	gustura	gustura	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	gustura	gustura	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	egon	egon	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	ginen	izan	AUX	ADL	_	3	aux	_	_	1:holder
 5	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 6	lekua	leku	NOUN	IZE_ARR_ABS	_	7	obj	_	_	7:targ
@@ -3083,36 +3083,36 @@
 # text = Egun zoragarriak pasa ditugu Bartzelonan eta apartamentu honek zerikusi haundia izan du : oso ondo kokatuta dago , argitasun haundia du eta lasai lasaia da .
 1	Egun	egun	ADV	ADB_ARR_ZERO	_	3	obj	_	_	2:targ
 2	zoragarriak	zoragarri	NOUN	IZE_ARR_ABS	_	1	amod	_	_	0:exp-Positive
-3	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:exp-Positive
+3	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:IN:exp-Positive
 4	ditugu	*edun	AUX	ADL	_	3	aux	_	_	2:holder
 5	Bartzelonan	bartzelona	NOUN	IZE_LIB_INE	_	3	obl	_	_	_
 6	eta	eta	CCONJ	LOT_JNT	_	11	cc	_	_	_
 7	apartamentu	apartamentu	NOUN	IZE_ARR_ZERO	_	11	nsubj	_	_	23:targ|19:targ|14:targ
-8	honek	hau	DET	DET_ERKARR_ERG	_	7	det	_	_	7:targ|7:targ|7:targ
+8	honek	hau	DET	DET_ERKARR_ERG	_	7	det	_	_	7:IN:targ|7:IN:targ|7:IN:targ
 9	zerikusi	zerikusi	NOUN	IZE_ARR_ZERO	_	11	obj	_	_	_
 10	haundia	haundi	ADJ	ADJ_ARR_ABS	_	9	amod	_	_	_
 11	izan	izan	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	_
 12	du	*edun	AUX	ADL	_	11	aux	_	_	_
 13	:	:	PUNCT	PUNCT	_	16	punct	_	_	_
 14	oso	oso	ADV	ADB_ARR_ZERO	_	15	advmod	_	_	0:exp-Positive
-15	ondo	ondo	ADV	ADB_ARR_ZERO	_	16	advmod	_	_	14:exp-Positive
-16	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	14:exp-Positive
+15	ondo	ondo	ADV	ADB_ARR_ZERO	_	16	advmod	_	_	14:IN:exp-Positive
+16	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	14:IN:exp-Positive
 17	dago	egon	AUX	ADT	_	16	cop	_	_	_
 18	,	,	PUNCT	PUNCT	_	21	punct	_	_	_
 19	argitasun	argitasun	NOUN	IZE_ARR_ZERO	_	21	obj	_	_	0:exp-Positive
-20	haundia	haundi	ADJ	ADJ_ARR_ABS	_	19	amod	_	_	19:exp-Positive
-21	du	ukan	AUX	ADT	_	3	conj	_	_	19:exp-Positive
+20	haundia	haundi	ADJ	ADJ_ARR_ABS	_	19	amod	_	_	19:IN:exp-Positive
+21	du	ukan	AUX	ADT	_	3	conj	_	_	19:IN:exp-Positive
 22	eta	eta	CCONJ	LOT_JNT	_	24	cc	_	_	_
 23	lasai	lasai	ADV	ADB_ARR_ZERO	_	24	advmod	_	_	0:exp-Positive
-24	lasaia	lasai	ADJ	ADJ_ARR_ABS	_	3	conj	_	_	23:exp-Positive
+24	lasaia	lasai	ADJ	ADJ_ARR_ABS	_	3	conj	_	_	23:IN:exp-Positive
 25	da	izan	AUX	ADT	_	24	cop	_	_	_
 26	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-8525617_1-2
 # text = Etxean bezala sentitu gara .
 1	Etxean	etxe	NOUN	IZE_ARR_INE	_	3	obl	_	_	0:exp-Positive
-2	bezala	bezala	ADV	ADB_ARR_ZERO	_	1	case	_	_	1:exp-Positive
-3	sentitu	sentitu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	bezala	bezala	ADV	ADB_ARR_ZERO	_	1	case	_	_	1:IN:exp-Positive
+3	sentitu	sentitu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	gara	izan	AUX	ADL	_	3	aux	_	_	1:holder
 5	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -3121,10 +3121,10 @@
 1	Bartzelonara	bartzelona	NOUN	IZE_LIB_ALA	_	2	obl	_	_	_
 2	bueltatzekotan	bueltatu	NOUN	IZE_ARR_INE	_	5	advcl	_	_	_
 3	apartamentu	apartamentu	NOUN	IZE_ARR_ZERO	_	5	obl	_	_	0:exp-Positive
-4	honetara	hau	DET	DET_ERKARR_ALA	_	3	det	_	_	3:exp-Positive
-5	etorriko	etorri	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	3:exp-Positive
-6	gara	izan	AUX	ADL	_	5	aux	_	_	3:exp-Positive
-7	berriz	berriz	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	3:exp-Positive
+4	honetara	hau	DET	DET_ERKARR_ALA	_	3	det	_	_	3:IN:exp-Positive
+5	etorriko	etorri	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	3:IN:exp-Positive
+6	gara	izan	AUX	ADL	_	5	aux	_	_	3:IN:exp-Positive
+7	berriz	berriz	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	3:IN:exp-Positive
 8	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 9	dudik	dudik	AUX	ADL_IZEELI_ABL_ABL	_	5	obl	_	_	_
 10	gabe	gabe	ADV	ADB_ARR_ZERO	_	9	case	_	_	_
@@ -3185,16 +3185,16 @@
 2	sinpletasuna	sinpletasun	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	0:exp-Positive
 3	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 4	ZEN	zen	DET	DET_ORD_ZERO	_	5	cop	_	_	0:exp-Positive
-5	estilokoa	estilo	NOUN	IZE_IZEELI_BIZ-_ABS	_	0	root	_	_	4:exp-Positive
+5	estilokoa	estilo	NOUN	IZE_IZEELI_BIZ-_ABS	_	0	root	_	_	4:IN:exp-Positive
 6	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 7	alegia	alegia	ADV	LOT_LOK	_	4	advmod	_	_	_
 8	;	;	PUNCT	PUNCT	_	4	punct	_	_	_
 9	erlaxatzeko	erlaxatu	VERB	ADI_SIN_GEL	_	4	advcl	_	_	0:exp-Positive
-10	eta	eta	CCONJ	LOT_JNT	_	14	cc	_	_	9:exp-Positive
-11	gogoeta	gogoeta_egin	VERB	ADI_ADK_ABS	_	12	obj	_	_	9:exp-Positive
-12	egiteko	egin	VERB	ADI_SIN_ABS	_	9	conj	_	_	9:exp-Positive
-13	oso	oso	ADV	ADB_ARR_ZERO	_	14	advmod	_	_	9:exp-Positive
-14	aproposa	apropos	ADJ	ADJ_ARR_ABS	_	9	conj	_	_	9:exp-Positive
+10	eta	eta	CCONJ	LOT_JNT	_	14	cc	_	_	9:IN:exp-Positive
+11	gogoeta	gogoeta_egin	VERB	ADI_ADK_ABS	_	12	obj	_	_	9:IN:exp-Positive
+12	egiteko	egin	VERB	ADI_SIN_ABS	_	9	conj	_	_	9:IN:exp-Positive
+13	oso	oso	ADV	ADB_ARR_ZERO	_	14	advmod	_	_	9:IN:exp-Positive
+14	aproposa	apropos	ADJ	ADJ_ARR_ABS	_	9	conj	_	_	9:IN:exp-Positive
 15	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/iberreko-errota_1-1
@@ -3217,8 +3217,8 @@
 4	genuen	*edun	AUX	ADL	_	3	aux	_	_	_
 5	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 6	oso	oso	ADV	ADB_ARR_ZERO	_	7	advmod	_	_	0:exp-Positive
-7	gustora	gustura	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	6:exp-Positive
-8	egon	egon	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	6:exp-Positive
+7	gustora	gustura	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	6:IN:exp-Positive
+8	egon	egon	VERB	ADI_SIN_NOTDEK	_	3	conj	_	_	6:IN:exp-Positive
 9	ginen	izan	AUX	ADL	_	8	aux	_	_	6:holder
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -3253,14 +3253,14 @@
 8	gehiena	gehien	DET	DET_DZG_ABS	_	7	det	_	_	_
 9	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 10	oso	oso	ADV	ADB_ARR_ZERO	_	11	advmod	_	_	0:exp-Positive
-11	ondo	ondo	ADV	ADB_ARR_ZERO	_	12	advmod	_	_	10:exp-Positive
-12	ekipatuta	ekipatu	VERB	ADI_SIN_NOTDEK	_	5	advcl	_	_	10:exp-Positive
+11	ondo	ondo	ADV	ADB_ARR_ZERO	_	12	advmod	_	_	10:IN:exp-Positive
+12	ekipatuta	ekipatu	VERB	ADI_SIN_NOTDEK	_	5	advcl	_	_	10:IN:exp-Positive
 13	baitzegoen	egon	AUX	ADL	_	12	cop	_	_	_
 14	sukaldea	sukalde	NOUN	IZE_ARR_ABS	_	19	nsubj	_	_	10:targ
 15	eta	eta	CCONJ	LOT_JNT	_	19	cc	_	_	_
 16	han	han	ADV	ADB_ARR_ZERO	_	18	advmod	_	_	_
 17	lasai	lasai	ADV	ADB_ARR_ZERO	_	19	advcl	_	_	0:exp-Positive
-18	egoteko	egon	VERB	ADI_SIN_ABS	_	17	cop	_	_	17:exp-Positive
+18	egoteko	egon	VERB	ADI_SIN_ABS	_	17	cop	_	_	17:IN:exp-Positive
 19	leku	leku	NOUN	IZE_ARR_ZERO	_	13	advcl	_	_	17:targ|20:targ
 20	aproposena	apropos	ADJ	ADJ_ARR_ABS	_	19	amod	_	_	0:exp-Positive
 21	delako	izan	AUX	ADT	_	19	cop	_	_	_
@@ -3270,24 +3270,24 @@
 # text = Etxea oso zainduta dago eta garbitasuna ere azpimarratu nahi genuke .
 1	Etxea	etxe	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	zainduta	zaindu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:exp-Positive
+3	zainduta	zaindu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:IN:exp-Positive
 4	dago	egon	AUX	ADT	_	3	cop	_	_	_
 5	eta	eta	CCONJ	LOT_JNT	_	10	cc	_	_	_
 6	garbitasuna	garbitasun	NOUN	IZE_ARR_ABS	_	8	obj	_	_	8:targ
 7	ere	ere	ADV	LOT_LOK	_	8	advmod	_	_	_
 8	azpimarratu	azpimarratu	VERB	ADI_SIN_NOTDEK	_	10	xcomp	_	_	0:exp-Positive
-9	nahi	nahi_izan	VERB	ADI_ADK_NOTDEK	_	10	compound	_	_	8:exp-Positive
+9	nahi	nahi_izan	VERB	ADI_ADK_NOTDEK	_	10	compound	_	_	8:IN:exp-Positive
 10	genuke	*edun	AUX	ADL	_	4	conj	_	_	8:holder
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/iberreko-errota_1-6
 # text = Hurrengoan ere hona bueltatzeko ahalegina egingo dugulakoan nago .
 1	Hurrengoan	hurrengo	NOUN	IZE_ARR_INE	_	4	obl	_	_	0:exp-Positive
-2	ere	ere	ADV	LOT_LOK	_	8	advmod	_	_	1:exp-Positive
-3	hona	hona	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	1:exp-Positive
-4	bueltatzeko	bueltatu	VERB	ADI_SIN_GEL	_	5	advcl	_	_	1:exp-Positive
-5	ahalegina	ahalegin	NOUN	IZE_ARR_ABS	_	6	obj	_	_	1:exp-Positive
-6	egingo	egin	VERB	ADI_SIN_NOTDEK	_	8	advcl	_	_	1:exp-Positive
+2	ere	ere	ADV	LOT_LOK	_	8	advmod	_	_	1:IN:exp-Positive
+3	hona	hona	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	1:IN:exp-Positive
+4	bueltatzeko	bueltatu	VERB	ADI_SIN_GEL	_	5	advcl	_	_	1:IN:exp-Positive
+5	ahalegina	ahalegin	NOUN	IZE_ARR_ABS	_	6	obj	_	_	1:IN:exp-Positive
+6	egingo	egin	VERB	ADI_SIN_NOTDEK	_	8	advcl	_	_	1:IN:exp-Positive
 7	dugulakoan	ukan	AUX	ADL	_	6	aux	_	_	_
 8	nago	egon	AUX	ADT	_	0	root	_	_	1:holder
 9	.	.	PUNCT	PUNCT	_	8	punct	_	_	_
@@ -3310,9 +3310,9 @@
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_	_
 3	guk	gu	PRON	IOR_PERARR_ERG	_	5	nsubj	_	_	6:holder
 4	nahi	nahi_izan	VERB	ADI_ADK_NOTDEK	_	5	compound	_	_	6:targ
-5	genuena	genuena	AUX	ADL_IZEELI_ABS_ABS	_	6	obj	_	_	4:targ
+5	genuena	genuena	AUX	ADL_IZEELI_ABS_ABS	_	6	obj	_	_	4:IN:targ
 6	eskaintzen	eskaini	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	0:exp-Positive
-7	zuen	*edun	AUX	ADL	_	6	aux	_	_	6:exp-Positive
+7	zuen	*edun	AUX	ADL	_	6	aux	_	_	6:IN:exp-Positive
 8	:	:	PUNCT	PUNCT	_	6	punct	_	_	_
 9	gertutasuna	gertutasun	NOUN	IZE_ARR_ABS	_	6	obj	_	_	0:exp-Positive
 10	,	,	PUNCT	PUNCT	_	11	punct	_	_	_
@@ -3328,7 +3328,7 @@
 # sent_id = corpora/eu/nekatur-ibarrolabekoa-david_1-1
 # text = Ezin ahaztuzko egonaldia izan dugu .
 1	Ezin	ezin	NOUN	IZE_ARR_ABS	_	2	obl	_	_	0:exp-Positive
-2	ahaztuzko	ahaztuzko	ADJ	ADJ_ARR_ZERO	_	3	advcl	_	_	1:exp-Positive
+2	ahaztuzko	ahaztuzko	ADJ	ADJ_ARR_ZERO	_	3	advcl	_	_	1:IN:exp-Positive
 3	egonaldia	egonaldi	NOUN	IZE_ARR_ABS	_	4	obj	_	_	1:targ
 4	izan	izan	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 5	dugu	*edun	AUX	ADL	_	4	aux	_	_	1:holder
@@ -3338,7 +3338,7 @@
 # text = Nekane Eskerrik Asko , Xabier , Maite eta Patxi .
 1	Nekane	nekane	NOUN	IZE_ARR_ZERO	_	3	nsubj	_	_	2:targ
 2	Eskerrik	esker	ADJ	ADJ_ARR_PAR	_	1	flat	_	_	0:exp-Positive
-3	Asko	asko	ADV	ADB_ARR	_	0	root	_	_	2:exp-Positive
+3	Asko	asko	ADV	ADB_ARR	_	0	root	_	_	2:IN:exp-Positive
 4	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 5	Xabier	xabier	NOUN	IZE_IZB_ZERO	_	1	conj	_	_	_
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_	_
@@ -3368,10 +3368,10 @@
 # text = Iruzkinak euskaraz egiteko aukera ez izatea .
 1	Iruzkinak	iruzkina	NOUN	IZE_IZB_ERG	_	3	nsubj	_	_	2:targ
 2	euskaraz	euskara	NOUN	IZE_ARR_INS	_	3	obl	_	_	0:exp-Negative
-3	egiteko	egin	VERB	ADI_SIN_GEL	_	4	advcl	_	_	2:exp-Negative
-4	aukera	aukera	NOUN	IZE_ARR_ABS	_	6	obj	_	_	2:exp-Negative
-5	ez	ez	ADV	PRT_EGI	_	6	advmod	_	_	2:exp-Negative
-6	izatea	izan	VERB	ADI_SIN_ABS	_	0	root	_	_	2:exp-Negative
+3	egiteko	egin	VERB	ADI_SIN_GEL	_	4	advcl	_	_	2:IN:exp-Negative
+4	aukera	aukera	NOUN	IZE_ARR_ABS	_	6	obj	_	_	2:IN:exp-Negative
+5	ez	ez	ADV	PRT_EGI	_	6	advmod	_	_	2:IN:exp-Negative
+6	izatea	izan	VERB	ADI_SIN_ABS	_	0	root	_	_	2:IN:exp-Negative
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/Iturrienea-ostatua_1-2
@@ -3413,9 +3413,9 @@
 # sent_id = corpora/eu/Hostal_Plaza_Mayor_1-1
 # text = Plaza Nagusiaren ondoan kokaturiko Hotal txikia da .
 1	Plaza	plaza	NOUN	IZE_ARR_ABS	_	4	obl	_	_	0:exp-Positive
-2	Nagusiaren	nagusi	NOUN	IZE_ARR_GEN	_	1	nmod	_	_	1:exp-Positive
-3	ondoan	ondo	NOUN	IZE_ARR_INE	_	2	case	_	_	1:exp-Positive
-4	kokaturiko	kokatu	VERB	ADI_SIN_GEL	_	5	advcl	_	_	1:exp-Positive
+2	Nagusiaren	nagusi	NOUN	IZE_ARR_GEN	_	1	nmod	_	_	1:IN:exp-Positive
+3	ondoan	ondo	NOUN	IZE_ARR_INE	_	2	case	_	_	1:IN:exp-Positive
+4	kokaturiko	kokatu	VERB	ADI_SIN_GEL	_	5	advcl	_	_	1:IN:exp-Positive
 5	Hotal	hotal	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:targ|6:targ
 6	txikia	txiki	ADJ	ADJ_ARR_ABS	_	5	amod	_	_	0:exp-Negative
 7	da	izan	AUX	ADT	_	5	cop	_	_	_
@@ -3453,7 +3453,7 @@
 6	txarrena	txar	ADJ	ADJ_ARR_ABS	_	9	nsubj	_	_	0:exp-Negative
 7	igogailurik	igogailu	NOUN	IZE_ARR_PAR	_	9	nsubj	_	_	6:targ|8:targ
 8	ez	ez	ADV	PRT_EGI	_	9	advmod	_	_	0:exp-Negative
-9	dagoela	egon	AUX	ADT	_	2	csubj	_	_	8:exp-Negative
+9	dagoela	egon	AUX	ADT	_	2	csubj	_	_	8:IN:exp-Negative
 10	eta	eta	CCONJ	LOT_JNT	_	15	cc	_	_	_
 11	eskilera	eskile	NOUN	IZE_ARR_ALA	_	13	obl	_	_	_
 12	bidez	bidez	ADV	ADB_ARR_ZERO	_	11	case	_	_	_
@@ -3466,7 +3466,7 @@
 # sent_id = corpora/eu/airbnb-4727823_1-1
 # text = Kokaleku aprosean dagoen etxea da : Salamancako alde zaharrean , baina aldi berean aparte samar .
 1	Kokaleku	kokaleku	NOUN	IZE_ARR_ZERO	_	2	nmod	_	_	0:exp-Positive
-2	aprosean	aprose	ADJ	ADJ_ARR_INE	_	3	obl	_	_	1:exp-Positive
+2	aprosean	aprose	ADJ	ADJ_ARR_INE	_	3	obl	_	_	1:IN:exp-Positive
 3	dagoen	egon	AUX	ADT	_	4	acl	_	_	_
 4	etxea	etxe	NOUN	IZE_ARR_ABS	_	0	root	_	_	1:targ
 5	da	izan	AUX	ADT	_	4	cop	_	_	_
@@ -3490,9 +3490,9 @@
 4	ere	ere	ADV	LOT_LOK	_	3	mark	_	_	_
 5	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 6	hiru	hiru	DET	DET_DZH_ZERO	_	7	nummod	_	_	0:exp-Positive
-7	lagunentzat	lagun	NOUN	IZE_ARR_DES	_	10	obl	_	_	6:exp-Positive
-8	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	6:exp-Positive
-9	ondo	ondo	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	6:exp-Positive
+7	lagunentzat	lagun	NOUN	IZE_ARR_DES	_	10	obl	_	_	6:IN:exp-Positive
+8	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	6:IN:exp-Positive
+9	ondo	ondo	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	6:IN:exp-Positive
 10	etorri	etorri	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	_
 11	zaigu	izan	AUX	ADL	_	10	aux	_	_	2:holder|6:holder
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_	_
@@ -3501,9 +3501,9 @@
 # text = Duen oker handiena udako beroa da .
 1	Duen	du	NOUN	IZE_ARR_GEN	_	2	acl	_	_	_
 2	oker	oker	NOUN	IZE_ARR_ZERO	_	5	nsubj	_	_	0:exp-Negative
-3	handiena	handi	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	2:exp-Negative
+3	handiena	handi	ADJ	ADJ_ARR_ABS	_	2	amod	_	_	2:IN:exp-Negative
 4	udako	uda	NOUN	IZE_ARR_GEL	_	5	nmod	_	_	2:targ
-5	beroa	bero	NOUN	IZE_ARR_ABS	_	0	root	_	_	4:targ
+5	beroa	bero	NOUN	IZE_ARR_ABS	_	0	root	_	_	4:IN:targ
 6	da	izan	AUX	ADT	_	5	cop	_	_	_
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
@@ -3513,14 +3513,14 @@
 2	edo	edo	CCONJ	LOT_JNT	_	3	cc	_	_	_
 3	kortinarik	kortina	NOUN	IZE_ARR_PAR	_	1	conj	_	_	4:targ
 4	ez	ez	ADV	PRT_EGI	_	5	advmod	_	_	0:exp-Negative|0:exp-Negative
-5	duenez	ukan	AUX	ADT	_	8	advcl	_	_	4:exp-Negative|4:exp-Negative
+5	duenez	ukan	AUX	ADT	_	8	advcl	_	_	4:IN:exp-Negative|4:IN:exp-Negative
 6	,	,	PUNCT	PUNCT	_	7	punct	_	_	_
 7	ezinezkoa	ezinezko	ADJ	ADJ_ARR_ABS	_	0	root	_	_	0:exp-Negative
-8	da	izan	AUX	ADT	_	7	cop	_	_	7:exp-Negative
-9	etxea	etxe	NOUN	IZE_ARR_ABS	_	11	obj	_	_	7:exp-Negative
-10	fresko	fresko	ADJ	ADJ_ARR_ABS	_	11	xcomp	_	_	7:exp-Negative
-11	mantentzea	mantendu	VERB	ADI_SIN_ABS	_	7	csubj	_	_	7:exp-Negative
-12	udan	uda	NOUN	IZE_ARR_INE	_	11	obl	_	_	7:exp-Negative
+8	da	izan	AUX	ADT	_	7	cop	_	_	7:IN:exp-Negative
+9	etxea	etxe	NOUN	IZE_ARR_ABS	_	11	obj	_	_	7:IN:exp-Negative
+10	fresko	fresko	ADJ	ADJ_ARR_ABS	_	11	xcomp	_	_	7:IN:exp-Negative
+11	mantentzea	mantendu	VERB	ADI_SIN_ABS	_	7	csubj	_	_	7:IN:exp-Negative
+12	udan	uda	NOUN	IZE_ARR_INE	_	11	obl	_	_	7:IN:exp-Negative
 13	.	.	PUNCT	PUNCT	_	7	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-4727823_1-5
@@ -3532,8 +3532,8 @@
 5	ontzi	ontzi	NOUN	IZE_ARR_ZERO	_	9	obl	_	_	_
 6	aldetik	alde	NOUN	IZE_ARR_ABL	_	5	case	_	_	_
 7	urri	urri	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	0:exp-Negative
-8	samar	samar	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	7:exp-Negative
-9	sumatu	sumatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	7:exp-Negative
+8	samar	samar	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	7:IN:exp-Negative
+9	sumatu	sumatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	7:IN:exp-Negative
 10	dugu	*edun	AUX	ADL	_	9	aux	_	_	7:holder
 11	sukaldea	sukalde	NOUN	IZE_ARR_ABS	_	9	obj	_	_	7:targ
 12	.	.	PUNCT	PUNCT	_	9	punct	_	_	_
@@ -3546,10 +3546,10 @@
 4	iragarkian	iragarki	NOUN	IZE_ARR_INE	_	6	obl	_	_	_
 5	garajea	garaje	NOUN	IZE_ARR_ABS	_	6	nsubj	_	_	6:targ
 6	eskaintzen	eskaini	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	0:exp-Positive
-7	da	izan	AUX	ADL	_	6	aux	_	_	6:exp-Positive
-8	etxebizitzaren	etxebizitza	NOUN	IZE_ARR_GEN	_	10	nmod	_	_	6:exp-Positive
-9	prezio	prezio	NOUN	IZE_ARR_ZERO	_	6	obl	_	_	6:exp-Positive
-10	barnean	barne	NOUN	IZE_ARR_INE	_	9	case	_	_	6:exp-Positive
+7	da	izan	AUX	ADL	_	6	aux	_	_	6:IN:exp-Positive
+8	etxebizitzaren	etxebizitza	NOUN	IZE_ARR_GEN	_	10	nmod	_	_	6:IN:exp-Positive
+9	prezio	prezio	NOUN	IZE_ARR_ZERO	_	6	obl	_	_	6:IN:exp-Positive
+10	barnean	barne	NOUN	IZE_ARR_INE	_	9	case	_	_	6:IN:exp-Positive
 11	.	.	PUNCT	PUNCT	_	6	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-4727823_1-7
@@ -3567,9 +3567,9 @@
 11	beharrezkoa	beharrezko	ADJ	ADJ_ARR_ABS	_	3	conj	_	_	_
 12	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 13	etxearen	etxe	NOUN	IZE_ARR_GEN	_	15	nmod	_	_	0:exp-Positive
-14	justu	justu	NOUN	IZE_ARR_ZERO	_	16	obl	_	_	13:exp-Positive
-15	ondoan	ondo	NOUN	IZE_ARR_INE	_	14	case	_	_	13:exp-Positive
-16	aparkatzeko	aparkatu	VERB	ADI_SIN_GEL	_	17	advcl	_	_	13:exp-Positive
+14	justu	justu	NOUN	IZE_ARR_ZERO	_	16	obl	_	_	13:IN:exp-Positive
+15	ondoan	ondo	NOUN	IZE_ARR_INE	_	14	case	_	_	13:IN:exp-Positive
+16	aparkatzeko	aparkatu	VERB	ADI_SIN_GEL	_	17	advcl	_	_	13:IN:exp-Positive
 17	lekua	leku	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	13:targ
 18	dagoelako	egon	AUX	ADT	_	10	advcl	_	_	_
 19	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
@@ -3583,8 +3583,8 @@
 5	gara	izan	AUX	ADT	_	3	cop	_	_	_
 6	,	,	PUNCT	PUNCT	_	3	punct	_	_	_
 7	asteburu	asteburu	NOUN	IZE_ARR_ZERO	_	9	obj	_	_	0:exp-Positive
-8	bikaina	bikain	ADJ	ADJ_ARR_ABS	_	7	amod	_	_	7:exp-Positive
-9	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	5	advcl	_	_	7:exp-Positive
+8	bikaina	bikain	ADJ	ADJ_ARR_ABS	_	7	amod	_	_	7:IN:exp-Positive
+9	pasa	pasatu	VERB	ADI_SIN_NOTDEK	_	5	advcl	_	_	7:IN:exp-Positive
 10	ondoren	ondoren	ADV	ADB_ARR_ZERO	_	9	advcl	_	_	_
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -3592,7 +3592,7 @@
 # text = Bagenekien Aiara eskualdea ederra dela eta pixka bat mugitzeko asmoa genuen baina aitortu behar dugu ia ez garela etxetik mugitu : lau bikote eta hiru haur txiki ginen , etxe osoa genuen alokatua , eta denbora falta izan zaigu soilik etxea bera , aurreko zelai eta bidexkak guztiz gozatzeko .
 1	Bagenekien	bagekin	AUX	ADT	_	0	root	_	_	_
 2	Aiara	aia	NOUN	IZE_LIB_ALA	_	3	nmod	_	_	4:targ
-3	eskualdea	eskualde	NOUN	IZE_ARR_ABS	_	4	nsubj	_	_	2:targ
+3	eskualdea	eskualde	NOUN	IZE_ARR_ABS	_	4	nsubj	_	_	2:IN:targ
 4	ederra	eder	ADJ	ADJ_ARR_ABS	_	1	ccomp	_	_	0:exp-Positive
 5	dela	izan	AUX	ADT	_	4	cop	_	_	_
 6	eta	eta	CCONJ	LOT_JNT	_	11	cc	_	_	_
@@ -3644,10 +3644,10 @@
 # sent_id = corpora/eu/zelaikoetxe-6_1-3
 # text = Oso-oso polita eta ongi antolatua da etxea , ingurua eta bistak ederrak , lasaitasuna da nagusi .
 1	Oso-oso	oso-oso	ADV	ADB_ARR_ZERO	_	2	advmod	_	_	0:exp-Positive
-2	polita	polit	ADJ	ADJ_ARR_ABS	_	5	obl	_	_	1:exp-Positive
+2	polita	polit	ADJ	ADJ_ARR_ABS	_	5	obl	_	_	1:IN:exp-Positive
 3	eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	_
 4	ongi	ongi	ADV	ADB_ARR_ZERO	_	2	conj	_	_	0:exp-Positive
-5	antolatua	antolatu	VERB	ADI_SIN_ABS	_	0	root	_	_	4:exp-Positive
+5	antolatua	antolatu	VERB	ADI_SIN_ABS	_	0	root	_	_	4:IN:exp-Positive
 6	da	izan	AUX	ADT	_	5	cop	_	_	_
 7	etxea	etxe	NOUN	IZE_ARR_ABS	_	5	nsubj	_	_	4:targ|1:targ
 8	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
@@ -3678,10 +3678,10 @@
 # sent_id = corpora/eu/zelaikoetxe-6_1-5
 # text = Itzultzeko gogoz gelditu gara , benetan !
 1	Itzultzeko	itzuldu	VERB	ADI_SIN_GEL	_	2	advcl	_	_	0:exp-Positive
-2	gogoz	gogo	NOUN	IZE_ARR_INS	_	3	obl	_	_	1:exp-Positive
-3	gelditu	gelditu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
-4	gara	izan	AUX	ADL	_	3	aux	_	_	1:exp-Positive
-5	,	,	PUNCT	PUNCT	_	2	punct	_	_	1:exp-Positive
+2	gogoz	gogo	NOUN	IZE_ARR_INS	_	3	obl	_	_	1:IN:exp-Positive
+3	gelditu	gelditu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
+4	gara	izan	AUX	ADL	_	3	aux	_	_	1:IN:exp-Positive
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_	1:IN:exp-Positive
 6	benetan	benetan	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	_
 7	!	!	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -3689,7 +3689,7 @@
 # text = Hotela oso ondo dago , igerileku txikia baina atsegina , eta logela txukuna .
 1	Hotela	hotela	ADV	LOT_LOK	_	4	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	ondo	ondo	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:exp-Positive
+3	ondo	ondo	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:IN:exp-Positive
 4	dago	egon	AUX	ADT	_	0	root	_	_	_
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 6	igerileku	igerileku	NOUN	IZE_ARR_ZERO	_	4	obj	_	_	7:targ|9:targ
@@ -3705,12 +3705,12 @@
 # sent_id = corpora/eu/saem-seam-reap_1-2
 # text = Hotelean bertan antolatzen dizute Angkor-erako bixita gidatua .
 1	Hotelean	hotel	NOUN	IZE_ARR_INE	_	3	obl	_	_	0:exp-Positive
-2	bertan	bertan	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	antolatzen	antolatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:exp-Positive
+2	bertan	bertan	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	antolatzen	antolatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	1:IN:exp-Positive
 4	dizute	*edun	AUX	ADL	_	3	aux	_	_	_
 5	Angkor-erako	angkor-e	NOUN	IZE_LIB_GEL	_	6	nmod	_	_	1:targ
-6	bixita	bixita	NOUN	IZE_ARR_ABS	_	3	obj	_	_	5:targ
-7	gidatua	gidatu	VERB	ADI_SIN_ABS	_	6	nmod	_	_	5:targ
+6	bixita	bixita	NOUN	IZE_ARR_ABS	_	3	obj	_	_	5:IN:targ
+7	gidatua	gidatu	VERB	ADI_SIN_ABS	_	6	nmod	_	_	5:IN:targ
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/estanys-blaus_1-1
@@ -3726,14 +3726,14 @@
 2	eta	eta	CCONJ	LOT_JNT	_	3	cc	_	_	_
 3	afaria	afari	NOUN	IZE_ARR_ABS	_	1	conj	_	_	4:targ
 4	oso	oso	ADV	ADB_ARR_ZERO	_	5	advmod	_	_	0:exp-Positive|0:exp-Positive
-5	goxoak	goxo	VERB	ADI_SIN_ABS	_	0	root	_	_	4:exp-Positive|4:exp-Positive
+5	goxoak	goxo	VERB	ADI_SIN_ABS	_	0	root	_	_	4:IN:exp-Positive|4:IN:exp-Positive
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_	_
 
 # sent_id = corpora/eu/estanys-blaus_1-3
 # text = Jabeak oso-oso atseginak .
 1	Jabeak	jabe	NOUN	IZE_ARR_ERG	_	3	nsubj	_	_	2:targ
 2	oso-oso	oso-oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	atseginak	atsegin	VERB	ADI_SIN_ABS	_	0	root	_	_	2:exp-Positive
+3	atseginak	atsegin	VERB	ADI_SIN_ABS	_	0	root	_	_	2:IN:exp-Positive
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/estanys-blaus_1-4
@@ -3744,11 +3744,11 @@
 4	zeure	zeu	PRON	IOR_PERIND_GEN	_	5	nmod	_	_	_
 5	helburua	helburu	NOUN	IZE_ARR_ABS	_	10	nsubj	_	_	_
 6	bertako	bertako	ADJ	ADJ_ARR_ZERO	_	7	amod	_	_	8:targ
-7	jaunak	jaun	NOUN	IZE_ARR_ABS	_	10	nsubj	_	_	6:targ
+7	jaunak	jaun	NOUN	IZE_ARR_ABS	_	10	nsubj	_	_	6:IN:targ
 8	aholku	aholku	NOUN	IZE_ARR_ZERO	_	10	obj	_	_	0:exp-Positive
-9	baliagarriak	baliagarri	ADJ	ADJ_ARR_ABS	_	8	amod	_	_	8:exp-Positive
-10	emango	eman	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	8:exp-Positive
-11	dizkizu	*edun	AUX	ADL	_	10	aux	_	_	8:exp-Positive
+9	baliagarriak	baliagarri	ADJ	ADJ_ARR_ABS	_	8	amod	_	_	8:IN:exp-Positive
+10	emango	eman	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	8:IN:exp-Positive
+11	dizkizu	*edun	AUX	ADL	_	10	aux	_	_	8:IN:exp-Positive
 12	.	.	PUNCT	PUNCT	_	10	punct	_	_	_
 
 # sent_id = corpora/eu/cotoon-colmar8_1-1
@@ -3769,13 +3769,13 @@
 # sent_id = corpora/eu/belgrade-downtown-apartments-brankova-street_1-1
 # text = Kale handi batean dago eta pixka bat zaratatsua da .
 1	Kale	kale	NOUN	IZE_ARR_ZERO	_	4	obl	_	_	0:exp-Negative
-2	handi	handi	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	1:exp-Negative
-3	batean	bat	DET	DET_DZH_INE	_	1	nummod	_	_	1:exp-Negative
+2	handi	handi	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	1:IN:exp-Negative
+3	batean	bat	DET	DET_DZH_INE	_	1	nummod	_	_	1:IN:exp-Negative
 4	dago	egon	AUX	ADT	_	0	root	_	_	_
 5	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 6	pixka	pixka	ADJ	ADJ_ARR_ZERO	_	8	nsubj	_	_	0:exp-Negative
-7	bat	bat	DET	DET_DZH_ABS	_	6	nummod	_	_	6:exp-Negative
-8	zaratatsua	zaratatsu	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	6:exp-Negative
+7	bat	bat	DET	DET_DZH_ABS	_	6	nummod	_	_	6:IN:exp-Negative
+8	zaratatsua	zaratatsu	ADJ	ADJ_ARR_ABS	_	4	conj	_	_	6:IN:exp-Negative
 9	da	izan	AUX	ADT	_	8	cop	_	_	_
 10	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
@@ -3783,8 +3783,8 @@
 # text = Baina pertsianak dauzka ! ; - ) Apartamentua berri-berria .
 1	Baina	baina	CCONJ	LOT_JNT	_	3	cc	_	_	_
 2	pertsianak	pertsiana	NOUN	IZE_ARR_ABS	_	3	obj	_	_	0:exp-Positive
-3	dauzka	eduki	AUX	ADT	_	0	root	_	_	2:exp-Positive
-4	!	!	PUNCT	PUNCT	_	3	punct	_	_	2:exp-Positive
+3	dauzka	eduki	AUX	ADT	_	0	root	_	_	2:IN:exp-Positive
+4	!	!	PUNCT	PUNCT	_	3	punct	_	_	2:IN:exp-Positive
 5	;	;	PUNCT	PUNCT	_	3	punct	_	_	_
 6	-	punct	PUNCT	O	_	3	punct	_	_	_
 7	)	)	PUNCT	PUNCT	_	3	punct	_	_	_
@@ -3795,20 +3795,20 @@
 # sent_id = corpora/eu/belgrade-downtown-apartments-brankova-street_1-3
 # text = Jabea , mutil gazte bat , oso jatorra .
 1	Jabea	jabe	NOUN	IZE_ARR_ABS	_	0	root	_	_	7:targ
-2	,	,	PUNCT	PUNCT	_	1	punct	_	_	1:targ
-3	mutil	mutil	NOUN	IZE_ARR_ZERO	_	1	conj	_	_	1:targ
-4	gazte	gazte	NOUN	IZE_ARR_ZERO	_	3	amod	_	_	1:targ
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_	1:IN:targ
+3	mutil	mutil	NOUN	IZE_ARR_ZERO	_	1	conj	_	_	1:IN:targ
+4	gazte	gazte	NOUN	IZE_ARR_ZERO	_	3	amod	_	_	1:IN:targ
 5	bat	bat	DET	DET_DZH_ABS	_	3	nummod	_	_	_
 6	,	,	PUNCT	PUNCT	_	1	punct	_	_	_
 7	oso	oso	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	0:exp-Positive
-8	jatorra	jator	ADJ	ADJ_ARR_ABS	_	1	conj	_	_	7:exp-Positive
+8	jatorra	jator	ADJ	ADJ_ARR_ABS	_	1	conj	_	_	7:IN:exp-Positive
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_	_
 
 # sent_id = corpora/eu/belgrade-downtown-apartments-brankova-street_1-4
 # text = Hasieran kosta zitzaigun topatzea , gaua zen , euria ari zun , ta Broncova 18ra iristerakoan ez zegoen inongo txartelil .
 1	Hasieran	hasiera	NOUN	IZE_ARR_INE	_	2	obl	_	_	_
 2	kosta	kostatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	0:exp-Negative
-3	zitzaigun	izan	AUX	ADL	_	2	aux	_	_	2:exp-Negative
+3	zitzaigun	izan	AUX	ADL	_	2	aux	_	_	2:IN:exp-Negative
 4	topatzea	topatu	VERB	ADI_SIN_ABS	_	2	csubj	_	_	_
 5	,	,	PUNCT	PUNCT	_	11	punct	_	_	_
 6	gaua	gau	NOUN	IZE_ARR_ABS	_	11	nsubj	_	_	_
@@ -3823,9 +3823,9 @@
 15	18ra	18	NOUN	IZE_ZKI_ALA	_	16	obl	_	_	_
 16	iristerakoan	iristerako	NOUN	IZE_ARR_INE	_	18	advcl	_	_	_
 17	ez	ez	ADV	PRT_EGI	_	18	advmod	_	_	0:exp-Negative
-18	zegoen	egon	AUX	ADT	_	2	conj	_	_	17:exp-Negative
-19	inongo	inongo	ADJ	ADJ_ARR_ZERO	_	20	amod	_	_	17:exp-Negative
-20	txartelil	txartelil	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	17:exp-Negative
+18	zegoen	egon	AUX	ADT	_	2	conj	_	_	17:IN:exp-Negative
+19	inongo	inongo	ADJ	ADJ_ARR_ZERO	_	20	amod	_	_	17:IN:exp-Negative
+20	txartelil	txartelil	NOUN	IZE_ARR_ABS	_	18	nsubj	_	_	17:IN:exp-Negative
 21	.	.	PUNCT	PUNCT	_	2	punct	_	_	_
 
 # sent_id = corpora/eu/belgrade-downtown-apartments-brankova-street_1-5
@@ -3846,8 +3846,8 @@
 # sent_id = corpora/eu/belgrade-downtown-apartments-brankova-street_1-6
 # text = Etxe zahar batean apartamentu txikia da , 3. pisuan .
 1	Etxe	etxe	NOUN	IZE_ARR_ZERO	_	6	obl	_	_	0:exp-Negative
-2	zahar	zahar	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	1:exp-Negative
-3	batean	bat	DET	DET_DZH_INE	_	1	nummod	_	_	1:exp-Negative
+2	zahar	zahar	ADJ	ADJ_ARR_ZERO	_	1	amod	_	_	1:IN:exp-Negative
+3	batean	bat	DET	DET_DZH_INE	_	1	nummod	_	_	1:IN:exp-Negative
 4	apartamentu	apartamentu	NOUN	IZE_ARR_ZERO	_	0	root	_	_	1:targ|5:targ
 5	txikia	txiki	ADJ	ADJ_ARR_ABS	_	4	amod	_	_	0:exp-Negative
 6	da	izan	AUX	ADT	_	4	cop	_	_	_
@@ -3885,8 +3885,8 @@
 # text = Ta oinez mugitzeko toki onean .
 1	Ta	ta	NOUN	IZE_ARR_ZERO	_	3	nsubj	_	_	_
 2	oinez	oin	ADJ	ADJ_ARR_INS	_	3	obl	_	_	0:exp-Positive
-3	mugitzeko	mugitu	VERB	ADI_SIN_GEL	_	0	root	_	_	2:exp-Positive
-4	toki	toki	NOUN	IZE_ARR_ZERO	_	3	obl	_	_	2:exp-Positive
+3	mugitzeko	mugitu	VERB	ADI_SIN_GEL	_	0	root	_	_	2:IN:exp-Positive
+4	toki	toki	NOUN	IZE_ARR_ZERO	_	3	obl	_	_	2:IN:exp-Positive
 5	onean	on	ADJ	ADJ_ARR_INE	_	4	amod	_	_	_
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
@@ -3929,14 +3929,14 @@
 # text = Toki perfektua txirrindulak alokatu eta ibilaldi ederrak egin ahal izateko , inguruko basoetatik , hondartzetaraino , bertako natura eta paisaiaz gozatzeko .
 1	Toki	toki	NOUN	IZE_ARR_ZERO	_	4	obj	_	_	2:targ
 2	perfektua	perfektu	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	0:exp-Positive
-3	txirrindulak	txirrindul	NOUN	IZE_ARR_ABS	_	4	obj	_	_	2:exp-Positive
-4	alokatu	alokatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:exp-Positive
-5	eta	eta	CCONJ	LOT_JNT	_	10	cc	_	_	2:exp-Positive
-6	ibilaldi	ibilaldi	NOUN	IZE_ARR_ZERO	_	8	obj	_	_	2:exp-Positive
-7	ederrak	eder	ADJ	ADJ_ARR_ABS	_	6	amod	_	_	2:exp-Positive
-8	egin	egin	VERB	ADI_SIN_NOTDEK	_	10	xcomp	_	_	2:exp-Positive
-9	ahal	ahal	ADV	PRT_ZIU	_	10	compound	_	_	2:exp-Positive
-10	izateko	izan	VERB	ADI_SIN_ABS	_	4	conj	_	_	2:exp-Positive
+3	txirrindulak	txirrindul	NOUN	IZE_ARR_ABS	_	4	obj	_	_	2:IN:exp-Positive
+4	alokatu	alokatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:IN:exp-Positive
+5	eta	eta	CCONJ	LOT_JNT	_	10	cc	_	_	2:IN:exp-Positive
+6	ibilaldi	ibilaldi	NOUN	IZE_ARR_ZERO	_	8	obj	_	_	2:IN:exp-Positive
+7	ederrak	eder	ADJ	ADJ_ARR_ABS	_	6	amod	_	_	2:IN:exp-Positive
+8	egin	egin	VERB	ADI_SIN_NOTDEK	_	10	xcomp	_	_	2:IN:exp-Positive
+9	ahal	ahal	ADV	PRT_ZIU	_	10	compound	_	_	2:IN:exp-Positive
+10	izateko	izan	VERB	ADI_SIN_ABS	_	4	conj	_	_	2:IN:exp-Positive
 11	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 12	inguruko	inguru	NOUN	IZE_ARR_GEL	_	13	nmod	_	_	_
 13	basoetatik	baso	ADJ	ADJ_ARR_MOT	_	10	obl	_	_	_
@@ -3980,16 +3980,16 @@
 8	,	,	PUNCT	PUNCT	_	1	punct	_	_	_
 9	baina	baina	CCONJ	LOT_JNT	_	12	cc	_	_	_
 10	lau	lau	DET	DET_DZH_ZERO	_	11	nummod	_	_	0:exp-Positive
-11	lagunentzako	lagun	NOUN	IZE_ARR_GEL	_	12	nmod	_	_	10:exp-Positive
-12	nahikoa	nahiko	DET	DET_DZG_ABS	_	1	conj	_	_	10:exp-Positive
+11	lagunentzako	lagun	NOUN	IZE_ARR_GEL	_	12	nmod	_	_	10:IN:exp-Positive
+12	nahikoa	nahiko	DET	DET_DZG_ABS	_	1	conj	_	_	10:IN:exp-Positive
 13	.	.	PUNCT	PUNCT	_	1	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-13845527_1-7
 # text = Eta oso ondo kokatuta , erdigunean bertan .
 1	Eta	eta	CCONJ	LOT_JNT	_	4	cc	_	_	_
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	ondo	ondo	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:exp-Positive
-4	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:exp-Positive
+3	ondo	ondo	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	2:IN:exp-Positive
+4	kokatuta	kokatu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	2:IN:exp-Positive
 5	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 6	erdigunean	erdigune	NOUN	IZE_ARR_INE	_	4	obl	_	_	_
 7	bertan	bertan	ADV	ADB_ARR_ZERO	_	6	appos	_	_	_
@@ -3999,15 +3999,15 @@
 # text = Apartamentua oso garbi zegoen , eta behar zen guztia bagenuen bertan .
 1	Apartamentua	apartamentu	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	garbi	garbi	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:exp-Positive
+3	garbi	garbi	ADV	ADB_ARR_ZERO	_	0	root	_	_	2:IN:exp-Positive
 4	zegoen	egon	AUX	ADT	_	3	cop	_	_	_
 5	,	,	PUNCT	PUNCT	_	8	punct	_	_	_
 6	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 7	behar	behar_izan	VERB	ADI_ADK_NOTDEK	_	8	compound	_	_	10:targ
-8	zen	izan	AUX	ADL	_	4	conj	_	_	7:targ
-9	guztia	guzti	DET	DET_ORO_ABS	_	10	obj	_	_	7:targ
+8	zen	izan	AUX	ADL	_	4	conj	_	_	7:IN:targ
+9	guztia	guzti	DET	DET_ORO_ABS	_	10	obj	_	_	7:IN:targ
 10	bagenuen	bagenuen	AUX	ADT	_	4	conj	_	_	0:exp-Positive
-11	bertan	bertan	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	10:exp-Positive
+11	bertan	bertan	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	10:IN:exp-Positive
 12	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-13845527_1-9
@@ -4020,8 +4020,8 @@
 6	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 7	eta	eta	CCONJ	LOT_JNT	_	10	cc	_	_	_
 8	edozertan	edozertan	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	0:exp-Positive
-9	laguntzeko	lagundu	VERB	ADI_SIN_GEL	_	11	advcl	_	_	8:exp-Positive
-10	prest	prest	ADV	ADB_ARR_ZERO	_	5	conj	_	_	8:exp-Positive
+9	laguntzeko	lagundu	VERB	ADI_SIN_GEL	_	11	advcl	_	_	8:IN:exp-Positive
+10	prest	prest	ADV	ADB_ARR_ZERO	_	5	conj	_	_	8:IN:exp-Positive
 11	daude	egon	AUX	ADT	_	10	dep	_	_	_
 12	,	,	PUNCT	PUNCT	_	5	punct	_	_	_
 13	baita	baita	CCONJ	LOT_JNT	_	16	cc	_	_	_
@@ -4038,19 +4038,19 @@
 3	gero	gero	ADV	ADB_ARR_ZERO	_	2	advcl	_	_	_
 4	,	,	PUNCT	PUNCT	_	8	punct	_	_	_
 5	zalantzarik	zalantza	NOUN	IZE_ARR_PAR	_	8	obl	_	_	0:exp-Positive
-6	gabe	gabe	ADV	ADB_ARR_ZERO	_	5	case	_	_	5:exp-Positive
-7	bertan	bertan	ADV	ADB_ARR_ZERO	_	6	nmod	_	_	5:exp-Positive
-8	hartuko	hartu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	5:exp-Positive
-9	dugu	*edun	AUX	ADL	_	8	aux	_	_	5:exp-Positive
-10	aterpe	aterpe	NOUN	IZE_ARR_ZERO	_	8	obj	_	_	5:exp-Positive
+6	gabe	gabe	ADV	ADB_ARR_ZERO	_	5	case	_	_	5:IN:exp-Positive
+7	bertan	bertan	ADV	ADB_ARR_ZERO	_	6	nmod	_	_	5:IN:exp-Positive
+8	hartuko	hartu	VERB	ADI_SIN_NOTDEK	_	0	root	_	_	5:IN:exp-Positive
+9	dugu	*edun	AUX	ADL	_	8	aux	_	_	5:IN:exp-Positive
+10	aterpe	aterpe	NOUN	IZE_ARR_ZERO	_	8	obj	_	_	5:IN:exp-Positive
 11	berriro	berriro	ADV	ADB_ARR_ZERO	_	8	advmod	_	_	_
 12	.	.	PUNCT	PUNCT	_	8	punct	_	_	_
 
 # sent_id = corpora/eu/airbnb-13845527_1-11
 # text = Eskerrik asko !
 1	Eskerrik	esker	NOUN	IZE_ARR_PAR	_	0	root	_	_	0:exp-Positive
-2	asko	asko	DET	DET_DZG_ABS	_	1	det	_	_	1:exp-Positive
-3	!	!	PUNCT	PUNCT	_	1	punct	_	_	1:exp-Positive
+2	asko	asko	DET	DET_DZG_ABS	_	1	det	_	_	1:IN:exp-Positive
+3	!	!	PUNCT	PUNCT	_	1	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/Chateau_de_libarrenx_1-1
 # text = Gure egonaldia ederra izan da , hotela oso ondo baitago : berria , erosoa , garbia eta beharrezko guztiarekin .
@@ -4062,7 +4062,7 @@
 6	,	,	PUNCT	PUNCT	_	4	punct	_	_	_
 7	hotela	hotel	NOUN	IZE_ARR_ABS	_	10	nsubj	_	_	8:targ|18:targ|12:targ|16:targ|14:targ
 8	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	0:exp-Positive
-9	ondo	ondo	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	8:exp-Positive
+9	ondo	ondo	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	8:IN:exp-Positive
 10	baitago	egon	AUX	ADT	_	4	advcl	_	_	_
 11	:	:	PUNCT	PUNCT	_	4	punct	_	_	_
 12	berria	berri	ADJ	ADJ_ARR_ABS	_	11	nsubj	_	_	0:exp-Positive
@@ -4072,7 +4072,7 @@
 16	garbia	garbi	ADJ	ADJ_ARR_ABS	_	12	conj	_	_	0:exp-Positive
 17	eta	eta	CCONJ	LOT_JNT	_	18	cc	_	_	_
 18	beharrezko	beharrezko	ADJ	ADJ_ARR_ZERO	_	12	conj	_	_	0:exp-Positive
-19	guztiarekin	guzti	DET	DET_ORO_SOZ	_	18	nmod	_	_	18:exp-Positive
+19	guztiarekin	guzti	DET	DET_ORO_SOZ	_	18	nmod	_	_	18:IN:exp-Positive
 20	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/Chateau_de_libarrenx_1-2
@@ -4080,7 +4080,7 @@
 1	Pertsonala	pertsonal	ADJ	ADJ_ARR_ABS	_	4	nsubj	_	_	3:targ
 2	ere	ere	ADV	LOT_LOK	_	3	advmod	_	_	_
 3	ezin	ezin	NOUN	IZE_ARR_ABS	_	4	advmod	_	_	0:exp-Positive
-4	jatorragoa	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	3:exp-Positive
+4	jatorragoa	jator	ADJ	ADJ_ARR_ABS	_	0	root	_	_	3:IN:exp-Positive
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_	_
 
 # sent_id = corpora/eu/Chateau_de_libarrenx_1-3
@@ -4089,16 +4089,16 @@
 2	aparta	aparta	ADJ	ADJ_ARR_ABS	_	1	amod	_	_	0:exp-Positive
 3	:	:	PUNCT	PUNCT	_	10	punct	_	_	_
 4	eremu	eremu	NOUN	IZE_ARR_ZERO	_	14	obl	_	_	0:exp-Positive
-5	natural	natural	ADJ	ADJ_ARR_ZERO	_	4	amod	_	_	4:exp-Positive
-6	eder	eder	ADJ	ADJ_ARR_ZERO	_	4	amod	_	_	4:exp-Positive
-7	batean	bat	DET	DET_DZH_INE	_	4	nummod	_	_	4:exp-Positive
+5	natural	natural	ADJ	ADJ_ARR_ZERO	_	4	amod	_	_	4:IN:exp-Positive
+6	eder	eder	ADJ	ADJ_ARR_ZERO	_	4	amod	_	_	4:IN:exp-Positive
+7	batean	bat	DET	DET_DZH_INE	_	4	nummod	_	_	4:IN:exp-Positive
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_	_
 9	oso	oso	ADV	ADB_ARR_ZERO	_	10	advmod	_	_	0:exp-Positive
-10	lasaia	lasai	ADJ	ADJ_ARR_ABS	_	0	root	_	_	9:exp-Positive
+10	lasaia	lasai	ADJ	ADJ_ARR_ABS	_	0	root	_	_	9:IN:exp-Positive
 11	,	,	PUNCT	PUNCT	_	14	punct	_	_	_
 12	parke	parke	NOUN	IZE_ARR_ZERO	_	14	obl	_	_	0:exp-Positive
-13	batez	bat	DET	DET_DZH_INS	_	12	det	_	_	12:exp-Positive
-14	inguratua	inguratu	VERB	ADI_SIN_ABS	_	10	csubj	_	_	12:exp-Positive
+13	batez	bat	DET	DET_DZH_INS	_	12	det	_	_	12:IN:exp-Positive
+14	inguratua	inguratu	VERB	ADI_SIN_ABS	_	10	csubj	_	_	12:IN:exp-Positive
 15	.	.	PUNCT	PUNCT	_	10	punct	_	_	_
 
 # sent_id = corpora/eu/Chateau_de_libarrenx_1-4
@@ -4110,20 +4110,20 @@
 # sent_id = corpora/eu/Chateau_de_libarrenx_1-5
 # text = Zalantzarik gabe gomendagarria !
 1	Zalantzarik	zalantza	NOUN	IZE_ARR_PAR	_	3	nmod	_	_	0:exp-Positive
-2	gabe	gabe	ADV	ADB_ARR_ZERO	_	1	case	_	_	1:exp-Positive
-3	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	0	root	_	_	1:exp-Positive
-4	!	!	PUNCT	PUNCT	_	3	punct	_	_	1:exp-Positive
+2	gabe	gabe	ADV	ADB_ARR_ZERO	_	1	case	_	_	1:IN:exp-Positive
+3	gomendagarria	gomendagarri	ADJ	ADJ_ARR_ABS	_	0	root	_	_	1:IN:exp-Positive
+4	!	!	PUNCT	PUNCT	_	3	punct	_	_	1:IN:exp-Positive
 
 # sent_id = corpora/eu/real-marina-residence_1-1
 # text = Garbigailurik ez zegoela eta egonaldi luze baterako beharrezkoa da .
 1	Garbigailurik	garbigailuri	NOUN	IZE_IZB_ERG	_	3	nsubj	_	_	2:targ|5:targ
 2	ez	ez	ADV	PRT_EGI	_	3	advmod	_	_	0:exp-Negative
-3	zegoela	egon	AUX	ADT	_	8	ccomp	_	_	2:exp-Negative
+3	zegoela	egon	AUX	ADT	_	8	ccomp	_	_	2:IN:exp-Negative
 4	eta	eta	CCONJ	LOT_JNT	_	8	cc	_	_	_
 5	egonaldi	egonaldi	NOUN	IZE_ARR_ZERO	_	9	obl	_	_	0:exp-Negative
-6	luze	luze	ADJ	ADJ_ARR_ZERO	_	5	amod	_	_	5:exp-Negative
-7	baterako	bat	DET	DET_DZH_ABS	_	5	nummod	_	_	5:exp-Negative
-8	beharrezkoa	beharrezko	ADJ	ADJ_ARR_ABS	_	0	root	_	_	5:exp-Negative
+6	luze	luze	ADJ	ADJ_ARR_ZERO	_	5	amod	_	_	5:IN:exp-Negative
+7	baterako	bat	DET	DET_DZH_ABS	_	5	nummod	_	_	5:IN:exp-Negative
+8	beharrezkoa	beharrezko	ADJ	ADJ_ARR_ABS	_	0	root	_	_	5:IN:exp-Negative
 9	da	izan	AUX	ADT	_	8	cop	_	_	_
 10	.	.	PUNCT	PUNCT	_	8	punct	_	_	_
 
@@ -4131,13 +4131,13 @@
 # text = Ubikazioa oso ona da , Olhao oso herri polita delako , baina kontutan hartu behar da bertan ez dagoela hondartzarik , eta udarako eskaintzen dituen aukerak mugatuak direla .
 1	Ubikazioa	ubikazio	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	0:exp-Positive
-3	ona	on	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:exp-Positive
+3	ona	on	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:IN:exp-Positive
 4	da	izan	AUX	ADT	_	3	cop	_	_	_
 5	,	,	PUNCT	PUNCT	_	16	punct	_	_	_
 6	Olhao	olhao	NOUN	IZE_IZB_ZERO	_	8	nsubj	_	_	7:targ
 7	oso	oso	ADV	ADB_ARR_ZERO	_	9	advmod	_	_	0:exp-Positive
-8	herri	herri	NOUN	IZE_ARR_ZERO	_	4	advcl	_	_	7:exp-Positive
-9	polita	polit	ADJ	ADJ_ARR_ABS	_	8	amod	_	_	7:exp-Positive
+8	herri	herri	NOUN	IZE_ARR_ZERO	_	4	advcl	_	_	7:IN:exp-Positive
+9	polita	polit	ADJ	ADJ_ARR_ABS	_	8	amod	_	_	7:IN:exp-Positive
 10	delako	izan	AUX	ADT	_	8	cop	_	_	_
 11	,	,	PUNCT	PUNCT	_	16	punct	_	_	_
 12	baina	baina	CCONJ	LOT_JNT	_	16	cc	_	_	_
@@ -4146,15 +4146,15 @@
 15	behar	behar_izan	VERB	ADI_ADK_NOTDEK	_	16	compound	_	_	_
 16	da	izan	AUX	ADL	_	4	conj	_	_	_
 17	bertan	bertan	ADV	ADB_ARR_ZERO	_	19	advmod	_	_	0:exp-Negative
-18	ez	ez	ADV	PRT_EGI	_	19	advmod	_	_	17:exp-Negative
-19	dagoela	egon	AUX	ADT	_	14	ccomp	_	_	17:exp-Negative
+18	ez	ez	ADV	PRT_EGI	_	19	advmod	_	_	17:IN:exp-Negative
+19	dagoela	egon	AUX	ADT	_	14	ccomp	_	_	17:IN:exp-Negative
 20	hondartzarik	hondartza	NOUN	IZE_ARR_PAR	_	19	nsubj	_	_	17:targ
 21	,	,	PUNCT	PUNCT	_	14	punct	_	_	_
 22	eta	eta	CCONJ	LOT_JNT	_	27	cc	_	_	_
 23	udarako	uda	NOUN	IZE_ARR_GEL	_	24	obl	_	_	27:targ
-24	eskaintzen	eskaini	VERB	ADI_SIN_NOTDEK	_	26	acl	_	_	23:targ
-25	dituen	*edun	AUX	ADL	_	24	aux	_	_	23:targ
-26	aukerak	aukera	NOUN	IZE_ARR_ABS	_	27	nsubj	_	_	23:targ
+24	eskaintzen	eskaini	VERB	ADI_SIN_NOTDEK	_	26	acl	_	_	23:IN:targ
+25	dituen	*edun	AUX	ADL	_	24	aux	_	_	23:IN:targ
+26	aukerak	aukera	NOUN	IZE_ARR_ABS	_	27	nsubj	_	_	23:IN:targ
 27	mugatuak	mugatu	VERB	ADI_SIN_ABS	_	19	conj	_	_	0:exp-Negative
 28	direla	izan	AUX	ADT	_	27	cop	_	_	_
 29	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
@@ -4163,21 +4163,21 @@
 # text = Apartamentua oso handia eta berri berria da .
 1	Apartamentua	apartamentu	NOUN	IZE_ARR_ABS	_	3	nsubj	_	_	2:targ|5:targ
 2	oso	oso	ADV	ADB_ARR_ZERO	_	6	advmod	_	_	0:exp-Positive
-3	handia	handi	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:exp-Positive
+3	handia	handi	ADJ	ADJ_ARR_ABS	_	0	root	_	_	2:IN:exp-Positive
 4	eta	eta	CCONJ	LOT_JNT	_	5	cc	_	_	_
 5	berri	berri	ADJ	ADJ_ARR_ZERO	_	3	conj	_	_	0:exp-Positive
-6	berria	berri	ADJ	ADJ_ARR_ABS	_	5	amod	_	_	5:exp-Positive
+6	berria	berri	ADJ	ADJ_ARR_ABS	_	5	amod	_	_	5:IN:exp-Positive
 7	da	izan	AUX	ADT	_	3	cop	_	_	_
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_	_
 
 # sent_id = corpora/eu/real-marina-residence_1-4
 # text = Herritik oso hurbil dago oinez joateko eta kokapen ona du Algarbea ezagutzeko .
 1	Herritik	herri	NOUN	IZE_ARR_ABL	_	4	obl	_	_	0:exp-Positive
-2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:exp-Positive
-3	hurbil	hurbil	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	1:exp-Positive
+2	oso	oso	ADV	ADB_ARR_ZERO	_	3	advmod	_	_	1:IN:exp-Positive
+3	hurbil	hurbil	ADV	ADB_ARR_ZERO	_	4	advmod	_	_	1:IN:exp-Positive
 4	dago	egon	AUX	ADT	_	0	root	_	_	_
 5	oinez	oin	NOUN	IZE_ARR_INS	_	6	obl	_	_	0:exp-Positive
-6	joateko	joan	VERB	ADI_SIN_ABS	_	4	advcl	_	_	5:exp-Positive
+6	joateko	joan	VERB	ADI_SIN_ABS	_	4	advcl	_	_	5:IN:exp-Positive
 7	eta	eta	CCONJ	LOT_JNT	_	10	cc	_	_	_
 8	kokapen	kokapen	NOUN	IZE_ARR_ZERO	_	10	obj	_	_	1:targ|5:targ|9:targ
 9	ona	on	ADJ	ADJ_ARR_ABS	_	8	amod	_	_	0:exp-Positive
