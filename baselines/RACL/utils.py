@@ -106,7 +106,7 @@ def read_bert_data(fname, max_length, is_testing=False):
     ae_data = open(fname + r'target.txt', 'r', encoding='utf-8').readlines()
     oe_data = open(fname + r'opinion.txt', 'r', encoding='utf-8').readlines()
     sa_data = open(fname + r'target_polarity.txt', 'r', encoding='utf-8').readlines()
-    vocab_file = "./bert-large/vocab.txt"
+    vocab_file = "./bert_models/mbert/vocab.txt"
     tokenizer = bert_tokenization.WordpieceTokenizer(vocab_file=vocab_file)
 
     for index, _ in enumerate(review):

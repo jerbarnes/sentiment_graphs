@@ -1,7 +1,7 @@
 from utils import *
 import numpy as np
 from math import sqrt
-from evaluation import get_metric
+from evaluation import get_metric, write_predictions
 import os
 import time
 import logging
@@ -38,7 +38,7 @@ class MODEL(object):
             self.logger.info('{:-^80}'.format('Parameters'))
             self.logger.info(info + '\n')
 
-            self.bert_config = bert_modeling.BertConfig.from_json_file("./bert-large/bert_config.json")
+            self.bert_config = bert_modeling.BertConfig.from_json_file("./bert_models/mbert/bert_config.json")
 
         with tf.name_scope('inputs'):
             self.aspect_y = tf.placeholder(tf.int32, [None, self.opt.max_sentence_len, self.opt.class_num], name='aspect_y')
@@ -182,6 +182,7 @@ class MODEL(object):
 
         with tf.name_scope('loss'):
             tv = tf.trainable_variables()
+            self.logger.info('>>> Len(tf.trainable_variables): {}'.format(len(tv)))
             for idx, v in enumerate(tv):
                 print('para {}/{}'.format(idx, len(tv)), v)
             total_para = count_parameter()
@@ -203,8 +204,8 @@ class MODEL(object):
             mine_lr = self.opt.learning_rate
             mine_lr = tf.train.exponential_decay(mine_lr, global_step, decay_steps=self.decay_step, decay_rate=0.95, staircase=True)
 
-            bert_vars = tv[:391]
-            mine_vars = tv[391:]
+            bert_vars = tv[:199]
+            mine_vars = tv[199:]
 
             bert_opt = bert_optimization.AdamWeightDecayOptimizer(learning_rate=bert_lr)
             mine_opt = tf.train.AdamOptimizer(mine_lr)
@@ -212,8 +213,8 @@ class MODEL(object):
             grads = tf.gradients(cost, bert_vars + mine_vars)
             (grads, _) = tf.clip_by_global_norm(grads, clip_norm=1.0)
 
-            bert_grads = grads[:391]
-            mine_grads = grads[391:]
+            bert_grads = grads[:199]
+            mine_grads = grads[199:]
 
             # mine_grads = tf.gradients(cost, mine_vars)
 
@@ -234,9 +235,9 @@ class MODEL(object):
 
         with tf.name_scope('load-bert-large'):
             # load pre-trained bert-large model
-            saver = tf.train.Saver(max_to_keep=120)
+            saver = tf.train.Saver(max_to_keep=10)
             # gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=1.0)
-            init_checkpoint = "./bert-large/bert_model.ckpt"
+            init_checkpoint = "./bert_models/mbert/bert_model.ckpt"
             use_tpu = False
             tvars = tf.trainable_variables()
             (assignment_map, initialized_variable_names) = bert_modeling.get_assignment_map_from_checkpoint(tvars, init_checkpoint)
@@ -368,19 +369,30 @@ class MODEL(object):
                     break
             self.logger.info('\n{:-^80}'.format('Mission Complete'))
 
-            max_dev_index = dev_metric_list.index(max(dev_metric_list))
-            self.logger.info('Dev Max Metrics Index: {}'.format(max_dev_index))
-            self.logger.info('aspect f1={:.4f}, opinion f1={:.4f}, sentiment acc=={:.4f}, sentiment f1=={:.4f}, ABSA f1=={:.4f},'
-                  .format(aspect_f1_list[max_dev_index], opinion_f1_list[max_dev_index],
-                          sentiment_acc_list[max_dev_index],
-                          sentiment_f1_list[max_dev_index], ABSA_f1_list[max_dev_index]))
+            outdir = os.path.join("predictions", self.opt.task, "bert_dev")
+            os.makedirs(outdir, exist_ok=True)
+            self.logger.info('\n{:-^80}'.format('Writing dev predictions to {}'.format(outdir)))
+            write_predictions(dev_a_preds, dev_o_preds, dev_s_preds, dev_final_mask, outdir)
 
-            min_dev_index = dev_loss_list.index(min(dev_loss_list))
-            self.logger.info('Dev Min Loss Index: {}'.format(min_dev_index))
-            self.logger.info('aspect f1={:.4f}, opinion f1={:.4f}, sentiment acc=={:.4f}, sentiment f1=={:.4f}, ABSA f1=={:.4f},'
-                  .format(aspect_f1_list[min_dev_index], opinion_f1_list[min_dev_index],
-                          sentiment_acc_list[min_dev_index],
-                          sentiment_f1_list[min_dev_index], ABSA_f1_list[min_dev_index]))
+            outdir = os.path.join("predictions", self.opt.task, "bert_test")
+            os.makedirs(outdir, exist_ok=True)
+            self.logger.info('\n{:-^80}'.format('Writing test predictions to {}'.format(outdir)))
+            write_predictions(a_preds, o_preds, s_preds, final_mask, outdir)
+
+
+            # max_dev_index = dev_metric_list.index(max(dev_metric_list))
+            # self.logger.info('Dev Max Metrics Index: {}'.format(max_dev_index))
+            # self.logger.info('aspect f1={:.4f}, opinion f1={:.4f}, sentiment acc=={:.4f}, sentiment f1=={:.4f}, ABSA f1=={:.4f},'
+            #       .format(aspect_f1_list[max_dev_index], opinion_f1_list[max_dev_index],
+            #               sentiment_acc_list[max_dev_index],
+            #               sentiment_f1_list[max_dev_index], ABSA_f1_list[max_dev_index]))
+
+            # min_dev_index = dev_loss_list.index(min(dev_loss_list))
+            # self.logger.info('Dev Min Loss Index: {}'.format(min_dev_index))
+            # self.logger.info('aspect f1={:.4f}, opinion f1={:.4f}, sentiment acc=={:.4f}, sentiment f1=={:.4f}, ABSA f1=={:.4f},'
+            #       .format(aspect_f1_list[min_dev_index], opinion_f1_list[min_dev_index],
+            #               sentiment_acc_list[min_dev_index],
+            #               sentiment_f1_list[min_dev_index], ABSA_f1_list[min_dev_index]))
 
     def get_batch_data(self, dataset, batch_size, keep_prob1, keep_prob2, is_training=False, is_shuffle=False):
         length = len(dataset[0])

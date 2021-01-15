@@ -26,18 +26,18 @@ parser.add_argument('--class_num', default=3, type=int, help='class number')
 parser.add_argument('--load', default=0, type=int, help='load an existing checkpoint')
 opt = parser.parse_args()
 
-max_length_dict = {'res14':100, 'lap14':100, 'res15':100}
-n_iter_dict = {'res14':15, 'lap14':15, 'res15':15}
-kernel_size_dict = {'res14':3, 'lap14':3, 'res15':5}
-hop_num_dict = {'res14':4, 'lap14':3, 'res15':3}
+max_length_dict = {'res14':100, 'lap14':100, 'res15':100, "lap14_small":100, "norec": 150}
+n_iter_dict = {'res14':15, 'lap14':15, 'res15':15, 'lap14_small': 1, "norec": 15}
+kernel_size_dict = {'res14':3, 'lap14':3, 'res15':5, 'lap14_small':3, 'norec':3}
+hop_num_dict = {'res14':4, 'lap14':3, 'res15':3, 'lap14_small':3, 'norec':3}
 
 opt.max_sentence_len = max_length_dict[opt.task]
 opt.n_iter = n_iter_dict[opt.task]
 opt.kernel_size = kernel_size_dict[opt.task]
 opt.hop_num = hop_num_dict[opt.task]
 
-opt.warmup_iter = 10
-opt.emb_dim = 1024
+opt.warmup_iter = 0
+opt.emb_dim = 768
 
 opt.data_path = 'data/{}/'.format(opt.task)
 opt.train_path = 'data/{}/train/'.format(opt.task)
