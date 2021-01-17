@@ -361,7 +361,7 @@ if __name__ == "__main__":
     #experiment_names = set(name_map.keys())
     #experiments_run = set(os.listdir(args.preddir))
     #to_check = experiment_names.intersection(experiments_run)
-
+    ms = []
     for setup in args.experiments:
         metric = []
         metric.append("")
@@ -406,6 +406,19 @@ if __name__ == "__main__":
             f1 = tuple_F1(lgold, lpred)
             sub_metrics["LSF"].append(f1 * 100)
 
+        #######
+        def rank_vec(vec):
+            temp = vec.argsort()
+            ranks = np.empty_like(temp)
+            ranks[temp] = np.arange(len(vec))
+            return ranks
+        m = []
+        for sm in sub_metrics:
+            m.append(sub_metrics[sm])
+        print(setup)
+        print(np.round(np.corrcoef(m), 2))
+        ms.append(m)
+        #######
         for m in ["holder", "targ", "exp", "Targeted", "UF", "LF", "USF", "LSF"]:
             arr = np.array(sub_metrics[m])
             mean = arr.mean()
@@ -415,3 +428,15 @@ if __name__ == "__main__":
 
 
     print(tabulate(metrics, headers=headers, tablefmt="latex", floatfmt="0.1f"))
+    ########
+    #print(ms)
+    M = np.array(ms)
+    new_M = np.zeros((8, 35))
+    d1,d2,d3 = M.shape
+    for i in range(d1):
+        for j in range(d2):
+            for k in range(d3):
+                new_M[j, i*d3 + k] = M[i,j,k]
+    print(np.round(np.corrcoef(new_M), 2))
+    ######
+
