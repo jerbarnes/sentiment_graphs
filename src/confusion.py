@@ -11,6 +11,7 @@ def fscore(index, matrix):
     f = 2*p*r / (p+r)
     print(f"\ttp: {tp} fp: {fp} fn: {fn} fl: {fl}")
     print(f"\tp: {p:.2%}, r: {r:.2%}, f: {f:.2%}")
+    return tp, fp, fn, fl, p, r, f
 
 def confuse(gold_matrices, pred_matrices, i2w):
 
@@ -24,13 +25,14 @@ def confuse(gold_matrices, pred_matrices, i2w):
         for i in range(n):
             for j in range(n):
                 C[int(gl[i,j]), int(pl[i,j])] += 1
-    print(C)
+    # print(C)
 
-    for i in range(len(C)):
+    for i in range(4, len(C)):
         print(i2w[i])
         fscore(i,C)
         #for j in range(len(C)):
         #    print("\t", i2w[j], C[i,j])
+    return C
 
 if __name__ == "__main__":
     import col_data as cd
