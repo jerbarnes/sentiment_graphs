@@ -24,12 +24,13 @@ parser.add_argument('--reg_scale', default=1e-5, type=float, help='coefficient o
 parser.add_argument('--filter_num', default=512, type=int, help='filter numbers')
 parser.add_argument('--class_num', default=3, type=int, help='class number')
 parser.add_argument('--load', default=0, type=int, help='load an existing checkpoint')
+parser.add_argument('--update_bert', default=False)
 opt = parser.parse_args()
 
-max_length_dict = {'res14':100, 'lap14':100, 'res15':100, "lap14_small":100, "norec": 150}
-n_iter_dict = {'res14':15, 'lap14':15, 'res15':15, 'lap14_small': 1, "norec": 15}
-kernel_size_dict = {'res14':3, 'lap14':3, 'res15':5, 'lap14_small':3, 'norec':3}
-hop_num_dict = {'res14':4, 'lap14':3, 'res15':3, 'lap14_small':3, 'norec':3}
+max_length_dict = {'res14':100, 'lap14':100, 'res15':100, "lap14_small":100, "norec": 150, "ca": 150, "eu": 150, "mpqa":150, "ds_unis": 150}
+n_iter_dict = {'res14':15, 'lap14':15, 'res15':15, 'lap14_small': 1, "norec": 15, "ca": 15, "eu": 15, "mpqa":15, "ds_unis": 15}
+kernel_size_dict = {'res14':3, 'lap14':3, 'res15':5, 'lap14_small':3, 'norec':3, "ca": 150, "eu": 3, "mpqa":3, "ds_unis": 3}
+hop_num_dict = {'res14':4, 'lap14':3, 'res15':3, 'lap14_small':3, 'norec':3, "ca": 3, "eu":3, "mpqa":3, "ds_unis": 3}
 
 opt.max_sentence_len = max_length_dict[opt.task]
 opt.n_iter = n_iter_dict[opt.task]

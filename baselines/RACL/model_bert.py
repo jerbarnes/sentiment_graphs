@@ -19,6 +19,8 @@ class MODEL(object):
             self.opt = opt
             self.Winit = tf.random_uniform_initializer(minval=-0.01, maxval=0.01, seed=0.05)
 
+            self.update_bert = opt.update_bert
+
             info = ''
             for arg in vars(opt):
                 info += ('>>> {0}: {1}\n'.format(arg, getattr(opt, arg)))
@@ -210,18 +212,22 @@ class MODEL(object):
             bert_opt = bert_optimization.AdamWeightDecayOptimizer(learning_rate=bert_lr)
             mine_opt = tf.train.AdamOptimizer(mine_lr)
 
-            grads = tf.gradients(cost, bert_vars + mine_vars)
-            (grads, _) = tf.clip_by_global_norm(grads, clip_norm=1.0)
+            # To update all parameters
+            if self.update_bert:
+                grads = tf.gradients(cost, bert_vars + mine_vars)
+                bert_grads = grads[:199]
+                mine_grads = grads[199:]
+                bert_op = bert_opt.apply_gradients(zip(bert_grads, bert_vars))
+                mine_op = mine_opt.apply_gradients(zip(mine_grads, mine_vars), global_step=global_step)
+                optimizer = tf.group(bert_op, mine_op)
 
-            bert_grads = grads[:199]
-            mine_grads = grads[199:]
-
-            # mine_grads = tf.gradients(cost, mine_vars)
-
-            bert_op = bert_opt.apply_gradients(zip(bert_grads, bert_vars))
-            mine_op = mine_opt.apply_gradients(zip(mine_grads, mine_vars), global_step=global_step)
-
-            optimizer = tf.group(bert_op, mine_op)
+            # Update only non-BERT parameters
+            else:
+                grads = tf.gradients(cost,  mine_vars)
+                mine_grads = tf.gradients(cost, mine_vars)
+                (grads, _) = tf.clip_by_global_norm(grads, clip_norm=1.0)
+                mine_op = mine_opt.apply_gradients(zip(mine_grads, mine_vars), global_step=global_step)
+                optimizer = tf.group(mine_op)
 
         with tf.name_scope('predict'):
             true_ay = tf.reshape(aspect_label, [batch_size, self.opt.max_sentence_len, -1])
