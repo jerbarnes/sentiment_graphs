@@ -2,8 +2,6 @@ import argparse
 import col_data as cd
 from tabulate import tabulate
 import os
-import numpy as np
-from scipy import stats
 
 
 def get_flat(sent):
@@ -200,7 +198,10 @@ def tuple_precision(gold, pred, keep_polarity=True, weighted=True):
                         tp.append(1)
                 else:
                     fp.append(1)
-    return tp, fp, sum(tp) / (sum(tp) + sum(fp))
+    try:
+        return tp, fp, sum(tp) / (sum(tp) + sum(fp))
+    except ZeroDivisionError:
+        return tp, fp, 0
 
 def tuple_recall(gold, pred, keep_polarity=True, weighted=True):
     """
@@ -224,12 +225,18 @@ def tuple_recall(gold, pred, keep_polarity=True, weighted=True):
                     tp.append(1)
             else:
                 fn.append(1)
-    return tp, fn, sum(tp) / (sum(tp) + sum(fn))
+    try:
+        return tp, fn, sum(tp) / (sum(tp) + sum(fn))
+    except ZeroDivisionError:
+        return tp, fn, 0
 
 def tuple_F1(gold, pred, keep_polarity=True, weighted=True):
     tp, fp, prec = tuple_precision(gold, pred, keep_polarity, weighted)
     tp, fn, rec = tuple_recall(gold, pred, keep_polarity, weighted)
-    return 2 * (prec * rec) / (prec + rec)
+    try:
+        return 2 * (prec * rec) / (prec + rec), sum(tp), sum(fp), sum(fn)
+    except ZeroDivisionError:
+        return 0, sum(tp), sum(fp), sum(fn)
 
 def read_labeled(file):
     """
@@ -243,7 +250,7 @@ def read_labeled(file):
         if line.startswith("# sent_id"):
             sent_id = line.strip().split(" = ")[-1]
         if line.strip() == "" and sent_id is not None:
-            labeled_edges[sent_id] = sent_edges
+            labeled_edges[sent_id] = set(sent_edges)
             sent_edges = []
             sent_id = None
         if line[0].isdigit():
@@ -309,7 +316,10 @@ def precision(gold, pred):
                 tp += 1
             else:
                 fp += 1
-    return tp / (tp + fp)
+    try:
+        return tp / (tp + fp), tp, fp
+    except ZeroDivisionError:
+        return 0, tp, fp
 
 def recall(gold, pred):
     """
@@ -328,12 +338,25 @@ def recall(gold, pred):
                 tp += 1
             else:
                 fn += 1
-    return tp / (tp + fn)
+    try:
+        return tp / (tp + fn), tp, fn
+    except ZeroDivisionError:
+        return 0, tp, fn
 
-def F1(gold, pred):
-    prec = precision(gold, pred)
-    rec = recall(gold, pred)
-    return 2 * (prec * rec) / (prec + rec)
+def F1(gold, pred, debug=False):
+    prec, tpp, fp = precision(gold, pred)
+    rec, tpr, fn = recall(gold, pred)
+    if debug:
+        print(f"{prec:.2f}, {rec:.2f}", end=", ")
+        if prec != 0 or rec != 0:
+            print(f"{2 * (prec * rec) / (prec + rec):.2f}")
+        else:
+            print(0)
+        print(tpp, tpr, fp, fn)
+    try:
+        return 2 * (prec * rec) / (prec + rec)
+    except ZeroDivisionError:
+        return 0
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -362,84 +385,53 @@ if __name__ == "__main__":
     #experiment_names = set(name_map.keys())
     #experiments_run = set(os.listdir(args.preddir))
     #to_check = experiment_names.intersection(experiments_run)
-    ms = []
+
     for setup in args.experiments:
         metric = []
         metric.append("")
         metric.append(name_map[setup])
 
-        #goldfile = os.path.join(args.golddir, setup, "test.conllu")
-        #predfile = os.path.join(args.preddir, setup, "test.conllu.pred")
-        sub_metrics = {"holder": [], "targ": [], "exp": [], "Targeted": [], "UF": [], "LF": [], "USF": [], "LSF": []}
         goldfile = os.path.join(args.golddir, setup, "test.conllu")
+        predfile = os.path.join(args.preddir, setup, "test.conllu.pred")
+        #goldfile = os.path.join(args.golddir, setup, "dev.conllu")
+        #predfile = os.path.join(args.preddir, setup, "dev.conllu.pred")
+
         gold = list(cd.read_col_data(goldfile))
-        for i in [1, 2, 3, 4, 5]:
-            predfile = os.path.join(args.preddir, setup, str(i), "test.conllu.pred")
-            pred = list(cd.read_col_data(predfile))
-            for label in ["holder", "targ", "exp"]:
-                prec, rec, f1 = span_f1(gold, pred, mapping, test_label=label)
-                sub_metrics[label].append(f1 * 100)
+        pred = list(cd.read_col_data(predfile))
+        for label in ["holder", "targ", "exp"]:
+            prec, rec, f1 = span_f1(gold, pred, mapping, test_label=label)
+            metric.append(f1 * 100)
             #print("{0}: {1:.1f}".format(label, f1 * 100))
 
-            lgold = read_labeled(goldfile)
-            lpred = read_labeled(predfile)
+        lgold = read_labeled(goldfile)
+        lpred = read_labeled(predfile)
 
-            ugold = read_unlabeled(goldfile)
-            upred = read_unlabeled(predfile)
+        ugold = read_unlabeled(goldfile)
+        upred = read_unlabeled(predfile)
 
-            #print("Targeted F1")
-            f1 = targeted_f1(lgold, lpred)
-            sub_metrics["Targeted"].append(f1 * 100)
+        #print("Targeted F1")
+        f1 = targeted_f1(lgold, lpred)
+        metric.append(f1 * 100)
+        #print("F1: {0:.1f}".format(f1 * 100))
+        #print()
 
-            #print("Unlabeled")
-            f1 = F1(ugold, upred)
-            sub_metrics["UF"].append(f1 * 100)
+        #print("Unlabeled")
+        f1 = F1(ugold, upred)
+        metric.append(f1 * 100)
 
-            #print("Labeled")
-            f1 = F1(lgold, lpred)
-            sub_metrics["LF"].append(f1 * 100)
+        #print("Labeled")
+        f1 = F1(lgold, lpred)
+        metric.append(f1 * 100)
 
-            #print("Sentiment Tuple - Polarity ")
-            f1 = tuple_F1(lgold, lpred, False)
-            sub_metrics["USF"].append(f1 * 100)
+        #print("Sentiment Tuple - Polarity ")
+        f1, *_ = tuple_F1(lgold, lpred, False)
+        metric.append(f1 * 100)
 
-            #print("Sentiment Tuple + Polarity")
-            f1 = tuple_F1(lgold, lpred)
-            sub_metrics["LSF"].append(f1 * 100)
+        #print("Sentiment Tuple + Polarity")
+        f1, *_ = tuple_F1(lgold, lpred)
+        metric.append(f1 * 100)
 
-        #######
-        def rank_vec(vec):
-            temp = vec.argsort()
-            ranks = np.empty_like(temp)
-            ranks[temp] = np.arange(len(vec))
-            return ranks
-        m = []
-        for sm in sub_metrics:
-            m.append(sub_metrics[sm])
-        print(setup)
-        print(np.round(np.corrcoef(m), 2))
-        print(np.round(stats.spearmanr(m), 2))
-        ms.append(m)
-        #######
-        for m in ["holder", "targ", "exp", "Targeted", "UF", "LF", "USF", "LSF"]:
-            arr = np.array(sub_metrics[m])
-            mean = arr.mean()
-            sd = arr.std()
-            metric.append("{0:.1f} ({1:.1f})".format(mean, sd))
         metrics.append(metric)
 
 
     print(tabulate(metrics, headers=headers, tablefmt="latex", floatfmt="0.1f"))
-    ########
-    #print(ms)
-    M = np.array(ms)
-    new_M = np.zeros((8, 35))
-    d1,d2,d3 = M.shape
-    for i in range(d1):
-        for j in range(d2):
-            for k in range(d3):
-                new_M[j, i*d3 + k] = M[i,j,k]
-    print(np.round(np.corrcoef(new_M), 2))
-    print(np.round(stats.spearmanr(new_M), 2))
-    ######
-

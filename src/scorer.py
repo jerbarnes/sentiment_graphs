@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def score(gold_matrices, pred_matrices):
+def score(gold_matrices, pred_matrices, do_print=False, debug=False):
     tp, fp, tn, fn = 0, 0, 0, 0
     tp_ = 0
     em, em_ = 0, 0
@@ -33,8 +33,9 @@ def score(gold_matrices, pred_matrices):
                 elif not gm[i,j] and not pm[i,j]:
                     tn += 1
 
-    print(tp, fp, fn)
-    print(tp_, fp, fn)
+    if do_print:
+        print(tp, fp, fn)
+        print(tp_, fp, fn)
     results = {}
     p, r, f = 0, 0, 0
     try:
@@ -49,8 +50,9 @@ def score(gold_matrices, pred_matrices):
         f = 2 * p * r / (p + r)
     except ZeroDivisionError:
         pass
-    print("UP: {:.2%}\tUR: {:.2%}\tUF: {:.2%}".format(p, r, f))
-    print("UEM: {:.2%}".format(em / tot))
+    if do_print:
+        print("UP: {:.2%}\tUR: {:.2%}\tUF: {:.2%}".format(p, r, f))
+        print("UEM: {:.2%}".format(em / tot))
     results["UP"] = p
     results["UR"] = r
     results["UF"] = f
@@ -71,18 +73,23 @@ def score(gold_matrices, pred_matrices):
         f = 2 * p * r / (p + r)
     except ZeroDivisionError:
         pass
-    print("LP: {:.2%}\tLR: {:.2%}\tLF: {:.2%}".format(p, r, f))
+    if do_print:
+        print("LP: {:.2%}\tLR: {:.2%}\tLF: {:.2%}".format(p, r, f))
     try:
-        print("LEM: {:.2%}".format(em_ / tot))
+        if do_print:
+            print("LEM: {:.2%}".format(em_ / tot))
         results["LEM"] = em_ / tot
     except ZeroDivisionError:
-        print("LEM: {:.2%}".format(0))
+        if do_print:
+            print("LEM: {:.2%}".format(0))
         results["LEM"] = 0
     try:
-        print("LA: {:.2%}".format(tp_ / tp))
+        if do_print:
+            print("LA: {:.2%}".format(tp_ / tp))
         results["LA"] = tp_ / tp
     except ZeroDivisionError:
-        print("LA: {:.2%}".format(0))
+        if do_print:
+            print("LA: {:.2%}".format(0))
         results["LA"] = 0
     
     results["LP"] = p
@@ -90,4 +97,7 @@ def score(gold_matrices, pred_matrices):
     results["LF"] = f
     lf = f
     
+    if debug:
+        print(f"{p:.2f}, {r:.2f}, {f:.2f}")
+        print(tp, tp_, fp, fn)
     return lf, results
