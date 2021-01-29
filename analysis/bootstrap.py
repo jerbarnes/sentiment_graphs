@@ -14,6 +14,20 @@ from F1_scorer import (read_labeled,
                        )
 import time
 
+
+class color:
+    PURPLE = '\033[95m'
+    CYAN = '\033[96m'
+    DARKCYAN = '\033[36m'
+    BLUE = '\033[94m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    END = '\033[0m'
+
+
 mapping = {'exp-Negative': "exp",
            'exp-negative': "exp",
            'IN:exp-neutral': "exp",
@@ -353,19 +367,40 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
     if debug:
         print(f"the rest {time.time() - s}")
 
-    print(true_scores1)
-    print(true_scores2)
+    if debug:
+        print(true_scores1)
+        print(true_scores2)
 
-    print(s1 / b)
-    print(s2 / b)
+        print(s1 / b)
+        print(s2 / b)
+
+        print()
+    s1 = s1 / b
+    s2 = s2 / b
+    end = color.END
+
+    print(f"{color.BOLD}{color.BLUE}{setup1} || {color.RED}{setup2}{color.END}")
+    for i, n in enumerate("holder target expression targeted uf lf usf lsf".split()):
+        x = true_scores1[0][i]
+        y = true_scores2[0][i]
+        z = s1[i] if x > y else s2[i]
+        if z < 0.05 and x > y:
+            bold = color.BLUE
+        elif z < 0.05 and y > x:
+            bold = color.RED
+        else:
+            bold = color.END
+        print(f"{bold}{n:<13}: {x:.2%}\t{y:.2%}\t{z:.4f}{end}")
+
+    print()
 
 
 if __name__ == "__main__":
     import sys
-    b = 10e5
+    b = 10e7
     golddir = sys.argv[1]
     preddir = sys.argv[2]
     setup1 = sys.argv[3]
     setup2 = sys.argv[4]
 
-    main(b, golddir, preddir, setup1, setup2, debug=True)
+    main(b, golddir, preddir, setup1, setup2, debug=False)
