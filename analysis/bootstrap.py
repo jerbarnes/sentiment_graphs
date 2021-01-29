@@ -245,6 +245,8 @@ def read_data(golddir, preddir, setup):
             L.extend([tp, fn])
     return L, len(gold)
 
+# in case one would have tensors and you want to compute prf with the values
+# in the last dimension ... works but here : should work as well
 
 def prec(x, i, j):
     return np.divide(x[..., i], (x[..., i] + x[..., j] + 1e-6))
@@ -265,6 +267,8 @@ def compute_scores(scores, counts, p, r, x):
 
 def fill_scores(scores, evals, debug=False):
     eval_cnts = range(evals.shape[-1])
+
+    # terrible hardcoded for the 8 measures using 3/4 values to calculate F1
 
     l_i = 0
     l = -1
@@ -302,7 +306,7 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
     L1, n = read_data(golddir, preddir, setup1)
     L2, _ = read_data(golddir, preddir, setup2)
 
-    b = 100  # 10e5
+    # number of runs 
     r = 5
 
     n_features = int(len(L1) / r / n)
@@ -321,6 +325,8 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
         print(f"data as matrix {time.time() - s}")
         s = time.time()
 
+    # sample_ids samples b datasets of size n with indices ranging the five
+    # runs creating a sample out of all runs
     sample_ids = np.random.choice(n * r, n*b).reshape(b, n)
 
     # fill a zero matrix with how often each sentence was drawn in one sample
@@ -334,6 +340,8 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
         s = time.time()
 
     # get the counts for the sample
+    # Mx has the counts per sentence and samples chooses how often each sample
+    # is taken resulting in a matrix of b rows with sums of tp, fp, fn etc.
     evals1 = (np.einsum('ik,il->lk', M1, samples))
     evals2 = (np.einsum('ik,il->lk', M2, samples))
 
@@ -341,6 +349,7 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
         print(f"extract sample counts {time.time() - s}")
         s = time.time()
 
+    # compute the eval measures for each row/sample
     sample_scores1 = fill_scores(np.zeros((b, 8)), evals1, False)
     sample_scores2 = fill_scores(np.zeros((b, 8)), evals2, False)
 
@@ -348,9 +357,11 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
         print(f"compute scores {time.time() - s}")
         s = time.time()
 
+    # scores for the dataset across all runs
     true_scores1 = fill_scores(np.zeros((1, 8)), np.sum(M1, axis=0))
     true_scores2 = fill_scores(np.zeros((1, 8)), np.sum(M2, axis=0))
 
+    # bootstrap scores
     deltas = true_scores1 - true_scores2
     deltas *= 2
 
