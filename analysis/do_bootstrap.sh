@@ -2,7 +2,7 @@
 
 lang=norec;
 a=head_final-inside_label-dep_edges
-b=head_final
+b=head_final-inside_label
 python bootstrap.py ../data/sent_graphs/$lang/ ../experiments/$lang/ $a $b;
 
 lang=eu;

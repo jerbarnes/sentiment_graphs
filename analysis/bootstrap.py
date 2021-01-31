@@ -307,6 +307,7 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
     L2, _ = read_data(golddir, preddir, setup2)
 
     # number of runs
+    N = n
     b = int(b)
     r = 5
 
@@ -405,6 +406,14 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
         print(f"{bold}{n:<13}: {x:.2%}\t{y:.2%}\t{z:.4f}{end}")
 
     print()
+    if debug:
+        for r_i in [1, 2, 3, 4, 5]:
+            print(r_i)
+            # scores for the dataset across all runs (i-1)*int(n/5):int(n/5)*i
+            true_scores1 = fill_scores(np.zeros((1, 8)), np.sum(M1[(r_i-1)*int(N/r):int(N/r)*r_i, :], axis=0))
+            true_scores2 = fill_scores(np.zeros((1, 8)), np.sum(M2[(r_i-1)*int(N/r):int(N/r)*r_i, :], axis=0))
+            print(true_scores1)
+            print(true_scores2)
 
 
 if __name__ == "__main__":
