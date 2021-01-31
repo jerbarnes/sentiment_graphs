@@ -306,7 +306,8 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
     L1, n = read_data(golddir, preddir, setup1)
     L2, _ = read_data(golddir, preddir, setup2)
 
-    # number of runs 
+    # number of runs
+    b = int(b)
     r = 5
 
     n_features = int(len(L1) / r / n)
@@ -408,7 +409,7 @@ def main(b, golddir, preddir, setup1, setup2, debug=False):
 
 if __name__ == "__main__":
     import sys
-    b = 10e7
+    b = 10e5
     golddir = sys.argv[1]
     preddir = sys.argv[2]
     setup1 = sys.argv[3]
