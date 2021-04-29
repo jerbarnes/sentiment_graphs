@@ -410,7 +410,7 @@ def main(b, golddir, preddir, setup1, r_i1, setup2, r_i2, debug=False):
 
 if __name__ == "__main__":
     import sys
-    b = 10e5
+    b = 10e4
     golddir = sys.argv[1]
     preddir = sys.argv[2]
     setup1 = sys.argv[3]
