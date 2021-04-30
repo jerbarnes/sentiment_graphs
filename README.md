@@ -25,6 +25,8 @@ where $h$ is a \textbf {holder} who expresses a \textbf{polarity} $p$ towards a 
 
 ## Data collection and preprocessing
 
+We provide the preprocessed bilexical sentiment graph data as conllu files in 'data/sent_graphs'. If you want to run the experiments, you can use this data directly. If, however, you are interested in how we create the data, you can use the following steps.
+
 The first step is to download and preprocess the data, and then create the sentiment dependency graphs. The original data can be downloaded and converted to json files using the scripts found at https://github.com/jerbarnes/finegrained_data. After creating the json files for the finegrained datasets following the instructions, you can then place the directories (renamed to 'mpqa', 'ds_unis', 'norec_fine', 'eu', 'ca') in the 'data' directory.
 
 After that, you can use the available scripts to create the bilexical dependency graphs, as mentioned in the paper.
