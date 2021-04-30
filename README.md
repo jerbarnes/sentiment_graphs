@@ -4,6 +4,10 @@ This repository contains the code and datasets described in following paper: [Fi
 
 ## Problem description
 
+Fine-grained sentiment analysis can be theoretically cast as an information extraction problem in which one attempts to find all of the opinion tuples $O = O_i,\ldots,O_n$ in a text. Each opinion $O_i$ is a tuple $(h, t, e, p)$
+
+where $h$ is a \textbf {holder} who expresses a \textbf{polarity} $p$ towards a \textbf{target} $t$ through a \textbf{sentiment expression} $e$, implicitly defining the relationships between these elements.
+
 ![multilingual example](./figures/multi_sent_graph.png)
 
 ## Requirements
