@@ -2,14 +2,11 @@
 
 
 # BERT models
-#berts=( "bert-base-cased" "bert-base-multilingual-cased" "bert-base-multilingual-cased" "bert-base-multilingual-cased" );
 berts=( "bert-base-multilingual-cased" );
 
 # datasets
 datadir="data/sent_graphs"
-#datasets=( "ds_unis/head_final" "norec/head_final-inside_label" "ca/head_final" "eu/head_final" );
-datasets=( "norec/head_final-inside_label" );
-
+datasets=( "ds_unis/head_final" "norec/head_final" "ca/head_final" "eu/head_final" );
 
 for ((i=0;i<${#berts[@]};++i)); do
   model="${berts[i]}"
