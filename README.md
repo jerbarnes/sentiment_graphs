@@ -8,7 +8,15 @@ Fine-grained sentiment analysis can be theoretically cast as an information extr
 
 where $h$ is a \textbf {holder} who expresses a \textbf{polarity} $p$ towards a \textbf{target} $t$ through a \textbf{sentiment expression} $e$, implicitly defining the relationships between these elements.
 
+The two examples below (first in English, then in Basque) show the conception of *sentiment graphs*.
+
 ![multilingual example](./figures/multi_sent_graph.png)
+
+Rather than treating this as a sequence-labeling task, we can treat it as a bilexical dependency graph prediction task, although some decisions must me made. We create two versions *head-first* and *head-final*, shown below:
+
+![multilingual example](./figures/bilexical.png)
+
+
 
 ## Requirements
 
