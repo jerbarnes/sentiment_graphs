@@ -5,7 +5,7 @@ The main code is in src.
 
 
 
-# Requirements
+## Requirements
 
 1. python3
 2. pytorch
@@ -18,7 +18,7 @@ The main code is in src.
 9. tqdm
 
 
-# Data collection and preprocessing
+## Data collection and preprocessing
 
 The first step is to download and preprocess the data, and then create the sentiment dependency graphs. The original data can be downloaded and converted to json files using the scripts found at https://github.com/jerbarnes/finegrained_data. After creating the json files for the finegrained datasets following the instructions, you can then place the directories (renamed to 'mpqa', 'ds_unis', 'norec_fine', 'eu', 'ca') in the 'data' directory.
 
@@ -34,7 +34,7 @@ cd ..
 
 
 
-# Experimental results
+## Experimental results
 
 To reproduce the results, first you will need to download the word vectors used:
 
