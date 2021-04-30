@@ -1,6 +1,6 @@
 ## Fine-grained Sentiment Analysis as Dependency Graph Parsing
 
-This repository contains the code and datasets described in following paper: [Fine-grained Sentiment Analysis as Dependency Graph Parsing](https://arxiv.org/abs/2010.08318).
+This repository contains the code and datasets described in following paper: [Fine-grained Sentiment Analysis as Dependency Graph Parsing]().
 
 ## Problem description
 
