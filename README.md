@@ -1,9 +1,10 @@
-## Sentiment Graphs
-==============
+## Fine-grained Sentiment Analysis as Dependency Graph Parsing
 
-The main code is in src.
+This repository contains the code and datasets described in following paper: [Fine-grained Sentiment Analysis as Dependency Graph Parsing](https://arxiv.org/abs/2010.08318).
 
+## Problem description
 
+![multilingual example](./figures/multi_sent_graph.png)
 
 ## Requirements
 
