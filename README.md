@@ -14,7 +14,7 @@ The two examples below (first in English, then in Basque) show the conception of
 
 Rather than treating this as a sequence-labeling task, we can treat it as a bilexical dependency graph prediction task, although some decisions must me made. We create two versions *head-first* and *head-final*, shown below:
 
-![multilingual example](./figures/bilexical.png)
+![bilexical](./figures/bilexical.png)
 
 
 
