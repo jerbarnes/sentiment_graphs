@@ -12,7 +12,7 @@ The two examples below (first in English, then in Basque) show the conception of
 
 ![multilingual example](./figures/multi_sent_graph.png)
 
-Rather than treating this as a sequence-labeling task, we can treat it as a bilexical dependency graph prediction task, although some decisions must me made. We create two versions *head-first* and *head-final*, shown below:
+Rather than treating this as a sequence-labeling task, we can treat it as a bilexical dependency graph prediction task, although some decisions must me made. We create two versions (a) *head-first* and (b) *head-final*, shown below:
 
 ![bilexical](./figures/bilexical.png)
 
