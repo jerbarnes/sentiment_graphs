@@ -71,7 +71,7 @@ You will similarly need to extract mBERT token representations for all datasets.
 Finally, you can run the SLURM scripts to reproduce the experimental results.
 
 ```
-./scripts/run_SLURM_all_BERT.sh
-./scripts/run_SLURM_no_BERT.sh
+./scripts/run_base.sh
+./scripts/run_bert.sh
 ```
 
