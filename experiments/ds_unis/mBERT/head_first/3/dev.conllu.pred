@@ -1,0 +1,3769 @@
+# sent_id = Capella_University_40_05-24-2006-2
+# text = On an aside , this type of education is not for the undisciplined learner .
+1	On	on	ADP	IN	_	8	prep	_	_	_
+2	an	an	DET	DT	_	2	det	_	_	_
+3	aside	aside	NOUN	NN	_	0	pobj	_	_	_
+4	,	,	PUNCT	,	_	8	punct	_	_	_
+5	this	this	DET	DT	_	5	det	_	_	_
+6	type	type	NOUN	NN	_	8	nsubj	_	_	_
+7	of	of	ADP	IN	_	5	prep	_	_	_
+8	education	education	NOUN	NN	_	6	pobj	_	_	_
+9	is	be	AUX	VBZ	_	8	ROOT	_	_	_
+10	not	not	PART	RB	_	8	neg	_	_	_
+11	for	for	ADP	IN	_	8	prep	_	_	_
+12	the	the	DET	DT	_	13	det	_	_	_
+13	undisciplined	undisciplined	ADJ	JJ	_	13	amod	_	_	_
+14	learner	learner	NOUN	NN	_	10	pobj	_	_	_
+15	.	.	PUNCT	.	_	8	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_109_02-09-2006-1
+# text = I can say that studying in the University of Phoenix Online has been a great experience .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	can	can	VERB	MD	_	2	aux	_	_	_
+3	say	say	VERB	VB	_	2	ROOT	_	_	_
+4	that	that	SCONJ	IN	_	12	mark	_	_	_
+5	studying	study	VERB	VBG	_	12	csubj	_	_	_
+6	in	in	ADP	IN	_	4	prep	_	_	_
+7	the	the	DET	DT	_	7	det	_	_	_
+8	University	University	PROPN	NNP	_	10	nmod	_	_	15:targ
+9	of	of	ADP	IN	_	7	prep	_	_	8:targ
+10	Phoenix	Phoenix	PROPN	NNP	_	8	pobj	_	_	8:targ
+11	Online	Online	PROPN	NNP	_	5	pobj	_	_	_
+12	has	have	AUX	VBZ	_	12	aux	_	_	_
+13	been	be	AUX	VBN	_	2	ccomp	_	_	_
+14	a	a	DET	DT	_	15	det	_	_	_
+15	great	great	ADJ	JJ	_	15	amod	_	_	0:exp-positive
+16	experience	experience	NOUN	NN	_	12	attr	_	_	15:exp-neutral
+17	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_109_02-09-2006-2
+# text = The professor are very experienced and I have learned a lot .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	professor	professor	NOUN	NN	_	2	nsubj	_	_	4:targ
+3	are	be	AUX	VBP	_	2	ROOT	_	_	_
+4	very	very	ADV	RB	_	4	advmod	_	_	0:exp-positive
+5	experienced	experienced	ADJ	JJ	_	2	acomp	_	_	4:exp-positive
+6	and	and	CCONJ	CC	_	2	cc	_	_	_
+7	I	-PRON-	PRON	PRP	_	8	nsubj	_	_	_
+8	have	have	AUX	VBP	_	8	aux	_	_	_
+9	learned	learn	VERB	VBN	_	2	conj	_	_	_
+10	a	a	DET	DT	_	10	det	_	_	_
+11	lot	lot	NOUN	NN	_	8	dobj	_	_	_
+12	.	.	PUNCT	.	_	8	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_109_02-09-2006-3
+# text = I am two classes away to finish my Master's Degree .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	am	be	AUX	VBP	_	1	ROOT	_	_	_
+3	two	two	NUM	CD	_	3	nummod	_	_	_
+4	classes	class	NOUN	NNS	_	4	npadvmod	_	_	_
+5	away	away	ADV	RB	_	1	advmod	_	_	_
+6	to	to	PART	TO	_	6	aux	_	_	_
+7	finish	finish	VERB	VB	_	1	advcl	_	_	_
+8	my	-PRON-	DET	PRP$	_	9	poss	_	_	_
+9	Master's	Master's	PROPN	NNP	_	9	compound	_	_	_
+10	Degree	Degree	PROPN	NNP	_	6	dobj	_	_	_
+11	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_109_02-09-2006-4
+# text = Thanks !
+1	Thanks	thank	NOUN	NNS	_	0	ROOT	_	_	_
+2	!	!	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = DeVry_University_15_05-19-2008-1
+# text = Devry is great : http://www.iHateDevry.com
+1	Devry	Devry	PROPN	NNP	_	1	nsubj	_	_	3:targ
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	great	great	ADJ	JJ	_	1	acomp	_	_	0:exp-positive
+4	:	:	PUNCT	:	_	1	punct	_	_	_
+5	http://www.iHateDevry.com	http://www.ihatedevry.com	X	ADD	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_30_10-31-2004-1
+# text = This College was paid $2 million dollars by Household International , a predatory lender , to add a website that encourages debt among service members , and seems to disregard the Soldiers and Sailors Act which provides temporary relief to active duty service members .
+1	This	this	DET	DT	_	1	det	_	_	_
+2	College	College	PROPN	NNP	_	3	nsubjpass	_	_	_
+3	was	be	AUX	VBD	_	3	auxpass	_	_	_
+4	paid	pay	VERB	VBN	_	3	ROOT	_	_	_
+5	$2	$2	NUM	CD	_	5	compound	_	_	_
+6	million	million	NUM	CD	_	6	nummod	_	_	_
+7	dollars	dollar	NOUN	NNS	_	3	dobj	_	_	_
+8	by	by	ADP	IN	_	3	agent	_	_	_
+9	Household	Household	PROPN	NNP	_	9	compound	_	_	_
+10	International	International	PROPN	NNP	_	7	pobj	_	_	_
+11	,	,	PUNCT	,	_	9	punct	_	_	_
+12	a	a	DET	DT	_	13	det	_	_	_
+13	predatory	predatory	NOUN	NN	_	13	amod	_	_	_
+14	lender	lender	NOUN	NN	_	9	appos	_	_	_
+15	,	,	PUNCT	,	_	9	punct	_	_	_
+16	to	to	PART	TO	_	16	aux	_	_	_
+17	add	add	VERB	VB	_	3	advcl	_	_	_
+18	a	a	DET	DT	_	18	det	_	_	_
+19	website	website	NOUN	NN	_	16	dobj	_	_	_
+20	that	that	DET	WDT	_	20	nsubj	_	_	_
+21	encourages	encourage	VERB	VBZ	_	18	relcl	_	_	_
+22	debt	debt	NOUN	NN	_	20	dobj	_	_	_
+23	among	among	ADP	IN	_	20	prep	_	_	_
+24	service	service	NOUN	NN	_	24	compound	_	_	_
+25	members	member	NOUN	NNS	_	22	pobj	_	_	_
+26	,	,	PUNCT	,	_	3	punct	_	_	_
+27	and	and	CCONJ	CC	_	3	cc	_	_	_
+28	seems	seem	VERB	VBZ	_	3	conj	_	_	_
+29	to	to	PART	TO	_	29	aux	_	_	_
+30	disregard	disregard	VERB	VB	_	27	xcomp	_	_	_
+31	the	the	DET	DT	_	34	det	_	_	_
+32	Soldiers	Soldiers	PROPN	NNPS	_	34	nmod	_	_	_
+33	and	and	CCONJ	CC	_	31	cc	_	_	_
+34	Sailors	Sailors	PROPN	NNPS	_	31	conj	_	_	_
+35	Act	Act	PROPN	NNP	_	29	dobj	_	_	_
+36	which	which	DET	WDT	_	36	nsubj	_	_	_
+37	provides	provide	VERB	VBZ	_	34	relcl	_	_	_
+38	temporary	temporary	ADJ	JJ	_	38	amod	_	_	_
+39	relief	relief	NOUN	NN	_	36	dobj	_	_	_
+40	to	to	ADP	IN	_	36	prep	_	_	_
+41	active	active	ADJ	JJ	_	43	amod	_	_	_
+42	duty	duty	NOUN	NN	_	42	compound	_	_	_
+43	service	service	NOUN	NN	_	43	compound	_	_	_
+44	members	member	NOUN	NNS	_	39	pobj	_	_	_
+45	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_30_10-31-2004-2
+# text = Household's parent HSBC is linked to a bank owned by the former-regime of Saddam Hussein .
+1	Household's	Household's	PROPN	NNP	_	1	compound	_	_	_
+2	parent	parent	NOUN	NN	_	2	compound	_	_	_
+3	HSBC	HSBC	PROPN	NNP	_	4	nsubjpass	_	_	_
+4	is	be	AUX	VBZ	_	4	auxpass	_	_	_
+5	linked	link	VERB	VBN	_	4	ROOT	_	_	_
+6	to	to	ADP	IN	_	4	prep	_	_	_
+7	a	a	DET	DT	_	7	det	_	_	_
+8	bank	bank	NOUN	NN	_	5	pobj	_	_	_
+9	owned	own	VERB	VBN	_	7	acl	_	_	_
+10	by	by	ADP	IN	_	8	agent	_	_	_
+11	the	the	DET	DT	_	11	det	_	_	_
+12	former-regime	former-regime	NOUN	NN	_	9	pobj	_	_	_
+13	of	of	ADP	IN	_	11	prep	_	_	_
+14	Saddam	Saddam	PROPN	NNP	_	14	compound	_	_	_
+15	Hussein	Hussein	PROPN	NNP	_	12	pobj	_	_	_
+16	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_30_10-31-2004-3
+# text = The bank relationship is being investigated for money laundering .
+1	The	the	DET	DT	_	2	det	_	_	_
+2	bank	bank	NOUN	NN	_	2	compound	_	_	_
+3	relationship	relationship	NOUN	NN	_	5	nsubjpass	_	_	_
+4	is	be	AUX	VBZ	_	5	aux	_	_	_
+5	being	be	AUX	VBG	_	5	auxpass	_	_	_
+6	investigated	investigate	VERB	VBN	_	5	ROOT	_	_	_
+7	for	for	ADP	IN	_	5	prep	_	_	_
+8	money	money	NOUN	NN	_	8	compound	_	_	_
+9	laundering	laundering	NOUN	NN	_	6	pobj	_	_	_
+10	.	.	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_30_10-31-2004-4
+# text = UMUC seems to have disregarded this information , took the $2 million , and turned the other way .
+1	UMUC	UMUC	PROPN	NNP	_	1	nsubj	_	_	_
+2	seems	seem	VERB	VBZ	_	1	ROOT	_	_	_
+3	to	to	PART	TO	_	4	aux	_	_	_
+4	have	have	AUX	VB	_	4	aux	_	_	_
+5	disregarded	disregard	VERB	VBN	_	1	xcomp	_	_	_
+6	this	this	DET	DT	_	6	det	_	_	_
+7	information	information	NOUN	NN	_	4	dobj	_	_	_
+8	,	,	PUNCT	,	_	4	punct	_	_	_
+9	took	take	VERB	VBD	_	1	conj	_	_	_
+10	the	the	DET	DT	_	11	det	_	_	_
+11	$2	$2	PROPN	NNP	_	11	compound	_	_	_
+12	million	million	NUM	CD	_	8	dobj	_	_	_
+13	,	,	PUNCT	,	_	8	punct	_	_	_
+14	and	and	CCONJ	CC	_	8	cc	_	_	_
+15	turned	turn	VERB	VBD	_	8	conj	_	_	_
+16	the	the	DET	DT	_	17	det	_	_	_
+17	other	other	ADJ	JJ	_	17	amod	_	_	_
+18	way	way	NOUN	NN	_	14	npadvmod	_	_	_
+19	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_30_10-31-2004-5
+# text = It is unconscionable that UMUC is supposed to provide higher education to military personnel and , at the same time , is in partnership with a predatory lender that often mishandles payments , records , and disregards the law .
+1	It	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	unconscionable	unconscionable	ADJ	JJ	_	1	acomp	_	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_	_
+5	UMUC	UMUC	PROPN	NNP	_	6	nsubjpass	_	_	3:targ
+6	is	be	AUX	VBZ	_	6	auxpass	_	_	_
+7	supposed	suppose	VERB	VBN	_	1	ccomp	_	_	_
+8	to	to	PART	TO	_	8	aux	_	_	_
+9	provide	provide	VERB	VB	_	6	xcomp	_	_	_
+10	higher	high	ADJ	JJR	_	10	amod	_	_	_
+11	education	education	NOUN	NN	_	8	dobj	_	_	_
+12	to	to	ADP	IN	_	8	dative	_	_	_
+13	military	military	ADJ	JJ	_	13	amod	_	_	_
+14	personnel	personnel	NOUN	NNS	_	11	pobj	_	_	_
+15	and	and	CCONJ	CC	_	6	cc	_	_	_
+16	,	,	PUNCT	,	_	6	punct	_	_	_
+17	at	at	ADP	IN	_	21	prep	_	_	_
+18	the	the	DET	DT	_	19	det	_	_	_
+19	same	same	ADJ	JJ	_	19	amod	_	_	_
+20	time	time	NOUN	NN	_	16	pobj	_	_	_
+21	,	,	PUNCT	,	_	21	punct	_	_	_
+22	is	be	AUX	VBZ	_	6	conj	_	_	_
+23	in	in	ADP	IN	_	21	prep	_	_	_
+24	partnership	partnership	NOUN	NN	_	22	pobj	_	_	_
+25	with	with	ADP	IN	_	23	prep	_	_	_
+26	a	a	DET	DT	_	27	det	_	_	_
+27	predatory	predatory	NOUN	NN	_	27	amod	_	_	_
+28	lender	lender	NOUN	NN	_	24	pobj	_	_	_
+29	that	that	DET	WDT	_	30	nsubj	_	_	_
+30	often	often	ADV	RB	_	30	advmod	_	_	_
+31	mishandles	mishandle	VERB	VBZ	_	27	relcl	_	_	_
+32	payments	payment	NOUN	NNS	_	30	dobj	_	_	_
+33	,	,	PUNCT	,	_	31	punct	_	_	_
+34	records	record	NOUN	NNS	_	31	conj	_	_	_
+35	,	,	PUNCT	,	_	33	punct	_	_	_
+36	and	and	CCONJ	CC	_	33	cc	_	_	_
+37	disregards	disregard	VERB	VBZ	_	33	conj	_	_	_
+38	the	the	DET	DT	_	38	det	_	_	_
+39	law	law	NOUN	NN	_	36	dobj	_	_	_
+40	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_30_10-31-2004-6
+# text = UMUC should be blacklisted from US installations and banned from taxayer contracts handed out by the Department of Defense and the US Army , until it ceases its relationship with Household International .
+1	UMUC	UMUC	PROPN	NNP	_	3	nsubjpass	_	_	2:targ
+2	should	should	VERB	MD	_	3	aux	_	_	0:exp-negative
+3	be	be	AUX	VB	_	3	auxpass	_	_	2:exp-negative
+4	blacklisted	blacklist	VERB	VBN	_	3	ROOT	_	_	2:exp-negative
+5	from	from	ADP	IN	_	3	prep	_	_	_
+6	US	US	PROPN	NNP	_	6	compound	_	_	_
+7	installations	installation	NOUN	NNS	_	4	pobj	_	_	_
+8	and	and	CCONJ	CC	_	3	cc	_	_	_
+9	banned	ban	VERB	VBN	_	3	conj	_	_	_
+10	from	from	ADP	IN	_	8	prep	_	_	_
+11	taxayer	taxayer	PROPN	NNP	_	11	compound	_	_	_
+12	contracts	contract	NOUN	NNS	_	9	pobj	_	_	_
+13	handed	hand	VERB	VBN	_	11	acl	_	_	_
+14	out	out	ADP	RP	_	12	prt	_	_	_
+15	by	by	ADP	IN	_	12	agent	_	_	_
+16	the	the	DET	DT	_	16	det	_	_	_
+17	Department	Department	PROPN	NNP	_	14	pobj	_	_	_
+18	of	of	ADP	IN	_	16	prep	_	_	_
+19	Defense	Defense	PROPN	NNP	_	17	pobj	_	_	_
+20	and	and	CCONJ	CC	_	16	cc	_	_	_
+21	the	the	DET	DT	_	22	det	_	_	_
+22	US	US	PROPN	NNP	_	22	compound	_	_	_
+23	Army	Army	PROPN	NNP	_	16	conj	_	_	_
+24	,	,	PUNCT	,	_	8	punct	_	_	_
+25	until	until	ADP	IN	_	26	mark	_	_	_
+26	it	-PRON-	PRON	PRP	_	26	nsubj	_	_	_
+27	ceases	cease	VERB	VBZ	_	8	advcl	_	_	_
+28	its	-PRON-	DET	PRP$	_	28	poss	_	_	_
+29	relationship	relationship	NOUN	NN	_	26	dobj	_	_	_
+30	with	with	ADP	IN	_	28	prep	_	_	_
+31	Household	Household	PROPN	NNP	_	31	compound	_	_	_
+32	International	International	PROPN	NNP	_	29	pobj	_	_	_
+33	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_30_10-31-2004-7
+# text = It looks again like UMUC will do anything for money , even profiteering off soldiers serving in Iraq and Afghanistan .
+1	It	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	looks	look	VERB	VBZ	_	1	ROOT	_	_	_
+3	again	again	ADV	RB	_	1	advmod	_	_	_
+4	like	like	SCONJ	IN	_	6	mark	_	_	_
+5	UMUC	UMUC	PROPN	NNP	_	6	nsubj	_	_	_
+6	will	will	VERB	MD	_	6	aux	_	_	_
+7	do	do	AUX	VB	_	1	advcl	_	_	_
+8	anything	anything	PRON	NN	_	6	dobj	_	_	_
+9	for	for	ADP	IN	_	6	prep	_	_	_
+10	money	money	NOUN	NN	_	8	pobj	_	_	_
+11	,	,	PUNCT	,	_	6	punct	_	_	_
+12	even	even	ADV	RB	_	12	advmod	_	_	_
+13	profiteering	profiteer	VERB	VBG	_	6	advcl	_	_	_
+14	off	off	ADP	RP	_	12	prt	_	_	_
+15	soldiers	soldier	NOUN	NNS	_	12	dobj	_	_	_
+16	serving	serve	VERB	VBG	_	14	acl	_	_	_
+17	in	in	ADP	IN	_	15	prep	_	_	_
+18	Iraq	Iraq	PROPN	NNP	_	16	pobj	_	_	_
+19	and	and	CCONJ	CC	_	17	cc	_	_	_
+20	Afghanistan	Afghanistan	PROPN	NNP	_	17	conj	_	_	_
+21	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Capella_University_50_12-09-2005-1
+# text = I have just finished my course work for a PhD in Education .
+1	I	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+2	have	have	AUX	VBP	_	3	aux	_	_	_
+3	just	just	ADV	RB	_	3	advmod	_	_	_
+4	finished	finish	VERB	VBN	_	3	ROOT	_	_	_
+5	my	-PRON-	DET	PRP$	_	5	poss	_	_	_
+6	course	course	NOUN	NN	_	6	nsubj	_	_	_
+7	work	work	NOUN	NN	_	3	ccomp	_	_	_
+8	for	for	ADP	IN	_	6	prep	_	_	_
+9	a	a	DET	DT	_	9	det	_	_	_
+10	PhD	phd	NOUN	NN	_	7	pobj	_	_	_
+11	in	in	ADP	IN	_	9	prep	_	_	_
+12	Education	Education	PROPN	NNP	_	10	pobj	_	_	_
+13	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = Capella_University_50_12-09-2005-2
+# text = I have two undergraduate degrees and a masters degree from traditional universities .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	have	have	AUX	VBP	_	1	ROOT	_	_	_
+3	two	two	NUM	CD	_	4	nummod	_	_	_
+4	undergraduate	undergraduate	ADJ	JJ	_	4	amod	_	_	_
+5	degrees	degree	NOUN	NNS	_	1	dobj	_	_	_
+6	and	and	CCONJ	CC	_	4	cc	_	_	_
+7	a	a	DET	DT	_	8	det	_	_	_
+8	masters	master	NOUN	NNS	_	8	compound	_	_	_
+9	degree	degree	NOUN	NN	_	4	conj	_	_	_
+10	from	from	ADP	IN	_	8	prep	_	_	_
+11	traditional	traditional	ADJ	JJ	_	11	amod	_	_	_
+12	universities	university	NOUN	NNS	_	9	pobj	_	_	_
+13	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Capella_University_50_12-09-2005-3
+# text = I have found the course work and research more challenging and of higher quality at Capella than at any of the other institutions I graduated from .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	have	have	AUX	VBP	_	2	aux	_	_	_
+3	found	find	VERB	VBN	_	2	ROOT	_	_	_
+4	the	the	DET	DT	_	4	det	_	_	_
+5	course	course	NOUN	NN	_	5	nsubj	_	_	9:targ
+6	work	work	NOUN	NN	_	2	dobj	_	_	_
+7	and	and	CCONJ	CC	_	5	cc	_	_	_
+8	research	research	VERB	VB	_	9	nsubj	_	_	13:targ
+9	more	more	ADJ	JJR	_	9	advmod	_	_	0:exp-neutral
+10	challenging	challenging	NOUN	NN	_	5	conj	_	_	9:exp-positive
+11	and	and	CCONJ	CC	_	9	cc	_	_	_
+12	of	of	ADP	IN	_	5	prep	_	_	_
+13	higher	high	ADJ	JJR	_	13	amod	_	_	0:exp-positive
+14	quality	quality	NOUN	NN	_	11	pobj	_	_	13:exp-positive
+15	at	at	ADP	IN	_	13	prep	_	_	_
+16	Capella	Capella	PROPN	NNP	_	14	pobj	_	_	_
+17	than	than	SCONJ	IN	_	2	prep	_	_	_
+18	at	at	ADP	IN	_	16	prep	_	_	_
+19	any	any	DET	DT	_	17	pobj	_	_	_
+20	of	of	ADP	IN	_	18	prep	_	_	_
+21	the	the	DET	DT	_	22	det	_	_	_
+22	other	other	ADJ	JJ	_	22	amod	_	_	_
+23	institutions	institution	NOUN	NNS	_	19	pobj	_	_	_
+24	I	-PRON-	PRON	PRP	_	24	nsubj	_	_	_
+25	graduated	graduate	VERB	VBD	_	22	relcl	_	_	_
+26	from	from	ADP	IN	_	24	prep	_	_	_
+27	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_50_12-09-2005-4
+# text = No institution is perfect , they are run by people , and people are not perfect .
+1	No	no	DET	DT	_	1	det	_	_	_
+2	institution	institution	NOUN	NN	_	2	nsubj	_	_	_
+3	is	be	AUX	VBZ	_	7	ccomp	_	_	_
+4	perfect	perfect	ADJ	JJ	_	2	acomp	_	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_	_
+6	they	-PRON-	PRON	PRP	_	7	nsubjpass	_	_	_
+7	are	be	AUX	VBP	_	7	auxpass	_	_	_
+8	run	run	VERB	VBN	_	7	ROOT	_	_	_
+9	by	by	ADP	IN	_	7	agent	_	_	_
+10	people	people	NOUN	NNS	_	8	pobj	_	_	_
+11	,	,	PUNCT	,	_	7	punct	_	_	_
+12	and	and	CCONJ	CC	_	7	cc	_	_	_
+13	people	people	NOUN	NNS	_	13	nsubj	_	_	_
+14	are	be	AUX	VBP	_	7	conj	_	_	_
+15	not	not	PART	RB	_	13	neg	_	_	0:exp-negative
+16	perfect	perfect	ADJ	JJ	_	13	acomp	_	_	15:exp-negative
+17	.	.	PUNCT	.	_	13	punct	_	_	_
+
+# sent_id = Capella_University_50_12-09-2005-6
+# text = I reccomend Capella to any highly motivated person who wants educational and personal advancement .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	reccomend	reccomend	VERB	VBP	_	1	ROOT	_	_	_
+3	Capella	Capella	PROPN	NNP	_	1	dobj	_	_	2:targ
+4	to	to	ADP	IN	_	1	prep	_	_	_
+5	any	any	DET	DT	_	7	det	_	_	_
+6	highly	highly	ADV	RB	_	6	advmod	_	_	_
+7	motivated	motivated	ADJ	JJ	_	7	amod	_	_	_
+8	person	person	NOUN	NN	_	3	pobj	_	_	_
+9	who	who	PRON	WP	_	9	nsubj	_	_	_
+10	wants	want	VERB	VBZ	_	7	relcl	_	_	_
+11	educational	educational	ADJ	JJ	_	13	amod	_	_	_
+12	and	and	CCONJ	CC	_	10	cc	_	_	_
+13	personal	personal	ADJ	JJ	_	10	conj	_	_	_
+14	advancement	advancement	NOUN	NN	_	9	dobj	_	_	_
+15	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-1
+# text = UOP makes the statement work at your own pace on your own time .
+1	UOP	UOP	PROPN	NNP	_	1	nsubj	_	_	_
+2	makes	make	VERB	VBZ	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	3	det	_	_	_
+4	statement	statement	NOUN	NN	_	4	nsubj	_	_	_
+5	work	work	NOUN	NN	_	1	ccomp	_	_	_
+6	at	at	ADP	IN	_	4	prep	_	_	_
+7	your	-PRON-	DET	PRP$	_	8	poss	_	_	_
+8	own	own	ADJ	JJ	_	8	amod	_	_	_
+9	pace	pace	NOUN	NN	_	5	pobj	_	_	_
+10	on	on	ADP	IN	_	4	prep	_	_	_
+11	your	-PRON-	DET	PRP$	_	12	poss	_	_	_
+12	own	own	ADJ	JJ	_	12	amod	_	_	_
+13	time	time	NOUN	NN	_	9	pobj	_	_	_
+14	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-2
+# text = This is the biggest joke .
+1	This	this	DET	DT	_	1	nsubj	_	_	4:targ
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	4	det	_	_	_
+4	biggest	big	ADJ	JJS	_	4	amod	_	_	0:exp-negative
+5	joke	joke	NOUN	NN	_	1	attr	_	_	4:exp-negative
+6	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-3
+# text = I am in my 3rd class of Masters in Special Education .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	am	be	AUX	VBP	_	1	ROOT	_	_	_
+3	in	in	ADP	IN	_	1	prep	_	_	_
+4	my	-PRON-	DET	PRP$	_	5	poss	_	_	_
+5	3rd	3rd	ADJ	JJ	_	5	amod	_	_	_
+6	class	class	NOUN	NN	_	2	pobj	_	_	_
+7	of	of	ADP	IN	_	5	prep	_	_	_
+8	Masters	Masters	PROPN	NNPS	_	6	pobj	_	_	_
+9	in	in	ADP	IN	_	5	prep	_	_	_
+10	Special	Special	PROPN	NNP	_	10	compound	_	_	_
+11	Education	Education	PROPN	NNP	_	8	pobj	_	_	_
+12	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-4
+# text = There has been nothing but problems with the Learning Team garbage .
+1	There	there	PRON	EX	_	2	expl	_	_	_
+2	has	have	AUX	VBZ	_	2	aux	_	_	_
+3	been	be	AUX	VBN	_	2	ROOT	_	_	_
+4	nothing	nothing	PRON	NN	_	2	attr	_	_	0:exp-negative
+5	but	but	SCONJ	IN	_	3	prep	_	_	4:exp-negative
+6	problems	problem	NOUN	NNS	_	4	pobj	_	_	4:exp-negative
+7	with	with	ADP	IN	_	5	prep	_	_	_
+8	the	the	DET	DT	_	10	det	_	_	_
+9	Learning	Learning	PROPN	NNP	_	9	compound	_	_	4:targ
+10	Team	Team	PROPN	NNP	_	10	compound	_	_	9:targ
+11	garbage	garbage	NOUN	NN	_	6	pobj	_	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-5
+# text = I do not procrastinate and want my work done ASAP but when working in these groups you have to constantly leave messages for people .
+1	I	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+2	do	do	AUX	VBP	_	3	aux	_	_	_
+3	not	not	PART	RB	_	3	neg	_	_	_
+4	procrastinate	procrastinate	VERB	VB	_	3	ROOT	_	_	_
+5	and	and	CCONJ	CC	_	3	cc	_	_	_
+6	want	want	VERB	VB	_	3	conj	_	_	_
+7	my	-PRON-	DET	PRP$	_	7	poss	_	_	_
+8	work	work	NOUN	NN	_	8	nsubj	_	_	_
+9	done	do	VERB	VBN	_	5	ccomp	_	_	_
+10	ASAP	ASAP	PROPN	NNP	_	8	dobj	_	_	_
+11	but	but	CCONJ	CC	_	8	cc	_	_	_
+12	when	when	ADV	WRB	_	12	advmod	_	_	_
+13	working	work	VERB	VBG	_	17	advcl	_	_	_
+14	in	in	ADP	IN	_	12	prep	_	_	_
+15	these	these	DET	DT	_	15	det	_	_	_
+16	groups	group	NOUN	NNS	_	13	pobj	_	_	_
+17	you	-PRON-	PRON	PRP	_	17	nsubj	_	_	_
+18	have	have	AUX	VBP	_	8	conj	_	_	_
+19	to	to	PART	TO	_	20	aux	_	_	_
+20	constantly	constantly	ADV	RB	_	20	advmod	_	_	_
+21	leave	leave	VERB	VB	_	17	xcomp	_	_	_
+22	messages	message	NOUN	NNS	_	20	dobj	_	_	_
+23	for	for	ADP	IN	_	20	prep	_	_	_
+24	people	people	NOUN	NNS	_	22	pobj	_	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-7
+# text = I wrote the 2nd and 3rd paper myself and sent it .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	wrote	write	VERB	VBD	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	6	det	_	_	_
+4	2nd	2nd	ADJ	JJ	_	6	amod	_	_	_
+5	and	and	CCONJ	CC	_	3	cc	_	_	_
+6	3rd	3rd	ADJ	JJ	_	3	conj	_	_	_
+7	paper	paper	NOUN	NN	_	1	dobj	_	_	_
+8	myself	-PRON-	PRON	PRP	_	1	npadvmod	_	_	_
+9	and	and	CCONJ	CC	_	1	cc	_	_	_
+10	sent	send	VERB	VBD	_	1	conj	_	_	_
+11	it	-PRON-	PRON	PRP	_	9	dobj	_	_	_
+12	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-9
+# text = Nothing .
+1	Nothing	nothing	PRON	NN	_	0	ROOT	_	_	_
+2	.	.	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-10
+# text = I was told by a counselor that if the people in the TEAM do not contribute then you are responsible for finishing the paper without the other TEAM members names on it .
+1	I	-PRON-	PRON	PRP	_	2	nsubjpass	_	_	_
+2	was	be	AUX	VBD	_	2	auxpass	_	_	_
+3	told	tell	VERB	VBN	_	2	ROOT	_	_	_
+4	by	by	ADP	IN	_	2	agent	_	_	_
+5	a	a	DET	DT	_	5	det	_	_	_
+6	counselor	counselor	NOUN	NN	_	3	pobj	_	_	_
+7	that	that	SCONJ	IN	_	18	mark	_	_	_
+8	if	if	SCONJ	IN	_	15	mark	_	_	_
+9	the	the	DET	DT	_	9	det	_	_	_
+10	people	people	NOUN	NNS	_	15	nsubj	_	_	_
+11	in	in	ADP	IN	_	9	prep	_	_	_
+12	the	the	DET	DT	_	12	det	_	_	_
+13	TEAM	TEAM	NOUN	NNS	_	10	pobj	_	_	_
+14	do	do	AUX	VBP	_	15	aux	_	_	_
+15	not	not	PART	RB	_	15	neg	_	_	_
+16	contribute	contribute	VERB	VB	_	18	advcl	_	_	_
+17	then	then	ADV	RB	_	18	advmod	_	_	_
+18	you	-PRON-	PRON	PRP	_	18	nsubj	_	_	_
+19	are	be	AUX	VBP	_	2	ccomp	_	_	_
+20	responsible	responsible	ADJ	JJ	_	18	acomp	_	_	_
+21	for	for	ADP	IN	_	19	prep	_	_	_
+22	finishing	finish	VERB	VBG	_	20	pcomp	_	_	_
+23	the	the	DET	DT	_	23	det	_	_	_
+24	paper	paper	NOUN	NN	_	21	dobj	_	_	_
+25	without	without	ADP	IN	_	21	prep	_	_	_
+26	the	the	DET	DT	_	29	det	_	_	_
+27	other	other	ADJ	JJ	_	29	amod	_	_	_
+28	TEAM	TEAM	PROPN	NNP	_	28	compound	_	_	_
+29	members	member	NOUN	NNS	_	29	compound	_	_	_
+30	names	name	NOUN	NNS	_	24	pobj	_	_	_
+31	on	on	ADP	IN	_	29	prep	_	_	_
+32	it	-PRON-	PRON	PRP	_	30	pobj	_	_	_
+33	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-12
+# text = I did not apply to UOP to do group work ALL THE TIME .
+1	I	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+2	did	do	AUX	VBD	_	3	aux	_	_	_
+3	not	not	PART	RB	_	3	neg	_	_	_
+4	apply	apply	VERB	VB	_	3	ROOT	_	_	_
+5	to	to	ADP	IN	_	3	prep	_	_	_
+6	UOP	UOP	PROPN	NNP	_	4	pobj	_	_	_
+7	to	to	PART	TO	_	7	aux	_	_	_
+8	do	do	AUX	VB	_	3	advcl	_	_	_
+9	group	group	NOUN	NN	_	9	compound	_	_	_
+10	work	work	VERB	VB	_	7	dobj	_	_	_
+11	ALL	all	DET	PDT	_	12	predet	_	_	_
+12	THE	the	DET	DT	_	12	det	_	_	_
+13	TIME	time	NOUN	NN	_	12	ROOT	_	_	_
+14	.	.	PUNCT	.	_	12	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-13
+# text = This is a masters degree program and every student should stand on their own two feet and get the work done .
+1	This	this	DET	DT	_	1	nsubj	_	_	_
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	a	a	DET	DT	_	5	det	_	_	_
+4	masters	master	NOUN	NNS	_	4	compound	_	_	_
+5	degree	degree	NOUN	NN	_	5	compound	_	_	_
+6	program	program	NOUN	NN	_	1	attr	_	_	_
+7	and	and	CCONJ	CC	_	1	cc	_	_	_
+8	every	every	DET	DT	_	8	det	_	_	_
+9	student	student	NOUN	NN	_	10	nsubj	_	_	_
+10	should	should	VERB	MD	_	10	aux	_	_	_
+11	stand	stand	VERB	VB	_	1	conj	_	_	_
+12	on	on	ADP	IN	_	10	prep	_	_	_
+13	their	-PRON-	DET	PRP$	_	15	poss	_	_	_
+14	own	own	ADJ	JJ	_	15	amod	_	_	_
+15	two	two	NUM	CD	_	15	nummod	_	_	_
+16	feet	foot	NOUN	NNS	_	11	pobj	_	_	_
+17	and	and	CCONJ	CC	_	10	cc	_	_	_
+18	get	get	AUX	VB	_	10	conj	_	_	_
+19	the	the	DET	DT	_	19	det	_	_	_
+20	work	work	NOUN	NN	_	20	nsubj	_	_	_
+21	done	do	VERB	VBN	_	17	ccomp	_	_	_
+22	.	.	PUNCT	.	_	10	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-14
+# text = It is not fair that some people put in hours upon hours while others slide .
+1	It	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	not	not	PART	RB	_	1	neg	_	_	_
+4	fair	fair	ADJ	JJ	_	1	acomp	_	_	_
+5	that	that	SCONJ	IN	_	7	mark	_	_	_
+6	some	some	DET	DT	_	6	det	_	_	_
+7	people	people	NOUN	NNS	_	7	nsubj	_	_	_
+8	put	put	VERB	VBP	_	1	ccomp	_	_	_
+9	in	in	ADP	RP	_	7	prep	_	_	_
+10	hours	hour	NOUN	NNS	_	8	pobj	_	_	_
+11	upon	upon	SCONJ	IN	_	7	prep	_	_	_
+12	hours	hour	NOUN	NNS	_	10	pobj	_	_	_
+13	while	while	SCONJ	IN	_	14	mark	_	_	_
+14	others	other	NOUN	NNS	_	14	nsubj	_	_	_
+15	slide	slide	VERB	VBP	_	7	advcl	_	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-15
+# text = I am tired of waiting for people to submit work and wait until the day it is due .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	am	be	AUX	VBP	_	1	ROOT	_	_	_
+3	tired	tired	ADJ	JJ	_	1	acomp	_	_	_
+4	of	of	ADP	IN	_	2	prep	_	_	_
+5	waiting	wait	VERB	VBG	_	3	pcomp	_	_	_
+6	for	for	ADP	IN	_	8	mark	_	_	_
+7	people	people	NOUN	NNS	_	8	nsubj	_	_	_
+8	to	to	PART	TO	_	8	aux	_	_	_
+9	submit	submit	VERB	VB	_	4	advcl	_	_	_
+10	work	work	NOUN	NN	_	8	dobj	_	_	_
+11	and	and	CCONJ	CC	_	8	cc	_	_	_
+12	wait	wait	VERB	VB	_	8	conj	_	_	_
+13	until	until	ADP	IN	_	11	prep	_	_	_
+14	the	the	DET	DT	_	14	det	_	_	_
+15	day	day	NOUN	NN	_	12	pobj	_	_	_
+16	it	-PRON-	PRON	PRP	_	16	nsubj	_	_	_
+17	is	be	AUX	VBZ	_	14	relcl	_	_	_
+18	due	due	ADJ	JJ	_	16	acomp	_	_	_
+19	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-16
+# text = All I can say is that if you do not want to do TEAM work and stay up late just to get papers done because of other team members then this is not a program for you .
+1	All	all	DET	DT	_	4	nsubj	_	_	_
+2	I	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+3	can	can	VERB	MD	_	3	aux	_	_	_
+4	say	say	VERB	VB	_	0	relcl	_	_	_
+5	is	be	AUX	VBZ	_	4	ROOT	_	_	_
+6	that	that	SCONJ	IN	_	4	attr	_	_	_
+7	if	if	SCONJ	IN	_	10	mark	_	_	_
+8	you	-PRON-	PRON	PRP	_	10	nsubj	_	_	_
+9	do	do	AUX	VBP	_	10	aux	_	_	_
+10	not	not	PART	RB	_	10	neg	_	_	_
+11	want	want	VERB	VB	_	5	intj	_	_	_
+12	to	to	PART	TO	_	12	aux	_	_	_
+13	do	do	AUX	VB	_	10	xcomp	_	_	_
+14	TEAM	TEAM	PROPN	NNP	_	14	amod	_	_	_
+15	work	work	VERB	VB	_	12	dobj	_	_	_
+16	and	and	CCONJ	CC	_	12	cc	_	_	_
+17	stay	stay	VERB	VB	_	12	conj	_	_	_
+18	up	up	ADP	RP	_	16	prt	_	_	_
+19	late	late	ADV	RB	_	16	advmod	_	_	_
+20	just	just	ADV	RB	_	21	advmod	_	_	_
+21	to	to	PART	TO	_	21	aux	_	_	_
+22	get	get	AUX	VB	_	16	advcl	_	_	_
+23	papers	paper	NOUN	NNS	_	23	nsubj	_	_	_
+24	done	do	VERB	VBN	_	21	ccomp	_	_	_
+25	because	because	SCONJ	IN	_	23	prep	_	_	_
+26	of	of	ADP	IN	_	24	pcomp	_	_	_
+27	other	other	ADJ	JJ	_	28	amod	_	_	_
+28	team	team	NOUN	NN	_	28	compound	_	_	_
+29	members	member	NOUN	NNS	_	24	pobj	_	_	_
+30	then	then	ADV	RB	_	31	advmod	_	_	_
+31	this	this	DET	DT	_	31	nsubj	_	_	_
+32	is	be	AUX	VBZ	_	31	ROOT	_	_	_
+33	not	not	PART	RB	_	31	neg	_	_	_
+34	a	a	DET	DT	_	34	det	_	_	_
+35	program	program	NOUN	NN	_	31	attr	_	_	_
+36	for	for	ADP	IN	_	34	prep	_	_	_
+37	you	-PRON-	PRON	PRP	_	35	pobj	_	_	_
+38	.	.	PUNCT	.	_	31	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-17
+# text = Even if you do the work yourself and submit it you will be docked points .
+1	Even	even	ADV	RB	_	3	advmod	_	_	_
+2	if	if	SCONJ	IN	_	3	mark	_	_	_
+3	you	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+4	do	do	AUX	VBP	_	13	advcl	_	_	_
+5	the	the	DET	DT	_	5	det	_	_	_
+6	work	work	NOUN	NN	_	3	dobj	_	_	_
+7	yourself	-PRON-	PRON	PRP	_	3	npadvmod	_	_	_
+8	and	and	CCONJ	CC	_	3	cc	_	_	_
+9	submit	submit	VERB	VB	_	3	conj	_	_	_
+10	it	-PRON-	PRON	PRP	_	8	dobj	_	_	_
+11	you	-PRON-	PRON	PRP	_	13	nsubjpass	_	_	_
+12	will	will	VERB	MD	_	13	aux	_	_	_
+13	be	be	AUX	VB	_	13	auxpass	_	_	_
+14	docked	dock	VERB	VBN	_	13	ROOT	_	_	_
+15	points	point	NOUN	NNS	_	13	oprd	_	_	_
+16	.	.	PUNCT	.	_	13	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-19
+# text = So technically you are damned if you do and damned if you don't .
+1	So	so	ADV	RB	_	4	advmod	_	_	_
+2	technically	technically	ADV	RB	_	4	advmod	_	_	_
+3	you	-PRON-	PRON	PRP	_	4	nsubjpass	_	_	_
+4	are	be	AUX	VBP	_	4	auxpass	_	_	_
+5	damned	damn	VERB	VBN	_	4	ROOT	_	_	_
+6	if	if	SCONJ	IN	_	7	mark	_	_	_
+7	you	-PRON-	PRON	PRP	_	7	nsubj	_	_	_
+8	do	do	AUX	VBP	_	4	advcl	_	_	_
+9	and	and	CCONJ	CC	_	7	cc	_	_	_
+10	damned	damn	VERB	VBD	_	7	conj	_	_	_
+11	if	if	SCONJ	IN	_	12	mark	_	_	_
+12	you	-PRON-	PRON	PRP	_	12	nsubj	_	_	_
+13	don't	don't	VERB	VBZ	_	9	advcl	_	_	_
+14	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-20
+# text = I am in the process of looking into another school that has no TEAM work .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	am	be	AUX	VBP	_	1	ROOT	_	_	_
+3	in	in	ADP	IN	_	1	prep	_	_	_
+4	the	the	DET	DT	_	4	det	_	_	_
+5	process	process	NOUN	NN	_	2	pobj	_	_	_
+6	of	of	ADP	IN	_	4	prep	_	_	_
+7	looking	look	VERB	VBG	_	5	pcomp	_	_	_
+8	into	into	ADP	IN	_	6	prep	_	_	_
+9	another	another	DET	DT	_	9	det	_	_	_
+10	school	school	NOUN	NN	_	7	pobj	_	_	13:targ
+11	that	that	DET	WDT	_	11	nsubj	_	_	_
+12	has	have	AUX	VBZ	_	9	relcl	_	_	_
+13	no	no	DET	DT	_	14	det	_	_	0:exp-positive
+14	TEAM	TEAM	PROPN	NNP	_	14	amod	_	_	13:exp-positive
+15	work	work	VERB	VB	_	11	dobj	_	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-21
+# text = You do the work on your own and have 16 weeks to complete it .
+1	You	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	do	do	AUX	VBP	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	3	det	_	_	_
+4	work	work	NOUN	NN	_	1	dobj	_	_	_
+5	on	on	ADP	IN	_	3	prep	_	_	_
+6	your	-PRON-	DET	PRP$	_	6	poss	_	_	_
+7	own	own	ADJ	JJ	_	4	pobj	_	_	_
+8	and	and	CCONJ	CC	_	1	cc	_	_	_
+9	have	have	AUX	VBP	_	1	conj	_	_	_
+10	16	16	NUM	CD	_	10	nummod	_	_	_
+11	weeks	week	NOUN	NNS	_	8	dobj	_	_	_
+12	to	to	PART	TO	_	12	aux	_	_	_
+13	complete	complete	VERB	VB	_	8	xcomp	_	_	_
+14	it	-PRON-	PRON	PRP	_	12	dobj	_	_	_
+15	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-22
+# text = If you finish before the 16 weeks you can move on to the next course .
+1	If	if	SCONJ	IN	_	2	mark	_	_	_
+2	you	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+3	finish	finish	VERB	VBP	_	9	advcl	_	_	_
+4	before	before	ADP	IN	_	2	prep	_	_	_
+5	the	the	DET	DT	_	6	det	_	_	_
+6	16	16	NUM	CD	_	6	nummod	_	_	_
+7	weeks	week	NOUN	NNS	_	3	pobj	_	_	_
+8	you	-PRON-	PRON	PRP	_	9	nsubj	_	_	_
+9	can	can	VERB	MD	_	9	aux	_	_	_
+10	move	move	VERB	VB	_	9	ROOT	_	_	_
+11	on	on	ADP	IN	_	9	prt	_	_	_
+12	to	to	ADP	IN	_	9	prep	_	_	_
+13	the	the	DET	DT	_	14	det	_	_	_
+14	next	next	ADJ	JJ	_	14	amod	_	_	_
+15	course	course	NOUN	NN	_	11	pobj	_	_	_
+16	.	.	PUNCT	.	_	9	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-23
+# text = This I believe at least for me is the best way to go .
+1	This	this	DET	DT	_	7	nsubj	_	_	3:targ
+2	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+3	believe	believe	VERB	VBP	_	0	relcl	_	_	0:exp-positive
+4	at	at	ADP	IN	_	4	advmod	_	_	3:exp-positive
+5	least	least	ADJ	JJS	_	5	advmod	_	_	3:exp-positive
+6	for	for	ADP	IN	_	2	prep	_	_	_
+7	me	-PRON-	PRON	PRP	_	5	pobj	_	_	_
+8	is	be	AUX	VBZ	_	7	ROOT	_	_	_
+9	the	the	DET	DT	_	10	det	_	_	_
+10	best	good	ADJ	JJS	_	10	amod	_	_	_
+11	way	way	NOUN	NN	_	7	attr	_	_	_
+12	to	to	PART	TO	_	12	aux	_	_	_
+13	go	go	VERB	VB	_	10	relcl	_	_	_
+14	.	.	PUNCT	.	_	7	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-24
+# text = If I fail it will because of me , with UOP if you fail it is because of a memeber of the TEAM not doing their work .
+1	If	if	SCONJ	IN	_	2	mark	_	_	_
+2	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+3	fail	fail	VERB	VBP	_	15	advcl	_	_	_
+4	it	-PRON-	PRON	PRP	_	4	nsubj	_	_	_
+5	will	will	VERB	MD	_	2	ccomp	_	_	_
+6	because	because	SCONJ	IN	_	2	prep	_	_	_
+7	of	of	ADP	IN	_	5	pcomp	_	_	_
+8	me	-PRON-	PRON	PRP	_	5	pobj	_	_	_
+9	,	,	PUNCT	,	_	2	punct	_	_	_
+10	with	with	ADP	IN	_	2	prep	_	_	_
+11	UOP	UOP	PROPN	NNP	_	9	pobj	_	_	_
+12	if	if	SCONJ	IN	_	13	mark	_	_	_
+13	you	-PRON-	PRON	PRP	_	13	nsubj	_	_	_
+14	fail	fail	VERB	VBP	_	15	advcl	_	_	_
+15	it	-PRON-	PRON	PRP	_	15	nsubj	_	_	_
+16	is	be	AUX	VBZ	_	15	ROOT	_	_	_
+17	because	because	SCONJ	IN	_	15	prep	_	_	_
+18	of	of	ADP	IN	_	16	pcomp	_	_	_
+19	a	a	DET	DT	_	19	det	_	_	_
+20	memeber	memeber	NOUN	NN	_	16	pobj	_	_	_
+21	of	of	ADP	IN	_	19	prep	_	_	_
+22	the	the	DET	DT	_	22	det	_	_	_
+23	TEAM	TEAM	PROPN	NNP	_	20	pobj	_	_	_
+24	not	not	PART	RB	_	24	neg	_	_	_
+25	doing	do	VERB	VBG	_	16	pcomp	_	_	_
+26	their	-PRON-	DET	PRP$	_	26	poss	_	_	_
+27	work	work	NOUN	NN	_	24	dobj	_	_	_
+28	.	.	PUNCT	.	_	15	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-25
+# text = Points will be docked .
+1	Points	point	NOUN	NNS	_	3	nsubjpass	_	_	_
+2	will	will	VERB	MD	_	3	aux	_	_	_
+3	be	be	AUX	VB	_	3	auxpass	_	_	_
+4	docked	dock	VERB	VBN	_	3	ROOT	_	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-26
+# text = I am looking forward to getting out of this program .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	am	be	AUX	VBP	_	2	aux	_	_	_
+3	looking	look	VERB	VBG	_	2	ROOT	_	_	_
+4	forward	forward	ADV	RB	_	2	advmod	_	_	_
+5	to	to	ADP	IN	_	2	prep	_	_	_
+6	getting	get	VERB	VBG	_	4	pcomp	_	_	_
+7	out	out	SCONJ	IN	_	5	prep	_	_	_
+8	of	of	ADP	IN	_	6	prep	_	_	_
+9	this	this	DET	DT	_	9	det	_	_	_
+10	program	program	NOUN	NN	_	7	pobj	_	_	_
+11	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_153_07-27-2005-27
+# text = Very Disappointed .
+1	Very	very	ADV	RB	_	1	advmod	_	_	_
+2	Disappointed	disappointed	ADJ	JJ	_	1	ROOT	_	_	1:exp-negative
+3	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_37_07-30-2004-2
+# text = Someone wants to steal an identity and that person's wallet too , they need only go online to UMUC sites .
+1	Someone	someone	PRON	NN	_	1	nsubj	_	_	_
+2	wants	want	VERB	VBZ	_	13	ccomp	_	_	_
+3	to	to	PART	TO	_	3	aux	_	_	_
+4	steal	steal	VERB	VB	_	1	xcomp	_	_	_
+5	an	an	DET	DT	_	5	det	_	_	_
+6	identity	identity	NOUN	NN	_	3	dobj	_	_	_
+7	and	and	CCONJ	CC	_	1	cc	_	_	_
+8	that	that	DET	DT	_	9	mark	_	_	_
+9	person's	person'	VERB	VBZ	_	9	punct	_	_	_
+10	wallet	wallet	NOUN	NN	_	1	conj	_	_	_
+11	too	too	ADV	RB	_	9	advmod	_	_	_
+12	,	,	PUNCT	,	_	13	punct	_	_	_
+13	they	-PRON-	PRON	PRP	_	13	nsubj	_	_	_
+14	need	need	VERB	VBP	_	13	ROOT	_	_	_
+15	only	only	ADV	RB	_	15	advmod	_	_	_
+16	go	go	VERB	VB	_	13	xcomp	_	_	_
+17	online	online	ADV	RB	_	15	advmod	_	_	_
+18	to	to	ADP	IN	_	15	prep	_	_	_
+19	UMUC	UMUC	PROPN	NNP	_	19	compound	_	_	_
+20	sites	site	NOUN	NNS	_	17	pobj	_	_	_
+21	.	.	PUNCT	.	_	13	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_37_07-30-2004-4
+# text = or in one of the student groups , or see thecomplaintstation.com for more details .
+1	or	or	CCONJ	CC	_	0	ROOT	_	_	_
+2	in	in	ADP	IN	_	0	prep	_	_	_
+3	one	one	NUM	CD	_	1	pobj	_	_	_
+4	of	of	ADP	IN	_	2	prep	_	_	_
+5	the	the	DET	DT	_	6	det	_	_	_
+6	student	student	NOUN	NN	_	6	compound	_	_	_
+7	groups	group	NOUN	NNS	_	3	pobj	_	_	_
+8	,	,	PUNCT	,	_	1	punct	_	_	_
+9	or	or	CCONJ	CC	_	1	cc	_	_	_
+10	see	see	VERB	VB	_	1	conj	_	_	_
+11	thecomplaintstation.com	thecomplaintstation.com	X	ADD	_	9	dobj	_	_	_
+12	for	for	ADP	IN	_	9	prep	_	_	_
+13	more	more	ADJ	JJR	_	13	amod	_	_	_
+14	details	detail	NOUN	NNS	_	11	pobj	_	_	_
+15	.	.	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = St_Leo_University_4_04-16-2004-1
+# text = I am now a senior with St . Leo and I don't have any complaints .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	am	be	AUX	VBP	_	1	ROOT	_	_	_
+3	now	now	ADV	RB	_	1	advmod	_	_	_
+4	a	a	DET	DT	_	4	det	_	_	_
+5	senior	senior	NOUN	NN	_	1	attr	_	_	_
+6	with	with	ADP	IN	_	4	prep	_	_	_
+7	St	St	PROPN	NNP	_	7	dep	_	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_	_
+9	Leo	Leo	PROPN	NNP	_	12	nsubj	_	_	_
+10	and	and	CCONJ	CC	_	8	cc	_	_	_
+11	I	-PRON-	PRON	PRP	_	11	compound	_	_	_
+12	don't	don't	NOUN	NNS	_	8	conj	_	_	_
+13	have	have	AUX	VBP	_	12	ROOT	_	_	_
+14	any	any	DET	DT	_	14	det	_	_	_
+15	complaints	complaint	NOUN	NNS	_	12	dobj	_	_	_
+16	.	.	PUNCT	.	_	12	punct	_	_	_
+
+# sent_id = St_Leo_University_4_04-16-2004-2
+# text = You never have to be online at any certain time , the amount of work for the most part is not overwhelming , and yet you learn .
+1	You	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	never	never	ADV	RB	_	2	neg	_	_	_
+3	have	have	AUX	VBP	_	19	ccomp	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	be	be	AUX	VB	_	2	xcomp	_	_	_
+6	online	online	ADJ	JJ	_	4	acomp	_	_	_
+7	at	at	ADP	IN	_	4	prep	_	_	_
+8	any	any	DET	DT	_	9	det	_	_	_
+9	certain	certain	ADJ	JJ	_	9	amod	_	_	_
+10	time	time	NOUN	NN	_	6	pobj	_	_	_
+11	,	,	PUNCT	,	_	19	punct	_	_	_
+12	the	the	DET	DT	_	12	det	_	_	_
+13	amount	amount	NOUN	NN	_	19	nsubj	_	_	_
+14	of	of	ADP	IN	_	12	prep	_	_	_
+15	work	work	NOUN	NN	_	13	pobj	_	_	_
+16	for	for	ADP	IN	_	12	prep	_	_	_
+17	the	the	DET	DT	_	18	det	_	_	_
+18	most	most	ADJ	JJS	_	18	amod	_	_	_
+19	part	part	NOUN	NN	_	15	pobj	_	_	_
+20	is	be	AUX	VBZ	_	19	ROOT	_	_	_
+21	not	not	PART	RB	_	19	neg	_	_	_
+22	overwhelming	overwhelming	ADJ	JJ	_	19	acomp	_	_	_
+23	,	,	PUNCT	,	_	19	punct	_	_	_
+24	and	and	CCONJ	CC	_	19	cc	_	_	_
+25	yet	yet	ADV	RB	_	26	advmod	_	_	_
+26	you	-PRON-	PRON	PRP	_	26	nsubj	_	_	_
+27	learn	learn	VERB	VBP	_	19	conj	_	_	_
+28	.	.	PUNCT	.	_	26	punct	_	_	_
+
+# sent_id = St_Leo_University_4_04-16-2004-3
+# text = Because you have to maintain self discipline it causes you to learn more .
+1	Because	because	SCONJ	IN	_	2	mark	_	_	_
+2	you	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+3	have	have	AUX	VBP	_	2	ROOT	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	maintain	maintain	VERB	VB	_	2	xcomp	_	_	_
+6	self	self	NOUN	NN	_	6	compound	_	_	_
+7	discipline	discipline	NOUN	NN	_	4	dobj	_	_	_
+8	it	-PRON-	PRON	PRP	_	8	nsubj	_	_	_
+9	causes	cause	VERB	VBZ	_	6	relcl	_	_	_
+10	you	-PRON-	PRON	PRP	_	11	nsubj	_	_	_
+11	to	to	PART	TO	_	11	aux	_	_	_
+12	learn	learn	VERB	VB	_	8	ccomp	_	_	_
+13	more	more	ADJ	JJR	_	11	dobj	_	_	_
+14	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = St_Leo_University_4_04-16-2004-4
+# text = All tests are open book so that makes it easier .
+1	All	all	DET	DT	_	1	det	_	_	_
+2	tests	test	NOUN	NNS	_	2	nsubj	_	_	_
+3	are	be	AUX	VBP	_	2	ROOT	_	_	_
+4	open	open	ADJ	JJ	_	4	amod	_	_	_
+5	book	book	NOUN	NN	_	2	attr	_	_	_
+6	so	so	SCONJ	IN	_	7	advmod	_	_	_
+7	that	that	DET	DT	_	7	nsubj	_	_	_
+8	makes	make	VERB	VBZ	_	7	ROOT	_	_	_
+9	it	-PRON-	PRON	PRP	_	9	nsubj	_	_	_
+10	easier	easy	ADJ	JJR	_	7	ccomp	_	_	_
+11	.	.	PUNCT	.	_	7	punct	_	_	_
+
+# sent_id = St_Leo_University_4_04-16-2004-6
+# text = I would strongly recommend St . Leo
+1	I	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+2	would	would	VERB	MD	_	3	aux	_	_	_
+3	strongly	strongly	ADV	RB	_	3	advmod	_	_	_
+4	recommend	recommend	VERB	VB	_	3	ROOT	_	_	_
+5	St	St	PROPN	NNP	_	3	dobj	_	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_	_
+7	Leo	Leo	PROPN	NNP	_	6	ROOT	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-4
+# text = The equipment used in our courses was often out-of-date , as was the instructor .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	equipment	equipment	NOUN	NN	_	6	nsubj	_	_	_
+3	used	use	VERB	VBN	_	1	acl	_	_	_
+4	in	in	ADP	IN	_	2	prep	_	_	_
+5	our	-PRON-	DET	PRP$	_	5	poss	_	_	_
+6	courses	course	NOUN	NNS	_	3	pobj	_	_	_
+7	was	be	AUX	VBD	_	6	ROOT	_	_	_
+8	often	often	ADV	RB	_	6	advmod	_	_	0:exp-negative
+9	out-of-date	out-of-date	NOUN	NN	_	6	acomp	_	_	8:exp-negative
+10	,	,	PUNCT	,	_	6	punct	_	_	_
+11	as	as	SCONJ	IN	_	11	mark	_	_	_
+12	was	be	AUX	VBD	_	6	advcl	_	_	_
+13	the	the	DET	DT	_	13	det	_	_	_
+14	instructor	instructor	NOUN	NN	_	11	nsubj	_	_	_
+15	.	.	PUNCT	.	_	6	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-5
+# text = The course texts were too basic , and for intro level students , I expected something more challenging form the UMUC experience .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	course	course	NOUN	NN	_	3	npadvmod	_	_	5:targ
+3	texts	text	NOUN	NNS	_	3	nsubj	_	_	2:targ
+4	were	be	AUX	VBD	_	3	ROOT	_	_	_
+5	too	too	ADV	RB	_	5	advmod	_	_	0:exp-negative
+6	basic	basic	ADJ	JJ	_	3	acomp	_	_	5:exp-negative
+7	,	,	PUNCT	,	_	3	punct	_	_	_
+8	and	and	CCONJ	CC	_	3	cc	_	_	_
+9	for	for	ADP	IN	_	3	conj	_	_	_
+10	intro	intro	PROPN	NNP	_	10	compound	_	_	_
+11	level	level	NOUN	NN	_	11	compound	_	_	_
+12	students	student	NOUN	NNS	_	8	pobj	_	_	_
+13	,	,	PUNCT	,	_	14	punct	_	_	_
+14	I	-PRON-	PRON	PRP	_	14	nsubj	_	_	_
+15	expected	expect	VERB	VBD	_	14	ROOT	_	_	_
+16	something	something	PRON	NN	_	18	nsubj	_	_	_
+17	more	more	ADV	RBR	_	17	advmod	_	_	_
+18	challenging	challenging	ADJ	JJ	_	18	amod	_	_	_
+19	form	form	NOUN	NN	_	14	ccomp	_	_	_
+20	the	the	DET	DT	_	21	det	_	_	_
+21	UMUC	UMUC	PROPN	NNP	_	21	compound	_	_	_
+22	experience	experience	NOUN	NN	_	18	dobj	_	_	_
+23	.	.	PUNCT	.	_	14	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-6
+# text = There is no student community because UMUC is for career oriented people .
+1	There	there	PRON	EX	_	1	expl	_	_	_
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	no	no	DET	DT	_	4	det	_	_	_
+4	student	student	NOUN	NN	_	4	compound	_	_	_
+5	community	community	NOUN	NN	_	1	attr	_	_	_
+6	because	because	SCONJ	IN	_	7	mark	_	_	_
+7	UMUC	UMUC	PROPN	NNP	_	7	nsubj	_	_	8:targ
+8	is	be	AUX	VBZ	_	1	advcl	_	_	0:exp-neutral
+9	for	for	ADP	IN	_	7	prep	_	_	8:exp-neutral
+10	career	career	NOUN	NN	_	10	npadvmod	_	_	8:exp-neutral
+11	oriented	orient	VERB	VBN	_	11	amod	_	_	_
+12	people	people	NOUN	NNS	_	8	pobj	_	_	_
+13	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-7
+# text = That means , it's about taking course to get a quick degree to move up the corporate ladder , and going home right after class .
+1	That	that	DET	DT	_	1	nsubj	_	_	_
+2	means	mean	VERB	VBZ	_	1	ROOT	_	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_	_
+4	it's	it's	DET	PRP$	_	4	dep	_	_	_
+5	about	about	ADP	IN	_	1	prep	_	_	_
+6	taking	take	VERB	VBG	_	4	pcomp	_	_	_
+7	course	course	NOUN	NN	_	5	dobj	_	_	_
+8	to	to	PART	TO	_	8	aux	_	_	_
+9	get	get	AUX	VB	_	5	xcomp	_	_	_
+10	a	a	DET	DT	_	11	det	_	_	_
+11	quick	quick	ADJ	JJ	_	11	amod	_	_	_
+12	degree	degree	NOUN	NN	_	8	dobj	_	_	_
+13	to	to	PART	TO	_	13	aux	_	_	_
+14	move	move	VERB	VB	_	11	relcl	_	_	_
+15	up	up	ADP	RP	_	13	prt	_	_	_
+16	the	the	DET	DT	_	17	det	_	_	_
+17	corporate	corporate	ADJ	JJ	_	17	amod	_	_	_
+18	ladder	ladder	NOUN	NN	_	13	dobj	_	_	_
+19	,	,	PUNCT	,	_	1	punct	_	_	_
+20	and	and	CCONJ	CC	_	1	cc	_	_	_
+21	going	go	VERB	VBG	_	1	conj	_	_	_
+22	home	home	ADV	RB	_	20	advmod	_	_	_
+23	right	right	ADV	RB	_	23	advmod	_	_	_
+24	after	after	ADP	IN	_	20	prep	_	_	_
+25	class	class	NOUN	NN	_	23	pobj	_	_	_
+26	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-8
+# text = There isn't much emphasis on literature or art or others soft subjects , so meeting people with those interests is even more difficult .
+1	There	there	PRON	EX	_	1	expl	_	_	_
+2	isn't	isn't	VERB	VBZ	_	1	ROOT	_	_	_
+3	much	much	ADJ	JJ	_	3	amod	_	_	_
+4	emphasis	emphasis	NOUN	NN	_	1	dobj	_	_	_
+5	on	on	ADP	IN	_	3	prep	_	_	_
+6	literature	literature	NOUN	NN	_	4	pobj	_	_	_
+7	or	or	CCONJ	CC	_	5	cc	_	_	_
+8	art	art	NOUN	NN	_	5	conj	_	_	_
+9	or	or	CCONJ	CC	_	7	cc	_	_	_
+10	others	other	NOUN	NNS	_	7	conj	_	_	_
+11	soft	soft	ADJ	JJ	_	11	amod	_	_	_
+12	subjects	subject	NOUN	NNS	_	19	nsubj	_	_	_
+13	,	,	PUNCT	,	_	19	punct	_	_	_
+14	so	so	ADV	RB	_	19	advmod	_	_	_
+15	meeting	meet	VERB	VBG	_	19	csubj	_	_	_
+16	people	people	NOUN	NNS	_	19	nsubj	_	_	_
+17	with	with	ADP	IN	_	15	prep	_	_	_
+18	those	those	DET	DT	_	18	det	_	_	_
+19	interests	interest	NOUN	NNS	_	16	pobj	_	_	_
+20	is	be	AUX	VBZ	_	19	ROOT	_	_	_
+21	even	even	ADV	RB	_	21	advmod	_	_	_
+22	more	more	ADV	RBR	_	22	advmod	_	_	_
+23	difficult	difficult	ADJ	JJ	_	19	acomp	_	_	_
+24	.	.	PUNCT	.	_	19	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-9
+# text = It doesn't help that the faculty and administration deliberately spies on students in student groups , plants information in the groups , and seeks to destroy the student groups when the messges get to negative about UMUC .
+1	It	-PRON-	PRON	PRP	_	1	nsubj	_	_	2:targ
+2	doesn't	doesn't	VERB	VBZ	_	1	ROOT	_	_	0:exp-negative
+3	help	help	VERB	VB	_	2	ROOT	_	_	2:exp-negative
+4	that	that	SCONJ	IN	_	9	mark	_	_	_
+5	the	the	DET	DT	_	5	det	_	_	_
+6	faculty	faculty	NOUN	NN	_	9	nsubj	_	_	_
+7	and	and	CCONJ	CC	_	5	cc	_	_	_
+8	administration	administration	NOUN	NN	_	5	conj	_	_	_
+9	deliberately	deliberately	ADV	RB	_	9	advmod	_	_	_
+10	spies	spy	VERB	VBZ	_	2	ccomp	_	_	_
+11	on	on	ADP	IN	_	9	prep	_	_	_
+12	students	student	NOUN	NNS	_	10	pobj	_	_	_
+13	in	in	ADP	IN	_	11	prep	_	_	_
+14	student	student	NOUN	NN	_	14	compound	_	_	_
+15	groups	group	NOUN	NNS	_	12	pobj	_	_	_
+16	,	,	PUNCT	,	_	9	punct	_	_	_
+17	plants	plant	NOUN	NNS	_	9	conj	_	_	_
+18	information	information	NOUN	NN	_	16	dobj	_	_	_
+19	in	in	ADP	IN	_	16	prep	_	_	_
+20	the	the	DET	DT	_	20	det	_	_	_
+21	groups	group	NOUN	NNS	_	18	pobj	_	_	_
+22	,	,	PUNCT	,	_	16	punct	_	_	_
+23	and	and	CCONJ	CC	_	16	cc	_	_	_
+24	seeks	seek	VERB	VBZ	_	16	conj	_	_	_
+25	to	to	PART	TO	_	25	aux	_	_	_
+26	destroy	destroy	VERB	VB	_	23	xcomp	_	_	_
+27	the	the	DET	DT	_	28	det	_	_	_
+28	student	student	NOUN	NN	_	28	compound	_	_	_
+29	groups	group	NOUN	NNS	_	25	dobj	_	_	_
+30	when	when	ADV	WRB	_	32	advmod	_	_	_
+31	the	the	DET	DT	_	31	det	_	_	_
+32	messges	messge	NOUN	NNS	_	32	nsubj	_	_	_
+33	get	get	VERB	VBP	_	25	advcl	_	_	_
+34	to	to	ADP	IN	_	32	prep	_	_	_
+35	negative	negative	ADJ	JJ	_	33	pobj	_	_	_
+36	about	about	ADP	IN	_	32	prep	_	_	_
+37	UMUC	UMUC	PROPN	NNP	_	35	pobj	_	_	_
+38	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-10
+# text = That is what UMUC's general cousnel did to a Yahoo!-based student group .
+1	That	that	DET	DT	_	1	nsubj	_	_	_
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	what	what	PRON	WP	_	6	dobj	_	_	_
+4	UMUC's	UMUC's	PROPN	NNP	_	5	nmod	_	_	_
+5	general	general	ADJ	JJ	_	5	amod	_	_	_
+6	cousnel	cousnel	NOUN	NN	_	6	nsubj	_	_	_
+7	did	do	AUX	VBD	_	1	ccomp	_	_	_
+8	to	to	ADP	IN	_	6	prep	_	_	_
+9	a	a	DET	DT	_	11	det	_	_	_
+10	Yahoo!-based	yahoo!-based	ADJ	JJ	_	11	nummod	_	_	_
+11	student	student	NOUN	NN	_	11	compound	_	_	_
+12	group	group	NOUN	NN	_	7	pobj	_	_	_
+13	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-11
+# text = They are doing it again to other web-based student groups now .
+1	They	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	are	be	AUX	VBP	_	2	aux	_	_	_
+3	doing	do	VERB	VBG	_	2	ROOT	_	_	_
+4	it	-PRON-	PRON	PRP	_	2	dobj	_	_	_
+5	again	again	ADV	RB	_	2	advmod	_	_	_
+6	to	to	ADP	IN	_	2	prep	_	_	_
+7	other	other	ADJ	JJ	_	9	amod	_	_	_
+8	web-based	web-based	ADJ	JJ	_	9	amod	_	_	_
+9	student	student	NOUN	NN	_	9	compound	_	_	_
+10	groups	group	NOUN	NNS	_	5	pobj	_	_	_
+11	now	now	ADV	RB	_	2	advmod	_	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-14
+# text = You have to know who to talk to or where to dig for that info , but it's there to be found .
+1	You	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	have	have	AUX	VBP	_	1	ROOT	_	_	_
+3	to	to	PART	TO	_	3	aux	_	_	_
+4	know	know	VERB	VB	_	1	xcomp	_	_	_
+5	who	who	PRON	WP	_	7	pobj	_	_	_
+6	to	to	PART	TO	_	6	aux	_	_	_
+7	talk	talk	VERB	VB	_	3	ccomp	_	_	_
+8	to	to	ADP	IN	_	6	prep	_	_	_
+9	or	or	CCONJ	CC	_	6	cc	_	_	_
+10	where	where	ADV	WRB	_	11	advmod	_	_	_
+11	to	to	PART	TO	_	11	aux	_	_	_
+12	dig	dig	VERB	VB	_	6	conj	_	_	_
+13	for	for	ADP	IN	_	11	prep	_	_	_
+14	that	that	DET	DT	_	14	det	_	_	_
+15	info	info	NOUN	NN	_	12	pobj	_	_	_
+16	,	,	PUNCT	,	_	1	punct	_	_	_
+17	but	but	CCONJ	CC	_	1	cc	_	_	_
+18	it's	it's	DET	PRP$	_	18	poss	_	_	_
+19	there	there	PRON	EX	_	21	nsubjpass	_	_	_
+20	to	to	PART	TO	_	21	aux	_	_	_
+21	be	be	AUX	VB	_	21	auxpass	_	_	_
+22	found	find	VERB	VBN	_	1	conj	_	_	_
+23	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-15
+# text = I thought the courses would be more challenging , but because anyone can enroll in a course , the instructors have to dumb it down so everyone can enjoy .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	thought	think	VERB	VBD	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	3	det	_	_	_
+4	courses	course	NOUN	NNS	_	5	nsubj	_	_	_
+5	would	would	VERB	MD	_	5	aux	_	_	_
+6	be	be	AUX	VB	_	1	ccomp	_	_	_
+7	more	more	ADV	RBR	_	7	advmod	_	_	_
+8	challenging	challenging	ADJ	JJ	_	5	acomp	_	_	_
+9	,	,	PUNCT	,	_	1	punct	_	_	_
+10	but	but	CCONJ	CC	_	1	cc	_	_	_
+11	because	because	SCONJ	IN	_	13	mark	_	_	_
+12	anyone	anyone	PRON	NN	_	13	nsubj	_	_	_
+13	can	can	VERB	MD	_	13	aux	_	_	_
+14	enroll	enroll	VERB	VB	_	20	advcl	_	_	_
+15	in	in	ADP	IN	_	13	prep	_	_	_
+16	a	a	DET	DT	_	16	det	_	_	_
+17	course	course	NOUN	NN	_	14	pobj	_	_	_
+18	,	,	PUNCT	,	_	20	punct	_	_	_
+19	the	the	DET	DT	_	19	det	_	_	_
+20	instructors	instructor	NOUN	NNS	_	20	nsubj	_	_	_
+21	have	have	AUX	VBP	_	1	conj	_	_	_
+22	to	to	PART	TO	_	22	aux	_	_	_
+23	dumb	dumb	VERB	VB	_	20	xcomp	_	_	_
+24	it	-PRON-	PRON	PRP	_	22	dobj	_	_	_
+25	down	down	ADV	RB	_	22	prt	_	_	_
+26	so	so	SCONJ	IN	_	28	mark	_	_	_
+27	everyone	everyone	PRON	NN	_	28	nsubj	_	_	_
+28	can	can	VERB	MD	_	28	aux	_	_	_
+29	enjoy	enjoy	VERB	VB	_	22	advcl	_	_	_
+30	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-16
+# text = I also don't like the fact that UMUC assigns instructors across multiple fiel;ds , outisde their departments to teach courses .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	also	also	ADV	RB	_	2	advmod	_	_	_
+3	don't	don't	VERB	VBZ	_	2	ROOT	_	_	0:exp-negative
+4	like	like	SCONJ	IN	_	2	prep	_	_	3:exp-negative
+5	the	the	DET	DT	_	5	det	_	_	_
+6	fact	fact	NOUN	NN	_	3	pobj	_	_	_
+7	that	that	SCONJ	IN	_	8	mark	_	_	_
+8	UMUC	UMUC	PROPN	NNP	_	8	nsubj	_	_	3:targ
+9	assigns	assign	VERB	VBZ	_	5	acl	_	_	_
+10	instructors	instructor	NOUN	NNS	_	8	dobj	_	_	_
+11	across	across	ADP	IN	_	9	prep	_	_	_
+12	multiple	multiple	ADJ	JJ	_	12	amod	_	_	_
+13	fiel;ds	fiel;ds	PROPN	NNP	_	10	pobj	_	_	_
+14	,	,	PUNCT	,	_	8	punct	_	_	_
+15	outisde	outisde	VERB	VB	_	8	conj	_	_	_
+16	their	-PRON-	DET	PRP$	_	16	poss	_	_	_
+17	departments	department	NOUN	NNS	_	14	dobj	_	_	_
+18	to	to	PART	TO	_	18	aux	_	_	_
+19	teach	teach	VERB	VB	_	14	advcl	_	_	_
+20	courses	course	NOUN	NNS	_	18	dobj	_	_	_
+21	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-18
+# text = Anyone can teach anything at UMUC seems to be the policy .
+1	Anyone	anyone	PRON	NN	_	2	nsubj	_	_	_
+2	can	can	VERB	MD	_	2	aux	_	_	_
+3	teach	teach	VERB	VB	_	2	ROOT	_	_	_
+4	anything	anything	PRON	NN	_	2	dobj	_	_	_
+5	at	at	ADP	IN	_	2	prep	_	_	_
+6	UMUC	UMUC	PROPN	NNP	_	4	pobj	_	_	_
+7	seems	seem	VERB	VBZ	_	2	conj	_	_	_
+8	to	to	PART	TO	_	8	aux	_	_	_
+9	be	be	AUX	VB	_	6	xcomp	_	_	_
+10	the	the	DET	DT	_	10	det	_	_	_
+11	policy	policy	NOUN	NN	_	8	attr	_	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_20_03-06-2006-21
+# text = It's a quick degree for people who need one to claw there way to the top of a civil service-type job .
+1	It's	it's	X	FW	_	0	ROOT	_	_	_
+2	a	a	DET	DT	_	3	det	_	_	_
+3	quick	quick	ADJ	JJ	_	3	amod	_	_	0:exp-positive
+4	degree	degree	NOUN	NN	_	0	dobj	_	_	3:targ
+5	for	for	ADP	IN	_	3	prep	_	_	_
+6	people	people	NOUN	NNS	_	4	pobj	_	_	_
+7	who	who	PRON	WP	_	7	nsubj	_	_	_
+8	need	need	VERB	VBP	_	5	relcl	_	_	_
+9	one	one	NUM	CD	_	10	nsubj	_	_	_
+10	to	to	PART	TO	_	10	aux	_	_	_
+11	claw	claw	VERB	VB	_	7	ccomp	_	_	_
+12	there	there	PRON	EX	_	10	advmod	_	_	_
+13	way	way	NOUN	NN	_	10	npadvmod	_	_	_
+14	to	to	ADP	IN	_	10	prep	_	_	_
+15	the	the	DET	DT	_	15	det	_	_	_
+16	top	top	NOUN	NN	_	13	pobj	_	_	_
+17	of	of	ADP	IN	_	15	prep	_	_	_
+18	a	a	DET	DT	_	20	det	_	_	_
+19	civil	civil	ADJ	JJ	_	20	amod	_	_	_
+20	service-type	service-type	ADJ	JJ	_	20	amod	_	_	_
+21	job	job	NOUN	NN	_	16	pobj	_	_	_
+22	.	.	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_3_01-03-2008-1
+# text = Its not perfect , but it works for individuals who are motivated , hardworking and yet are busy with their careers .
+1	Its	-PRON-	DET	PRP$	_	2	poss	_	_	2:targ|7:targ
+2	not	not	PART	RB	_	2	neg	_	_	0:exp-positive
+3	perfect	perfect	ADJ	JJ	_	2	ROOT	_	_	2:exp-positive
+4	,	,	PUNCT	,	_	2	punct	_	_	_
+5	but	but	CCONJ	CC	_	2	cc	_	_	_
+6	it	-PRON-	PRON	PRP	_	6	nsubj	_	_	7:targ
+7	works	work	VERB	VBZ	_	2	conj	_	_	0:exp-positive
+8	for	for	ADP	IN	_	6	prep	_	_	7:exp-positive
+9	individuals	individual	NOUN	NNS	_	7	pobj	_	_	_
+10	who	who	PRON	WP	_	10	nsubj	_	_	_
+11	are	be	AUX	VBP	_	8	relcl	_	_	_
+12	motivated	motivate	VERB	VBN	_	10	acomp	_	_	_
+13	,	,	PUNCT	,	_	10	punct	_	_	_
+14	hardworking	hardworke	VERB	VBG	_	8	acl	_	_	_
+15	and	and	CCONJ	CC	_	13	cc	_	_	_
+16	yet	yet	ADV	RB	_	16	advmod	_	_	_
+17	are	be	AUX	VBP	_	13	conj	_	_	_
+18	busy	busy	ADJ	JJ	_	16	acomp	_	_	_
+19	with	with	ADP	IN	_	17	prep	_	_	_
+20	their	-PRON-	DET	PRP$	_	20	poss	_	_	_
+21	careers	career	NOUN	NNS	_	18	pobj	_	_	_
+22	.	.	PUNCT	.	_	6	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_3_01-03-2008-2
+# text = The medium of instruction deserves some improvement , but otherwise , I think it has all the pros and cons of any regular F2F university .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	medium	medium	NOUN	NN	_	4	nsubj	_	_	_
+3	of	of	ADP	IN	_	1	prep	_	_	_
+4	instruction	instruction	NOUN	NN	_	2	pobj	_	_	_
+5	deserves	deserve	VERB	VBZ	_	4	ROOT	_	_	_
+6	some	some	DET	DT	_	6	det	_	_	_
+7	improvement	improvement	NOUN	NN	_	4	dobj	_	_	_
+8	,	,	PUNCT	,	_	4	punct	_	_	_
+9	but	but	CCONJ	CC	_	4	cc	_	_	_
+10	otherwise	otherwise	ADV	RB	_	12	advmod	_	_	_
+11	,	,	PUNCT	,	_	12	punct	_	_	_
+12	I	-PRON-	PRON	PRP	_	12	nsubj	_	_	_
+13	think	think	VERB	VBP	_	4	conj	_	_	_
+14	it	-PRON-	PRON	PRP	_	14	nsubj	_	_	_
+15	has	have	AUX	VBZ	_	12	ccomp	_	_	_
+16	all	all	DET	PDT	_	17	predet	_	_	_
+17	the	the	DET	DT	_	17	det	_	_	_
+18	pros	pro	NOUN	NNS	_	14	dobj	_	_	_
+19	and	and	CCONJ	CC	_	17	cc	_	_	_
+20	cons	con	NOUN	NNS	_	17	conj	_	_	_
+21	of	of	ADP	IN	_	17	prep	_	_	_
+22	any	any	DET	DT	_	24	det	_	_	_
+23	regular	regular	ADJ	JJ	_	24	amod	_	_	_
+24	F2F	F2F	PROPN	NNP	_	24	compound	_	_	_
+25	university	university	NOUN	NN	_	20	pobj	_	_	_
+26	.	.	PUNCT	.	_	12	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_3_01-03-2008-3
+# text = It has both excellent and mediocre professors .
+1	It	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	has	have	AUX	VBZ	_	1	ROOT	_	_	_
+3	both	both	CCONJ	CC	_	3	preconj	_	_	_
+4	excellent	excellent	ADJ	JJ	_	6	amod	_	_	0:exp-positive
+5	and	and	CCONJ	CC	_	3	cc	_	_	_
+6	mediocre	mediocre	ADJ	JJ	_	3	conj	_	_	0:exp-negative
+7	professors	professor	NOUN	NNS	_	1	dobj	_	_	4:targ|6:targ
+8	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_3_01-03-2008-5
+# text = I think , as a student completing my masters in Information Technology , it is not a bad school at all .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	think	think	VERB	VBP	_	1	ROOT	_	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_	_
+4	as	as	SCONJ	IN	_	14	prep	_	_	_
+5	a	a	DET	DT	_	5	det	_	_	_
+6	student	student	NOUN	NN	_	3	pobj	_	_	_
+7	completing	complete	VERB	VBG	_	5	acl	_	_	_
+8	my	-PRON-	DET	PRP$	_	8	poss	_	_	_
+9	masters	master	NOUN	NNS	_	6	dobj	_	_	_
+10	in	in	ADP	IN	_	8	prep	_	_	_
+11	Information	Information	PROPN	NNP	_	11	compound	_	_	_
+12	Technology	Technology	PROPN	NNP	_	9	pobj	_	_	_
+13	,	,	PUNCT	,	_	14	punct	_	_	_
+14	it	-PRON-	PRON	PRP	_	14	nsubj	_	_	16:targ
+15	is	be	AUX	VBZ	_	1	ccomp	_	_	_
+16	not	not	PART	RB	_	14	neg	_	_	0:exp-positive
+17	a	a	DET	DT	_	18	det	_	_	_
+18	bad	bad	ADJ	JJ	_	18	amod	_	_	0:exp-positive
+19	school	school	NOUN	NN	_	14	attr	_	_	_
+20	at	at	ADV	RB	_	20	advmod	_	_	_
+21	all	all	ADV	RB	_	14	advmod	_	_	_
+22	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Maryland_University_College_3_01-03-2008-6
+# text = Can't vouch for the other streams though .
+1	Can't	Can't	NOUN	NNS	_	1	compound	_	_	_
+2	vouch	vouch	ADJ	JJ	_	1	ROOT	_	_	_
+3	for	for	ADP	IN	_	1	prep	_	_	_
+4	the	the	DET	DT	_	5	det	_	_	_
+5	other	other	ADJ	JJ	_	5	amod	_	_	_
+6	streams	stream	NOUN	NNS	_	2	pobj	_	_	_
+7	though	though	ADV	RB	_	1	advmod	_	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Capella_University_55_10-05-2005-1
+# text = Capella University was a complete waste of time and money .
+1	Capella	Capella	PROPN	NNP	_	1	compound	_	_	5:targ
+2	University	University	PROPN	NNP	_	2	nsubj	_	_	1:targ
+3	was	be	AUX	VBD	_	2	ROOT	_	_	_
+4	a	a	DET	DT	_	5	det	_	_	_
+5	complete	complete	ADJ	JJ	_	5	amod	_	_	0:exp-negative
+6	waste	waste	NOUN	NN	_	2	attr	_	_	5:exp-negative
+7	of	of	ADP	IN	_	5	prep	_	_	5:exp-negative
+8	time	time	NOUN	NN	_	6	pobj	_	_	5:exp-negative
+9	and	and	CCONJ	CC	_	7	cc	_	_	_
+10	money	money	NOUN	NN	_	7	conj	_	_	_
+11	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_55_10-05-2005-3
+# text = Having attended real universities , prior to paying a huge amount of money to Capella , I was appalled at the lack of academic integrity basically , pay your money and you'll finish .
+1	Having	have	VERB	VBG	_	1	aux	_	_	_
+2	attended	attend	VERB	VBN	_	17	advcl	_	_	_
+3	real	real	ADJ	JJ	_	3	amod	_	_	_
+4	universities	university	NOUN	NNS	_	1	dobj	_	_	_
+5	,	,	PUNCT	,	_	17	punct	_	_	_
+6	prior	prior	ADV	RB	_	17	advmod	_	_	_
+7	to	to	ADP	IN	_	5	prep	_	_	_
+8	paying	pay	VERB	VBG	_	6	pcomp	_	_	_
+9	a	a	DET	DT	_	10	det	_	_	_
+10	huge	huge	ADJ	JJ	_	10	amod	_	_	_
+11	amount	amount	NOUN	NN	_	7	dobj	_	_	_
+12	of	of	ADP	IN	_	10	prep	_	_	_
+13	money	money	NOUN	NN	_	11	pobj	_	_	_
+14	to	to	ADP	IN	_	7	prep	_	_	_
+15	Capella	Capella	PROPN	NNP	_	13	pobj	_	_	_
+16	,	,	PUNCT	,	_	17	punct	_	_	_
+17	I	-PRON-	PRON	PRP	_	17	nsubj	_	_	_
+18	was	be	AUX	VBD	_	18	auxpass	_	_	_
+19	appalled	appal	VERB	VBN	_	18	ROOT	_	_	_
+20	at	at	ADP	IN	_	18	prep	_	_	_
+21	the	the	DET	DT	_	21	det	_	_	_
+22	lack	lack	NOUN	NN	_	19	pobj	_	_	_
+23	of	of	ADP	IN	_	21	prep	_	_	_
+24	academic	academic	ADJ	JJ	_	24	amod	_	_	_
+25	integrity	integrity	NOUN	NN	_	22	pobj	_	_	_
+26	basically	basically	ADV	RB	_	18	advmod	_	_	_
+27	,	,	PUNCT	,	_	18	punct	_	_	_
+28	pay	pay	VERB	VB	_	18	conj	_	_	_
+29	your	-PRON-	DET	PRP$	_	29	poss	_	_	_
+30	money	money	NOUN	NN	_	27	dobj	_	_	_
+31	and	and	CCONJ	CC	_	27	cc	_	_	_
+32	you'll	you'll	PRON	PRP	_	32	nsubj	_	_	_
+33	finish	finish	VERB	VB	_	27	conj	_	_	_
+34	.	.	PUNCT	.	_	18	punct	_	_	_
+
+# sent_id = Capella_University_55_10-05-2005-4
+# text = One of the bizarre things you'll notice about Capella and their students is that they refer to themselves as " learners " - that should be almost offensive to anyone who is really concerned with the attainment of a genuinely rigorous educational undertaking : a cat can learn to use a litter box , a rat can learn to use a Skinner box , a dog can learn to drool when a bell has been struck .
+1	One	one	NUM	CD	_	12	nsubj	_	_	_
+2	of	of	ADP	IN	_	0	prep	_	_	_
+3	the	the	DET	DT	_	4	det	_	_	_
+4	bizarre	bizarre	ADJ	JJ	_	4	amod	_	_	_
+5	things	thing	NOUN	NNS	_	1	pobj	_	_	_
+6	you'll	you'll	PRON	PRP	_	6	nsubj	_	_	_
+7	notice	notice	VERB	VB	_	4	relcl	_	_	_
+8	about	about	ADP	IN	_	6	prep	_	_	_
+9	Capella	Capella	PROPN	NNP	_	7	pobj	_	_	4:targ
+10	and	and	CCONJ	CC	_	8	cc	_	_	_
+11	their	-PRON-	DET	PRP$	_	11	poss	_	_	_
+12	students	student	NOUN	NNS	_	8	conj	_	_	_
+13	is	be	AUX	VBZ	_	47	ccomp	_	_	_
+14	that	that	SCONJ	IN	_	15	mark	_	_	_
+15	they	-PRON-	PRON	PRP	_	15	nsubj	_	_	_
+16	refer	refer	VERB	VBP	_	12	ccomp	_	_	_
+17	to	to	ADP	IN	_	15	prep	_	_	_
+18	themselves	-PRON-	PRON	PRP	_	16	pobj	_	_	_
+19	as	as	SCONJ	IN	_	15	prep	_	_	_
+20	"	"	PUNCT	``	_	18	punct	_	_	_
+21	learners	learner	NOUN	NNS	_	18	pobj	_	_	_
+22	"	"	PUNCT	''	_	20	punct	_	_	_
+23	-	-	PUNCT	:	_	18	punct	_	_	_
+24	that	that	DET	WDT	_	25	nsubj	_	_	_
+25	should	should	VERB	MD	_	25	aux	_	_	_
+26	be	be	AUX	VB	_	18	pcomp	_	_	_
+27	almost	almost	ADV	RB	_	27	advmod	_	_	_
+28	offensive	offensive	ADJ	JJ	_	25	acomp	_	_	_
+29	to	to	ADP	IN	_	27	prep	_	_	_
+30	anyone	anyone	PRON	NN	_	28	pobj	_	_	_
+31	who	who	PRON	WP	_	31	nsubj	_	_	_
+32	is	be	AUX	VBZ	_	29	relcl	_	_	_
+33	really	really	ADV	RB	_	33	advmod	_	_	_
+34	concerned	concerned	ADJ	JJ	_	31	acomp	_	_	_
+35	with	with	ADP	IN	_	33	prep	_	_	_
+36	the	the	DET	DT	_	36	det	_	_	_
+37	attainment	attainment	NOUN	NN	_	34	pobj	_	_	_
+38	of	of	ADP	IN	_	36	prep	_	_	_
+39	a	a	DET	DT	_	42	det	_	_	_
+40	genuinely	genuinely	ADV	RB	_	40	advmod	_	_	_
+41	rigorous	rigorous	ADJ	JJ	_	42	amod	_	_	_
+42	educational	educational	ADJ	JJ	_	42	amod	_	_	_
+43	undertaking	undertaking	NOUN	NN	_	37	pobj	_	_	_
+44	:	:	PUNCT	:	_	47	punct	_	_	_
+45	a	a	DET	DT	_	45	det	_	_	_
+46	cat	cat	NOUN	NN	_	47	nsubj	_	_	_
+47	can	can	VERB	MD	_	47	aux	_	_	_
+48	learn	learn	VERB	VB	_	57	ccomp	_	_	_
+49	to	to	PART	TO	_	49	aux	_	_	_
+50	use	use	VERB	VB	_	47	xcomp	_	_	_
+51	a	a	DET	DT	_	52	det	_	_	_
+52	litter	litter	NOUN	NN	_	52	compound	_	_	_
+53	box	box	NOUN	NN	_	49	dobj	_	_	_
+54	,	,	PUNCT	,	_	57	punct	_	_	_
+55	a	a	DET	DT	_	55	det	_	_	_
+56	rat	rat	NOUN	NN	_	57	nsubj	_	_	_
+57	can	can	VERB	MD	_	57	aux	_	_	_
+58	learn	learn	VERB	VB	_	67	ccomp	_	_	_
+59	to	to	PART	TO	_	59	aux	_	_	_
+60	use	use	VERB	VB	_	57	xcomp	_	_	_
+61	a	a	DET	DT	_	62	det	_	_	_
+62	Skinner	Skinner	PROPN	NNP	_	62	compound	_	_	_
+63	box	box	NOUN	NN	_	59	dobj	_	_	_
+64	,	,	PUNCT	,	_	67	punct	_	_	_
+65	a	a	DET	DT	_	65	det	_	_	_
+66	dog	dog	NOUN	NN	_	67	nsubj	_	_	_
+67	can	can	VERB	MD	_	67	aux	_	_	_
+68	learn	learn	VERB	VB	_	67	ROOT	_	_	_
+69	to	to	ADP	IN	_	69	aux	_	_	_
+70	drool	drool	NOUN	NN	_	67	xcomp	_	_	_
+71	when	when	ADV	WRB	_	75	advmod	_	_	_
+72	a	a	DET	DT	_	72	det	_	_	_
+73	bell	bell	NOUN	NN	_	75	nsubjpass	_	_	_
+74	has	have	AUX	VBZ	_	75	aux	_	_	_
+75	been	be	AUX	VBN	_	75	auxpass	_	_	_
+76	struck	strike	VERB	VBN	_	69	advcl	_	_	_
+77	.	.	PUNCT	.	_	67	punct	_	_	_
+
+# sent_id = Capella_University_55_10-05-2005-6
+# text = A student , on the other hand is one who is actively engaged in the acquisition of new knowledge ; a process that never stops .
+1	A	a	DET	DT	_	1	det	_	_	_
+2	student	student	NOUN	NN	_	7	nsubj	_	_	_
+3	,	,	PUNCT	,	_	7	punct	_	_	_
+4	on	on	ADP	IN	_	7	prep	_	_	_
+5	the	the	DET	DT	_	6	det	_	_	_
+6	other	other	ADJ	JJ	_	6	amod	_	_	_
+7	hand	hand	NOUN	NN	_	3	pobj	_	_	_
+8	is	be	AUX	VBZ	_	7	ROOT	_	_	_
+9	one	one	NOUN	NN	_	7	attr	_	_	_
+10	who	who	PRON	WP	_	12	nsubjpass	_	_	_
+11	is	be	AUX	VBZ	_	12	auxpass	_	_	_
+12	actively	actively	ADV	RB	_	12	advmod	_	_	_
+13	engaged	engage	VERB	VBN	_	8	relcl	_	_	_
+14	in	in	ADP	IN	_	12	prep	_	_	_
+15	the	the	DET	DT	_	15	det	_	_	_
+16	acquisition	acquisition	NOUN	NN	_	13	pobj	_	_	_
+17	of	of	ADP	IN	_	15	prep	_	_	_
+18	new	new	ADJ	JJ	_	18	amod	_	_	_
+19	knowledge	knowledge	NOUN	NN	_	16	pobj	_	_	_
+20	;	;	PUNCT	:	_	8	punct	_	_	_
+21	a	a	DET	DT	_	21	det	_	_	_
+22	process	process	NOUN	NN	_	8	appos	_	_	_
+23	that	that	DET	WDT	_	24	nsubj	_	_	_
+24	never	never	ADV	RB	_	24	neg	_	_	_
+25	stops	stop	VERB	VBZ	_	21	relcl	_	_	_
+26	.	.	PUNCT	.	_	7	punct	_	_	_
+
+# sent_id = Capella_University_55_10-05-2005-7
+# text = If you want to be a learner who merely connects the dots of poorly written ( and generic ) syllabi created by faculty that really aren't actively engaged in teaching Capella is the choice for you .
+1	If	if	SCONJ	IN	_	2	mark	_	_	_
+2	you	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+3	want	want	VERB	VBP	_	31	advcl	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	be	be	AUX	VB	_	2	xcomp	_	_	_
+6	a	a	DET	DT	_	6	det	_	_	_
+7	learner	learner	NOUN	NN	_	4	attr	_	_	_
+8	who	who	PRON	WP	_	9	nsubj	_	_	_
+9	merely	merely	ADV	RB	_	9	advmod	_	_	_
+10	connects	connect	VERB	VBZ	_	6	relcl	_	_	_
+11	the	the	DET	DT	_	11	det	_	_	_
+12	dots	dot	NOUN	NNS	_	9	dobj	_	_	_
+13	of	of	ADP	IN	_	11	prep	_	_	_
+14	poorly	poorly	ADV	RB	_	14	advmod	_	_	_
+15	written	write	VERB	VBN	_	19	amod	_	_	_
+16	(	(	PUNCT	-LRB-	_	14	punct	_	_	_
+17	and	and	CCONJ	CC	_	14	cc	_	_	_
+18	generic	generic	PROPN	NNP	_	14	conj	_	_	_
+19	)	)	PUNCT	-RRB-	_	17	punct	_	_	_
+20	syllabi	syllabi	PROPN	NNP	_	12	pobj	_	_	_
+21	created	create	VERB	VBN	_	19	acl	_	_	_
+22	by	by	ADP	IN	_	20	agent	_	_	_
+23	faculty	faculty	NOUN	NN	_	21	pobj	_	_	_
+24	that	that	DET	WDT	_	27	mark	_	_	_
+25	really	really	ADV	RB	_	27	advmod	_	_	_
+26	aren't	aren't	VERB	VBP	_	27	punct	_	_	_
+27	actively	actively	ADV	RB	_	27	advmod	_	_	_
+28	engaged	engage	VERB	VBN	_	22	acl	_	_	_
+29	in	in	ADP	IN	_	27	prep	_	_	_
+30	teaching	teach	VERB	VBG	_	28	pcomp	_	_	_
+31	Capella	Capella	PROPN	NNP	_	29	dobj	_	_	_
+32	is	be	AUX	VBZ	_	31	ROOT	_	_	_
+33	the	the	DET	DT	_	33	det	_	_	_
+34	choice	choice	NOUN	NN	_	31	attr	_	_	_
+35	for	for	ADP	IN	_	33	prep	_	_	_
+36	you	-PRON-	PRON	PRP	_	34	pobj	_	_	_
+37	.	.	PUNCT	.	_	31	punct	_	_	_
+
+# sent_id = Capella_University_55_10-05-2005-8
+# text = Spend your money and get your piece of worthless paper .
+1	Spend	spend	VERB	VB	_	0	ROOT	_	_	_
+2	your	-PRON-	DET	PRP$	_	2	poss	_	_	_
+3	money	money	NOUN	NN	_	0	dobj	_	_	_
+4	and	and	CCONJ	CC	_	0	cc	_	_	_
+5	get	get	AUX	VB	_	0	conj	_	_	_
+6	your	-PRON-	DET	PRP$	_	6	poss	_	_	_
+7	piece	piece	NOUN	NN	_	4	dobj	_	_	_
+8	of	of	ADP	IN	_	6	prep	_	_	_
+9	worthless	worthless	ADJ	JJ	_	9	amod	_	_	_
+10	paper	paper	NOUN	NN	_	7	pobj	_	_	_
+11	.	.	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_76_06-17-2005-1
+# text = If a CTU recruiter contacts you . . . RUN !
+1	If	if	SCONJ	IN	_	4	mark	_	_	_
+2	a	a	DET	DT	_	3	det	_	_	_
+3	CTU	CTU	PROPN	NNP	_	3	compound	_	_	_
+4	recruiter	recruiter	NOUN	NN	_	4	nsubj	_	_	_
+5	contacts	contact	VERB	VBZ	_	4	ROOT	_	_	_
+6	you	-PRON-	PRON	PRP	_	4	dobj	_	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_	_
+10	RUN	run	VERB	VB	_	9	ROOT	_	_	_
+11	!	!	PUNCT	.	_	9	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_76_06-17-2005-2
+# text = Their Software Engineering Program is about $32,000 shy of being a diploma mill .
+1	Their	-PRON-	DET	PRP$	_	3	poss	_	_	_
+2	Software	Software	PROPN	NNP	_	2	compound	_	_	_
+3	Engineering	Engineering	PROPN	NNP	_	3	compound	_	_	_
+4	Program	Program	PROPN	NNP	_	4	nsubj	_	_	12:targ
+5	is	be	AUX	VBZ	_	4	ROOT	_	_	_
+6	about	about	ADV	RB	_	6	advmod	_	_	_
+7	$32,000	$32,000	SYM	$	_	7	npadvmod	_	_	_
+8	shy	shy	ADJ	JJ	_	4	acomp	_	_	_
+9	of	of	ADP	IN	_	7	prep	_	_	_
+10	being	be	AUX	VBG	_	8	pcomp	_	_	_
+11	a	a	DET	DT	_	12	det	_	_	_
+12	diploma	diploma	NOUN	NN	_	12	compound	_	_	0:exp-negative
+13	mill	mill	NOUN	NN	_	9	attr	_	_	12:exp-negative
+14	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_76_06-17-2005-4
+# text = AND that you will qualify for a job as a programmer upon graduation .
+1	AND	and	CCONJ	CC	_	4	cc	_	_	_
+2	that	that	SCONJ	IN	_	4	mark	_	_	_
+3	you	-PRON-	PRON	PRP	_	4	nsubj	_	_	_
+4	will	will	VERB	MD	_	4	aux	_	_	_
+5	qualify	qualify	VERB	VB	_	4	ROOT	_	_	_
+6	for	for	ADP	IN	_	4	prep	_	_	_
+7	a	a	DET	DT	_	7	det	_	_	_
+8	job	job	NOUN	NN	_	5	pobj	_	_	_
+9	as	as	SCONJ	IN	_	7	prep	_	_	_
+10	a	a	DET	DT	_	10	det	_	_	_
+11	programmer	programmer	NOUN	NN	_	8	pobj	_	_	_
+12	upon	upon	SCONJ	IN	_	10	prep	_	_	_
+13	graduation	graduation	NOUN	NN	_	11	pobj	_	_	_
+14	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_76_06-17-2005-5
+# text = LIES !
+1	LIES	LIES	PROPN	NNP	_	0	ROOT	_	_	_
+2	!	!	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_76_06-17-2005-6
+# text = The free books taht they provide are so poor in quality you cannot even find their isbn's on the internet .
+1	The	the	DET	DT	_	2	det	_	_	_
+2	free	free	ADJ	JJ	_	2	amod	_	_	_
+3	books	book	NOUN	NNS	_	6	nsubj	_	_	8:targ
+4	taht	taht	NOUN	NN	_	2	appos	_	_	_
+5	they	-PRON-	PRON	PRP	_	5	nsubj	_	_	_
+6	provide	provide	VERB	VBP	_	3	relcl	_	_	_
+7	are	be	AUX	VBP	_	6	ROOT	_	_	_
+8	so	so	ADV	RB	_	8	advmod	_	_	0:exp-negative
+9	poor	poor	ADJ	JJ	_	6	acomp	_	_	8:exp-negative
+10	in	in	ADP	IN	_	6	prep	_	_	_
+11	quality	quality	NOUN	NN	_	9	pobj	_	_	_
+12	you	-PRON-	PRON	PRP	_	14	nsubj	_	_	_
+13	cannot	cannot	VERB	VBP	_	14	aux	_	_	_
+14	even	even	ADV	RB	_	14	advmod	_	_	_
+15	find	find	VERB	VB	_	6	ccomp	_	_	_
+16	their	-PRON-	DET	PRP$	_	16	poss	_	_	_
+17	isbn's	isbn'	NOUN	NNS	_	17	dep	_	_	_
+18	on	on	ADP	IN	_	14	prep	_	_	_
+19	the	the	DET	DT	_	19	det	_	_	_
+20	internet	internet	NOUN	NN	_	17	pobj	_	_	_
+21	.	.	PUNCT	.	_	6	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_76_06-17-2005-8
+# text = It is impossible to be successful at this university or to learn everything .
+1	It	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	impossible	impossible	ADJ	JJ	_	1	acomp	_	_	0:exp-negative
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	be	be	AUX	VB	_	1	xcomp	_	_	_
+6	successful	successful	ADJ	JJ	_	4	acomp	_	_	_
+7	at	at	ADP	IN	_	4	prep	_	_	_
+8	this	this	DET	DT	_	8	det	_	_	_
+9	university	university	NOUN	NN	_	6	pobj	_	_	3:targ
+10	or	or	CCONJ	CC	_	4	cc	_	_	_
+11	to	to	PART	TO	_	11	aux	_	_	_
+12	learn	learn	VERB	VB	_	4	conj	_	_	_
+13	everything	everything	PRON	NN	_	11	dobj	_	_	_
+14	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_76_06-17-2005-11
+# text = But if you want to learn something . . . stay away and go someplace that provides students with the tools necessary to get jobs when they graduate .
+1	But	but	CCONJ	CC	_	0	ROOT	_	_	_
+2	if	if	SCONJ	IN	_	3	mark	_	_	_
+3	you	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+4	want	want	VERB	VBP	_	0	intj	_	_	_
+5	to	to	PART	TO	_	5	aux	_	_	_
+6	learn	learn	VERB	VB	_	3	xcomp	_	_	_
+7	something	something	PRON	NN	_	5	dobj	_	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_	_
+9	.	.	PUNCT	.	_	0	punct	_	_	_
+10	.	.	PUNCT	.	_	0	punct	_	_	_
+11	stay	stay	VERB	VB	_	10	ROOT	_	_	_
+12	away	away	ADV	RB	_	10	advmod	_	_	_
+13	and	and	CCONJ	CC	_	10	cc	_	_	_
+14	go	go	VERB	VB	_	10	conj	_	_	_
+15	someplace	someplace	VERB	VB	_	13	dobj	_	_	_
+16	that	that	DET	WDT	_	16	nsubj	_	_	_
+17	provides	provide	VERB	VBZ	_	14	relcl	_	_	_
+18	students	student	NOUN	NNS	_	16	dobj	_	_	_
+19	with	with	ADP	IN	_	17	prep	_	_	_
+20	the	the	DET	DT	_	20	det	_	_	_
+21	tools	tool	NOUN	NNS	_	18	pobj	_	_	_
+22	necessary	necessary	ADJ	JJ	_	16	ccomp	_	_	_
+23	to	to	PART	TO	_	23	aux	_	_	_
+24	get	get	AUX	VB	_	21	xcomp	_	_	_
+25	jobs	job	NOUN	NNS	_	23	dobj	_	_	_
+26	when	when	ADV	WRB	_	27	advmod	_	_	_
+27	they	-PRON-	PRON	PRP	_	27	nsubj	_	_	_
+28	graduate	graduate	VERB	VBP	_	23	advcl	_	_	_
+29	.	.	PUNCT	.	_	10	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_76_06-17-2005-12
+# text = Please someone tell me how this school received a regional accreditation !
+1	Please	please	INTJ	UH	_	2	intj	_	_	_
+2	someone	someone	PRON	NN	_	2	nsubj	_	_	_
+3	tell	tell	VERB	VB	_	2	ROOT	_	_	_
+4	me	-PRON-	PRON	PRP	_	2	dobj	_	_	_
+5	how	how	ADV	WRB	_	7	advmod	_	_	_
+6	this	this	DET	DT	_	6	det	_	_	_
+7	school	school	NOUN	NN	_	7	nsubj	_	_	6:targ
+8	received	receive	VERB	VBD	_	2	ccomp	_	_	_
+9	a	a	DET	DT	_	10	det	_	_	_
+10	regional	regional	ADJ	JJ	_	10	amod	_	_	_
+11	accreditation	accreditation	NOUN	NN	_	7	dobj	_	_	_
+12	!	!	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_83_04-16-2007-3
+# text = I keep having to call the IRS ( which i've never had to do ) to request info from them and then having them say 'well we've never had a school request something like that....' .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	keep	keep	VERB	VBP	_	1	ROOT	_	_	_
+3	having	have	VERB	VBG	_	1	xcomp	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	call	call	VERB	VB	_	2	xcomp	_	_	_
+6	the	the	DET	DT	_	6	det	_	_	_
+7	IRS	IRS	PROPN	NNP	_	4	dobj	_	_	_
+8	(	(	PUNCT	-LRB-	_	6	punct	_	_	_
+9	which	which	DET	WDT	_	13	dobj	_	_	_
+10	i've	i've	ADJ	AFX	_	11	nsubj	_	_	_
+11	never	never	ADV	RB	_	11	neg	_	_	_
+12	had	have	AUX	VBD	_	6	relcl	_	_	_
+13	to	to	PART	TO	_	13	aux	_	_	_
+14	do	do	AUX	VB	_	11	xcomp	_	_	_
+15	)	)	PUNCT	-RRB-	_	6	punct	_	_	_
+16	to	to	PART	TO	_	16	aux	_	_	_
+17	request	request	VERB	VB	_	4	xcomp	_	_	_
+18	info	info	NOUN	NN	_	16	dobj	_	_	_
+19	from	from	ADP	IN	_	17	prep	_	_	_
+20	them	-PRON-	PRON	PRP	_	18	pobj	_	_	_
+21	and	and	CCONJ	CC	_	1	cc	_	_	_
+22	then	then	ADV	RB	_	22	advmod	_	_	_
+23	having	have	VERB	VBG	_	1	conj	_	_	_
+24	them	-PRON-	PRON	PRP	_	24	nsubj	_	_	_
+25	say	say	VERB	VB	_	22	ccomp	_	_	_
+26	'well	'well	PROPN	NNP	_	28	punct	_	_	_
+27	we've	we've	PROPN	NNP	_	28	nsubj	_	_	_
+28	never	never	ADV	RB	_	28	neg	_	_	_
+29	had	have	AUX	VBD	_	1	advcl	_	_	_
+30	a	a	DET	DT	_	31	det	_	_	_
+31	school	school	NOUN	NN	_	31	compound	_	_	_
+32	request	request	NOUN	NN	_	28	dobj	_	_	_
+33	something	something	PRON	NN	_	28	dobj	_	_	_
+34	like	like	SCONJ	IN	_	32	prep	_	_	_
+35	that....'	that....'	NOUN	NNS	_	33	pobj	_	_	_
+36	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_83_04-16-2007-4
+# text = Overall , i'm left with having doubts of even attending this school because I haven't even started attending classes yet and i'm already having this much trouble and its causing so much stress .
+1	Overall	overall	ADV	RB	_	3	advmod	_	_	_
+2	,	,	PUNCT	,	_	3	punct	_	_	_
+3	i'm	i'm	ADV	RB	_	3	neg	_	_	_
+4	left	leave	VERB	VBD	_	3	ROOT	_	_	_
+5	with	with	ADP	IN	_	3	prep	_	_	_
+6	having	have	VERB	VBG	_	4	pcomp	_	_	_
+7	doubts	doubt	NOUN	NNS	_	5	dobj	_	_	0:exp-negative
+8	of	of	ADP	IN	_	6	prep	_	_	_
+9	even	even	ADV	RB	_	9	advmod	_	_	_
+10	attending	attend	VERB	VBG	_	7	pcomp	_	_	_
+11	this	this	DET	DT	_	11	det	_	_	7:targ
+12	school	school	NOUN	NN	_	9	dobj	_	_	11:targ
+13	because	because	SCONJ	IN	_	16	mark	_	_	_
+14	I	-PRON-	PRON	PRP	_	16	nsubj	_	_	_
+15	haven't	haven't	VERB	VBP	_	16	aux	_	_	_
+16	even	even	ADV	RB	_	16	advmod	_	_	_
+17	started	start	VERB	VBD	_	3	advcl	_	_	_
+18	attending	attend	VERB	VBG	_	16	xcomp	_	_	_
+19	classes	class	NOUN	NNS	_	17	dobj	_	_	_
+20	yet	yet	ADV	RB	_	17	advmod	_	_	_
+21	and	and	CCONJ	CC	_	16	cc	_	_	_
+22	i'm	i'm	NOUN	NN	_	23	aux	_	_	_
+23	already	already	ADV	RB	_	23	advmod	_	_	_
+24	having	have	VERB	VBG	_	16	conj	_	_	_
+25	this	this	DET	DT	_	26	det	_	_	_
+26	much	much	ADJ	JJ	_	26	amod	_	_	_
+27	trouble	trouble	NOUN	NN	_	23	dobj	_	_	_
+28	and	and	CCONJ	CC	_	26	cc	_	_	_
+29	its	-PRON-	DET	PRP$	_	29	poss	_	_	_
+30	causing	cause	VERB	VBG	_	26	conj	_	_	_
+31	so	so	ADV	RB	_	31	advmod	_	_	_
+32	much	much	ADJ	JJ	_	32	amod	_	_	_
+33	stress	stress	NOUN	NN	_	29	dobj	_	_	_
+34	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_83_04-16-2007-5
+# text = Not to mention , I talked to a lady who works in the financial aid dept .
+1	Not	not	PART	RB	_	2	neg	_	_	_
+2	to	to	PART	TO	_	2	aux	_	_	_
+3	mention	mention	VERB	VB	_	5	advcl	_	_	_
+4	,	,	PUNCT	,	_	5	punct	_	_	_
+5	I	-PRON-	PRON	PRP	_	5	nsubj	_	_	_
+6	talked	talk	VERB	VBD	_	5	ROOT	_	_	_
+7	to	to	ADP	IN	_	5	prep	_	_	_
+8	a	a	DET	DT	_	8	det	_	_	_
+9	lady	lady	NOUN	NN	_	6	pobj	_	_	_
+10	who	who	PRON	WP	_	10	nsubj	_	_	_
+11	works	work	VERB	VBZ	_	8	relcl	_	_	_
+12	in	in	ADP	IN	_	10	prep	_	_	_
+13	the	the	DET	DT	_	15	det	_	_	_
+14	financial	financial	ADJ	JJ	_	14	amod	_	_	_
+15	aid	aid	NOUN	NN	_	15	compound	_	_	_
+16	dept	dept	NOUN	NN	_	11	pobj	_	_	_
+17	.	.	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_83_04-16-2007-6
+# text = today and she sounded b*tchy .
+1	today	today	NOUN	NN	_	0	ROOT	_	_	_
+2	and	and	CCONJ	CC	_	3	cc	_	_	_
+3	she	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+4	sounded	sound	VERB	VBD	_	3	ROOT	_	_	_
+5	b*tchy	b*tchy	PROPN	NNP	_	3	dobj	_	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_83_04-16-2007-7
+# text = That was just icing on the cake .
+1	That	that	DET	DT	_	3	nsubj	_	_	3:targ
+2	was	be	AUX	VBD	_	3	aux	_	_	_
+3	just	just	ADV	RB	_	3	advmod	_	_	_
+4	icing	ice	VERB	VBG	_	3	ROOT	_	_	_
+5	on	on	ADP	IN	_	3	prep	_	_	_
+6	the	the	DET	DT	_	6	det	_	_	_
+7	cake	cake	NOUN	NN	_	4	pobj	_	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-1
+# text = Thanks Capella ! ! ! !
+1	Thanks	thanks	INTJ	UH	_	0	ROOT	_	_	_
+2	Capella	Capella	PROPN	NNP	_	0	npadvmod	_	_	_
+3	!	!	PUNCT	.	_	0	punct	_	_	_
+4	!	!	PUNCT	.	_	0	punct	_	_	_
+5	!	!	PUNCT	.	_	0	punct	_	_	_
+6	!	!	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-3
+# text = So , now I will leave my original comment about Capella .
+1	So	so	ADV	RB	_	5	advmod	_	_	_
+2	,	,	PUNCT	,	_	5	punct	_	_	_
+3	now	now	ADV	RB	_	5	advmod	_	_	_
+4	I	-PRON-	PRON	PRP	_	5	nsubj	_	_	_
+5	will	will	VERB	MD	_	5	aux	_	_	_
+6	leave	leave	VERB	VB	_	5	ROOT	_	_	_
+7	my	-PRON-	DET	PRP$	_	8	poss	_	_	_
+8	original	original	ADJ	JJ	_	8	amod	_	_	_
+9	comment	comment	NOUN	NN	_	5	dobj	_	_	_
+10	about	about	ADP	IN	_	8	prep	_	_	_
+11	Capella	Capella	PROPN	NNP	_	9	pobj	_	_	_
+12	.	.	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-4
+# text = My gripe has to do with the initial contact I personally experienced at Capella University
+1	My	-PRON-	DET	PRP$	_	1	poss	_	_	_
+2	gripe	gripe	NOUN	NN	_	2	nsubj	_	_	_
+3	has	have	AUX	VBZ	_	2	ROOT	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	do	do	AUX	VB	_	2	xcomp	_	_	_
+6	with	with	ADP	IN	_	4	prep	_	_	_
+7	the	the	DET	DT	_	8	det	_	_	_
+8	initial	initial	ADJ	JJ	_	8	amod	_	_	_
+9	contact	contact	NOUN	NN	_	5	pobj	_	_	_
+10	I	-PRON-	PRON	PRP	_	11	nsubj	_	_	_
+11	personally	personally	ADV	RB	_	11	advmod	_	_	_
+12	experienced	experience	VERB	VBD	_	8	relcl	_	_	_
+13	at	at	ADP	IN	_	11	prep	_	_	_
+14	Capella	Capella	PROPN	NNP	_	14	compound	_	_	_
+15	University	University	PROPN	NNP	_	12	pobj	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-5
+# text = I contacted Capella because I was interested in online learning .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	contacted	contact	VERB	VBD	_	1	ROOT	_	_	_
+3	Capella	Capella	PROPN	NNP	_	1	dobj	_	_	_
+4	because	because	SCONJ	IN	_	5	mark	_	_	_
+5	I	-PRON-	PRON	PRP	_	5	nsubj	_	_	_
+6	was	be	AUX	VBD	_	1	advcl	_	_	_
+7	interested	interested	ADJ	JJ	_	5	acomp	_	_	_
+8	in	in	ADP	IN	_	6	prep	_	_	_
+9	online	online	ADJ	JJ	_	9	amod	_	_	_
+10	learning	learning	NOUN	NN	_	7	pobj	_	_	_
+11	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-7
+# text = The request was to let me speak to someone who is currently in one of their graduate programs .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	request	request	NOUN	NN	_	2	nsubj	_	_	_
+3	was	be	AUX	VBD	_	2	ROOT	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	let	let	VERB	VB	_	2	xcomp	_	_	_
+6	me	-PRON-	PRON	PRP	_	6	nsubj	_	_	_
+7	speak	speak	VERB	VB	_	4	ccomp	_	_	_
+8	to	to	ADP	IN	_	6	prep	_	_	_
+9	someone	someone	PRON	NN	_	7	pobj	_	_	_
+10	who	who	PRON	WP	_	10	nsubj	_	_	_
+11	is	be	AUX	VBZ	_	8	relcl	_	_	_
+12	currently	currently	ADV	RB	_	10	advmod	_	_	_
+13	in	in	ADP	IN	_	10	prep	_	_	_
+14	one	one	NUM	CD	_	12	pobj	_	_	_
+15	of	of	ADP	IN	_	13	prep	_	_	_
+16	their	-PRON-	DET	PRP$	_	17	poss	_	_	_
+17	graduate	graduate	NOUN	NN	_	17	compound	_	_	_
+18	programs	program	NOUN	NNS	_	14	pobj	_	_	_
+19	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-12
+# text = I hate bad service .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	hate	hate	VERB	VBP	_	1	ROOT	_	_	_
+3	bad	bad	ADJ	JJ	_	3	amod	_	_	_
+4	service	service	NOUN	NN	_	1	dobj	_	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-14
+# text = Other schools have plenty of references that I am able to contact .
+1	Other	other	ADJ	JJ	_	1	amod	_	_	_
+2	schools	school	NOUN	NNS	_	2	nsubj	_	_	_
+3	have	have	AUX	VBP	_	2	ROOT	_	_	_
+4	plenty	plenty	NOUN	NN	_	2	dobj	_	_	_
+5	of	of	ADP	IN	_	3	prep	_	_	_
+6	references	reference	NOUN	NNS	_	4	pobj	_	_	_
+7	that	that	DET	WDT	_	11	dobj	_	_	_
+8	I	-PRON-	PRON	PRP	_	8	nsubj	_	_	_
+9	am	be	AUX	VBP	_	5	relcl	_	_	_
+10	able	able	ADJ	JJ	_	8	acomp	_	_	_
+11	to	to	PART	TO	_	11	aux	_	_	_
+12	contact	contact	VERB	VB	_	9	xcomp	_	_	_
+13	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-15
+# text = I ultimately saw this as a blessing because I am no longer pursuing this school anymore .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	ultimately	ultimately	ADV	RB	_	2	advmod	_	_	_
+3	saw	see	VERB	VBD	_	2	ROOT	_	_	_
+4	this	this	DET	DT	_	2	dobj	_	_	_
+5	as	as	SCONJ	IN	_	2	prep	_	_	_
+6	a	a	DET	DT	_	6	det	_	_	_
+7	blessing	blessing	NOUN	NN	_	4	pobj	_	_	_
+8	because	because	SCONJ	IN	_	12	mark	_	_	_
+9	I	-PRON-	PRON	PRP	_	12	nsubj	_	_	_
+10	am	be	AUX	VBP	_	12	aux	_	_	_
+11	no	no	ADV	RB	_	11	neg	_	_	_
+12	longer	longer	ADV	RBR	_	12	advmod	_	_	_
+13	pursuing	pursue	VERB	VBG	_	2	advcl	_	_	_
+14	this	this	DET	DT	_	14	det	_	_	_
+15	school	school	NOUN	NN	_	12	dobj	_	_	_
+16	anymore	anymore	ADV	RB	_	12	advmod	_	_	_
+17	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-16
+# text = Because of my experience , I feel it's important to let others know about it .
+1	Because	because	SCONJ	IN	_	6	prep	_	_	_
+2	of	of	ADP	IN	_	0	pcomp	_	_	_
+3	my	-PRON-	DET	PRP$	_	3	poss	_	_	_
+4	experience	experience	NOUN	NN	_	0	pobj	_	_	_
+5	,	,	PUNCT	,	_	6	punct	_	_	_
+6	I	-PRON-	PRON	PRP	_	6	nsubj	_	_	_
+7	feel	feel	VERB	VBP	_	6	ROOT	_	_	_
+8	it's	it's	DET	PRP$	_	8	poss	_	_	_
+9	important	important	ADJ	JJ	_	6	acomp	_	_	_
+10	to	to	PART	TO	_	10	aux	_	_	_
+11	let	let	VERB	VB	_	6	xcomp	_	_	_
+12	others	other	NOUN	NNS	_	12	nsubj	_	_	_
+13	know	know	VERB	VB	_	10	ccomp	_	_	_
+14	about	about	ADP	IN	_	12	prep	_	_	_
+15	it	-PRON-	PRON	PRP	_	13	pobj	_	_	_
+16	.	.	PUNCT	.	_	6	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-17
+# text = My initial experience with Capella wasn't good .
+1	My	-PRON-	DET	PRP$	_	2	poss	_	_	_
+2	initial	initial	ADJ	JJ	_	2	amod	_	_	_
+3	experience	experience	NOUN	NN	_	2	ROOT	_	_	_
+4	with	with	ADP	IN	_	2	prep	_	_	_
+5	Capella	Capella	PROPN	NNP	_	6	compound	_	_	_
+6	wasn't	wasn't	NOUN	NN	_	6	compound	_	_	_
+7	good	good	ADJ	JJ	_	3	pobj	_	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-18
+# text = This led me to look at what others are saying and " some " are saying that the school is lousy from their experiences also and they are currently in the program .
+1	This	this	DET	DT	_	1	nsubj	_	_	_
+2	led	lead	VERB	VBD	_	1	ROOT	_	_	_
+3	me	-PRON-	PRON	PRP	_	1	dobj	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	look	look	VERB	VB	_	1	xcomp	_	_	_
+6	at	at	ADP	IN	_	4	prep	_	_	_
+7	what	what	PRON	WP	_	9	dobj	_	_	_
+8	others	other	NOUN	NNS	_	9	nsubj	_	_	_
+9	are	be	AUX	VBP	_	9	aux	_	_	_
+10	saying	say	VERB	VBG	_	5	pcomp	_	_	_
+11	and	and	CCONJ	CC	_	9	cc	_	_	_
+12	"	"	PUNCT	``	_	15	punct	_	_	_
+13	some	some	DET	DT	_	15	nsubj	_	_	21:holder
+14	"	"	PUNCT	''	_	15	punct	_	_	_
+15	are	be	AUX	VBP	_	15	aux	_	_	_
+16	saying	say	VERB	VBG	_	1	conj	_	_	_
+17	that	that	SCONJ	IN	_	19	mark	_	_	_
+18	the	the	DET	DT	_	18	det	_	_	_
+19	school	school	NOUN	NN	_	19	nsubj	_	_	21:targ
+20	is	be	AUX	VBZ	_	15	ccomp	_	_	_
+21	lousy	lousy	ADJ	JJ	_	19	acomp	_	_	0:exp-negative
+22	from	from	ADP	IN	_	20	prep	_	_	_
+23	their	-PRON-	DET	PRP$	_	23	poss	_	_	_
+24	experiences	experience	NOUN	NNS	_	21	pobj	_	_	_
+25	also	also	ADV	RB	_	19	advmod	_	_	_
+26	and	and	CCONJ	CC	_	19	cc	_	_	_
+27	they	-PRON-	PRON	PRP	_	27	nsubj	_	_	_
+28	are	be	AUX	VBP	_	19	conj	_	_	_
+29	currently	currently	ADV	RB	_	27	advmod	_	_	_
+30	in	in	ADP	IN	_	27	prep	_	_	_
+31	the	the	DET	DT	_	31	det	_	_	_
+32	program	program	NOUN	NN	_	29	pobj	_	_	_
+33	.	.	PUNCT	.	_	15	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-19
+# text = This did not surprise me .
+1	This	this	DET	DT	_	3	nsubj	_	_	3:targ
+2	did	do	AUX	VBD	_	3	aux	_	_	_
+3	not	not	PART	RB	_	3	neg	_	_	0:exp-negative
+4	surprise	surprise	VERB	VB	_	3	ROOT	_	_	3:exp-negative
+5	me	-PRON-	PRON	PRP	_	3	dobj	_	_	3:exp-negative
+6	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-20
+# text = Some of these students are also on there way to PhDs .
+1	Some	some	DET	DT	_	4	nsubj	_	_	_
+2	of	of	ADP	IN	_	0	prep	_	_	_
+3	these	these	DET	DT	_	3	det	_	_	_
+4	students	student	NOUN	NNS	_	1	pobj	_	_	_
+5	are	be	AUX	VBP	_	4	ROOT	_	_	_
+6	also	also	ADV	RB	_	4	advmod	_	_	_
+7	on	on	ADV	RB	_	4	prep	_	_	_
+8	there	there	ADV	RB	_	6	pcomp	_	_	_
+9	way	way	NOUN	NN	_	6	pobj	_	_	_
+10	to	to	ADP	IN	_	8	prep	_	_	_
+11	PhDs	PhDs	PROPN	NNP	_	9	pobj	_	_	_
+12	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-21
+# text = Buyer Beware- Look around at the other reviews and ratings before you invest your hard earned time and money .
+1	Buyer	Buyer	PROPN	NNP	_	0	ROOT	_	_	_
+2	Beware-	Beware-	PROPN	NNP	_	0	punct	_	_	_
+3	Look	look	VERB	VBP	_	2	ROOT	_	_	_
+4	around	around	ADV	RB	_	2	advmod	_	_	_
+5	at	at	ADP	IN	_	2	prep	_	_	_
+6	the	the	DET	DT	_	7	det	_	_	_
+7	other	other	ADJ	JJ	_	7	amod	_	_	_
+8	reviews	review	NOUN	NNS	_	4	pobj	_	_	_
+9	and	and	CCONJ	CC	_	7	cc	_	_	_
+10	ratings	rating	NOUN	NNS	_	7	conj	_	_	_
+11	before	before	ADP	IN	_	12	mark	_	_	_
+12	you	-PRON-	PRON	PRP	_	12	nsubj	_	_	_
+13	invest	invest	VERB	VBP	_	2	advcl	_	_	_
+14	your	-PRON-	DET	PRP$	_	16	poss	_	_	_
+15	hard	hard	ADJ	JJ	_	15	advmod	_	_	_
+16	earned	earn	VERB	VBN	_	16	amod	_	_	_
+17	time	time	NOUN	NN	_	12	dobj	_	_	_
+18	and	and	CCONJ	CC	_	16	cc	_	_	_
+19	money	money	NOUN	NN	_	16	conj	_	_	_
+20	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-22
+# text = Just google Capella and ratings or reviews and then you can make a more informed decision before you invest . .
+1	Just	just	ADV	RB	_	2	advmod	_	_	_
+2	google	google	PROPN	NNP	_	2	compound	_	_	_
+3	Capella	Capella	PROPN	NNP	_	2	ROOT	_	_	_
+4	and	and	CCONJ	CC	_	2	cc	_	_	_
+5	ratings	rating	NOUN	NNS	_	2	conj	_	_	_
+6	or	or	CCONJ	CC	_	4	cc	_	_	_
+7	reviews	review	NOUN	NNS	_	4	conj	_	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_	_
+9	then	then	ADV	RB	_	11	advmod	_	_	_
+10	you	-PRON-	PRON	PRP	_	11	nsubj	_	_	_
+11	can	can	VERB	MD	_	11	aux	_	_	_
+12	make	make	VERB	VB	_	11	ROOT	_	_	_
+13	a	a	DET	DT	_	15	det	_	_	_
+14	more	more	ADV	RBR	_	14	advmod	_	_	_
+15	informed	informed	ADJ	JJ	_	15	amod	_	_	_
+16	decision	decision	NOUN	NN	_	11	dobj	_	_	_
+17	before	before	ADP	IN	_	18	mark	_	_	_
+18	you	-PRON-	PRON	PRP	_	18	nsubj	_	_	_
+19	invest	invest	VERB	VBP	_	11	advcl	_	_	_
+20	.	.	PUNCT	.	_	11	punct	_	_	_
+21	.	.	PUNCT	.	_	11	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-23
+# text = Besides , of course I have a Marxist Perspective when it comes to Capella .
+1	Besides	besides	ADV	RB	_	5	advmod	_	_	_
+2	,	,	PUNCT	,	_	5	punct	_	_	_
+3	of	of	ADP	IN	_	5	prep	_	_	_
+4	course	course	NOUN	NN	_	2	pobj	_	_	_
+5	I	-PRON-	PRON	PRP	_	5	nsubj	_	_	_
+6	have	have	AUX	VBP	_	5	ROOT	_	_	_
+7	a	a	DET	DT	_	8	det	_	_	_
+8	Marxist	Marxist	PROPN	NNP	_	8	amod	_	_	_
+9	Perspective	Perspective	PROPN	NNP	_	5	dobj	_	_	_
+10	when	when	ADV	WRB	_	11	advmod	_	_	_
+11	it	-PRON-	PRON	PRP	_	11	nsubj	_	_	_
+12	comes	come	VERB	VBZ	_	5	advcl	_	_	_
+13	to	to	ADP	IN	_	11	prep	_	_	_
+14	Capella	Capella	PROPN	NNP	_	12	pobj	_	_	_
+15	.	.	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-25
+# text = Gee , I wonder why that is ?
+1	Gee	gee	INTJ	UH	_	3	npadvmod	_	_	_
+2	,	,	PUNCT	,	_	3	punct	_	_	_
+3	I	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+4	wonder	wonder	VERB	VBP	_	3	ROOT	_	_	_
+5	why	why	ADV	WRB	_	6	advmod	_	_	_
+6	that	that	DET	DT	_	6	nsubj	_	_	_
+7	is	be	AUX	VBZ	_	3	ccomp	_	_	_
+8	?	?	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = Capella_University_4_08-01-2008-26
+# text = You'll see for yourself whether it's worth your investment .
+1	You'll	You'll	PROPN	NNP	_	1	nsubj	_	_	_
+2	see	see	VERB	VB	_	1	ROOT	_	_	_
+3	for	for	ADP	IN	_	1	prep	_	_	_
+4	yourself	-PRON-	PRON	PRP	_	2	pobj	_	_	_
+5	whether	whether	SCONJ	IN	_	6	mark	_	_	_
+6	it's	it's	DET	PRP$	_	6	poss	_	_	_
+7	worth	worth	ADJ	JJ	_	1	ccomp	_	_	_
+8	your	-PRON-	DET	PRP$	_	8	poss	_	_	_
+9	investment	investment	NOUN	NN	_	6	dobj	_	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-1
+# text = University of Phoenix is a complete waste of time and money .
+1	University	University	PROPN	NNP	_	3	nsubj	_	_	6:targ
+2	of	of	ADP	IN	_	0	prep	_	_	1:targ
+3	Phoenix	Phoenix	PROPN	NNP	_	1	pobj	_	_	1:targ
+4	is	be	AUX	VBZ	_	3	ROOT	_	_	_
+5	a	a	DET	DT	_	6	det	_	_	_
+6	complete	complete	ADJ	JJ	_	6	amod	_	_	0:exp-negative
+7	waste	waste	NOUN	NN	_	3	attr	_	_	6:exp-negative
+8	of	of	ADP	IN	_	6	prep	_	_	6:exp-negative
+9	time	time	NOUN	NN	_	7	pobj	_	_	6:exp-negative
+10	and	and	CCONJ	CC	_	8	cc	_	_	6:exp-negative
+11	money	money	NOUN	NN	_	8	conj	_	_	6:exp-negative
+12	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-2
+# text = The online experience is like no other !
+1	The	the	DET	DT	_	2	det	_	_	_
+2	online	online	ADJ	JJ	_	2	amod	_	_	_
+3	experience	experience	NOUN	NN	_	3	nsubj	_	_	_
+4	is	be	AUX	VBZ	_	3	ROOT	_	_	_
+5	like	like	SCONJ	IN	_	3	prep	_	_	_
+6	no	no	DET	DT	_	6	det	_	_	_
+7	other	other	ADJ	JJ	_	4	pobj	_	_	_
+8	!	!	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-3
+# text = They misrepresent their programs and then once enrolled , they change midstream .
+1	They	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	misrepresent	misrepresent	VERB	VBP	_	1	ROOT	_	_	_
+3	their	-PRON-	DET	PRP$	_	3	poss	_	_	_
+4	programs	program	NOUN	NNS	_	1	dobj	_	_	_
+5	and	and	CCONJ	CC	_	1	cc	_	_	_
+6	then	then	ADV	RB	_	7	advmod	_	_	_
+7	once	once	ADV	RB	_	7	advmod	_	_	_
+8	enrolled	enrol	VERB	VBD	_	10	advcl	_	_	_
+9	,	,	PUNCT	,	_	10	punct	_	_	_
+10	they	-PRON-	PRON	PRP	_	10	nsubj	_	_	_
+11	change	change	VERB	VBP	_	1	conj	_	_	_
+12	midstream	midstream	NOUN	NN	_	10	dobj	_	_	_
+13	.	.	PUNCT	.	_	10	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-5
+# text = I have found that it is easier to sit in a live class 1 night a week oppossed to being online nearly every day .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	have	have	AUX	VBP	_	2	aux	_	_	_
+3	found	find	VERB	VBN	_	2	ROOT	_	_	0:exp-neutral
+4	that	that	SCONJ	IN	_	5	mark	_	_	_
+5	it	-PRON-	PRON	PRP	_	5	nsubj	_	_	_
+6	is	be	AUX	VBZ	_	2	ccomp	_	_	_
+7	easier	easy	ADJ	JJR	_	5	acomp	_	_	_
+8	to	to	PART	TO	_	8	aux	_	_	_
+9	sit	sit	VERB	VB	_	5	xcomp	_	_	_
+10	in	in	ADP	IN	_	8	prep	_	_	_
+11	a	a	DET	DT	_	14	det	_	_	_
+12	live	live	ADJ	JJ	_	12	amod	_	_	_
+13	class	class	NOUN	NN	_	14	nmod	_	_	_
+14	1	1	NUM	CD	_	14	nummod	_	_	_
+15	night	night	NOUN	NN	_	9	pobj	_	_	_
+16	a	a	DET	DT	_	16	det	_	_	_
+17	week	week	NOUN	NN	_	14	npadvmod	_	_	_
+18	oppossed	opposse	VERB	VBN	_	2	ccomp	_	_	_
+19	to	to	ADP	IN	_	17	prep	_	_	_
+20	being	be	AUX	VBG	_	18	pcomp	_	_	_
+21	online	online	ADV	RB	_	19	advmod	_	_	_
+22	nearly	nearly	ADV	RB	_	22	advmod	_	_	_
+23	every	every	DET	DT	_	23	nummod	_	_	_
+24	day	day	NOUN	NN	_	19	npadvmod	_	_	_
+25	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-6
+# text = Another HUGE turnoff was the group work .
+1	Another	another	DET	DT	_	2	det	_	_	_
+2	HUGE	HUGE	PROPN	NNP	_	2	compound	_	_	_
+3	turnoff	turnoff	NOUN	NN	_	3	nsubj	_	_	_
+4	was	be	AUX	VBD	_	3	ROOT	_	_	_
+5	the	the	DET	DT	_	6	det	_	_	_
+6	group	group	NOUN	NN	_	6	compound	_	_	_
+7	work	work	NOUN	NN	_	3	attr	_	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-7
+# text = Instructors paired the class into teams and assigned papers , projects and power point presentations .
+1	Instructors	instructor	NOUN	NNS	_	1	nsubj	_	_	_
+2	paired	pair	VERB	VBD	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	3	det	_	_	_
+4	class	class	NOUN	NN	_	1	dobj	_	_	_
+5	into	into	ADP	IN	_	1	prep	_	_	_
+6	teams	team	NOUN	NNS	_	4	pobj	_	_	_
+7	and	and	CCONJ	CC	_	5	cc	_	_	_
+8	assigned	assign	VERB	VBN	_	8	amod	_	_	_
+9	papers	paper	NOUN	NNS	_	5	conj	_	_	_
+10	,	,	PUNCT	,	_	8	punct	_	_	_
+11	projects	project	NOUN	NNS	_	8	conj	_	_	_
+12	and	and	CCONJ	CC	_	10	cc	_	_	_
+13	power	power	NOUN	NN	_	13	compound	_	_	_
+14	point	point	NOUN	NN	_	14	compound	_	_	_
+15	presentations	presentation	NOUN	NNS	_	10	conj	_	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-8
+# text = Sounds simple , but when one member of the team does not do their share...everyone suffers !
+1	Sounds	sound	VERB	VBZ	_	0	ROOT	_	_	_
+2	simple	simple	ADJ	JJ	_	0	acomp	_	_	_
+3	,	,	PUNCT	,	_	0	punct	_	_	_
+4	but	but	CCONJ	CC	_	0	cc	_	_	_
+5	when	when	ADV	WRB	_	12	advmod	_	_	_
+6	one	one	NUM	CD	_	6	nummod	_	_	_
+7	member	member	NOUN	NN	_	12	nsubj	_	_	_
+8	of	of	ADP	IN	_	6	prep	_	_	_
+9	the	the	DET	DT	_	9	det	_	_	_
+10	team	team	NOUN	NN	_	7	pobj	_	_	_
+11	does	do	AUX	VBZ	_	12	aux	_	_	_
+12	not	not	PART	RB	_	12	neg	_	_	_
+13	do	do	AUX	VB	_	0	conj	_	_	_
+14	their	-PRON-	DET	PRP$	_	15	poss	_	_	_
+15	share...everyone	share...everyone	NOUN	NN	_	15	nummod	_	_	_
+16	suffers	suffer	NOUN	NNS	_	12	dobj	_	_	_
+17	!	!	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-9
+# text = I am all for being a team player , but not when it comes to my education .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	am	be	AUX	VBP	_	1	ROOT	_	_	_
+3	all	all	ADV	RB	_	1	attr	_	_	_
+4	for	for	ADP	IN	_	1	prep	_	_	_
+5	being	be	AUX	VBG	_	3	pcomp	_	_	_
+6	a	a	DET	DT	_	7	det	_	_	_
+7	team	team	NOUN	NN	_	7	compound	_	_	_
+8	player	player	NOUN	NN	_	4	attr	_	_	_
+9	,	,	PUNCT	,	_	1	punct	_	_	_
+10	but	but	CCONJ	CC	_	1	cc	_	_	_
+11	not	not	PART	RB	_	13	neg	_	_	_
+12	when	when	ADV	WRB	_	13	advmod	_	_	_
+13	it	-PRON-	PRON	PRP	_	13	nsubj	_	_	_
+14	comes	come	VERB	VBZ	_	1	conj	_	_	_
+15	to	to	ADP	IN	_	13	prep	_	_	_
+16	my	-PRON-	DET	PRP$	_	16	poss	_	_	_
+17	education	education	NOUN	NN	_	14	pobj	_	_	_
+18	.	.	PUNCT	.	_	13	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-10
+# text = I believe this is something and individual needs to achieve on their own !
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	believe	believe	VERB	VBP	_	1	ROOT	_	_	_
+3	this	this	DET	DT	_	3	nsubj	_	_	_
+4	is	be	AUX	VBZ	_	1	ccomp	_	_	_
+5	something	something	PRON	NN	_	3	attr	_	_	_
+6	and	and	CCONJ	CC	_	4	cc	_	_	_
+7	individual	individual	ADJ	JJ	_	4	conj	_	_	_
+8	needs	need	NOUN	NNS	_	4	conj	_	_	_
+9	to	to	PART	TO	_	9	aux	_	_	_
+10	achieve	achieve	VERB	VB	_	4	relcl	_	_	_
+11	on	on	ADP	IN	_	9	prep	_	_	_
+12	their	-PRON-	DET	PRP$	_	12	poss	_	_	_
+13	own	own	ADJ	JJ	_	10	pobj	_	_	_
+14	!	!	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_192_06-15-2004-11
+# text = STUDENTS BEWARE ! ! ! ! !
+1	STUDENTS	student	NOUN	NNS	_	1	nsubj	_	_	_
+2	BEWARE	beware	VERB	VBP	_	1	ROOT	_	_	_
+3	!	!	PUNCT	.	_	1	punct	_	_	_
+4	!	!	PUNCT	.	_	1	punct	_	_	_
+5	!	!	PUNCT	.	_	1	punct	_	_	_
+6	!	!	PUNCT	.	_	1	punct	_	_	_
+7	!	!	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = DeVry_University_93_08-08-2004-1
+# text = I go the seattle campus and in the CIS program and agree the that school is expensive .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	go	go	VERB	VBP	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	4	det	_	_	_
+4	seattle	seattle	ADJ	JJ	_	4	compound	_	_	_
+5	campus	campus	NOUN	NN	_	1	dobj	_	_	_
+6	and	and	CCONJ	CC	_	1	cc	_	_	_
+7	in	in	ADP	IN	_	1	conj	_	_	_
+8	the	the	DET	DT	_	9	det	_	_	_
+9	CIS	CIS	PROPN	NNP	_	9	compound	_	_	_
+10	program	program	NOUN	NN	_	6	pobj	_	_	_
+11	and	and	CCONJ	CC	_	1	cc	_	_	_
+12	agree	agree	VERB	VB	_	1	conj	_	_	_
+13	the	the	DET	DT	_	14	det	_	_	_
+14	that	that	DET	DT	_	14	det	_	_	_
+15	school	school	NOUN	NN	_	15	nsubj	_	_	_
+16	is	be	AUX	VBZ	_	11	ccomp	_	_	_
+17	expensive	expensive	ADJ	JJ	_	15	acomp	_	_	_
+18	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = DeVry_University_93_08-08-2004-2
+# text = However , for the courses that are critical for my career are hard core .
+1	However	however	ADV	RB	_	11	advmod	_	_	_
+2	,	,	PUNCT	,	_	11	punct	_	_	_
+3	for	for	ADP	IN	_	11	prep	_	_	_
+4	the	the	DET	DT	_	4	det	_	_	_
+5	courses	course	NOUN	NNS	_	2	pobj	_	_	13:targ
+6	that	that	DET	WDT	_	6	nsubj	_	_	_
+7	are	be	AUX	VBP	_	4	relcl	_	_	_
+8	critical	critical	ADJ	JJ	_	6	acomp	_	_	_
+9	for	for	ADP	IN	_	6	prep	_	_	_
+10	my	-PRON-	DET	PRP$	_	10	poss	_	_	_
+11	career	career	NOUN	NN	_	8	pobj	_	_	_
+12	are	be	AUX	VBP	_	11	ROOT	_	_	_
+13	hard	hard	ADJ	JJ	_	13	amod	_	_	_
+14	core	core	NOUN	NN	_	11	attr	_	_	13:exp-positive
+15	.	.	PUNCT	.	_	11	punct	_	_	_
+
+# sent_id = DeVry_University_93_08-08-2004-3
+# text = Don't plan on having a life if you are going to school and having a job .
+1	Don't	Don't	PROPN	NNP	_	1	nsubj	_	_	_
+2	plan	plan	NOUN	NN	_	1	ROOT	_	_	_
+3	on	on	ADP	IN	_	1	prep	_	_	_
+4	having	have	VERB	VBG	_	2	pcomp	_	_	_
+5	a	a	DET	DT	_	5	det	_	_	_
+6	life	life	NOUN	NN	_	3	dobj	_	_	_
+7	if	if	SCONJ	IN	_	9	mark	_	_	_
+8	you	-PRON-	PRON	PRP	_	9	nsubj	_	_	_
+9	are	be	AUX	VBP	_	9	aux	_	_	_
+10	going	go	VERB	VBG	_	1	advcl	_	_	_
+11	to	to	ADP	IN	_	9	prep	_	_	_
+12	school	school	NOUN	NN	_	10	pobj	_	_	_
+13	and	and	CCONJ	CC	_	9	cc	_	_	_
+14	having	have	VERB	VBG	_	9	conj	_	_	_
+15	a	a	DET	DT	_	15	det	_	_	_
+16	job	job	NOUN	NN	_	13	dobj	_	_	_
+17	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-1
+# text = Do not attend this school if you havent already enrolled .
+1	Do	do	AUX	VB	_	2	aux	_	_	_
+2	not	not	PART	RB	_	2	neg	_	_	_
+3	attend	attend	VERB	VB	_	2	ROOT	_	_	_
+4	this	this	DET	DT	_	4	det	_	_	_
+5	school	school	NOUN	NN	_	2	dobj	_	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_	_
+7	you	-PRON-	PRON	PRP	_	9	nsubj	_	_	_
+8	havent	havent	VERB	VBP	_	6	appos	_	_	_
+9	already	already	ADV	RB	_	9	advmod	_	_	_
+10	enrolled	enrol	VERB	VBN	_	2	advcl	_	_	_
+11	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-2
+# text = UOP sucks and lies too .
+1	UOP	UOP	PROPN	NNP	_	1	nsubj	_	_	2:targ
+2	sucks	suck	VERB	VBZ	_	1	ROOT	_	_	0:exp-negative
+3	and	and	CCONJ	CC	_	1	cc	_	_	_
+4	lies	lie	VERB	VBZ	_	1	conj	_	_	_
+5	too	too	ADV	RB	_	3	advmod	_	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-3
+# text = Have you ever heard of electronic books ?
+1	Have	have	AUX	VBP	_	3	aux	_	_	_
+2	you	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+3	ever	ever	ADV	RB	_	3	advmod	_	_	_
+4	heard	hear	VERB	VBN	_	3	ROOT	_	_	_
+5	of	of	ADP	IN	_	3	prep	_	_	_
+6	electronic	electronic	ADJ	JJ	_	6	amod	_	_	_
+7	books	book	NOUN	NNS	_	4	pobj	_	_	_
+8	?	?	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-4
+# text = How the hell do you pay for electronic books ?
+1	How	how	ADV	WRB	_	5	advmod	_	_	_
+2	the	the	DET	DT	_	2	det	_	_	_
+3	hell	hell	NOUN	NN	_	5	dobj	_	_	_
+4	do	do	AUX	VBP	_	5	aux	_	_	_
+5	you	-PRON-	PRON	PRP	_	5	nsubj	_	_	_
+6	pay	pay	VERB	VB	_	5	ROOT	_	_	_
+7	for	for	ADP	IN	_	5	prep	_	_	_
+8	electronic	electronic	ADJ	JJ	_	8	amod	_	_	_
+9	books	book	NOUN	NNS	_	6	pobj	_	_	_
+10	?	?	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-5
+# text = thats crazy !
+1	thats	that	NOUN	NNS	_	0	ROOT	_	_	_
+2	crazy	crazy	ADJ	JJ	_	0	amod	_	_	_
+3	!	!	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-6
+# text = If im paying for a book , give it to me ! or I better have lifetime access to this book online .
+1	If	if	SCONJ	IN	_	2	mark	_	_	_
+2	im	im	PROPN	NNP	_	2	nsubj	_	_	_
+3	paying	pay	VERB	VBG	_	7	advcl	_	_	_
+4	for	for	ADP	IN	_	2	prep	_	_	_
+5	a	a	DET	DT	_	5	det	_	_	_
+6	book	book	NOUN	NN	_	3	pobj	_	_	_
+7	,	,	PUNCT	,	_	7	punct	_	_	_
+8	give	give	VERB	VB	_	7	ROOT	_	_	_
+9	it	-PRON-	PRON	PRP	_	7	dobj	_	_	_
+10	to	to	ADP	IN	_	7	dative	_	_	_
+11	me	-PRON-	PRON	PRP	_	9	pobj	_	_	_
+12	!	!	PUNCT	.	_	7	punct	_	_	_
+13	or	or	CCONJ	CC	_	15	cc	_	_	_
+14	I	-PRON-	PRON	PRP	_	15	nsubj	_	_	_
+15	better	better	ADV	RB	_	15	advmod	_	_	_
+16	have	have	AUX	VBP	_	15	ROOT	_	_	_
+17	lifetime	lifetime	NOUN	NN	_	17	compound	_	_	_
+18	access	access	NOUN	NN	_	15	dobj	_	_	_
+19	to	to	ADP	IN	_	17	prep	_	_	_
+20	this	this	DET	DT	_	20	det	_	_	_
+21	book	book	NOUN	NN	_	18	pobj	_	_	_
+22	online	online	ADV	RB	_	15	advmod	_	_	_
+23	.	.	PUNCT	.	_	15	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-7
+# text = Thats highway robbery . ! Watch out for lying enrollment counselors , such as Britt Miller !
+1	Thats	that	NOUN	NNS	_	2	compound	_	_	_
+2	highway	highway	NOUN	NN	_	2	compound	_	_	_
+3	robbery	robbery	NOUN	NN	_	2	ROOT	_	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_	_
+5	!	!	PUNCT	.	_	2	punct	_	_	_
+6	Watch	watch	VERB	VB	_	5	ROOT	_	_	_
+7	out	out	ADP	RP	_	5	prt	_	_	_
+8	for	for	ADP	IN	_	5	prep	_	_	_
+9	lying	lie	VERB	VBG	_	7	pcomp	_	_	_
+10	enrollment	enrollment	NOUN	NN	_	10	compound	_	_	_
+11	counselors	counselor	NOUN	NNS	_	8	dobj	_	_	_
+12	,	,	PUNCT	,	_	10	punct	_	_	_
+13	such	such	ADJ	JJ	_	13	amod	_	_	_
+14	as	as	SCONJ	IN	_	10	prep	_	_	_
+15	Britt	Britt	PROPN	NNP	_	15	compound	_	_	_
+16	Miller	Miller	PROPN	NNP	_	13	pobj	_	_	_
+17	!	!	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-8
+# text = Tells you whatever you want to hear , to get you into the school .
+1	Tells	tell	VERB	VBZ	_	0	ROOT	_	_	_
+2	you	-PRON-	PRON	PRP	_	0	dobj	_	_	_
+3	whatever	whatever	DET	WDT	_	6	dobj	_	_	_
+4	you	-PRON-	PRON	PRP	_	4	nsubj	_	_	_
+5	want	want	VERB	VBP	_	0	ccomp	_	_	_
+6	to	to	PART	TO	_	6	aux	_	_	_
+7	hear	hear	VERB	VB	_	4	xcomp	_	_	_
+8	,	,	PUNCT	,	_	0	punct	_	_	_
+9	to	to	PART	TO	_	9	aux	_	_	_
+10	get	get	AUX	VB	_	0	xcomp	_	_	_
+11	you	-PRON-	PRON	PRP	_	9	dobj	_	_	_
+12	into	into	ADP	IN	_	9	prep	_	_	_
+13	the	the	DET	DT	_	13	det	_	_	_
+14	school	school	NOUN	NN	_	11	pobj	_	_	_
+15	.	.	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_51_09-10-2007-9
+# text = Then allows you to learn all the lies you were told as they unfold !
+1	Then	then	ADV	RB	_	1	advmod	_	_	_
+2	allows	allow	VERB	VBZ	_	1	ROOT	_	_	_
+3	you	-PRON-	PRON	PRP	_	4	nsubj	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	learn	learn	VERB	VB	_	1	ccomp	_	_	_
+6	all	all	DET	PDT	_	7	predet	_	_	_
+7	the	the	DET	DT	_	7	det	_	_	_
+8	lies	lie	NOUN	NNS	_	4	dobj	_	_	_
+9	you	-PRON-	PRON	PRP	_	10	nsubjpass	_	_	_
+10	were	be	AUX	VBD	_	10	auxpass	_	_	_
+11	told	tell	VERB	VBN	_	7	relcl	_	_	_
+12	as	as	SCONJ	IN	_	13	mark	_	_	_
+13	they	-PRON-	PRON	PRP	_	13	nsubj	_	_	_
+14	unfold	unfold	VERB	VBP	_	10	advcl	_	_	_
+15	!	!	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-1
+# text = I would like to say that University of Phoenix is one of the best online programs out there .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	would	would	VERB	MD	_	2	aux	_	_	_
+3	like	like	VERB	VB	_	2	ROOT	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	say	say	VERB	VB	_	2	xcomp	_	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_	_
+7	University	University	PROPN	NNP	_	9	nsubj	_	_	11:targ
+8	of	of	ADP	IN	_	6	prep	_	_	7:targ
+9	Phoenix	Phoenix	PROPN	NNP	_	7	pobj	_	_	7:targ
+10	is	be	AUX	VBZ	_	4	ccomp	_	_	_
+11	one	one	NUM	CD	_	9	attr	_	_	0:exp-positive
+12	of	of	ADP	IN	_	10	prep	_	_	_
+13	the	the	DET	DT	_	15	det	_	_	11:exp-positive
+14	best	good	ADJ	JJS	_	15	amod	_	_	11:exp-positive
+15	online	online	ADJ	JJ	_	15	amod	_	_	_
+16	programs	program	NOUN	NNS	_	11	pobj	_	_	_
+17	out	out	ADV	RB	_	17	advmod	_	_	_
+18	there	there	ADV	RB	_	15	advmod	_	_	_
+19	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-2
+# text = I work at a hospital , and it is hard to get to a traditional classroom .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	work	work	VERB	VBP	_	1	ROOT	_	_	_
+3	at	at	ADP	IN	_	1	prep	_	_	_
+4	a	a	DET	DT	_	4	det	_	_	_
+5	hospital	hospital	NOUN	NN	_	2	pobj	_	_	_
+6	,	,	PUNCT	,	_	1	punct	_	_	_
+7	and	and	CCONJ	CC	_	1	cc	_	_	_
+8	it	-PRON-	PRON	PRP	_	8	nsubj	_	_	_
+9	is	be	AUX	VBZ	_	1	conj	_	_	_
+10	hard	hard	ADJ	JJ	_	8	acomp	_	_	_
+11	to	to	PART	TO	_	11	aux	_	_	_
+12	get	get	AUX	VB	_	8	xcomp	_	_	_
+13	to	to	ADP	IN	_	11	prep	_	_	_
+14	a	a	DET	DT	_	15	det	_	_	_
+15	traditional	traditional	ADJ	JJ	_	15	amod	_	_	_
+16	classroom	classroom	NOUN	NN	_	12	pobj	_	_	_
+17	.	.	PUNCT	.	_	8	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-3
+# text = I soon found that almost half of my wing got their bachelors from this school .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	soon	soon	ADV	RB	_	2	advmod	_	_	_
+3	found	find	VERB	VBD	_	2	ROOT	_	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_	_
+5	almost	almost	ADV	RB	_	5	advmod	_	_	_
+6	half	half	NOUN	NN	_	9	nsubj	_	_	_
+7	of	of	ADP	IN	_	5	prep	_	_	_
+8	my	-PRON-	DET	PRP$	_	8	poss	_	_	_
+9	wing	wing	NOUN	NN	_	6	pobj	_	_	_
+10	got	get	VERB	VBD	_	2	ccomp	_	_	_
+11	their	-PRON-	DET	PRP$	_	11	poss	_	_	_
+12	bachelors	bachelor	NOUN	NNS	_	9	dobj	_	_	_
+13	from	from	ADP	IN	_	9	prep	_	_	_
+14	this	this	DET	DT	_	14	det	_	_	_
+15	school	school	NOUN	NN	_	12	pobj	_	_	_
+16	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-4
+# text = The counselors are wonderful , the faculty overall was good , and very flexible .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	counselors	counselor	NOUN	NNS	_	2	nsubj	_	_	4:targ|10:targ
+3	are	be	AUX	VBP	_	2	ROOT	_	_	_
+4	wonderful	wonderful	ADJ	JJ	_	2	acomp	_	_	0:exp-positive
+5	,	,	PUNCT	,	_	8	punct	_	_	_
+6	the	the	DET	DT	_	6	det	_	_	_
+7	faculty	faculty	NOUN	NN	_	8	nsubj	_	_	_
+8	overall	overall	NOUN	NN	_	6	advmod	_	_	13:targ
+9	was	be	AUX	VBD	_	2	conj	_	_	_
+10	good	good	ADJ	JJ	_	8	acomp	_	_	0:exp-positive
+11	,	,	PUNCT	,	_	8	punct	_	_	_
+12	and	and	CCONJ	CC	_	8	cc	_	_	_
+13	very	very	ADV	RB	_	13	advmod	_	_	0:exp-positive
+14	flexible	flexible	ADJ	JJ	_	8	conj	_	_	13:exp-positive
+15	.	.	PUNCT	.	_	8	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-5
+# text = What I do not understand is all the negative feedback .
+1	What	what	PRON	WP	_	4	dobj	_	_	_
+2	I	-PRON-	PRON	PRP	_	4	nsubj	_	_	_
+3	do	do	AUX	VBP	_	4	aux	_	_	_
+4	not	not	PART	RB	_	4	neg	_	_	_
+5	understand	understand	VERB	VB	_	5	csubj	_	_	_
+6	is	be	AUX	VBZ	_	5	ROOT	_	_	_
+7	all	all	DET	PDT	_	9	predet	_	_	_
+8	the	the	DET	DT	_	9	det	_	_	_
+9	negative	negative	ADJ	JJ	_	9	amod	_	_	_
+10	feedback	feedback	NOUN	NN	_	5	attr	_	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-6
+# text = I would bet that most of the negative people did not make it through a class or two .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	would	would	VERB	MD	_	2	aux	_	_	_
+3	bet	bet	VERB	VB	_	2	ROOT	_	_	_
+4	that	that	SCONJ	IN	_	11	mark	_	_	_
+5	most	most	ADJ	JJS	_	11	nsubj	_	_	_
+6	of	of	ADP	IN	_	4	prep	_	_	_
+7	the	the	DET	DT	_	8	det	_	_	_
+8	negative	negative	ADJ	JJ	_	8	amod	_	_	_
+9	people	people	NOUN	NNS	_	5	pobj	_	_	_
+10	did	do	AUX	VBD	_	11	aux	_	_	_
+11	not	not	PART	RB	_	11	neg	_	_	_
+12	make	make	VERB	VB	_	2	ccomp	_	_	_
+13	it	-PRON-	PRON	PRP	_	11	dobj	_	_	_
+14	through	through	ADP	IN	_	11	prep	_	_	_
+15	a	a	DET	DT	_	15	det	_	_	_
+16	class	class	NOUN	NN	_	13	pobj	_	_	_
+17	or	or	CCONJ	CC	_	17	cc	_	_	_
+18	two	two	NUM	CD	_	15	nummod	_	_	_
+19	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-7
+# text = The bottom line is that school is hard , and if you are not willing to do the work , it will be very frustrating .
+1	The	the	DET	DT	_	2	det	_	_	_
+2	bottom	bottom	ADJ	JJ	_	2	amod	_	_	0:exp-negative
+3	line	line	NOUN	NN	_	3	nsubj	_	_	_
+4	is	be	AUX	VBZ	_	3	ROOT	_	_	_
+5	that	that	SCONJ	IN	_	6	mark	_	_	_
+6	school	school	NOUN	NN	_	6	nsubj	_	_	_
+7	is	be	AUX	VBZ	_	3	ccomp	_	_	_
+8	hard	hard	ADJ	JJ	_	6	acomp	_	_	_
+9	,	,	PUNCT	,	_	3	punct	_	_	_
+10	and	and	CCONJ	CC	_	3	cc	_	_	_
+11	if	if	SCONJ	IN	_	12	mark	_	_	_
+12	you	-PRON-	PRON	PRP	_	12	nsubj	_	_	_
+13	are	be	AUX	VBP	_	22	advcl	_	_	_
+14	not	not	PART	RB	_	12	neg	_	_	_
+15	willing	willing	ADJ	JJ	_	12	acomp	_	_	_
+16	to	to	PART	TO	_	16	aux	_	_	_
+17	do	do	AUX	VB	_	14	xcomp	_	_	_
+18	the	the	DET	DT	_	18	det	_	_	_
+19	work	work	NOUN	NN	_	16	dobj	_	_	_
+20	,	,	PUNCT	,	_	22	punct	_	_	_
+21	it	-PRON-	PRON	PRP	_	22	nsubj	_	_	_
+22	will	will	VERB	MD	_	22	aux	_	_	_
+23	be	be	AUX	VB	_	3	conj	_	_	_
+24	very	very	ADV	RB	_	24	advmod	_	_	_
+25	frustrating	frustrating	ADJ	JJ	_	22	acomp	_	_	_
+26	.	.	PUNCT	.	_	22	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-8
+# text = Own up to your own inabilities , but do not blame the biggest Univ . in the country for not being good at what they do .
+1	Own	own	VERB	VB	_	0	ROOT	_	_	_
+2	up	up	ADP	RP	_	0	prt	_	_	_
+3	to	to	ADP	IN	_	0	prep	_	_	_
+4	your	-PRON-	DET	PRP$	_	5	poss	_	_	_
+5	own	own	ADJ	JJ	_	5	amod	_	_	_
+6	inabilities	inability	NOUN	NNS	_	2	pobj	_	_	_
+7	,	,	PUNCT	,	_	0	punct	_	_	_
+8	but	but	CCONJ	CC	_	0	cc	_	_	_
+9	do	do	AUX	VBP	_	10	aux	_	_	_
+10	not	not	PART	RB	_	10	neg	_	_	_
+11	blame	blame	VERB	VB	_	0	conj	_	_	_
+12	the	the	DET	DT	_	13	det	_	_	_
+13	biggest	big	ADJ	JJS	_	13	amod	_	_	_
+14	Univ	Univ	PROPN	NNP	_	10	dobj	_	_	_
+15	.	.	PUNCT	.	_	10	punct	_	_	_
+16	in	in	ADP	IN	_	15	ROOT	_	_	_
+17	the	the	DET	DT	_	17	det	_	_	_
+18	country	country	NOUN	NN	_	15	pobj	_	_	_
+19	for	for	ADP	IN	_	15	prep	_	_	_
+20	not	not	PART	RB	_	20	neg	_	_	_
+21	being	be	AUX	VBG	_	18	pcomp	_	_	_
+22	good	good	ADJ	JJ	_	20	acomp	_	_	_
+23	at	at	ADP	IN	_	21	prep	_	_	_
+24	what	what	PRON	WP	_	25	dobj	_	_	_
+25	they	-PRON-	PRON	PRP	_	25	nsubj	_	_	_
+26	do	do	AUX	VBP	_	22	pcomp	_	_	_
+27	.	.	PUNCT	.	_	15	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-9
+# text = If they are so expensive , and not good , why are they the largest school in the U.S . Word would get out in the past 15 years they have been doing it .
+1	If	if	SCONJ	IN	_	2	mark	_	_	_
+2	they	-PRON-	PRON	PRP	_	2	nsubj	_	_	5:targ
+3	are	be	AUX	VBP	_	11	advcl	_	_	_
+4	so	so	ADV	RB	_	4	advmod	_	_	_
+5	expensive	expensive	ADJ	JJ	_	2	acomp	_	_	0:exp-negative
+6	,	,	PUNCT	,	_	4	punct	_	_	_
+7	and	and	CCONJ	CC	_	4	cc	_	_	_
+8	not	not	PART	RB	_	8	neg	_	_	_
+9	good	good	ADJ	JJ	_	4	conj	_	_	_
+10	,	,	PUNCT	,	_	11	punct	_	_	_
+11	why	why	ADV	WRB	_	11	advmod	_	_	_
+12	are	be	AUX	VBP	_	11	ROOT	_	_	_
+13	they	-PRON-	PRON	PRP	_	11	nsubj	_	_	_
+14	the	the	DET	DT	_	15	det	_	_	_
+15	largest	large	ADJ	JJS	_	15	amod	_	_	_
+16	school	school	NOUN	NN	_	11	attr	_	_	_
+17	in	in	ADP	IN	_	15	prep	_	_	_
+18	the	the	DET	DT	_	18	det	_	_	_
+19	U.S	U.S	PROPN	NNP	_	16	pobj	_	_	_
+20	.	.	PUNCT	.	_	11	punct	_	_	_
+21	Word	Word	PROPN	NNP	_	22	nsubj	_	_	_
+22	would	would	VERB	MD	_	22	aux	_	_	_
+23	get	get	AUX	VB	_	22	ROOT	_	_	_
+24	out	out	ADP	RP	_	22	prt	_	_	_
+25	in	in	ADP	IN	_	22	prep	_	_	_
+26	the	the	DET	DT	_	28	det	_	_	_
+27	past	past	ADJ	JJ	_	28	amod	_	_	_
+28	15	15	NUM	CD	_	28	nummod	_	_	_
+29	years	year	NOUN	NNS	_	24	pobj	_	_	_
+30	they	-PRON-	PRON	PRP	_	32	nsubj	_	_	_
+31	have	have	AUX	VBP	_	32	aux	_	_	_
+32	been	be	AUX	VBN	_	32	aux	_	_	_
+33	doing	do	VERB	VBG	_	22	ccomp	_	_	_
+34	it	-PRON-	PRON	PRP	_	32	dobj	_	_	_
+35	.	.	PUNCT	.	_	22	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_185_09-06-2004-10
+# text = I would like to encourage those that are serious about their education to look at University of Phoenix ! ! !
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	would	would	VERB	MD	_	2	aux	_	_	_
+3	like	like	VERB	VB	_	2	ROOT	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	encourage	encourage	VERB	VB	_	2	xcomp	_	_	_
+6	those	those	DET	DT	_	4	dobj	_	_	_
+7	that	that	DET	WDT	_	7	nsubj	_	_	_
+8	are	be	AUX	VBP	_	5	relcl	_	_	_
+9	serious	serious	ADJ	JJ	_	7	acomp	_	_	_
+10	about	about	ADP	IN	_	8	prep	_	_	_
+11	their	-PRON-	DET	PRP$	_	11	poss	_	_	_
+12	education	education	NOUN	NN	_	9	pobj	_	_	_
+13	to	to	PART	TO	_	13	aux	_	_	_
+14	look	look	VERB	VB	_	11	acl	_	_	_
+15	at	at	ADP	IN	_	13	prep	_	_	_
+16	University	University	PROPN	NNP	_	14	pobj	_	_	_
+17	of	of	ADP	IN	_	15	prep	_	_	16:targ
+18	Phoenix	Phoenix	PROPN	NNP	_	16	pobj	_	_	16:targ
+19	!	!	PUNCT	.	_	2	punct	_	_	_
+20	!	!	PUNCT	.	_	2	punct	_	_	_
+21	!	!	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_80_09-21-2004-1
+# text = Capella University is a joke .
+1	Capella	Capella	PROPN	NNP	_	1	compound	_	_	5:targ
+2	University	University	PROPN	NNP	_	2	nsubj	_	_	1:targ
+3	is	be	AUX	VBZ	_	2	ROOT	_	_	_
+4	a	a	DET	DT	_	4	det	_	_	_
+5	joke	joke	NOUN	NN	_	2	attr	_	_	0:exp-negative
+6	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Capella_University_80_09-21-2004-2
+# text = It's nothing more than a diploma mill that provides a substandard education .
+1	It's	it's	X	LS	_	0	ROOT	_	_	_
+2	nothing	nothing	PRON	NN	_	0	dobj	_	_	_
+3	more	more	ADJ	JJR	_	1	amod	_	_	_
+4	than	than	SCONJ	IN	_	2	prep	_	_	_
+5	a	a	DET	DT	_	6	det	_	_	_
+6	diploma	diploma	NOUN	NN	_	6	compound	_	_	_
+7	mill	mill	NOUN	NN	_	3	pobj	_	_	_
+8	that	that	DET	WDT	_	8	nsubj	_	_	_
+9	provides	provide	VERB	VBZ	_	6	relcl	_	_	_
+10	a	a	DET	DT	_	11	det	_	_	_
+11	substandard	substandard	ADJ	JJ	_	11	amod	_	_	_
+12	education	education	NOUN	NN	_	8	dobj	_	_	_
+13	.	.	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = Capella_University_80_09-21-2004-3
+# text = Instructors ignore students and the administration is simply incompetent .
+1	Instructors	instructor	NOUN	NNS	_	1	nsubj	_	_	8:targ
+2	ignore	ignore	VERB	VBP	_	1	ROOT	_	_	0:exp-negative
+3	students	student	NOUN	NNS	_	6	nsubj	_	_	_
+4	and	and	CCONJ	CC	_	2	cc	_	_	_
+5	the	the	DET	DT	_	5	det	_	_	_
+6	administration	administration	NOUN	NN	_	2	conj	_	_	_
+7	is	be	AUX	VBZ	_	1	ccomp	_	_	_
+8	simply	simply	ADV	RB	_	6	advmod	_	_	0:exp-negative
+9	incompetent	incompetent	ADJ	JJ	_	6	acomp	_	_	8:exp-negative
+10	.	.	PUNCT	.	_	6	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-1
+# text = I am currently a student at UoP , and for every post on here there are some truth to them .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	am	be	AUX	VBP	_	1	ROOT	_	_	_
+3	currently	currently	ADV	RB	_	1	advmod	_	_	_
+4	a	a	DET	DT	_	4	det	_	_	_
+5	student	student	NOUN	NN	_	1	attr	_	_	_
+6	at	at	ADP	IN	_	4	prep	_	_	_
+7	UoP	UoP	PROPN	NNP	_	5	pobj	_	_	_
+8	,	,	PUNCT	,	_	1	punct	_	_	_
+9	and	and	CCONJ	CC	_	1	cc	_	_	_
+10	for	for	ADP	IN	_	15	prep	_	_	_
+11	every	every	DET	DT	_	11	det	_	_	_
+12	post	post	NOUN	NN	_	9	pobj	_	_	_
+13	on	on	ADP	IN	_	11	prep	_	_	_
+14	here	here	ADV	RB	_	12	pcomp	_	_	_
+15	there	there	PRON	EX	_	15	expl	_	_	_
+16	are	be	AUX	VBP	_	1	conj	_	_	_
+17	some	some	DET	DT	_	17	det	_	_	_
+18	truth	truth	NOUN	NN	_	15	attr	_	_	_
+19	to	to	ADP	IN	_	17	prep	_	_	_
+20	them	-PRON-	PRON	PRP	_	18	pobj	_	_	_
+21	.	.	PUNCT	.	_	15	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-2
+# text = However , that said , I am approaching my last year in my BSB/ Marketing program .
+1	However	however	ADV	RB	_	7	advmod	_	_	_
+2	,	,	PUNCT	,	_	7	punct	_	_	_
+3	that	that	DET	DT	_	3	nsubj	_	_	_
+4	said	say	VERB	VBD	_	7	parataxis	_	_	_
+5	,	,	PUNCT	,	_	7	punct	_	_	_
+6	I	-PRON-	PRON	PRP	_	7	nsubj	_	_	_
+7	am	be	AUX	VBP	_	7	aux	_	_	_
+8	approaching	approach	VERB	VBG	_	7	ROOT	_	_	_
+9	my	-PRON-	DET	PRP$	_	10	poss	_	_	_
+10	last	last	ADJ	JJ	_	10	amod	_	_	_
+11	year	year	NOUN	NN	_	7	npadvmod	_	_	_
+12	in	in	ADP	IN	_	7	prep	_	_	_
+13	my	-PRON-	DET	PRP$	_	15	poss	_	_	_
+14	BSB/	bsb/	NOUN	NN	_	15	compound	_	_	_
+15	Marketing	Marketing	PROPN	NNP	_	15	compound	_	_	_
+16	program	program	NOUN	NN	_	11	pobj	_	_	_
+17	.	.	PUNCT	.	_	7	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-5
+# text = Name me one team environment without slackers .
+1	Name	name	VERB	VB	_	0	ROOT	_	_	_
+2	me	-PRON-	PRON	PRP	_	0	dative	_	_	_
+3	one	one	NUM	CD	_	4	nummod	_	_	_
+4	team	team	NOUN	NN	_	4	compound	_	_	_
+5	environment	environment	NOUN	NN	_	0	dobj	_	_	_
+6	without	without	ADP	IN	_	0	prep	_	_	_
+7	slackers	slacker	NOUN	NNS	_	5	pobj	_	_	_
+8	.	.	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-6
+# text = I work damn hard for my grades and people who are on my team who chose not to work are shown the door .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	work	work	VERB	VBP	_	1	ROOT	_	_	_
+3	damn	damn	ADV	RB	_	3	advmod	_	_	_
+4	hard	hard	ADV	RB	_	1	advmod	_	_	_
+5	for	for	ADP	IN	_	1	prep	_	_	_
+6	my	-PRON-	DET	PRP$	_	6	poss	_	_	_
+7	grades	grade	NOUN	NNS	_	4	pobj	_	_	_
+8	and	and	CCONJ	CC	_	6	cc	_	_	_
+9	people	people	NOUN	NNS	_	6	conj	_	_	_
+10	who	who	PRON	WP	_	10	nsubj	_	_	_
+11	are	be	AUX	VBP	_	8	relcl	_	_	_
+12	on	on	ADP	IN	_	10	prep	_	_	_
+13	my	-PRON-	DET	PRP$	_	13	poss	_	_	_
+14	team	team	NOUN	NN	_	11	pobj	_	_	_
+15	who	who	PRON	WP	_	15	nsubj	_	_	_
+16	chose	choose	VERB	VBD	_	8	relcl	_	_	_
+17	not	not	PART	RB	_	18	neg	_	_	_
+18	to	to	PART	TO	_	18	aux	_	_	_
+19	work	work	VERB	VB	_	15	xcomp	_	_	_
+20	are	be	AUX	VBP	_	20	auxpass	_	_	_
+21	shown	show	VERB	VBN	_	1	conj	_	_	_
+22	the	the	DET	DT	_	22	det	_	_	_
+23	door	door	NOUN	NN	_	20	dobj	_	_	_
+24	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-7
+# text = I lay down the law .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	lay	lie	VERB	VBD	_	1	ROOT	_	_	_
+3	down	down	ADP	RP	_	1	prt	_	_	_
+4	the	the	DET	DT	_	4	det	_	_	_
+5	law	law	NOUN	NN	_	1	dobj	_	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-8
+# text = Period ! ! I am not paying $1300 for a course to have some semi-literate , low self-esteem person affect my grade .
+1	Period	period	NOUN	NN	_	0	ROOT	_	_	17:holder
+2	!	!	PUNCT	.	_	0	punct	_	_	_
+3	!	!	PUNCT	.	_	0	punct	_	_	_
+4	I	-PRON-	PRON	PRP	_	6	nsubj	_	_	_
+5	am	be	AUX	VBP	_	6	aux	_	_	_
+6	not	not	PART	RB	_	6	neg	_	_	_
+7	paying	pay	VERB	VBG	_	6	ROOT	_	_	_
+8	$1300	$1300	NUM	CD	_	6	dobj	_	_	_
+9	for	for	ADP	IN	_	6	prep	_	_	_
+10	a	a	DET	DT	_	10	det	_	_	_
+11	course	course	NOUN	NN	_	8	pobj	_	_	_
+12	to	to	PART	TO	_	12	aux	_	_	_
+13	have	have	AUX	VB	_	10	acl	_	_	_
+14	some	some	DET	DT	_	18	det	_	_	_
+15	semi-literate	semi-literate	ADJ	JJ	_	18	amod	_	_	_
+16	,	,	PUNCT	,	_	18	punct	_	_	_
+17	low	low	ADJ	JJ	_	18	amod	_	_	0:exp-negative
+18	self-esteem	self-esteem	ADJ	JJ	_	18	amod	_	_	17:exp-negative
+19	person	person	NOUN	NN	_	19	nsubj	_	_	_
+20	affect	affect	VERB	VB	_	12	ccomp	_	_	_
+21	my	-PRON-	DET	PRP$	_	21	poss	_	_	_
+22	grade	grade	NOUN	NN	_	19	dobj	_	_	17:targ
+23	.	.	PUNCT	.	_	6	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-9
+# text = UoP has to clean up its act and stop admitting everybody and their grand mama .
+1	UoP	UoP	PROPN	NNP	_	1	nsubj	_	_	_
+2	has	have	AUX	VBZ	_	1	ROOT	_	_	_
+3	to	to	PART	TO	_	3	aux	_	_	_
+4	clean	clean	VERB	VB	_	1	xcomp	_	_	_
+5	up	up	ADP	RP	_	3	prt	_	_	_
+6	its	-PRON-	DET	PRP$	_	6	poss	_	_	_
+7	act	act	NOUN	NN	_	3	dobj	_	_	_
+8	and	and	CCONJ	CC	_	3	cc	_	_	_
+9	stop	stop	VERB	VB	_	3	conj	_	_	_
+10	admitting	admit	VERB	VBG	_	8	xcomp	_	_	_
+11	everybody	everybody	PRON	NN	_	9	dobj	_	_	_
+12	and	and	CCONJ	CC	_	10	cc	_	_	_
+13	their	-PRON-	DET	PRP$	_	14	poss	_	_	_
+14	grand	grand	ADJ	JJ	_	14	amod	_	_	_
+15	mama	mama	NOUN	NN	_	10	conj	_	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-10
+# text = They have to establish minimum standards and maintain them .
+1	They	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	have	have	AUX	VBP	_	1	ROOT	_	_	_
+3	to	to	PART	TO	_	3	aux	_	_	_
+4	establish	establish	VERB	VB	_	1	xcomp	_	_	_
+5	minimum	minimum	ADJ	JJ	_	5	amod	_	_	_
+6	standards	standard	NOUN	NNS	_	3	dobj	_	_	_
+7	and	and	CCONJ	CC	_	3	cc	_	_	_
+8	maintain	maintain	VERB	VB	_	3	conj	_	_	_
+9	them	-PRON-	PRON	PRP	_	7	dobj	_	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-11
+# text = I have had classes with students who are reading at elementary school level and I was so freaking embarrassed .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	have	have	AUX	VBP	_	2	aux	_	_	_
+3	had	have	VERB	VBN	_	2	ROOT	_	_	_
+4	classes	class	NOUN	NNS	_	2	dobj	_	_	_
+5	with	with	ADP	IN	_	3	prep	_	_	_
+6	students	student	NOUN	NNS	_	4	pobj	_	_	_
+7	who	who	PRON	WP	_	8	nsubj	_	_	_
+8	are	be	AUX	VBP	_	8	aux	_	_	_
+9	reading	read	VERB	VBG	_	5	relcl	_	_	_
+10	at	at	ADP	IN	_	8	prep	_	_	_
+11	elementary	elementary	ADJ	JJ	_	11	amod	_	_	_
+12	school	school	NOUN	NN	_	12	compound	_	_	_
+13	level	level	NOUN	NN	_	9	pobj	_	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_	_
+15	I	-PRON-	PRON	PRP	_	15	nsubj	_	_	_
+16	was	be	AUX	VBD	_	15	ROOT	_	_	_
+17	so	so	ADV	RB	_	17	advmod	_	_	_
+18	freaking	freak	VERB	VBG	_	15	acomp	_	_	_
+19	embarrassed	embarrassed	ADJ	JJ	_	17	ccomp	_	_	_
+20	.	.	PUNCT	.	_	15	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-12
+# text = I have had conversations with faculty who have confided their frustrations with the quality of the students .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	have	have	AUX	VBP	_	2	aux	_	_	_
+3	had	have	VERB	VBN	_	2	ROOT	_	_	_
+4	conversations	conversation	NOUN	NNS	_	2	dobj	_	_	_
+5	with	with	ADP	IN	_	3	prep	_	_	_
+6	faculty	faculty	NOUN	NN	_	4	pobj	_	_	_
+7	who	who	PRON	WP	_	8	nsubj	_	_	_
+8	have	have	AUX	VBP	_	8	aux	_	_	_
+9	confided	confide	VERB	VBN	_	5	relcl	_	_	_
+10	their	-PRON-	DET	PRP$	_	10	poss	_	_	_
+11	frustrations	frustration	NOUN	NNS	_	8	dobj	_	_	_
+12	with	with	ADP	IN	_	8	prep	_	_	_
+13	the	the	DET	DT	_	13	det	_	_	_
+14	quality	quality	NOUN	NN	_	11	pobj	_	_	_
+15	of	of	ADP	IN	_	13	prep	_	_	_
+16	the	the	DET	DT	_	16	det	_	_	_
+17	students	student	NOUN	NNS	_	14	pobj	_	_	_
+18	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-13
+# text = Certainly I have been tempted to transfer to a cheaper school with better reputation , but my bills got to be paid plus I keep getting promotion after promotion because I have applied the knowledge I have learned in my current profession .
+1	Certainly	certainly	ADV	RB	_	4	advmod	_	_	_
+2	I	-PRON-	PRON	PRP	_	4	nsubjpass	_	_	_
+3	have	have	AUX	VBP	_	4	aux	_	_	_
+4	been	be	AUX	VBN	_	4	auxpass	_	_	_
+5	tempted	tempt	VERB	VBN	_	4	ROOT	_	_	_
+6	to	to	PART	TO	_	6	aux	_	_	_
+7	transfer	transfer	VERB	VB	_	4	xcomp	_	_	_
+8	to	to	ADP	IN	_	6	prep	_	_	_
+9	a	a	DET	DT	_	10	det	_	_	_
+10	cheaper	cheap	ADJ	JJR	_	10	amod	_	_	_
+11	school	school	NOUN	NN	_	7	pobj	_	_	27:targ
+12	with	with	ADP	IN	_	6	prep	_	_	_
+13	better	well	ADJ	JJR	_	13	amod	_	_	_
+14	reputation	reputation	NOUN	NN	_	11	pobj	_	_	_
+15	,	,	PUNCT	,	_	4	punct	_	_	_
+16	but	but	CCONJ	CC	_	4	cc	_	_	_
+17	my	-PRON-	DET	PRP$	_	17	poss	_	_	_
+18	bills	bill	NOUN	NNS	_	18	nsubj	_	_	_
+19	got	get	VERB	VBD	_	4	conj	_	_	_
+20	to	to	PART	TO	_	21	aux	_	_	_
+21	be	be	AUX	VB	_	21	auxpass	_	_	_
+22	paid	pay	VERB	VBN	_	18	xcomp	_	_	_
+23	plus	plus	CCONJ	CC	_	24	cc	_	_	_
+24	I	-PRON-	PRON	PRP	_	24	nsubj	_	_	_
+25	keep	keep	VERB	VBP	_	24	ROOT	_	_	_
+26	getting	get	VERB	VBG	_	24	xcomp	_	_	_
+27	promotion	promotion	NOUN	NN	_	25	dobj	_	_	0:exp-negative
+28	after	after	ADP	IN	_	25	prep	_	_	_
+29	promotion	promotion	NOUN	NN	_	27	pobj	_	_	_
+30	because	because	SCONJ	IN	_	32	mark	_	_	_
+31	I	-PRON-	PRON	PRP	_	32	nsubj	_	_	_
+32	have	have	AUX	VBP	_	32	aux	_	_	_
+33	applied	apply	VERB	VBN	_	25	advcl	_	_	_
+34	the	the	DET	DT	_	34	det	_	_	_
+35	knowledge	knowledge	NOUN	NN	_	32	dobj	_	_	_
+36	I	-PRON-	PRON	PRP	_	37	nsubj	_	_	_
+37	have	have	AUX	VBP	_	37	aux	_	_	_
+38	learned	learn	VERB	VBN	_	34	relcl	_	_	_
+39	in	in	ADP	IN	_	37	prep	_	_	_
+40	my	-PRON-	DET	PRP$	_	41	poss	_	_	_
+41	current	current	ADJ	JJ	_	41	amod	_	_	_
+42	profession	profession	NOUN	NN	_	38	pobj	_	_	_
+43	.	.	PUNCT	.	_	24	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-14
+# text = So to all the nay sayers..it is not Yale or Columbia...it is UoP and it has a place .
+1	So	so	ADV	RB	_	6	advmod	_	_	_
+2	to	to	ADP	IN	_	6	prep	_	_	_
+3	all	all	DET	PDT	_	4	predet	_	_	_
+4	the	the	DET	DT	_	4	det	_	_	_
+5	nay	nay	NOUN	NN	_	1	pobj	_	_	_
+6	sayers..it	sayers..it	NOUN	NN	_	6	punct	_	_	_
+7	is	be	AUX	VBZ	_	6	ROOT	_	_	_
+8	not	not	PART	RB	_	6	neg	_	_	_
+9	Yale	Yale	PROPN	NNP	_	6	attr	_	_	_
+10	or	or	CCONJ	CC	_	8	cc	_	_	_
+11	Columbia...it	Columbia...it	PROPN	NNP	_	8	conj	_	_	_
+12	is	be	AUX	VBZ	_	6	conj	_	_	_
+13	UoP	UoP	PROPN	NNP	_	11	attr	_	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_	_
+15	it	-PRON-	PRON	PRP	_	15	nsubj	_	_	_
+16	has	have	AUX	VBZ	_	15	ROOT	_	_	_
+17	a	a	DET	DT	_	17	det	_	_	_
+18	place	place	NOUN	NN	_	15	dobj	_	_	_
+19	.	.	PUNCT	.	_	15	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-15
+# text = UoP is a departure from tradition and people are always scared of change .
+1	UoP	UoP	PROPN	NNP	_	1	nsubj	_	_	4:targ
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	a	a	DET	DT	_	3	det	_	_	_
+4	departure	departure	NOUN	NN	_	1	attr	_	_	0:exp-negative
+5	from	from	ADP	IN	_	3	prep	_	_	_
+6	tradition	tradition	NOUN	NN	_	4	pobj	_	_	_
+7	and	and	CCONJ	CC	_	5	cc	_	_	_
+8	people	people	NOUN	NNS	_	5	conj	_	_	_
+9	are	be	AUX	VBP	_	1	conj	_	_	_
+10	always	always	ADV	RB	_	8	advmod	_	_	_
+11	scared	scared	ADJ	JJ	_	8	acomp	_	_	_
+12	of	of	ADP	IN	_	10	prep	_	_	_
+13	change	change	NOUN	NN	_	11	pobj	_	_	_
+14	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-16
+# text = I embrace change and will use the positive and change the negative .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	embrace	embrace	VERB	VBP	_	1	ROOT	_	_	_
+3	change	change	NOUN	NN	_	1	dobj	_	_	_
+4	and	and	CCONJ	CC	_	1	cc	_	_	_
+5	will	will	VERB	MD	_	5	aux	_	_	_
+6	use	use	VERB	VB	_	1	conj	_	_	_
+7	the	the	DET	DT	_	7	det	_	_	_
+8	positive	positive	ADJ	JJ	_	5	dobj	_	_	_
+9	and	and	CCONJ	CC	_	5	cc	_	_	_
+10	change	change	VERB	VB	_	5	conj	_	_	_
+11	the	the	DET	DT	_	11	det	_	_	_
+12	negative	negative	NOUN	NN	_	9	dobj	_	_	_
+13	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_27_12-21-2007-17
+# text = Over to the Apollo to make the next moves .
+1	Over	over	ADP	IN	_	5	prep	_	_	_
+2	to	to	ADP	IN	_	0	prep	_	_	_
+3	the	the	DET	DT	_	3	det	_	_	_
+4	Apollo	Apollo	PROPN	NNP	_	1	pobj	_	_	_
+5	to	to	PART	TO	_	5	aux	_	_	_
+6	make	make	VERB	VB	_	5	ROOT	_	_	_
+7	the	the	DET	DT	_	8	det	_	_	_
+8	next	next	ADJ	JJ	_	8	amod	_	_	_
+9	moves	move	NOUN	NNS	_	5	dobj	_	_	_
+10	.	.	PUNCT	.	_	5	punct	_	_	_
+
+# sent_id = DeVry_University_31_08-05-2007-2
+# text = I attend the campus in Fort Washington , PA
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	attend	attend	VERB	VBP	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	3	det	_	_	_
+4	campus	campus	NOUN	NN	_	1	dobj	_	_	_
+5	in	in	ADP	IN	_	1	prep	_	_	_
+6	Fort	Fort	PROPN	NNP	_	6	compound	_	_	_
+7	Washington	Washington	PROPN	NNP	_	4	pobj	_	_	_
+8	,	,	PUNCT	,	_	6	punct	_	_	_
+9	PA	PA	PROPN	NNP	_	6	npadvmod	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-1
+# text = Hi !
+1	Hi	hi	INTJ	UH	_	0	ROOT	_	_	_
+2	!	!	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-2
+# text = I responded to an ad online as I'm interested in my Master's Degree .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	responded	respond	VERB	VBD	_	1	ROOT	_	_	_
+3	to	to	ADP	IN	_	1	prep	_	_	_
+4	an	an	DET	DT	_	4	det	_	_	_
+5	ad	ad	NOUN	NN	_	2	pobj	_	_	_
+6	online	online	NOUN	NN	_	1	advmod	_	_	_
+7	as	as	SCONJ	IN	_	1	prep	_	_	_
+8	I'm	I'm	NOUN	NNS	_	6	pobj	_	_	_
+9	interested	interested	ADJ	JJ	_	7	amod	_	_	_
+10	in	in	ADP	IN	_	8	prep	_	_	_
+11	my	-PRON-	DET	PRP$	_	12	poss	_	_	_
+12	Master's	Master's	PROPN	NNP	_	12	compound	_	_	_
+13	Degree	Degree	PROPN	NNP	_	9	pobj	_	_	_
+14	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-3
+# text = I got called back almost immediately .
+1	I	-PRON-	PRON	PRP	_	2	nsubjpass	_	_	_
+2	got	get	VERB	VBD	_	2	auxpass	_	_	_
+3	called	call	VERB	VBN	_	2	ROOT	_	_	_
+4	back	back	ADV	RB	_	2	advmod	_	_	_
+5	almost	almost	ADV	RB	_	5	advmod	_	_	_
+6	immediately	immediately	ADV	RB	_	2	advmod	_	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-4
+# text = It was apparent that the " Admissions Advisor " was really a salesman reading off of a script .
+1	It	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	was	be	AUX	VBD	_	1	ROOT	_	_	_
+3	apparent	apparent	ADJ	JJ	_	1	acomp	_	_	_
+4	that	that	SCONJ	IN	_	9	mark	_	_	_
+5	the	the	DET	DT	_	7	det	_	_	_
+6	"	"	PUNCT	``	_	7	punct	_	_	_
+7	Admissions	Admissions	PROPN	NNPS	_	7	compound	_	_	_
+8	Advisor	Advisor	PROPN	NNP	_	9	nsubj	_	_	_
+9	"	"	PUNCT	''	_	7	punct	_	_	_
+10	was	be	AUX	VBD	_	1	ccomp	_	_	_
+11	really	really	ADV	RB	_	9	advmod	_	_	_
+12	a	a	DET	DT	_	12	det	_	_	_
+13	salesman	salesman	NOUN	NN	_	9	attr	_	_	_
+14	reading	read	VERB	VBG	_	12	acl	_	_	_
+15	off	off	ADP	IN	_	13	prep	_	_	_
+16	of	of	ADP	IN	_	14	prep	_	_	_
+17	a	a	DET	DT	_	17	det	_	_	_
+18	script	script	NOUN	NN	_	15	pobj	_	_	_
+19	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-5
+# text = I decided to check out CTU Online on the internet .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	decided	decide	VERB	VBD	_	1	ROOT	_	_	_
+3	to	to	PART	TO	_	3	aux	_	_	_
+4	check	check	VERB	VB	_	1	xcomp	_	_	_
+5	out	out	ADP	RP	_	3	prt	_	_	_
+6	CTU	CTU	PROPN	NNP	_	6	compound	_	_	_
+7	Online	Online	PROPN	NNP	_	3	dobj	_	_	_
+8	on	on	ADP	IN	_	3	prep	_	_	_
+9	the	the	DET	DT	_	9	det	_	_	_
+10	internet	internet	NOUN	NN	_	7	pobj	_	_	_
+11	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-6
+# text = I read some poor reviews of CTU Online , and one that connected them with " American InterContinental University " which I confirmed ( via multiple websites ) is on probation .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	read	read	VERB	VBD	_	1	ROOT	_	_	_
+3	some	some	DET	DT	_	4	det	_	_	_
+4	poor	poor	ADJ	JJ	_	4	amod	_	_	0:exp-negative
+5	reviews	review	NOUN	NNS	_	1	dobj	_	_	_
+6	of	of	ADP	IN	_	4	prep	_	_	_
+7	CTU	CTU	PROPN	NNP	_	7	compound	_	_	4:targ
+8	Online	Online	PROPN	NNP	_	5	pobj	_	_	_
+9	,	,	PUNCT	,	_	1	punct	_	_	_
+10	and	and	CCONJ	CC	_	1	cc	_	_	_
+11	one	one	NUM	CD	_	28	nsubj	_	_	_
+12	that	that	DET	WDT	_	12	nsubj	_	_	_
+13	connected	connect	VERB	VBD	_	10	relcl	_	_	_
+14	them	-PRON-	PRON	PRP	_	12	dobj	_	_	_
+15	with	with	ADP	IN	_	12	prep	_	_	_
+16	"	"	PUNCT	``	_	18	punct	_	_	_
+17	American	American	PROPN	NNP	_	18	compound	_	_	_
+18	InterContinental	InterContinental	PROPN	NNP	_	18	compound	_	_	_
+19	University	University	PROPN	NNP	_	14	pobj	_	_	_
+20	"	"	PUNCT	''	_	18	punct	_	_	_
+21	which	which	DET	WDT	_	22	dobj	_	_	_
+22	I	-PRON-	PRON	PRP	_	22	nsubj	_	_	_
+23	confirmed	confirm	VERB	VBD	_	18	relcl	_	_	_
+24	(	(	PUNCT	-LRB-	_	18	punct	_	_	_
+25	via	via	ADP	IN	_	18	prep	_	_	_
+26	multiple	multiple	ADJ	JJ	_	26	amod	_	_	_
+27	websites	website	NOUN	NNS	_	24	pobj	_	_	_
+28	)	)	PUNCT	-RRB-	_	18	punct	_	_	_
+29	is	be	AUX	VBZ	_	1	conj	_	_	_
+30	on	on	ADP	IN	_	28	prep	_	_	_
+31	probation	probation	NOUN	NN	_	29	pobj	_	_	_
+32	.	.	PUNCT	.	_	28	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-7
+# text = I read a very negative review of AIU , which led me to search further .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	read	read	VERB	VBP	_	1	ROOT	_	_	_
+3	a	a	DET	DT	_	5	det	_	_	_
+4	very	very	ADV	RB	_	4	advmod	_	_	0:exp-negative
+5	negative	negative	ADJ	JJ	_	5	amod	_	_	4:exp-negative
+6	review	review	NOUN	NN	_	1	dobj	_	_	4:targ
+7	of	of	ADP	IN	_	5	prep	_	_	6:targ
+8	AIU	AIU	PROPN	NNP	_	6	pobj	_	_	6:targ
+9	,	,	PUNCT	,	_	7	punct	_	_	_
+10	which	which	DET	WDT	_	10	nsubj	_	_	_
+11	led	lead	VERB	VBD	_	7	relcl	_	_	_
+12	me	-PRON-	PRON	PRP	_	10	dobj	_	_	_
+13	to	to	PART	TO	_	13	aux	_	_	_
+14	search	search	VERB	VB	_	10	xcomp	_	_	_
+15	further	further	ADV	RB	_	13	advmod	_	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-10
+# text = This is from the parent website :
+1	This	this	DET	DT	_	1	nsubj	_	_	_
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	from	from	ADP	IN	_	1	prep	_	_	_
+4	the	the	DET	DT	_	5	det	_	_	_
+5	parent	parent	NOUN	NN	_	5	compound	_	_	_
+6	website	website	NOUN	NN	_	2	pobj	_	_	_
+7	:	:	PUNCT	:	_	1	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-11
+# text = " Career Education is an industry leader whose gold-standard brands are recognized globally .
+1	"	"	PUNCT	``	_	3	punct	_	_	_
+2	Career	Career	PROPN	NNP	_	2	compound	_	_	_
+3	Education	Education	PROPN	NNP	_	3	nsubj	_	_	2:targ
+4	is	be	AUX	VBZ	_	3	ROOT	_	_	_
+5	an	an	DET	DT	_	6	det	_	_	_
+6	industry	industry	NOUN	NN	_	6	compound	_	_	_
+7	leader	leader	NOUN	NN	_	3	attr	_	_	_
+8	whose	whose	DET	WP$	_	9	poss	_	_	_
+9	gold-standard	gold-standard	ADJ	JJ	_	9	amod	_	_	_
+10	brands	brand	NOUN	NNS	_	11	nsubjpass	_	_	_
+11	are	be	AUX	VBP	_	11	auxpass	_	_	_
+12	recognized	recognize	VERB	VBN	_	6	relcl	_	_	_
+13	globally	globally	ADV	RB	_	11	advmod	_	_	_
+14	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-12
+# text = Those brands include , among others , the Le Cordon Bleu Schools North America ; the Harrington College of Design ; the Brooks Institute of Photography ; the Katharine Gibbs Schools ; American InterContinental University ; Colorado Technical University and Sanford-Brown Institutes and Colleges . "
+1	Those	those	DET	DT	_	1	det	_	_	_
+2	brands	brand	NOUN	NNS	_	2	nsubj	_	_	_
+3	include	include	VERB	VBP	_	2	ROOT	_	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_	_
+5	among	among	ADP	IN	_	2	prep	_	_	_
+6	others	other	NOUN	NNS	_	4	pobj	_	_	_
+7	,	,	PUNCT	,	_	2	punct	_	_	_
+8	the	the	DET	DT	_	13	det	_	_	_
+9	Le	Le	PROPN	NNP	_	11	compound	_	_	_
+10	Cordon	Cordon	PROPN	NNP	_	11	compound	_	_	_
+11	Bleu	Bleu	PROPN	NNP	_	11	compound	_	_	_
+12	Schools	Schools	PROPN	NNPS	_	13	compound	_	_	_
+13	North	North	PROPN	NNP	_	13	compound	_	_	_
+14	America	America	PROPN	NNP	_	2	dobj	_	_	_
+15	;	;	PUNCT	:	_	13	punct	_	_	_
+16	the	the	DET	DT	_	17	det	_	_	_
+17	Harrington	Harrington	PROPN	NNP	_	17	compound	_	_	_
+18	College	College	PROPN	NNP	_	13	conj	_	_	_
+19	of	of	ADP	IN	_	17	prep	_	_	_
+20	Design	Design	PROPN	NNP	_	18	pobj	_	_	_
+21	;	;	PUNCT	:	_	17	punct	_	_	_
+22	the	the	DET	DT	_	23	det	_	_	_
+23	Brooks	Brooks	PROPN	NNP	_	23	compound	_	_	_
+24	Institute	Institute	PROPN	NNP	_	17	conj	_	_	_
+25	of	of	ADP	IN	_	23	prep	_	_	_
+26	Photography	Photography	PROPN	NNP	_	24	pobj	_	_	_
+27	;	;	PUNCT	:	_	23	punct	_	_	_
+28	the	the	DET	DT	_	30	det	_	_	_
+29	Katharine	Katharine	PROPN	NNP	_	29	compound	_	_	_
+30	Gibbs	Gibbs	PROPN	NNP	_	30	compound	_	_	_
+31	Schools	Schools	PROPN	NNPS	_	23	conj	_	_	_
+32	;	;	PUNCT	:	_	30	punct	_	_	_
+33	American	American	PROPN	NNP	_	34	compound	_	_	_
+34	InterContinental	InterContinental	PROPN	NNP	_	34	compound	_	_	_
+35	University	University	PROPN	NNP	_	30	conj	_	_	_
+36	;	;	PUNCT	:	_	34	punct	_	_	_
+37	Colorado	Colorado	PROPN	NNP	_	38	compound	_	_	_
+38	Technical	Technical	PROPN	NNP	_	38	compound	_	_	_
+39	University	University	PROPN	NNP	_	34	conj	_	_	_
+40	and	and	CCONJ	CC	_	38	cc	_	_	_
+41	Sanford-Brown	Sanford-Brown	PROPN	NNP	_	41	amod	_	_	_
+42	Institutes	Institutes	PROPN	NNPS	_	38	conj	_	_	_
+43	and	and	CCONJ	CC	_	41	cc	_	_	_
+44	Colleges	Colleges	PROPN	NNPS	_	41	conj	_	_	_
+45	.	.	PUNCT	.	_	2	punct	_	_	_
+46	"	"	PUNCT	''	_	2	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-13
+# text = I would avoid any of the above institutions , based on what I found out .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	would	would	VERB	MD	_	2	aux	_	_	_
+3	avoid	avoid	VERB	VB	_	2	ROOT	_	_	_
+4	any	any	DET	DT	_	2	dobj	_	_	_
+5	of	of	ADP	IN	_	3	prep	_	_	_
+6	the	the	DET	DT	_	7	det	_	_	_
+7	above	above	ADJ	JJ	_	7	amod	_	_	_
+8	institutions	institution	NOUN	NNS	_	4	pobj	_	_	_
+9	,	,	PUNCT	,	_	3	punct	_	_	_
+10	based	base	VERB	VBN	_	2	prep	_	_	_
+11	on	on	ADP	IN	_	9	prep	_	_	_
+12	what	what	PRON	WP	_	13	dobj	_	_	_
+13	I	-PRON-	PRON	PRP	_	13	nsubj	_	_	_
+14	found	find	VERB	VBD	_	10	pcomp	_	_	_
+15	out	out	ADP	RP	_	13	prt	_	_	_
+16	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-14
+# text = Note : I haven't attended CTU Online , which is why I gave them a " 2 " rating vs . a " 1 " .
+1	Note	note	VERB	VB	_	0	ROOT	_	_	_
+2	:	:	PUNCT	:	_	0	punct	_	_	_
+3	I	-PRON-	PRON	PRP	_	3	compound	_	_	_
+4	haven't	haven't	VERB	VBP	_	4	nsubj	_	_	_
+5	attended	attend	VERB	VBD	_	4	ROOT	_	_	_
+6	CTU	CTU	PROPN	NNP	_	6	compound	_	_	_
+7	Online	Online	PROPN	NNP	_	4	dobj	_	_	_
+8	,	,	PUNCT	,	_	6	punct	_	_	_
+9	which	which	DET	WDT	_	9	nsubj	_	_	_
+10	is	be	AUX	VBZ	_	6	relcl	_	_	_
+11	why	why	ADV	WRB	_	12	advmod	_	_	_
+12	I	-PRON-	PRON	PRP	_	12	nsubj	_	_	_
+13	gave	give	VERB	VBD	_	9	ccomp	_	_	_
+14	them	-PRON-	PRON	PRP	_	12	dative	_	_	_
+15	a	a	DET	DT	_	18	det	_	_	_
+16	"	"	PUNCT	``	_	18	punct	_	_	_
+17	2	2	NUM	CD	_	18	nummod	_	_	_
+18	"	"	PUNCT	''	_	18	punct	_	_	_
+19	rating	rating	NOUN	NN	_	12	dobj	_	_	_
+20	vs	vs	ADP	IN	_	18	prep	_	_	_
+21	.	.	PUNCT	.	_	4	punct	_	_	_
+22	a	a	DET	DT	_	23	det	_	_	_
+23	"	"	PUNCT	``	_	23	punct	_	_	_
+24	1	1	NUM	CD	_	23	ROOT	_	_	_
+25	"	"	PUNCT	''	_	23	punct	_	_	_
+26	.	.	PUNCT	.	_	23	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-15
+# text = My rating is based on my contact with their employees and my research online .
+1	My	-PRON-	DET	PRP$	_	1	poss	_	_	_
+2	rating	rating	NOUN	NN	_	3	nsubjpass	_	_	_
+3	is	be	AUX	VBZ	_	3	auxpass	_	_	_
+4	based	base	VERB	VBN	_	3	ROOT	_	_	_
+5	on	on	ADP	IN	_	3	prep	_	_	_
+6	my	-PRON-	DET	PRP$	_	6	poss	_	_	_
+7	contact	contact	NOUN	NN	_	4	pobj	_	_	_
+8	with	with	ADP	IN	_	6	prep	_	_	_
+9	their	-PRON-	DET	PRP$	_	9	poss	_	_	_
+10	employees	employee	NOUN	NNS	_	7	pobj	_	_	_
+11	and	and	CCONJ	CC	_	6	cc	_	_	_
+12	my	-PRON-	DET	PRP$	_	12	poss	_	_	_
+13	research	research	NOUN	NN	_	6	conj	_	_	_
+14	online	online	ADV	RB	_	12	advmod	_	_	_
+15	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-16
+# text = There are reviews from students of CTU Online that like their experience .
+1	There	there	PRON	EX	_	1	expl	_	_	_
+2	are	be	AUX	VBP	_	1	ROOT	_	_	_
+3	reviews	review	NOUN	NNS	_	1	attr	_	_	_
+4	from	from	ADP	IN	_	2	prep	_	_	_
+5	students	student	NOUN	NNS	_	3	pobj	_	_	_
+6	of	of	ADP	IN	_	4	prep	_	_	_
+7	CTU	CTU	PROPN	NNP	_	7	compound	_	_	_
+8	Online	Online	PROPN	NNP	_	5	pobj	_	_	_
+9	that	that	DET	WDT	_	9	nsubj	_	_	_
+10	like	like	SCONJ	IN	_	2	relcl	_	_	_
+11	their	-PRON-	DET	PRP$	_	11	poss	_	_	_
+12	experience	experience	NOUN	NN	_	9	pobj	_	_	_
+13	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-17
+# text = Here is the review of AIU :
+1	Here	here	ADV	RB	_	1	advmod	_	_	_
+2	is	be	AUX	VBZ	_	1	ROOT	_	_	_
+3	the	the	DET	DT	_	3	det	_	_	_
+4	review	review	NOUN	NN	_	1	nsubj	_	_	_
+5	of	of	ADP	IN	_	3	prep	_	_	_
+6	AIU	AIU	PROPN	NNP	_	4	pobj	_	_	_
+7	:	:	PUNCT	:	_	1	punct	_	_	_
+
+# sent_id = Colorado_Technical_University_Online_55_09-08-2006-18
+# text = PS-If you're a student at any of the schools above , I'm not cutting you down , and I hope it goes well for you .
+1	PS-If	PS-If	PROPN	NNP	_	1	compound	_	_	_
+2	you're	you're	VERB	VBZ	_	1	ROOT	_	_	_
+3	a	a	DET	DT	_	3	det	_	_	_
+4	student	student	NOUN	NN	_	3	ROOT	_	_	_
+5	at	at	ADP	IN	_	3	prep	_	_	_
+6	any	any	DET	DT	_	4	pobj	_	_	_
+7	of	of	ADP	IN	_	5	prep	_	_	_
+8	the	the	DET	DT	_	8	det	_	_	_
+9	schools	school	NOUN	NNS	_	6	pobj	_	_	_
+10	above	above	ADV	RB	_	8	advmod	_	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_	_
+12	I'm	i'm	PRON	PRP	_	13	aux	_	_	_
+13	not	not	PART	RB	_	13	neg	_	_	_
+14	cutting	cut	VERB	VBG	_	13	ROOT	_	_	_
+15	you	-PRON-	PRON	PRP	_	13	dobj	_	_	_
+16	down	down	ADP	RP	_	13	prt	_	_	_
+17	,	,	PUNCT	,	_	13	punct	_	_	_
+18	and	and	CCONJ	CC	_	13	cc	_	_	_
+19	I	-PRON-	PRON	PRP	_	19	nsubj	_	_	_
+20	hope	hope	VERB	VBP	_	13	conj	_	_	_
+21	it	-PRON-	PRON	PRP	_	21	nsubj	_	_	22:targ
+22	goes	go	VERB	VBZ	_	19	ccomp	_	_	0:exp-positive
+23	well	well	ADV	RB	_	21	advmod	_	_	22:exp-positive
+24	for	for	ADP	IN	_	21	dative	_	_	_
+25	you	-PRON-	PRON	PRP	_	23	pobj	_	_	_
+26	.	.	PUNCT	.	_	19	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-1
+# text = DeVry University is a great investment .
+1	DeVry	DeVry	PROPN	NNP	_	1	compound	_	_	5:targ
+2	University	University	PROPN	NNP	_	2	nsubj	_	_	1:targ
+3	is	be	AUX	VBZ	_	2	ROOT	_	_	_
+4	a	a	DET	DT	_	5	det	_	_	_
+5	great	great	ADJ	JJ	_	5	amod	_	_	0:exp-positive
+6	investment	investment	NOUN	NN	_	2	attr	_	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-2
+# text = The school is going through some transistions as far as their student services is concerned .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	school	school	NOUN	NN	_	3	nsubj	_	_	_
+3	is	be	AUX	VBZ	_	3	aux	_	_	_
+4	going	go	VERB	VBG	_	3	ROOT	_	_	_
+5	through	through	ADP	IN	_	3	prep	_	_	_
+6	some	some	DET	DT	_	6	det	_	_	_
+7	transistions	transistion	NOUN	NNS	_	4	pobj	_	_	_
+8	as	as	ADV	RB	_	8	advmod	_	_	_
+9	far	far	ADV	RB	_	3	advmod	_	_	_
+10	as	as	SCONJ	IN	_	14	mark	_	_	_
+11	their	-PRON-	DET	PRP$	_	12	poss	_	_	_
+12	student	student	NOUN	NN	_	12	compound	_	_	_
+13	services	service	NOUN	NNS	_	14	nsubjpass	_	_	_
+14	is	be	AUX	VBZ	_	14	auxpass	_	_	_
+15	concerned	concern	VERB	VBN	_	8	advcl	_	_	_
+16	.	.	PUNCT	.	_	3	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-3
+# text = The undergraduate and graduate programs combined last year under the name DeVry University .
+1	The	the	DET	DT	_	4	det	_	_	_
+2	undergraduate	undergraduate	NOUN	NN	_	4	amod	_	_	_
+3	and	and	CCONJ	CC	_	1	cc	_	_	_
+4	graduate	graduate	NOUN	NN	_	1	conj	_	_	_
+5	programs	program	NOUN	NNS	_	4	ROOT	_	_	_
+6	combined	combine	VERB	VBN	_	4	acl	_	_	_
+7	last	last	ADJ	JJ	_	7	amod	_	_	_
+8	year	year	NOUN	NN	_	5	npadvmod	_	_	_
+9	under	under	ADP	IN	_	5	prep	_	_	_
+10	the	the	DET	DT	_	10	det	_	_	_
+11	name	name	NOUN	NN	_	8	pobj	_	_	_
+12	DeVry	DeVry	PROPN	NNP	_	12	compound	_	_	_
+13	University	University	PROPN	NNP	_	10	appos	_	_	_
+14	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-4
+# text = The administration is diligently trying to combine the resources of the school to support both segments of the student body .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	administration	administration	NOUN	NN	_	4	nsubj	_	_	4:targ
+3	is	be	AUX	VBZ	_	4	aux	_	_	_
+4	diligently	diligently	ADV	RB	_	4	advmod	_	_	0:exp-neutral
+5	trying	try	VERB	VBG	_	4	ROOT	_	_	_
+6	to	to	PART	TO	_	6	aux	_	_	_
+7	combine	combine	VERB	VB	_	4	xcomp	_	_	_
+8	the	the	DET	DT	_	8	det	_	_	_
+9	resources	resource	NOUN	NNS	_	6	dobj	_	_	_
+10	of	of	ADP	IN	_	8	prep	_	_	_
+11	the	the	DET	DT	_	11	det	_	_	_
+12	school	school	NOUN	NN	_	9	pobj	_	_	_
+13	to	to	PART	TO	_	13	aux	_	_	_
+14	support	support	VERB	VB	_	6	advcl	_	_	_
+15	both	both	DET	DT	_	15	det	_	_	_
+16	segments	segment	NOUN	NNS	_	13	dobj	_	_	_
+17	of	of	ADP	IN	_	15	prep	_	_	_
+18	the	the	DET	DT	_	19	det	_	_	_
+19	student	student	NOUN	NN	_	19	compound	_	_	_
+20	body	body	NOUN	NN	_	16	pobj	_	_	_
+21	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-5
+# text = I'm a graduate student at the school and the education I get is extremely relevent .
+1	I'm	I'm	NOUN	NNS	_	0	ROOT	_	_	_
+2	a	a	DET	DT	_	3	det	_	_	_
+3	graduate	graduate	NOUN	NN	_	3	compound	_	_	_
+4	student	student	NOUN	NN	_	0	dobj	_	_	_
+5	at	at	ADP	IN	_	3	prep	_	_	_
+6	the	the	DET	DT	_	6	det	_	_	_
+7	school	school	NOUN	NN	_	4	pobj	_	_	_
+8	and	and	CCONJ	CC	_	3	cc	_	_	_
+9	the	the	DET	DT	_	9	det	_	_	_
+10	education	education	NOUN	NN	_	12	nsubj	_	_	14:targ
+11	I	-PRON-	PRON	PRP	_	11	nsubj	_	_	_
+12	get	get	VERB	VBP	_	9	relcl	_	_	_
+13	is	be	AUX	VBZ	_	12	ROOT	_	_	_
+14	extremely	extremely	ADV	RB	_	14	advmod	_	_	0:exp-positive
+15	relevent	relevent	ADJ	JJ	_	12	acomp	_	_	14:exp-positive
+16	.	.	PUNCT	.	_	12	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-6
+# text = I can't overemphasize that enough .
+1	I	-PRON-	PRON	PRP	_	1	nsubj	_	_	_
+2	can't	can't	VERB	VBZ	_	2	nsubj	_	_	_
+3	overemphasize	overemphasize	VERB	VBP	_	2	ROOT	_	_	_
+4	that	that	DET	DT	_	2	dobj	_	_	_
+5	enough	enough	ADV	RB	_	2	advmod	_	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-7
+# text = The school gives students a knowledge base that makes them extremely competitive in the corporate world .
+1	The	the	DET	DT	_	1	det	_	_	_
+2	school	school	NOUN	NN	_	2	nsubj	_	_	_
+3	gives	give	VERB	VBZ	_	2	ROOT	_	_	_
+4	students	student	NOUN	NNS	_	2	dative	_	_	_
+5	a	a	DET	DT	_	6	det	_	_	_
+6	knowledge	knowledge	NOUN	NN	_	6	compound	_	_	_
+7	base	base	NOUN	NN	_	2	dobj	_	_	_
+8	that	that	DET	WDT	_	8	nsubj	_	_	_
+9	makes	make	VERB	VBZ	_	6	relcl	_	_	_
+10	them	-PRON-	PRON	PRP	_	11	nsubj	_	_	_
+11	extremely	extremely	ADV	RB	_	11	advmod	_	_	_
+12	competitive	competitive	ADJ	JJ	_	8	ccomp	_	_	_
+13	in	in	ADP	IN	_	11	prep	_	_	_
+14	the	the	DET	DT	_	15	det	_	_	_
+15	corporate	corporate	ADJ	JJ	_	15	amod	_	_	_
+16	world	world	NOUN	NN	_	12	pobj	_	_	_
+17	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-9
+# text = I've received valuable advice from many of these real world professionals that I know I couldn't get at a traditional school .
+1	I've	I've	PROPN	NNP	_	1	nsubj	_	_	_
+2	received	receive	VERB	VBD	_	1	ROOT	_	_	_
+3	valuable	valuable	ADJ	JJ	_	3	amod	_	_	_
+4	advice	advice	NOUN	NN	_	1	dobj	_	_	_
+5	from	from	ADP	IN	_	1	prep	_	_	_
+6	many	many	ADJ	JJ	_	4	pobj	_	_	_
+7	of	of	ADP	IN	_	5	prep	_	_	_
+8	these	these	DET	DT	_	10	det	_	_	_
+9	real	real	ADJ	JJ	_	10	amod	_	_	_
+10	world	world	NOUN	NN	_	10	compound	_	_	_
+11	professionals	professional	NOUN	NNS	_	6	pobj	_	_	_
+12	that	that	DET	WDT	_	13	dobj	_	_	_
+13	I	-PRON-	PRON	PRP	_	13	nsubj	_	_	_
+14	know	know	VERB	VBP	_	10	relcl	_	_	_
+15	I	-PRON-	PRON	PRP	_	15	compound	_	_	_
+16	couldn't	couldn't	VERB	VBP	_	16	dep	_	_	_
+17	get	get	AUX	VB	_	13	ccomp	_	_	_
+18	at	at	ADP	IN	_	16	prep	_	_	_
+19	a	a	DET	DT	_	20	det	_	_	_
+20	traditional	traditional	ADJ	JJ	_	20	amod	_	_	_
+21	school	school	NOUN	NN	_	17	pobj	_	_	_
+22	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-11
+# text = I often have to call multiple times to get a request taken care of .
+1	I	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+2	often	often	ADV	RB	_	2	advmod	_	_	_
+3	have	have	AUX	VBP	_	2	ROOT	_	_	_
+4	to	to	PART	TO	_	4	aux	_	_	_
+5	call	call	VERB	VB	_	2	xcomp	_	_	_
+6	multiple	multiple	ADJ	JJ	_	6	amod	_	_	_
+7	times	time	NOUN	NNS	_	4	dobj	_	_	_
+8	to	to	PART	TO	_	8	aux	_	_	_
+9	get	get	AUX	VB	_	4	advcl	_	_	_
+10	a	a	DET	DT	_	10	det	_	_	_
+11	request	request	NOUN	NN	_	8	dobj	_	_	_
+12	taken	take	VERB	VBN	_	10	acl	_	_	_
+13	care	care	NOUN	NN	_	11	dobj	_	_	_
+14	of	of	ADP	IN	_	11	prep	_	_	_
+15	.	.	PUNCT	.	_	2	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-12
+# text = The relaxed admissions standards comes from the school being a for-profit school .
+1	The	the	DET	DT	_	3	det	_	_	_
+2	relaxed	relaxed	ADJ	JJ	_	3	amod	_	_	_
+3	admissions	admission	NOUN	NNS	_	3	compound	_	_	_
+4	standards	standard	NOUN	NNS	_	4	nsubj	_	_	_
+5	comes	come	VERB	VBZ	_	4	ROOT	_	_	4:exp-neutral
+6	from	from	ADP	IN	_	4	prep	_	_	_
+7	the	the	DET	DT	_	7	det	_	_	_
+8	school	school	NOUN	NN	_	5	pobj	_	_	_
+9	being	be	AUX	VBG	_	4	advcl	_	_	_
+10	a	a	DET	DT	_	11	det	_	_	_
+11	for-profit	for-profit	ADJ	JJ	_	11	amod	_	_	_
+12	school	school	NOUN	NN	_	8	attr	_	_	_
+13	.	.	PUNCT	.	_	4	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-14
+# text = I'm sure all colleges have their share of slackers so that shouldn't dissuade anybody from attending the school .
+1	I'm	i'm	PRON	PRP	_	0	ROOT	_	_	_
+2	sure	sure	ADV	RB	_	0	acomp	_	_	_
+3	all	all	DET	DT	_	3	det	_	_	_
+4	colleges	college	NOUN	NNS	_	4	nsubj	_	_	_
+5	have	have	AUX	VBP	_	1	ccomp	_	_	_
+6	their	-PRON-	DET	PRP$	_	6	poss	_	_	_
+7	share	share	NOUN	NN	_	4	dobj	_	_	_
+8	of	of	ADP	IN	_	6	prep	_	_	_
+9	slackers	slacker	NOUN	NNS	_	7	pobj	_	_	_
+10	so	so	SCONJ	IN	_	12	mark	_	_	_
+11	that	that	SCONJ	IN	_	12	mark	_	_	_
+12	shouldn't	shouldn't	VERB	VBP	_	12	nsubj	_	_	_
+13	dissuade	dissuade	NOUN	NN	_	4	advcl	_	_	_
+14	anybody	anybody	PRON	NN	_	12	dobj	_	_	_
+15	from	from	ADP	IN	_	12	prep	_	_	_
+16	attending	attend	VERB	VBG	_	14	pcomp	_	_	_
+17	the	the	DET	DT	_	17	det	_	_	_
+18	school	school	NOUN	NN	_	15	dobj	_	_	_
+19	.	.	PUNCT	.	_	0	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-16
+# text = If you are interested in having a marketable degree from a school that is recognized across the nation then DeVry is the place for you .
+1	If	if	SCONJ	IN	_	2	mark	_	_	_
+2	you	-PRON-	PRON	PRP	_	2	nsubj	_	_	_
+3	are	be	AUX	VBP	_	20	advcl	_	_	_
+4	interested	interested	ADJ	JJ	_	2	acomp	_	_	_
+5	in	in	ADP	IN	_	3	prep	_	_	_
+6	having	have	VERB	VBG	_	4	pcomp	_	_	_
+7	a	a	DET	DT	_	8	det	_	_	_
+8	marketable	marketable	ADJ	JJ	_	8	amod	_	_	_
+9	degree	degree	NOUN	NN	_	5	dobj	_	_	_
+10	from	from	ADP	IN	_	8	prep	_	_	_
+11	a	a	DET	DT	_	11	det	_	_	_
+12	school	school	NOUN	NN	_	9	pobj	_	_	_
+13	that	that	DET	WDT	_	14	nsubjpass	_	_	_
+14	is	be	AUX	VBZ	_	14	auxpass	_	_	_
+15	recognized	recognize	VERB	VBN	_	11	relcl	_	_	_
+16	across	across	ADP	IN	_	14	prep	_	_	_
+17	the	the	DET	DT	_	17	det	_	_	_
+18	nation	nation	NOUN	NN	_	15	pobj	_	_	_
+19	then	then	ADV	RB	_	20	advmod	_	_	_
+20	DeVry	DeVry	PROPN	NNP	_	20	nsubj	_	_	21:targ
+21	is	be	AUX	VBZ	_	20	ROOT	_	_	0:exp-neutral
+22	the	the	DET	DT	_	22	det	_	_	21:exp-neutral
+23	place	place	NOUN	NN	_	20	attr	_	_	21:exp-neutral
+24	for	for	ADP	IN	_	22	prep	_	_	_
+25	you	-PRON-	PRON	PRP	_	23	pobj	_	_	_
+26	.	.	PUNCT	.	_	20	punct	_	_	_
+
+# sent_id = DeVry_University_95_05-16-2004-17
+# text = If you absolutely have to have a football team , pep rallies , and all the other mindless activities associated with college , I suggest looking elsewhere .
+1	If	if	SCONJ	IN	_	3	mark	_	_	_
+2	you	-PRON-	PRON	PRP	_	3	nsubj	_	_	_
+3	absolutely	absolutely	ADV	RB	_	3	advmod	_	_	_
+4	have	have	AUX	VBP	_	25	advcl	_	_	_
+5	to	to	PART	TO	_	5	aux	_	_	_
+6	have	have	AUX	VB	_	3	xcomp	_	_	_
+7	a	a	DET	DT	_	8	det	_	_	_
+8	football	football	NOUN	NN	_	8	compound	_	_	_
+9	team	team	NOUN	NN	_	5	dobj	_	_	_
+10	,	,	PUNCT	,	_	8	punct	_	_	_
+11	pep	pep	NOUN	NN	_	11	compound	_	_	_
+12	rallies	rally	VERB	VBZ	_	8	conj	_	_	_
+13	,	,	PUNCT	,	_	11	punct	_	_	_
+14	and	and	CCONJ	CC	_	11	cc	_	_	_
+15	all	all	DET	PDT	_	18	predet	_	_	_
+16	the	the	DET	DT	_	18	det	_	_	_
+17	other	other	ADJ	JJ	_	18	amod	_	_	_
+18	mindless	mindless	ADJ	JJ	_	18	amod	_	_	_
+19	activities	activity	NOUN	NNS	_	11	conj	_	_	_
+20	associated	associate	VERB	VBN	_	18	acl	_	_	_
+21	with	with	ADP	IN	_	19	prep	_	_	_
+22	college	college	NOUN	NN	_	20	pobj	_	_	_
+23	,	,	PUNCT	,	_	24	punct	_	_	_
+24	I	-PRON-	PRON	PRP	_	24	nsubj	_	_	_
+25	suggest	suggest	VERB	VBP	_	25	aux	_	_	_
+26	looking	look	VERB	VBG	_	25	ROOT	_	_	_
+27	elsewhere	elsewhere	ADV	RB	_	25	advmod	_	_	_
+28	.	.	PUNCT	.	_	25	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_174_11-02-2004-1
+# text = In general I have been pleased with UOP instruction and technical support is excellent , but their response times with the newsgroups are often unacceptable .
+1	In	in	ADP	IN	_	4	prep	_	_	_
+2	general	general	ADJ	JJ	_	0	amod	_	_	_
+3	I	-PRON-	PRON	PRP	_	4	nsubj	_	_	_
+4	have	have	AUX	VBP	_	4	aux	_	_	_
+5	been	be	AUX	VBN	_	4	ROOT	_	_	_
+6	pleased	please	VERB	VBN	_	4	acomp	_	_	0:exp-positive
+7	with	with	ADP	IN	_	5	prep	_	_	_
+8	UOP	UOP	PROPN	NNP	_	8	compound	_	_	6:targ
+9	instruction	instruction	NOUN	NN	_	6	pobj	_	_	_
+10	and	and	CCONJ	CC	_	8	cc	_	_	_
+11	technical	technical	ADJ	JJ	_	11	amod	_	_	_
+12	support	support	NOUN	NN	_	8	conj	_	_	14:targ
+13	is	be	AUX	VBZ	_	4	conj	_	_	_
+14	excellent	excellent	ADJ	JJ	_	12	acomp	_	_	0:exp-positive
+15	,	,	PUNCT	,	_	4	punct	_	_	_
+16	but	but	CCONJ	CC	_	4	cc	_	_	_
+17	their	-PRON-	DET	PRP$	_	17	poss	_	_	_
+18	response	response	NOUN	NN	_	18	compound	_	_	_
+19	times	time	NOUN	NNS	_	22	nsubj	_	_	_
+20	with	with	ADP	IN	_	18	prep	_	_	_
+21	the	the	DET	DT	_	21	det	_	_	_
+22	newsgroups	newsgroup	NOUN	NNS	_	19	pobj	_	_	_
+23	are	be	AUX	VBP	_	4	conj	_	_	_
+24	often	often	ADV	RB	_	22	advmod	_	_	_
+25	unacceptable	unacceptable	ADJ	JJ	_	22	acomp	_	_	_
+26	.	.	PUNCT	.	_	22	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_174_11-02-2004-2
+# text = UOP needs to put some more money into infrastructure even if it has to take some away from their huge advertising budget .
+1	UOP	UOP	PROPN	NNP	_	1	nsubj	_	_	2:targ
+2	needs	need	VERB	VBZ	_	1	ROOT	_	_	0:exp-neutral
+3	to	to	PART	TO	_	3	aux	_	_	_
+4	put	put	VERB	VB	_	1	xcomp	_	_	_
+5	some	some	DET	DT	_	6	det	_	_	_
+6	more	more	ADJ	JJR	_	6	amod	_	_	_
+7	money	money	NOUN	NN	_	3	dobj	_	_	_
+8	into	into	ADP	IN	_	3	prep	_	_	_
+9	infrastructure	infrastructure	NOUN	NN	_	7	pobj	_	_	_
+10	even	even	ADV	RB	_	12	advmod	_	_	_
+11	if	if	SCONJ	IN	_	12	mark	_	_	_
+12	it	-PRON-	PRON	PRP	_	12	nsubj	_	_	_
+13	has	have	AUX	VBZ	_	3	advcl	_	_	_
+14	to	to	PART	TO	_	14	aux	_	_	_
+15	take	take	VERB	VB	_	12	xcomp	_	_	_
+16	some	some	DET	DT	_	14	dobj	_	_	_
+17	away	away	ADV	RB	_	14	advmod	_	_	_
+18	from	from	ADP	IN	_	16	prep	_	_	_
+19	their	-PRON-	DET	PRP$	_	21	poss	_	_	_
+20	huge	huge	ADJ	JJ	_	21	amod	_	_	0:exp-negative
+21	advertising	advertising	NOUN	NN	_	21	compound	_	_	_
+22	budget	budget	NOUN	NN	_	17	pobj	_	_	_
+23	.	.	PUNCT	.	_	1	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_174_11-02-2004-3
+# text = Slow response times or no connectivity at all are becoming much too frequent as they push for more students without sufficiently upgrading infrastructure .
+1	Slow	slow	ADJ	JJ	_	2	amod	_	_	_
+2	response	response	NOUN	NN	_	2	compound	_	_	_
+3	times	time	NOUN	NNS	_	9	nsubj	_	_	_
+4	or	or	CCONJ	CC	_	2	cc	_	_	_
+5	no	no	DET	DT	_	5	det	_	_	_
+6	connectivity	connectivity	NOUN	NN	_	2	conj	_	_	_
+7	at	at	ADV	RB	_	7	advmod	_	_	_
+8	all	all	ADV	RB	_	5	advmod	_	_	_
+9	are	be	AUX	VBP	_	9	aux	_	_	_
+10	becoming	become	VERB	VBG	_	9	ROOT	_	_	_
+11	much	much	ADV	RB	_	12	advmod	_	_	_
+12	too	too	ADV	RB	_	12	advmod	_	_	_
+13	frequent	frequent	ADJ	JJ	_	9	acomp	_	_	_
+14	as	as	SCONJ	IN	_	15	mark	_	_	_
+15	they	-PRON-	PRON	PRP	_	15	nsubj	_	_	_
+16	push	push	VERB	VBP	_	12	advcl	_	_	_
+17	for	for	ADP	IN	_	15	prep	_	_	_
+18	more	more	ADJ	JJR	_	18	amod	_	_	_
+19	students	student	NOUN	NNS	_	16	pobj	_	_	_
+20	without	without	ADP	IN	_	15	prep	_	_	_
+21	sufficiently	sufficiently	ADV	RB	_	21	advmod	_	_	_
+22	upgrading	upgrade	VERB	VBG	_	19	pcomp	_	_	_
+23	infrastructure	infrastructure	NOUN	NN	_	21	dobj	_	_	_
+24	.	.	PUNCT	.	_	9	punct	_	_	_
+
+# sent_id = University_of_Phoenix_Online_174_11-02-2004-4
+# text = I'm not sure I can continue recommending UOP to other students unless they correct these issues .
+1	I'm	i'm	PRON	PRP	_	0	ROOT	_	_	_
+2	not	not	PART	RB	_	2	neg	_	_	_
+3	sure	sure	ADJ	JJ	_	0	acomp	_	_	_
+4	I	-PRON-	PRON	PRP	_	5	nsubj	_	_	_
+5	can	can	VERB	MD	_	5	aux	_	_	_
+6	continue	continue	VERB	VB	_	2	ccomp	_	_	_
+7	recommending	recommend	VERB	VBG	_	5	xcomp	_	_	_
+8	UOP	UOP	PROPN	NNP	_	6	dobj	_	_	_
+9	to	to	ADP	IN	_	6	prep	_	_	_
+10	other	other	ADJ	JJ	_	10	amod	_	_	_
+11	students	student	NOUN	NNS	_	8	pobj	_	_	_
+12	unless	unless	SCONJ	IN	_	13	mark	_	_	_
+13	they	-PRON-	PRON	PRP	_	13	nsubj	_	_	_
+14	correct	correct	VERB	VBP	_	5	advcl	_	_	_
+15	these	these	DET	DT	_	15	det	_	_	_
+16	issues	issue	NOUN	NNS	_	13	dobj	_	_	_
+17	.	.	PUNCT	.	_	0	punct	_	_	_
+
