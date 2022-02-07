@@ -97,7 +97,7 @@ def ee(model, data):
         tokens = sent.split()
         tokenized = tokenizer(sent, return_tensors='pt', add_special_tokens=False)
         subtokens = tokenizer.convert_ids_to_tokens(tokenized["input_ids"][0])
-        token_reps, _ = model(**tokenized)
+        token_reps = model(**tokenized)["last_hidden_state"]
         token_reps = token_reps.squeeze(0)
         assert len(subtokens) == len(token_reps)
         ave_reps = average_reps(subtokens, token_reps, tokens)
