@@ -15,7 +15,7 @@ for ((i=0;i<${#berts[@]};++i)); do
     outfile="$datadir"/"${datasets[i]}"/"$t"_bert.hdf5
     printf "Using %s for %s\n" "$model" "$indata";
     printf "Saving to %s\n" "$outfile"
-    python3 bert_embed.py --model $model --indata $indata --outdata $outfile;
+    python3 context_embed.py --model $model --indata $indata --outdata $outfile;
   done;
   echo
 done;
