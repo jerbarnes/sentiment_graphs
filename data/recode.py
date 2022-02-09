@@ -1,14 +1,8 @@
 #!/bin/env python3
 # coding: utf-8
 
-# Replace broken Unicode characters with real ones
-
 import sys
 import re
-
-def replace_chars(match):
-    char = match.group(0)
-    return chars[char]
 
 chars = {
     '\x82' : ',',        # High code comma
@@ -25,8 +19,6 @@ chars = {
     '\x99' : ' ',
     '\xa0' : ' ',
     '\xa6' : '|',        # Split vertical bar
-    '\xab' : '<<',       # Double less than
-    '\xbb' : '>>',       # Double greater than
     '\xbc' : '1/4',      # one quarter
     '\xbd' : '1/2',      # one half
     '\xbe' : '3/4',      # three quarters
@@ -36,9 +28,13 @@ chars = {
 }
 
 
-text = open(sys.argv[1], "r").read()
+def replace_chars(match):
+    char = match.group(0)
+    return chars[char]
 
-out = re.sub('(' + '|'.join(chars.keys()) + ')', replace_chars, text)
+a = open(sys.argv[1], "r").read()
+
+out = re.sub('(' + '|'.join(chars.keys()) + ')', replace_chars, a)
 
 print(out)
 
