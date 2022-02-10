@@ -64,7 +64,7 @@ class EnhancedLSTM(torch.nn.Module):
     def forward(self, inputs, hidden, lengths):
         if self.lstm_type in ["allen", "native"]:
             packed = torch.nn.utils.rnn.pack_padded_sequence(
-                inputs, lengths, batch_first=True)
+                inputs, lengths.to('cpu'), batch_first=True)            
 
             output, _ = self.provider(packed, hidden)
 
@@ -114,7 +114,7 @@ class WeightDropLSTM(torch.nn.Module):
             output = self.locked_dropout(
                 output, batch_first=True, p=self.ff_dropout)
             packed = torch.nn.utils.rnn.pack_padded_sequence(
-                output, lengths, batch_first=True)
+                output, lengths.to('cpu'), batch_first=True)
             output, _ = lstm(packed, None)
             output, _ = torch.nn.utils.rnn.pad_packed_sequence(
                 output, batch_first=True)
