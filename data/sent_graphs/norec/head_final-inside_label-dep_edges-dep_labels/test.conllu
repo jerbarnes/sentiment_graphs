@@ -8134,7 +8134,7 @@
 8	Washington	Washington	PROPN	_	_	7	flat:name	_	_	_
 9	i	i	ADP	_	_	11	case	_	_	_
 10	sesong	sesong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	_	_
-11	4	4	NUM	_	Number=Plur|NumType=Card	5	obl	_	SpacesAfter= 	_
+11	4	4	NUM	_	Number=Plur|NumType=Card	5	obl	_	SpacesAfter= 	_
 12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_	_
 13	sentralt	sentral	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_	_
 14	i	i	ADP	_	_	15	case	_	_	_
@@ -22954,7 +22954,7 @@
 
 # sent_id = 703572-07-02
 # text = På ferden forsøker den maktsyke moren « å holde datteren sin på matta , i en evig pendling mellom håp og fortvilelse » .
-1	På	på	ADP	_	_	2	case	_	SpacesAfter= \s	_
+1	På	på	ADP	_	_	2	case	_	SpacesAfter= \s	_
 2	ferden	ferd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	_	_
 3	forsøker	forsøke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_	_
 4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_	_
@@ -23786,7 +23786,7 @@
 4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_	_
 5	siden	siden	SCONJ	_	_	7	mark	_	_	_
 6	Bethesda	Bethesda	PROPN	_	_	7	nsubj	_	_	_
-7	slapp	slippe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	SpacesAfter= 	_
+7	slapp	slippe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	SpacesAfter= 	_
 8	Dishonored	Dishonored	PROPN	_	_	7	obj	_	SpaceAfter=No	17:targ
 9	,	$,	PUNCT	_	_	8	punct	_	_	_
 10	som	som	PRON	_	PronType=Rel	13	nsubj	_	_	_
@@ -23814,7 +23814,7 @@
 6	steampunk-verdenen	steampunk-verden	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No	3:targ|5:targ
 7	,	$,	PUNCT	_	_	6	punct	_	_	_
 8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_	_
-9	gjennomarbeidede	gjennomarbeide	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	10	amod	_	SpacesAfter= 	0:exp-Positive
+9	gjennomarbeidede	gjennomarbeide	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	10	amod	_	SpacesAfter= 	0:exp-Positive
 10	spilluniverset	spillunivers	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	conj	_	_	9:targ
 11	og	og	CCONJ	_	_	14	cc	_	_	_
 12	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	_	_
@@ -23831,7 +23831,7 @@
 23	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No	_
 24	,	$,	PUNCT	_	_	15	punct	_	_	_
 25	for	for	SCONJ	_	_	27	mark	_	_	_
-26	å	å	PART	_	_	27	mark	_	SpacesAfter= 	_
+26	å	å	PART	_	_	27	mark	_	SpacesAfter= 	_
 27	søke	søke	VERB	_	VerbForm=Inf	15	advcl	_	_	_
 28	nye	ny	ADJ	_	Degree=Pos|Number=Plur	29	amod	_	_	_
 29	måter	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	27	obj	_	_	_
@@ -23856,7 +23856,7 @@
 4	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_	_
 5	tilstede	tilstede	ADP	_	_	8	case	_	_	_
 6	også	også	ADV	_	_	8	advmod	_	_	_
-7	i	i	ADP	_	_	8	case	_	SpacesAfter= 	_
+7	i	i	ADP	_	_	8	case	_	SpacesAfter= 	_
 8	Dishonored	Dishonored	PROPN	_	_	4	obl	_	_	12:targ|26:targ
 9	2	2	NUM	_	Number=Plur|NumType=Card	8	flat:name	_	SpaceAfter=No	8:IN:targ|8:IN:targ
 10	,	$,	PUNCT	_	_	8	punct	_	_	_
@@ -23896,7 +23896,7 @@
 
 # sent_id = 000913-08-01
 # text = Nok en gang har nettet snurpet seg rundt Corvo Attano .
-1	Nok	nok	ADV	_	_	2	advmod	_	SpacesAfter= 	_
+1	Nok	nok	ADV	_	_	2	advmod	_	SpacesAfter= 	_
 2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	_	_
 3	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	_	_
 4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_	_
@@ -23923,7 +23923,7 @@
 11	å	å	PART	_	_	12	mark	_	_	_
 12	frifinne	frifinne	VERB	_	VerbForm=Inf	9	acl	_	_	_
 13	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	_	_
-14	for	for	ADP	_	_	15	case	_	SpacesAfter= 	_
+14	for	for	ADP	_	_	15	case	_	SpacesAfter= 	_
 15	drapet	drap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	_	_
 16	på	på	ADP	_	_	18	case	_	_	_
 17	keiserinnen	keiserinn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	_	_
@@ -24070,7 +24070,7 @@
 15	bankende	bank	ADJ	_	VerbForm=Part	16	amod	_	_	16:IN:exp-Negative
 16	kjør	kjør	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	_	0:exp-Negative
 17	fra	fra	ADP	_	_	23	case	_	_	16:IN:exp-Negative
-18	tronrøvervennlige	tronrøvervennlig	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	SpacesAfter= 	16:IN:exp-Negative
+18	tronrøvervennlige	tronrøvervennlig	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	SpacesAfter= 	16:IN:exp-Negative
 19	militære	militær	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	SpaceAfter=No	16:IN:exp-Negative
 20	,	$,	PUNCT	_	_	19	punct	_	_	16:IN:exp-Negative
 21	gjengmedlemmer	gjengmedlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	conj	_	SpaceAfter=No	16:IN:exp-Negative
@@ -24112,7 +24112,7 @@
 18	stemmen	stemme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obj	_	_	24:targ
 19	til	til	ADP	_	_	20	case	_	_	18:IN:targ
 20	Corvo	Corvo	PROPN	_	_	17	obl	_	_	18:IN:targ
-21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	SpacesAfter= 	_
+21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	SpacesAfter= 	_
 22	i	i	ADP	_	_	23	case	_	_	24:IN:exp-Negative
 23	overkant	overkant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	_	24:IN:exp-Negative
 24	mismodig	mismodig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	SpaceAfter=No	0:exp-Negative
@@ -24147,7 +24147,7 @@
 # sent_id = 000913-13-02
 # text = Dette er utslagsgivende for hvor positiv slutten blir .
 1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_	_
-2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	SpacesAfter= 	_
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	SpacesAfter= 	_
 3	utslagsgivende	utslagsgivende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_	_
 4	for	for	ADP	_	_	8	mark	_	_	_
 5	hvor	hvor	ADV	_	_	6	advmod	_	_	_
@@ -24169,7 +24169,7 @@
 1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_	14:holder
 2	bestemte	bestemme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_	_
 3	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_	_
-4	for	for	ADP	_	_	5	case	_	SpacesAfter= 	_
+4	for	for	ADP	_	_	5	case	_	SpacesAfter= 	_
 5	sniking	sniking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No	14:targ
 6	,	$,	PUNCT	_	_	2	punct	_	_	_
 7	fordi	fordi	SCONJ	_	_	10	mark	_	_	_
@@ -24180,7 +24180,7 @@
 12	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_	_
 13	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	14	advmod	_	_	14:IN:exp-Positive
 14	morsomt	morsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	acl:cleft	_	_	0:exp-Positive
-15	i	i	ADP	_	_	16	case	_	SpacesAfter= 	14:IN:exp-Positive
+15	i	i	ADP	_	_	16	case	_	SpacesAfter= 	14:IN:exp-Positive
 16	Dishonored	Dishonored	PROPN	_	_	14	obl	_	SpaceAfter=No	14:IN:exp-Positive
 17	,	$,	PUNCT	_	_	2	punct	_	_	_
 18	og	og	CCONJ	_	_	23	cc	_	_	_
@@ -24204,7 +24204,7 @@
 3	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_	_
 4	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_	_
 5	barmhjertige	barmhjertig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	_	_
-6	oppførselen	oppførsel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	SpacesAfter= 	_
+6	oppførselen	oppførsel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	SpacesAfter= 	_
 7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_	_
 8	innfløkt	innfløke	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	_	_
 9	å	å	PART	_	_	10	mark	_	_	_
@@ -24223,7 +24223,7 @@
 22	gjennom	gjennom	ADP	_	_	24	case	_	_	_
 23	spillets	spill	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	24	nmod	_	_	_
 24	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	_	_
-25	kinkigere	kinkigere	ADJ	_	Degree=Cmp	20	xcomp	_	SpacesAfter= 	_
+25	kinkigere	kinkigere	ADJ	_	Degree=Cmp	20	xcomp	_	SpacesAfter= 	_
 26	å	å	PART	_	_	27	mark	_	_	_
 27	finne	finne	VERB	_	VerbForm=Inf	25	csubj	_	_	_
 28	harmløse	harmløs	ADJ	_	Degree=Pos|Number=Plur	29	amod	_	_	_
@@ -24291,7 +24291,7 @@
 7	smule	smule	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	_	10:IN:exp-Negative
 8	likt	like	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	10	amod	_	_	10:IN:exp-Negative
 9	tidligere	tidlig	ADJ	_	Degree=Cmp	10	amod	_	_	10:IN:exp-Negative
-10	historier	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpacesAfter= 	0:exp-Negative
+10	historier	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpacesAfter= 	0:exp-Negative
 11	og	og	CCONJ	_	_	15	cc	_	_	_
 12	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	_	_
 13	fordi	fordi	SCONJ	_	_	15	mark	_	_	_
@@ -24402,7 +24402,7 @@
 34	timene	time	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	24	obl	_	_	_
 35	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_	_
 36	brukte	bruke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	34	acl:relcl	_	_	_
-37	før	før	ADP	_	_	39	case	_	SpacesAfter= 	_
+37	før	før	ADP	_	_	39	case	_	SpacesAfter= 	_
 38	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_	_
 39	anmeldelsen	anmeldelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No	_
 40	.	$.	PUNCT	_	_	3	punct	_	SpacesAfter=\n\n	_
@@ -24537,7 +24537,7 @@
 1	Alle	all	DET	_	Number=Plur|PronType=Tot	3	det	_	_	_
 2	disse	disse	DET	_	Number=Plur|PronType=Dem	3	det	_	_	_
 3	mulighetene	mulighet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	_	_
-4	for	for	ADP	_	_	5	case	_	SpacesAfter= 	_
+4	for	for	ADP	_	_	5	case	_	SpacesAfter= 	_
 5	variasjon	variasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No	_
 6	,	$,	PUNCT	_	_	5	punct	_	_	_
 7	påbygg	påbygg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	conj	_	_	_
@@ -24559,7 +24559,7 @@
 23	flere	mange	ADJ	_	Degree=Cmp	24	amod	_	_	15:IN:exp-Positive
 24	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No	15:IN:exp-Positive
 25	,	$,	PUNCT	_	_	10	punct	_	_	_
-26	og	og	CCONJ	_	_	29	cc	_	SpacesAfter= 	_
+26	og	og	CCONJ	_	_	29	cc	_	SpacesAfter= 	_
 27	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	29	det	_	_	_
 28	sinnrike	sinnrik	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	29	amod	_	_	0:exp-Positive|29:IN:exp-Positive
 29	miljøet	miljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	30	conj	_	SpaceAfter=No	28:targ|0:exp-Positive
@@ -24601,10 +24601,10 @@
 10	å	å	PART	_	_	13	mark	_	_	_
 11	både	både	CCONJ	_	_	13	cc	_	_	_
 12	ha	ha	AUX	_	VerbForm=Inf	13	aux	_	_	_
-13	spilt	spille	VERB	_	VerbForm=Part	6	advcl	_	SpacesAfter= 	_
+13	spilt	spille	VERB	_	VerbForm=Part	6	advcl	_	SpacesAfter= 	_
 14	Dishonored	Dishonored	PROPN	_	_	13	obj	_	_	_
 15	og	og	CCONJ	_	_	16	cc	_	_	_
-16	DLCen	DLCen	PROPN	_	_	14	conj	_	SpacesAfter= 	_
+16	DLCen	DLCen	PROPN	_	_	14	conj	_	SpacesAfter= 	_
 17	The	The	PROPN	_	_	16	flat:name	_	_	_
 18	Brigmore	Brigmore	PROPN	_	_	16	flat:name	_	_	_
 19	Witches	Witche	PROPN	_	_	14	flat:name	_	SpaceAfter=No	_
@@ -24657,7 +24657,7 @@
 # sent_id = 000913-27-01
 # text = Således blir Dishonored 2 en usedvanlig oppslukende spillopplevelse der åndeløs spenning , ekstrem brutalitet og vakre puslespill utfoldes i mange titalls timer glede .
 1	Således	således	ADV	_	_	2	advmod	_	_	_
-2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter= 	_
+2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter= 	_
 3	Dishonored	Dishonored	PROPN	_	_	8	nmod	_	_	8:targ|18:targ
 4	2	2	NUM	_	Number=Plur|NumType=Card	3	flat:name	_	_	3:IN:targ|3:IN:targ
 5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	_	_

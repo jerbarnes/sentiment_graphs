@@ -15411,7 +15411,7 @@
 6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	_	_
 7	som	som	PRON	_	PronType=Rel	9	nsubj	_	_	_
 8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_	_
-9	skjedd	skje	VERB	_	VerbForm=Part	6	acl:relcl	_	SpacesAfter= 	_
+9	skjedd	skje	VERB	_	VerbForm=Part	6	acl:relcl	_	SpacesAfter= 	_
 10	i	i	ADP	_	_	11	case	_	_	_
 11	Paris	Paris	PROPN	_	_	9	obl	_	_	_
 12	og	og	CCONJ	_	_	13	cc	_	_	_
@@ -18055,7 +18055,7 @@
 # sent_id = 304685-06-03
 # text = Lytt til « I øyet av stormen » og forstå hva jeg mener .
 1	Lytt	Lytt	VERB	_	VerbForm=Part	0	root	_	_	0:exp-Positive
-2	til	til	ADP	_	_	5	case	_	SpacesAfter= \s	1:IN:exp-Positive
+2	til	til	ADP	_	_	5	case	_	SpacesAfter= \s	1:IN:exp-Positive
 3	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No	1:IN:exp-Positive
 4	I	i	ADP	_	_	5	case	_	_	1:IN:exp-Positive
 5	øyet	øy	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	obl	_	_	1:IN:exp-Positive
@@ -23159,7 +23159,7 @@
 7	etter	etter	ADP	_	_	14	case	_	_	8:IN:exp-Positive
 8	slippet	slippe	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	_	0:exp-Positive
 9	av	av	ADP	_	_	11	case	_	_	8:IN:exp-Positive
-10	debutalbumet	debutalbum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	SpacesAfter= 	8:IN:exp-Positive
+10	debutalbumet	debutalbum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	SpacesAfter= 	8:IN:exp-Positive
 11	Yoga	yoga	PROPN	_	_	8	nmod	_	SpaceAfter=No	8:IN:exp-Positive
 12	,	$,	PUNCT	_	_	8	punct	_	_	_
 13	kvintetten	kvintett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	_	_
@@ -23245,7 +23245,7 @@
 11	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	12	advmod	_	_	22:IN:exp-Negative
 12	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_	22:IN:exp-Negative
 13	artsy	artsy	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	acl	_	SpaceAfter=No	22:IN:exp-Negative
-14	,	$,	PUNCT	_	_	13	punct	_	SpacesAfter= 	22:IN:exp-Negative
+14	,	$,	PUNCT	_	_	13	punct	_	SpacesAfter= 	22:IN:exp-Negative
 15	uten	uten	SCONJ	_	_	22	mark	_	_	22:IN:exp-Negative
 16	at	at	SCONJ	_	_	22	mark	_	_	22:IN:exp-Negative
 17	kvaliteten	kvalitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	_	22:IN:exp-Negative
@@ -23291,7 +23291,7 @@
 13	setter	sette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	38	advcl	_	_	_
 14	i	i	ADP	_	_	15	case	_	_	_
 15	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	_	_
-16	med	med	ADP	_	_	20	case	_	SpacesAfter=\s 	_
+16	med	med	ADP	_	_	20	case	_	SpacesAfter=\s 	_
 17	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	_	_
 18	relativt	relativ	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	_	_
 19	autoritære	autoritær	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	_	_
@@ -23373,7 +23373,7 @@
 20	rotete	rote	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	19	appos	_	_	0:exp-Negative
 21	og	og	CCONJ	_	_	22	cc	_	_	_
 22	meningsløst	meningsløs	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	conj	_	SpaceAfter=No	0:exp-Negative
-23	.	$.	PUNCT	_	_	6	punct	_	SpacesAfter=\s 	_
+23	.	$.	PUNCT	_	_	6	punct	_	SpacesAfter=\s 	_
 
 # sent_id = 002907-06-04
 # text = Frontfigur Røe veksler mellom å synge og rappe .
@@ -23471,7 +23471,7 @@
 17	mindre	liten	ADJ	_	Degree=Cmp	13	advmod	_	_	13:IN:exp-Negative
 18	enn	enn	ADP	_	_	19	case	_	_	13:IN:exp-Negative
 19	plumpt	plumpt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No	13:IN:exp-Negative
-20	.	$.	PUNCT	_	_	4	punct	_	SpacesAfter= 	_
+20	.	$.	PUNCT	_	_	4	punct	_	SpacesAfter= 	_
 
 # sent_id = 002907-07-04
 # text = Dessuten :
@@ -23492,7 +23492,7 @@
 10	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	_	12:IN:exp-Negative
 11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_	12:IN:exp-Negative
 12	være	være	AUX	_	VerbForm=Inf	0	root	_	_	0:exp-Negative
-13	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	SpacesAfter= 	12:IN:exp-Negative
+13	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	SpacesAfter= 	12:IN:exp-Negative
 14	mer	mye	ADJ	_	Degree=Cmp	15	amod	_	_	12:IN:exp-Negative
 15	kraft	kraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nsubj	_	_	12:IN:exp-Negative
 16	i	i	ADP	_	_	17	case	_	_	_
@@ -23503,7 +23503,7 @@
 # text = Medlemmene i Broen består av flinke folk fra jazzmiljøet , med fartstid i band som Your Headlights Are On .
 1	Medlemmene	medlem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	nsubj	_	_	7:targ
 2	i	i	ADP	_	_	3	case	_	_	1:IN:targ
-3	Broen	Broen	PROPN	_	_	1	nmod	_	SpacesAfter= 	1:IN:targ
+3	Broen	Broen	PROPN	_	_	1	nmod	_	SpacesAfter= 	1:IN:targ
 4	består	bestå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_	_
 5	av	av	ADP	_	_	7	case	_	_	_
 6	flinke	flink	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	_	7:IN:exp-Positive|0:exp-Positive
@@ -25935,9 +25935,9 @@
 17	koser	kose	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_	0:exp-Positive
 18	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	17	obj	_	_	17:IN:exp-Positive
 19	smitter	smitter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	xcomp	_	_	17:IN:exp-Positive
-20	over	over	ADP	_	_	22	case	_	SpacesAfter= \s	17:IN:exp-Positive
+20	over	over	ADP	_	_	22	case	_	SpacesAfter= \s	17:IN:exp-Positive
 21	på	på	ADP	_	_	22	case	_	_	17:IN:exp-Positive
-22	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	19	obl	_	SpacesAfter= \s	17:IN:exp-Positive
+22	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	19	obl	_	SpacesAfter= \s	17:IN:exp-Positive
 23	som	som	PRON	_	PronType=Rel	24	nsubj	_	_	17:IN:exp-Positive
 24	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_	17:IN:exp-Positive
 25	på	på	ADP	_	_	24	compound:prt	_	SpaceAfter=No	17:IN:exp-Positive
@@ -26009,7 +26009,7 @@
 # sent_id = 300002-03-01
 # text = ALBUM :
 1	ALBUM	album	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No	_
-2	:	$:	PUNCT	_	_	1	punct	_	SpacesAfter= 	_
+2	:	$:	PUNCT	_	_	1	punct	_	SpacesAfter= 	_
 
 # sent_id = 300002-03-02
 # text = Etter å ha skrudd ned tempoet på fjorårets « Lay Low » , er Maya Vik igjen klar for å funke det opp med « Beyond The Basics » , en syv spor lang EP-utgivelse som definitivt lever opp til sin tittel .
@@ -26154,7 +26154,7 @@
 29	dansegulvalibi	dansegulvalibi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	_	0:exp-Positive
 30	av	av	ADP	_	_	32	case	_	_	_
 31	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	32	det	_	_	_
-32	andresingel	andresingel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	SpacesAfter= 	_
+32	andresingel	andresingel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	SpacesAfter= 	_
 33	«	$"	PUNCT	_	_	34	punct	_	SpaceAfter=No	34:IN:targ
 34	Y.M.D.	Y.M.D.	PROPN	_	_	29	nmod	_	_	29:targ
 35	(	$(	PUNCT	_	_	36	punct	_	SpaceAfter=No	34:IN:targ
