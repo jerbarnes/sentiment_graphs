@@ -17,6 +17,11 @@ Rather than treating this as a sequence-labeling task, we can treat it as a bile
 ![bilexical](./figures/bilexical.png)
 
 
+## Updates
+
+1. The preprocessing scripts here fail with some examples from the MPQA dataset, giving a lower number than in [Direct parsing to sentiment graphs](https://aclanthology.org/2022.acl-short.51/) or [SemEval 2022 Task 10: Structured Sentiment Analysis](https://aclanthology.org/2022.semeval-1.180/). Please use the updated scripts available at the [SemEval 2021 repository](https://github.com/jerbarnes/semeval22_structured_sentiment/tree/master/baselines/graph_parser).
+
+2. There was a small bug in the evaluation script which has been corrected in the following repositories. We leave the original here to enable reproducibility of the original results, but encourage all future research to use the updated scripts at the [SemEval 2021 repository](https://github.com/jerbarnes/semeval22_structured_sentiment/tree/master/evaluation).
 
 ## Requirements
 
